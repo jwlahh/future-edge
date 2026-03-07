@@ -1,0 +1,30 @@
+:root {
+
+  --primary: #6366f1;
+  --primary2: #8b5cf6;
+
+  --card: #ffffff;
+
+  --text: #0f172a;
+  --muted: #64748b;
+
+  --border: #e2e8f0;
+
+}
+
+body {
+
+  margin: 0;
+
+  font-family: "Inter", sans-serif;
+
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    #f8fafc 0%,
+    #eef2ff 40%,
+    #e0e7ff 100%
+  );
+
+}
