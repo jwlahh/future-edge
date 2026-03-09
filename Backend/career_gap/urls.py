@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import upload_resume
+from .views import skill_gap
 
 urlpatterns = [
-    path('upload-resume/', upload_resume),
+    path("skill-gap/", skill_gap)
 ]

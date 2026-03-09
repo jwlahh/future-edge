@@ -1,73 +1,73 @@
-from rest_framework.decorators import api_view, parser_classes
-from rest_framework.parsers import MultiPartParser, FormParser
+from rest_framework.decorators import api_view
 from rest_framework.response import Response
-import pdfplumber
-import spacy
-import re
+from core.supabase_client import supabase
 
-nlp = spacy.load("en_core_web_sm")
-
-KEYWORDS = [
-    "python","java","c","c++","sql","machine learning",
-    "data science","html","css","django","react","javascript"
-]
-
-def extract_skills(text):
-    doc = nlp(text.lower())
-    return [kw for kw in KEYWORDS if kw in doc.text]
-
-def extract_experience(text):
-    exp_matches = re.findall(r'(\d+(\.\d+)?)\s*(years|yrs)', text.lower())
-    total_exp = sum([float(match[0]) for match in exp_matches])
-    return total_exp
-
-
-
-@parser_classes([MultiPartParser, FormParser])
 
 @api_view(['POST'])
-def upload_resume(request):
+def skill_gap(request):
 
-    print("FILES:", request.FILES)
-    print("DATA:", request.data)
+    user_id = request.data.get("user_id")
+    role_name = request.data.get("role")
 
-    resume_file = request.FILES.get("resume")
+    # -----------------------------
+    # Get job role
+    # -----------------------------
+    role_response = supabase.table("job_roles") \
+        .select("*") \
+        .eq("job_role", role_name) \
+        .execute()
 
-    if not resume_file:
-        return Response({"message": "No file uploaded"}, status=400)
+    if not role_response.data:
+        return Response({"error": "Role not found"})
 
-    text = ""
+    role = role_response.data[0]
 
-    try:
+    required_skills = role["job_skills"].split(";")
+    required_skills = [s.strip() for s in required_skills]
 
-        with pdfplumber.open(resume_file) as pdf:
-            for page in pdf.pages:
-                page_text = page.extract_text()
-                if page_text:
-                    text += page_text + " "
+    # -----------------------------
+    # Get user skill IDs
+    # -----------------------------
+    user_skills_response = supabase.table("user_skills") \
+        .select("skill_id") \
+        .eq("user_id", user_id) \
+        .execute()
 
-        skills_found = extract_skills(text)
-        total_experience = extract_experience(text)
+    user_skill_ids = [s["skill_id"] for s in user_skills_response.data]
 
-        return Response({
+    # -----------------------------
+    # Convert skill IDs to names
+    # -----------------------------
+    skills_response = supabase.table("skills_master") \
+        .select("*") \
+        .execute()
 
-            "skills_found": skills_found,
-            "total_experience": total_experience,
+    skills_master = skills_response.data
 
-            "ats_score": 75,
+    user_skill_names = [
+        s["skill_name"]
+        for s in skills_master
+        if s["skill_id"] in user_skill_ids
+    ]
 
-            "careers": [
-                {"role": "Data Scientist", "score": 82},
-                {"role": "Machine Learning Engineer", "score": 70},
-                {"role": "Data Analyst", "score": 65}
-            ]
-        })
+    # -----------------------------
+    # Find matched and missing
+    # -----------------------------
+    matched_skills = []
+    missing_skills = []
 
-    except Exception as e:
+    for skill in required_skills:
 
-        print("PDF ERROR:", e)
+        if skill.lower() in [u.lower() for u in user_skill_names]:
+            matched_skills.append(skill)
 
-        return Response({
-            "skills_found": [],
-            "error": str(e)
-        })
+        else:
+            missing_skills.append(skill)
+
+    return Response({
+
+        "required_skills": required_skills,
+        "user_skills": matched_skills,
+        "missing_skills": missing_skills
+
+    })
