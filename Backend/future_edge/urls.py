@@ -24,9 +24,8 @@ from core.views import upload_resume
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("api/", include("career_gap.urls")),
-    path('api/upload-resume/', upload_resume),
-
+    path("api/upload-resume/", upload_resume),
+    path("api/career-gap/", include("career_gap.urls")),
 ]
 
 if settings.DEBUG:
