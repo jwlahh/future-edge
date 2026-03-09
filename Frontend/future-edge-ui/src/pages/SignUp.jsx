@@ -9,23 +9,28 @@ function SignUp() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+  const [confirmPassword, setConfirmPassword] = useState("");
+  
   const handleSignup = async () => {
 
-    const { error } = await supabase.auth.signUp({
-      email,
-      password
-    });
+  if (password !== confirmPassword) {
+    alert("Passwords do not match");
+    return;
+  }
 
-    if (error) {
-      alert(error.message);
-      return;
-    }
+  const { error } = await supabase.auth.signUp({
+    email,
+    password
+  });
 
-    alert("Signup successful! Please check your email to verify your account.");
+  if (error) {
+    alert(error.message);
+    return;
+  }
 
-    navigate("/");
-  };
+  alert("Signup successful! Please verify your email.");
+  navigate("/");
+};
 
   return (
     <div className="signup-page">
@@ -51,6 +56,12 @@ function SignUp() {
             placeholder="Password"
             className="input-field"
             onChange={(e) => setPassword(e.target.value)}
+          />
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            className="input-field"
+            onChange={(e) => setConfirmPassword(e.target.value)}
           />
 
           <button className="signup-btn" onClick={handleSignup}>
