@@ -1,65 +1,91 @@
 import {
-  PieChart,
-  Pie,
-  Cell,
-  Tooltip,
   BarChart,
   Bar,
   XAxis,
   YAxis,
   CartesianGrid,
-  ResponsiveContainer
+  Tooltip,
+  ResponsiveContainer,
+  PieChart,
+  Pie,
+  Cell
 } from "recharts";
 
-const skillData = [
-  { name: "Python", value: 90 },
-  { name: "ML", value: 80 },
-  { name: "SQL", value: 70 },
-  { name: "Deep Learning", value: 40 }
-];
+const COLORS = ["#3a60f6", "#fdd947"];
 
-const careerData = [
-  { name: "Data Scientist", score: 87 },
-  { name: "ML Engineer", score: 65 },
-  { name: "Data Analyst", score: 50 }
-];
+/* Tooltip that shows skills */
+const CustomTooltip = ({ active, payload, matchedSkills, missingSkills }) => {
 
-const COLORS = ["#6366f1", "#8b5cf6", "#22c55e", "#f97316"];
+  if (active && payload && payload.length) {
 
-function Charts() {
+    const label = payload[0].name;
+
+    const skills =
+      label === "Matched Skills" ? matchedSkills : missingSkills;
+
+    return (
+      <div
+        style={{
+          background: "white",
+          padding: "10px",
+          border: "1px solid #ddd",
+          borderRadius: "8px"
+        }}
+      >
+        <strong>
+        {label} ({skills.length})
+        </strong>
+
+        <ul style={{ marginTop: "5px" }}>
+          {skills.map((skill, i) => (
+            <li key={i}>{skill}</li>
+          ))}
+        </ul>
+
+      </div>
+    );
+  }
+
+  return null;
+};
+
+function Charts({ careers, matchedSkills = [], missingSkills = [] }) {
+
+  if (!careers || careers.length === 0) {
+    return (
+      <div style={{ marginTop: "30px" }}>
+        <p>No career data available yet.</p>
+      </div>
+    );
+  }
+
+  const careerData = careers.map((career) => ({
+    name: career.role,
+    score: career.score
+  }));
+
+  const totalSkills = matchedSkills.length + missingSkills.length;
+
+  const skillGapData = [
+    {
+      name: "Matched Skills",
+      value: totalSkills ? (matchedSkills.length / totalSkills) * 100 : 0
+    },
+    {
+      name: "Missing Skills",
+      value: totalSkills ? (missingSkills.length / totalSkills) * 100 : 0
+    }
+  ];
+
   return (
     <div className="charts-grid">
 
-      <div className="chart-card">
-        <h3>Skill Distribution</h3>
-
-        <ResponsiveContainer width="100%" height={250}>
-          <PieChart>
-
-            <Pie
-              data={skillData}
-              dataKey="value"
-              outerRadius={90}
-            >
-
-              {skillData.map((entry, index) => (
-                <Cell key={index} fill={COLORS[index % COLORS.length]} />
-              ))}
-
-            </Pie>
-
-            <Tooltip />
-
-          </PieChart>
-        </ResponsiveContainer>
-
-      </div>
-
+      {/* Career Match Bar Chart */}
       <div className="chart-card">
 
-        <h3>Career Match</h3>
+        <h3>Top Career Matches</h3>
 
-        <ResponsiveContainer width="100%" height={250}>
+        <ResponsiveContainer width="100%" height={300}>
           <BarChart data={careerData}>
 
             <CartesianGrid strokeDasharray="3 3" />
@@ -73,6 +99,42 @@ function Charts() {
             <Bar dataKey="score" fill="#6366f1" />
 
           </BarChart>
+        </ResponsiveContainer>
+
+      </div>
+
+
+      {/* Skill Gap Pie Chart */}
+      <div className="chart-card">
+
+        <h3>Skill Coverage</h3>
+
+        <ResponsiveContainer width="100%" height={300}>
+          <PieChart>
+
+            <Pie
+              data={skillGapData}
+              dataKey="value"
+              outerRadius={90}
+              label={({ value }) => `${Math.round(value)}%`}
+            >
+
+              {skillGapData.map((entry, index) => (
+                <Cell key={index} fill={COLORS[index % COLORS.length]} />
+              ))}
+
+            </Pie>
+
+            <Tooltip
+              content={
+                <CustomTooltip
+                  matchedSkills={matchedSkills}
+                  missingSkills={missingSkills}
+                />
+              }
+            />
+
+          </PieChart>
         </ResponsiveContainer>
 
       </div>

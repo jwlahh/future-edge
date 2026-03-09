@@ -198,3 +198,35 @@
   }
 
 }
+.skills-dashboard{
+  margin-top:40px;
+}
+
+.skills-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:10px;
+}
+
+.skill-pill{
+  background:#eef3ff;
+  color:#3a4bff;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:14px;
+  border:1px solid #d6ddff;
+}
+.charts-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  margin-top:30px;
+}
+
+.chart-card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}

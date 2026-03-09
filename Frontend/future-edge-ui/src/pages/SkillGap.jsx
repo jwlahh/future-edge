@@ -1,4 +1,6 @@
 import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { supabase } from "../supabaseClient";
 import Sidebar from "../components/Sidebar";
 import "../styles/skillgap.css";
 import Layout from "../components/Layout";
@@ -8,160 +10,130 @@ function SkillGap() {
   const location = useLocation();
   const role = location.state || {};
 
-  const skillData = {
+  const [requiredSkills, setRequiredSkills] = useState([]);
+  const [userSkills, setUserSkills] = useState([]);
+  const [missingSkills, setMissingSkills] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-    "Data Scientist": {
-      required: [
-        "Python",
-        "Statistics",
-        "Machine Learning",
-        "Deep Learning",
-        "TensorFlow",
-        "Model Deployment"
-      ],
+  if (!role?.role) {
+    return (
+      <Layout>
+        <h2 style={{ padding: "40px" }}>No career selected</h2>
+      </Layout>
+    );
+  }
 
-      userSkills: [
-        "Python",
-        "Statistics",
-        "Machine Learning"
-      ],
+  useEffect(() => {
 
-      gaps: [
-        "Deep Learning",
-        "TensorFlow",
-        "Model Deployment"
-      ],
+    const fetchSkillGap = async () => {
 
-      resources: [
-        "Deep Learning Specialization - Coursera",
-        "TensorFlow Official Tutorial",
-        "ML Deployment Guide"
-      ]
-    },
+      try {
 
+        const { data: { user } } = await supabase.auth.getUser();
 
-    "Machine Learning Engineer": {
-      required: [
-        "Python",
-        "Machine Learning",
-        "Docker",
-        "ML Pipelines",
-        "Kubernetes"
-      ],
+        const response = await fetch(
+          "http://127.0.0.1:8000/api/skill-gap/",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              user_id: user.id,
+              role: role.role
+            })
+          }
+        );
 
-      userSkills: [
-        "Python",
-        "Machine Learning"
-      ],
+        const data = await response.json();
 
-      gaps: [
-        "Docker",
-        "ML Pipelines",
-        "Kubernetes"
-      ],
+        setRequiredSkills(data.required_skills || []);
+        setUserSkills(data.user_skills || []);
+        setMissingSkills(data.missing_skills || []);
 
-      resources: [
-        "Docker Beginner Guide",
-        "ML Ops Tutorial",
-        "Kubernetes Basics"
-      ]
-    },
+      } catch (error) {
 
+        console.error("Skill gap fetch error:", error);
 
-    "Data Analyst": {
-      required: [
-        "SQL",
-        "Excel",
-        "Power BI",
-        "Statistics",
-        "Data Visualization"
-      ],
+      } finally {
 
-      userSkills: [
-        "SQL",
-        "Excel"
-      ],
+        setLoading(false);
 
-      gaps: [
-        "Power BI",
-        "Statistics",
-        "Data Visualization"
-      ],
+      }
 
-      resources: [
-        "Power BI Fundamentals",
-        "Statistics for Data Analysis",
-        "Data Visualization Course"
-      ]
-    }
+    };
 
-  };
+    fetchSkillGap();
 
-  const data = skillData[role?.role];
-  if (!data) {
-  return (
-    <Layout>
-      <h2 style={{padding:"40px"}}>No career selected</h2>
-    </Layout>
-  );
-}
+  }, [role.role]);
 
   return (
     <Layout>
 
-    <div className="dashboard">
+      <div className="dashboard">
 
-      <Sidebar />
+        <Sidebar />
 
-      <main className="main-content">
+        <main className="main-content">
 
-        <h1>Skill Gap Analysis</h1>
+          <h1>Skill Gap Analysis</h1>
+          <h2>{role.role}</h2>
 
-        <h2>{role.role}</h2>
+          {loading && (
+            <p style={{ marginTop: "20px" }}>
+              Analyzing your skills...
+            </p>
+          )}
 
-        <div className="skills-container">
+          {!loading && (
+            <div className="skills-container">
 
-  <div className="skill-box">
-    <h3>Required Skills</h3>
+              {/* Required Skills */}
+              <div className="skill-box">
+                <h3>Required Skills</h3>
 
-    <ul>
-      {data.required.map((skill, index) => (
-        <li key={index}>{skill}</li>
-      ))}
-    </ul>
-  </div>
-
-
-  <div className="skill-box">
-    <h3>Your Skills</h3>
-
-    <ul>
-      {data.userSkills.map((skill, index) => (
-        <li key={index} style={{color:"green"}}>
-          ✔ {skill}
-        </li>
-      ))}
-    </ul>
-  </div>
+                <ul>
+                  {requiredSkills.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </ul>
+              </div>
 
 
-  <div className="skill-box">
-    <h3>Missing Skills</h3>
+              {/* Your Skills */}
+              <div className="skill-box">
+                <h3>Your Skills</h3>
 
-    <ul>
-      {data.gaps.map((skill, index) => (
-        <li key={index} style={{color:"red"}}>
-          ❌ {skill}
-        </li>
-      ))}
-    </ul>
-  </div>
+                <ul>
+                  {userSkills.map((skill, index) => (
+                    <li key={index} style={{ color: "green" }}>
+                      ✔ {skill}
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-</div>
 
-      </main>
+              {/* Missing Skills */}
+              <div className="skill-box">
+                <h3>Missing Skills</h3>
 
-    </div>
+                <ul>
+                  {missingSkills.map((skill, index) => (
+                    <li key={index} style={{ color: "red" }}>
+                      ❌ {skill}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+            </div>
+          )}
+
+        </main>
+
+      </div>
+
     </Layout>
   );
 }
