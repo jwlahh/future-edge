@@ -24,6 +24,9 @@ function Login() {
     }
 
   };
+  localStorage.removeItem("resume_skills");
+  localStorage.removeItem("resume_careers");
+  localStorage.removeItem("resume_score");
 
   return (
     <div className="login-container">

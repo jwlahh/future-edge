@@ -2,9 +2,11 @@ from rest_framework.decorators import api_view, parser_classes
 from rest_framework.parsers import MultiPartParser, FormParser
 from rest_framework.response import Response
 from .supabase_client import supabase
-import pdfplumber
+from core.ats_engine import calculate_ats_score
+import fitz  # PyMuPDF
 import spacy
 import re
+
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -14,6 +16,17 @@ def extract_experience(text):
     total_exp = sum([float(match[0]) for match in exp_matches])
     return total_exp
 
+def detect_images_in_pdf(doc):
+
+    image_count = 0
+
+    for page in doc:
+        images = page.get_images()
+
+        if images:
+            image_count += len(images)
+
+    return image_count
 
 
 @parser_classes([MultiPartParser, FormParser])
@@ -34,24 +47,40 @@ def upload_resume(request):
     text = ""
 
     try:
-
         # -----------------------------
         # STEP 1: Extract resume text
         # -----------------------------
-        with pdfplumber.open(resume_file) as pdf:
-            for page in pdf.pages:
-                page_text = page.extract_text()
-                if page_text:
-                    text += page_text + " "
+        
 
-        text = text.lower()
+        pdf_bytes = resume_file.read()
+        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+        image_count = detect_images_in_pdf(doc)
+        for page in doc:
+            text += page.get_text()
+        print("EXTRACTED TEXT:", text[:500]) 
+           
+        raw_text = text.lower()
 
+        clean_text = re.sub(r"[^\w\s]", " ", raw_text)
+        clean_text = re.sub(r"\s+", " ", clean_text)
+        
+        
+        
+        
+        ats_result = calculate_ats_score(raw_text, image_count)
+
+        ats_score = ats_result["ats_score"]
+        deductions = ats_result["deductions"]
+        suggestions = ats_result["suggestions"]
         # -----------------------------
         # STEP 2: Save resume
         # -----------------------------
         supabase.table("resume").insert({
-            "resume_text": text,
-            "user_id": user_id
+
+            "resume_text": clean_text,
+            "user_id": user_id,
+            "ats_score": ats_score
+
         }).execute()
 
         # -----------------------------
@@ -59,9 +88,6 @@ def upload_resume(request):
         # -----------------------------
         skills_response = supabase.table("skills_master").select("*").execute()
         skills_master = skills_response.data
-
-        skills_found = []
-        skill_ids = []
 
         # -----------------------------
         # STEP 4: Detect skills
@@ -81,7 +107,7 @@ def upload_resume(request):
             # Create exact word match pattern
             pattern = r'\b' + re.escape(skill_name) + r'\b'
 
-            if re.search(pattern, text):
+            if re.search(pattern, clean_text):
 
                 skills_found.append(original_skill)   # Use original name
                 skill_ids.append(skill_id)
@@ -109,7 +135,7 @@ def upload_resume(request):
         # -----------------------------
         # STEP 6: Calculate experience
         # -----------------------------
-        total_experience = extract_experience(text)
+        total_experience = extract_experience(clean_text)
 
         # -----------------------------
         # STEP 7: Load job_roles
@@ -158,7 +184,68 @@ def upload_resume(request):
                 "careers": [],
                 "message": "No skills detected in resume"
             })
+           
+        # -----------------------------
+        # STEP 9.5: Calculate and store skill gaps
+        # -----------------------------
 
+        top_careers = career_matches[:5]
+
+        for career in top_careers:
+
+            role_name = career["role"]
+
+            role_response = supabase.table("job_roles") \
+                .select("*") \
+                .eq("job_role", role_name) \
+                .execute()
+
+            if not role_response.data:
+                continue
+
+            role = role_response.data[0]
+            role_id = role["role_id"]
+
+            required_skills = role["job_skills"].split(";")
+            required_skills = [s.strip() for s in required_skills]
+
+            matched_skills = []
+            missing_skills = []
+
+            for skill in required_skills:
+
+                if skill.lower() in [s.lower() for s in skills_found]:
+                    matched_skills.append(skill)
+                else:
+                    missing_skills.append(skill)
+
+            gap_score = 0
+
+            if len(required_skills) > 0:
+                gap_score = round(
+                    (len(matched_skills) / len(required_skills)) * 100,
+                    2
+                )
+
+            # Prevent duplicate rows
+            existing = supabase.table("skill_gap") \
+                .select("*") \
+                .eq("user_id", user_id) \
+                .eq("role_id", role_id) \
+                .execute()
+
+            if not existing.data:
+
+                supabase.table("skill_gap").insert({
+
+                    "user_id": user_id,
+                    "role_id": role_id,
+                    "matched_skills": ";".join(matched_skills),
+                    "missing_skills": ";".join(missing_skills),
+                    "gap_score": gap_score
+
+                }).execute()   
+         
         # -----------------------------
         # STEP 10: Return response
         # -----------------------------
@@ -166,7 +253,9 @@ def upload_resume(request):
 
             "skills_found": skills_found,
             "total_experience": total_experience,
-            "ats_score": 75,
+            "ats_score": ats_score,
+            "deductions": deductions,
+            "suggestions": suggestions,
             "careers": career_matches[:5]
 
         })

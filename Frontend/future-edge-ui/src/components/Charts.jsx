@@ -11,7 +11,7 @@ import {
   Cell
 } from "recharts";
 
-const COLORS = ["#3a60f6", "#fdd947"];
+const COLORS = ["#8b5cf6", "#c4b5fd"];
 
 /* Tooltip that shows skills */
 const CustomTooltip = ({ active, payload, matchedSkills, missingSkills }) => {
@@ -26,17 +26,19 @@ const CustomTooltip = ({ active, payload, matchedSkills, missingSkills }) => {
     return (
       <div
         style={{
-          background: "white",
-          padding: "10px",
-          border: "1px solid #ddd",
-          borderRadius: "8px"
+          background: "linear-gradient(145deg,rgba(139,92,246,0.15),rgba(0,0,0,0.65)",
+          padding: "12px",
+          border: "1px solid rgba(139,92,246,0.25)",
+          borderRadius: "12px",
+          color: "#efeafa",
+          boxShadow: "0 8px 20px rgba(0,0,0,0.4)"
         }}
       >
         <strong>
         {label} ({skills.length})
         </strong>
 
-        <ul style={{ marginTop: "5px" }}>
+        <ul style={{ marginTop: "8px", color: "#bbb8db" }}>
           {skills.map((skill, i) => (
             <li key={i}>{skill}</li>
           ))}
@@ -69,11 +71,11 @@ function Charts({ careers, matchedSkills = [], missingSkills = [] }) {
   const skillGapData = [
     {
       name: "Matched Skills",
-      value: totalSkills ? (matchedSkills.length / totalSkills) * 100 : 0
+      value: totalSkills ? (matchedSkills.length / totalSkills) * 100 : 1
     },
     {
       name: "Missing Skills",
-      value: totalSkills ? (missingSkills.length / totalSkills) * 100 : 0
+      value: totalSkills ? (missingSkills.length / totalSkills) * 100 : 1
     }
   ];
 
@@ -87,16 +89,28 @@ function Charts({ careers, matchedSkills = [], missingSkills = [] }) {
 
         <ResponsiveContainer width="100%" height={300}>
           <BarChart data={careerData}>
+        <CartesianGrid stroke="rgba(0,0,0,0.65)" />
 
-            <CartesianGrid strokeDasharray="3 3" />
+        <XAxis
+          dataKey="name"
+          stroke="#EAF6FF"
+          tick={{ fill: "#EAF6FF" }}
+        />
 
-            <XAxis dataKey="name" />
+        <YAxis
+          stroke="#EAF6FF"
+          tick={{ fill: "#EAF6FF" }}
+        />
 
-            <YAxis />
+        <Tooltip
+          contentStyle={{
+            background: "rgba(0,0,0,0.65)",
+            border: "1px solid  rgba(139,92,246,0.25)",
+            color: "#EAF6FF"
+          }}
+        />
 
-            <Tooltip />
-
-            <Bar dataKey="score" fill="#6366f1" />
+            <Bar dataKey="score" fill="#8b5cf6" />
 
           </BarChart>
         </ResponsiveContainer>

@@ -63,6 +63,18 @@ def skill_gap(request):
 
         else:
             missing_skills.append(skill)
+    
+    # -----------------------------
+    # Calculate gap score
+    # -----------------------------
+
+    gap_score = 0
+
+    if len(required_skills) > 0:
+        gap_score = round(
+            (len(matched_skills) / len(required_skills)) * 100,
+            2
+        )
 
     return Response({
 

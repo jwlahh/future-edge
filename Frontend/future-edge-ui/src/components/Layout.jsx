@@ -1,40 +1,41 @@
 import { useState } from "react";
+import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
-import "../styles/dashboard.css";
 
 function Layout({ children }) {
 
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
 
   const toggleSidebar = () => {
-    setSidebarOpen(!sidebarOpen);
-  };
-
-  const closeSidebar = () => {
-    setSidebarOpen(false);
+    setCollapsed(!collapsed);
   };
 
   return (
-    <div className="dashboard">
 
-      <Sidebar isOpen={sidebarOpen} />
+    <div>
 
-      {/* Overlay that closes sidebar */}
-      {sidebarOpen && (
-        <div className="sidebar-overlay" onClick={closeSidebar}></div>
-      )}
+      <Navbar />
 
-      <main className="main-content">
+      <Sidebar
+        collapsed={collapsed}
+        toggleSidebar={toggleSidebar}
+      />
 
-        <button onClick={toggleSidebar} className="menu-btn">
-          ☰
-        </button>
+      <main
+        style={{
+          marginTop: "70px",
+          marginLeft: collapsed ? "70px" : "230px",
+          padding: "40px",
+          transition: "0.3s"
+        }}
+      >
 
         {children}
 
       </main>
 
     </div>
+
   );
 }
 

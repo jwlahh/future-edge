@@ -15,12 +15,7 @@ body {
 
   align-items: center;
 
-  background: linear-gradient(
-    135deg,
-    #eef2ff,
-    #f8fafc,
-    #e0e7ff
-  );
+  background:#020617;
 
 }
 
@@ -28,7 +23,11 @@ body {
 
 .login-box {
 
-  background: rgba(255,255,255,0.7);
+  background:linear-gradient(
+    145deg,
+    rgba(139,92,246,0.15),
+    rgba(0,0,0,0.65)
+  );
 
   backdrop-filter: blur(12px);
 

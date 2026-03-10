@@ -1,133 +1,191 @@
-import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { supabase } from "../supabaseClient";
-import Sidebar from "../components/Sidebar";
-import "../styles/skillgap.css";
 import Layout from "../components/Layout";
+import "../styles/skillgap.css";
 
 function SkillGap() {
 
-  const location = useLocation();
-  const role = location.state || {};
+  const [careers, setCareers] = useState([]);
+  const [selectedCareer, setSelectedCareer] = useState(null);
 
   const [requiredSkills, setRequiredSkills] = useState([]);
   const [userSkills, setUserSkills] = useState([]);
   const [missingSkills, setMissingSkills] = useState([]);
-  const [loading, setLoading] = useState(true);
 
-  if (!role?.role) {
-    return (
-      <Layout>
-        <h2 style={{ padding: "40px" }}>No career selected</h2>
-      </Layout>
-    );
-  }
+  const [loading, setLoading] = useState(false);
 
+  // Load careers from localStorage
   useEffect(() => {
 
-    const fetchSkillGap = async () => {
+    const storedCareers = localStorage.getItem("resume_careers");
 
-      try {
+    if (storedCareers) {
+      setCareers(JSON.parse(storedCareers));
+    }
 
-        const { data: { user } } = await supabase.auth.getUser();
+  }, []);
 
-        const response = await fetch(
-          "http://127.0.0.1:8000/api/skill-gap/",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-              user_id: user.id,
-              role: role.role
-            })
-          }
-        );
+  const fetchSkillGap = async (career) => {
 
-        const data = await response.json();
+    setSelectedCareer(career);
+    setLoading(true);
 
-        setRequiredSkills(data.required_skills || []);
-        setUserSkills(data.user_skills || []);
-        setMissingSkills(data.missing_skills || []);
+    try {
 
-      } catch (error) {
+      const { data: { user } } = await supabase.auth.getUser();
 
-        console.error("Skill gap fetch error:", error);
+      const response = await fetch(
+        "http://127.0.0.1:8000/api/skill-gap/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            user_id: user.id,
+            role: career.role
+          })
+        }
+      );
 
-      } finally {
+      const data = await response.json();
 
-        setLoading(false);
+      setRequiredSkills(data.required_skills || []);
+      setUserSkills(data.user_skills || []);
+      setMissingSkills(data.missing_skills || []);
 
-      }
+      setLoading(false);
 
-    };
+    } catch (error) {
 
-    fetchSkillGap();
+      console.error("Skill gap error:", error);
 
-  }, [role.role]);
+    }
+
+  };
 
   return (
+
     <Layout>
 
       <div className="dashboard">
 
-        <Sidebar />
+       
 
         <main className="main-content">
 
           <h1>Skill Gap Analysis</h1>
-          <h2>{role.role}</h2>
 
-          {loading && (
-            <p style={{ marginTop: "20px" }}>
-              Analyzing your skills...
-            </p>
-          )}
+          {/* If no career selected show career cards */}
+          {!selectedCareer && (
 
-          {!loading && (
-            <div className="skills-container">
+            <div className="career-grid">
 
-              {/* Required Skills */}
-              <div className="skill-box">
-                <h3>Required Skills</h3>
+              {careers.length === 0 && (
+                <p>No career recommendations found. Analyze a resume first.</p>
+              )}
 
-                <ul>
-                  {requiredSkills.map((skill, index) => (
-                    <li key={index}>{skill}</li>
-                  ))}
-                </ul>
+              {careers.map((career, index) => (
+
+                <div
+                key={index}
+                className="career-card"
+                onClick={() => fetchSkillGap(career)}
+              >
+
+                <h3>{career.role}</h3>
+                <p>{career.score}% Match</p>
+
+                <div className="match-bar">
+
+                  <div
+                    className="match-fill"
+                    style={{ width: `${career.score}%` }}
+                  ></div>
+
+                </div>
+
               </div>
 
-
-              {/* Your Skills */}
-              <div className="skill-box">
-                <h3>Your Skills</h3>
-
-                <ul>
-                  {userSkills.map((skill, index) => (
-                    <li key={index} style={{ color: "green" }}>
-                      ✔ {skill}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-
-              {/* Missing Skills */}
-              <div className="skill-box">
-                <h3>Missing Skills</h3>
-
-                <ul>
-                  {missingSkills.map((skill, index) => (
-                    <li key={index} style={{ color: "red" }}>
-                      ❌ {skill}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              ))}
 
             </div>
+
+          )}
+
+          {/* If career selected show skill gap */}
+          {selectedCareer && (
+
+            <>
+
+              <button
+                className="back-btn"
+                onClick={() => setSelectedCareer(null)}
+              >
+                ← Back to Careers
+              </button>
+
+              <h2>{selectedCareer.role}</h2>
+
+              {loading && (
+                <p style={{ marginTop: "20px" }}>
+                  Analyzing your skills...
+                </p>
+              )}
+
+              {!loading && (
+
+                <div className="skills-container">
+
+                  {/* Required Skills */}
+                  <div className="skill-box">
+
+                    <h3>Required Skills</h3>
+
+                    <ul>
+                      {requiredSkills.map((skill, index) => (
+                        <li key={index}>{skill}</li>
+                      ))}
+                    </ul>
+
+                  </div>
+
+                  {/* Your Skills */}
+                  <div className="skill-box">
+
+                    <h3>Your Skills</h3>
+
+                    <ul>
+                      {userSkills.map((skill, index) => (
+                        <li key={index} style={{ color: "green" }}>
+                          ✔ {skill}
+                        </li>
+                      ))}
+                    </ul>
+
+                  </div>
+
+                  {/* Missing Skills */}
+                  <div className="skill-box">
+
+                    <h3>Missing Skills</h3>
+
+                    <ul>
+                      {missingSkills.map((skill, index) => (
+                        <li key={index} style={{ color: "red" }}>
+                          ❌ {skill}
+                        </li>
+                      ))}
+                    </ul>
+
+                  </div>
+
+                </div>
+
+              )}
+
+            </>
+
           )}
 
         </main>
@@ -135,7 +193,9 @@ function SkillGap() {
       </div>
 
     </Layout>
+
   );
+
 }
 
 export default SkillGap;

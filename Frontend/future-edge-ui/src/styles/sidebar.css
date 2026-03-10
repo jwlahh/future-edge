@@ -1,88 +1,203 @@
-.sidebar {
+.sidebar{
 
-  position: fixed;
+  position:fixed;
 
-  top: 0;
-  left: 0;
+  top:70px;
 
-  width: 230px;
-  height: 100vh;
+  left:0;
 
-  background: #6836d3;
+  width:230px;
 
-  color: white;
+  height:calc(100vh - 70px);
 
-  padding: 20px;
+  background:#020617;
 
-  transform: translateX(-100%);
+  border-right:1px solid rgba(255,255,255,0.06);
 
-  transition: transform 0.35s ease;
+  transition:width 0.3s;
 
-  z-index: 1000;
+  padding-top:30px;
 
-}
+  z-index:900; 
 
-.sidebar.open {
-
-  transform: translateX(0);
+  overflow:visible;
 
 }
 
-.logo {
+/* collapsed */
 
-  margin-bottom: 30px;
+.sidebar.collapsed{
+  width:70px;
+}
+
+/* collapse button */
+
+.collapse-btn{
+
+  position:absolute;
+
+  top:25px;
+
+  right:-12px;
+
+  width:24px;
+
+  height:24px;
+
+  border-radius:50%;
+
+  background:#111827;
+
+  border:1px solid rgba(255,255,255,0.1);
+
+  color:white;
+
+  display:flex;
+
+  align-items:center;
+  justify-content:center;
+
+  cursor:pointer;
 
 }
 
-.toggle-btn {
+/* nav */
 
-  position: absolute;
+.nav-links{
+  list-style:none;
+  padding:0;
+}
 
-  top: 15px;
+.nav-links li{
+  margin:15px 0;
+}
 
-  right: -50px;
+.nav-links a{
 
-  background: #6366f1;
+  display:flex;
 
-  border: none;
+  align-items:center;
 
-  color: white;
+  gap:14px;
 
-  padding: 10px;
+  padding:12px 20px;
 
-  border-radius: 8px;
+  color:#94a3b8;
 
-  cursor: pointer;
+  text-decoration:none;
 
 }
 
-.nav-links {
+.nav-links a:hover{
+  background:#111827;
+  color:white;
+}
 
-  list-style: none;
+.icon{
 
-  padding: 0;
+  font-size:18px;
+
+  transition:all 0.25s ease;
 
 }
 
-.nav-links li {
+/* active */
 
-  margin: 18px 0;
+.nav-links li.active a{
+
+  background:rgba(139,92,246,0.15);
+
+  color:#c4b5fd;
+
+}
+.nav-links a:hover .icon{
+  color:#a78bfa;
+}
+/* Dashboard icon */
+
+.icon-dashboard{
+  color:#fb7185; /* purple */
+}
+
+/* Resume Analysis icon */
+
+.icon-analysis{
+  color:#34d399; /* pastel green */
+}
+
+/* Skill Gap icon */
+
+.icon-skillgap{
+  color: #956bf8;/* pastel pink/red */
+}
+/* Active icon glow */
+
+.nav-links li.active .icon-dashboard{
+
+  color:#fb7185;
+
+  text-shadow:0 0 8px rgba(251,113,133,0.6);
 
 }
 
-.nav-links a {
+.nav-links li.active .icon-analysis{
 
-  text-decoration: none;
+  color:#34d399;
 
-  color: white;
+  text-shadow:0 0 8px rgba(52,211,153,0.6);
+
+}
+
+.nav-links li.active .icon-skillgap{
+
+  color:#8b5cf6;
+
+  text-shadow:0 0 8px rgba(139,92,246,0.6);
+  
+
+}
+/* Active page indicator */
+
+.nav-links li{
+
+  position:relative;
 
 }
 
-.nav-links a:hover {
+.nav-links li.active::before{
 
-  color: #6366f1;
+  content:"";
+
+  position:absolute;
+
+  left:0;
+
+  top:8px;
+
+  bottom:8px;
+
+  width:4px;
+
+  border-radius:4px;
+
+  background:#8b5cf6;
 
 }
-.sidebar {
-  z-index: 1000;
+/* Dashboard indicator */
+
+.nav-links li.active:has(.icon-dashboard)::before{
+  
+  background:#fb7185;
+}
+
+/* Resume Analysis indicator */
+
+.nav-links li.active:has(.icon-analysis)::before{
+  background:#34d399;
+}
+
+/* Skill Gap indicator */
+
+.nav-links li.active:has(.icon-skillgap)::before{
+  background:#8b5cf6;
 }

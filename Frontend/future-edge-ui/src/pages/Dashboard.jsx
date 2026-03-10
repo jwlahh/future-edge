@@ -42,29 +42,40 @@ function Dashboard() {
 
   useEffect(() => {
 
-  const storedSkills = localStorage.getItem("resume_skills");
-  const storedCareers = localStorage.getItem("resume_careers");
+    const loadDashboard = async () => {
 
-  if (storedSkills) {
-    setSkills(JSON.parse(storedSkills));
-  }
+      const { data: { user } } = await supabase.auth.getUser();
 
-  if (storedCareers) {
+      if (!user) return;
 
-    const parsedCareers = JSON.parse(storedCareers);
-    setCareers(parsedCareers);
+      const storedSkills = localStorage.getItem("resume_skills");
+      const storedCareers = localStorage.getItem("resume_careers");
+      
 
-    if (parsedCareers.length > 0) {
-      fetchSkillGap(parsedCareers[0].role);
-    }
+      if (storedSkills && storedCareers) {
 
-  }
+        const parsedSkills = JSON.parse(storedSkills);
+        const parsedCareers = JSON.parse(storedCareers);
 
-  // random placeholder scores
-  setAtsScore(Math.floor(Math.random() * 30) + 70);
-  setJobReadiness(Math.floor(Math.random() * 30) + 60);
+        setSkills(parsedSkills);
+        setCareers(parsedCareers);
 
-}, []);
+        if (parsedCareers.length > 0) {
+          fetchSkillGap(parsedCareers[0].role);
+        }
+
+      }
+      const storedScore = localStorage.getItem("resume_score");
+
+      if (storedScore) {
+        setAtsScore(storedScore);
+      }
+
+    };
+
+    loadDashboard();
+
+  }, []);
 
   const topCareer =
     careers.length > 0 ? careers[0].role : "No analysis yet";
@@ -72,7 +83,16 @@ function Dashboard() {
   return (
     <Layout>
 
-      <h1>Dashboard</h1>
+      <div className="dashboard-header">
+
+        <h1>Welcome back 👋</h1>
+
+        <p>
+        Track your AI career insights and improve your
+        skills to become job-ready.
+        </p>
+
+        </div>
 
       <div className="cards-grid">
 
@@ -84,31 +104,41 @@ function Dashboard() {
 
       </div>
 
-      <div className="skills-dashboard">
+      
 
-        <h2>My Skills</h2>
+      <div className="dashboard-grid">
 
-        <div className="skills-grid">
+        <div className="analytics-panel">
 
-          {skills.length === 0 && (
-            <p>No resume analyzed yet</p>
-          )}
+          <Charts
+            careers={careers.slice(0,3)}
+            matchedSkills={matchedSkills}
+            missingSkills={missingSkills}
+          />
 
-          {skills.map((skill, index) => (
-            <span key={index} className="skill-pill">
-              {skill}
-            </span>
-          ))}
+        </div>
+
+        <div className="skills-panel">
+
+          <h2>Your Skills</h2>
+
+          <div className="skills-grid">
+
+            {skills.length === 0 && (
+              <p>No resume analyzed yet</p>
+            )}
+
+            {skills.map((skill, index) => (
+              <span key={index} className="skill-pill">
+                {skill}
+              </span>
+            ))}
+
+          </div>
 
         </div>
 
       </div>
-
-      <Charts
-        careers={careers.slice(0,3)}
-        matchedSkills={matchedSkills}
-        missingSkills={missingSkills}
-      />
       
 
     </Layout>
