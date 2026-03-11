@@ -17,14 +17,26 @@ function SkillGap() {
   // Load careers from localStorage
   useEffect(() => {
 
-    const storedCareers = localStorage.getItem("resume_careers");
+    const loadCareers = async () => {
 
-    if (storedCareers) {
-      setCareers(JSON.parse(storedCareers));
-    }
+      const { data: { user } } = await supabase.auth.getUser();
+
+      if (!user) return;
+
+      const storedData =
+        localStorage.getItem(`resume_analysis_${user.id}`);
+
+      if (!storedData) return;
+
+      const parsed = JSON.parse(storedData);
+
+      setCareers(parsed.careers || []);
+
+    };
+
+    loadCareers();
 
   }, []);
-
   const fetchSkillGap = async (career) => {
 
     setSelectedCareer(career);

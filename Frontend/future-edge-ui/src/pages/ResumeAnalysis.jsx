@@ -21,17 +21,28 @@ function ResumeAnalysis() {
 
   useEffect(() => {
 
-    const storedSkills = localStorage.getItem("resume_skills");
-    const storedCareers = localStorage.getItem("resume_careers");
-    const storedScore = localStorage.getItem("resume_score");
-    const storedDeductions = localStorage.getItem("resume_deductions");
-    const storedSuggestions = localStorage.getItem("resume_suggestions");
+    const loadResumeData = async () => {
 
-    if (storedSkills) setSkills(JSON.parse(storedSkills));
-    if (storedCareers) setCareers(JSON.parse(storedCareers));
-    if (storedScore) setAtsScore(storedScore);
-    if (storedDeductions) setDeductions(JSON.parse(storedDeductions));
-    if (storedSuggestions) setSuggestions(JSON.parse(storedSuggestions));
+      const { data: { user } } = await supabase.auth.getUser();
+
+      if (!user) return;
+
+      const storedData =
+        localStorage.getItem(`resume_analysis_${user.id}`);
+
+      if (!storedData) return;
+
+      const parsed = JSON.parse(storedData);
+
+      setSkills(parsed.skills || []);
+      setCareers(parsed.careers || []);
+      setAtsScore(parsed.score || null);
+      setDeductions(parsed.deductions || []);
+      setSuggestions(parsed.suggestions || []);
+
+    };
+
+    loadResumeData();
 
   }, []);
 
@@ -88,11 +99,18 @@ function ResumeAnalysis() {
       setDeductions(deductionsList);
       setSuggestions(suggestionsList);
 
-      localStorage.setItem("resume_skills", JSON.stringify(detectedSkills));
-      localStorage.setItem("resume_careers", JSON.stringify(recommendedCareers));
-      localStorage.setItem("resume_score", score);
-      localStorage.setItem("resume_deductions", JSON.stringify(deductionsList));
-      localStorage.setItem("resume_suggestions", JSON.stringify(suggestionsList));
+      const resumeData = {
+        skills: detectedSkills,
+        careers: recommendedCareers,
+        score: score,
+        deductions: deductionsList,
+        suggestions: suggestionsList
+      };
+
+      localStorage.setItem(
+        `resume_analysis_${user.id}`,
+        JSON.stringify(resumeData)
+      );
 
     } catch (error) {
 

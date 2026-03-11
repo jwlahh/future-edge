@@ -48,8 +48,22 @@ function Dashboard() {
 
       if (!user) return;
 
-      const storedSkills = localStorage.getItem("resume_skills");
-      const storedCareers = localStorage.getItem("resume_careers");
+      const storedData =
+        localStorage.getItem(`resume_analysis_${user.id}`);
+
+      if (storedData) {
+
+        const parsed = JSON.parse(storedData);
+
+        setSkills(parsed.skills || []);
+        setCareers(parsed.careers || []);
+        setAtsScore(parsed.score || 0);
+
+        if (parsed.careers && parsed.careers.length > 0) {
+          fetchSkillGap(parsed.careers[0].role);
+        }
+
+      }
       
 
       if (storedSkills && storedCareers) {
