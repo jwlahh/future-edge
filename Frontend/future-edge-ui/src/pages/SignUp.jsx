@@ -30,7 +30,7 @@ function SignUp() {
     }
 
     alert("Signup successful! Please verify your email.");
-    navigate("/");
+    navigate("/login");
   };
 
   return (

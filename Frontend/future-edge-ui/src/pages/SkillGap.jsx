@@ -169,7 +169,7 @@ function SkillGap() {
 
                     <ul>
                       {userSkills.map((skill, index) => (
-                        <li key={index} style={{ color: "green" }}>
+                        <li key={index} style={{ color: "#00ff9d" }}>
                           ✔ {skill}
                         </li>
                       ))}

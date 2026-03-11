@@ -1,4 +1,5 @@
 import "../styles/navbar.css";
+import logo from "../assets/logo.png";
 import { FaUserCircle } from "react-icons/fa";
 
 function Navbar() {
@@ -7,8 +8,8 @@ function Navbar() {
 
     <div className="navbar">
 
-      <div className="nav-left">
-        <h2 className="logo">FutureEdge</h2>
+      <div className="logo-container">
+        <img src={logo} alt="FutureEdge Logo" className="logo-img" />
       </div>
 
       <div className="nav-right">

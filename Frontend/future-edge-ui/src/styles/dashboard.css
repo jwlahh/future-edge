@@ -3,6 +3,7 @@
 .app-layout{
   display:flex;
   min-height:100vh;
+
 }
 
 
@@ -17,18 +18,7 @@
 
 /* Topbar */
 
-.topbar{
-  height:70px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
 
-  padding:0 30px;
-
-  background:#020617;
-
-  border-bottom:1px solid rgba(255,255,255,0.05);
-}
 
 .logo-text{
   font-size:18px;
@@ -46,6 +36,7 @@
 
 .page-content{
   padding:40px;
+  min-height:100vh;
 }
 
 /* Dashboard cards */
@@ -61,25 +52,35 @@
 
 .stat-card{
 
-  background:var(--bg-card);
+  background: rgba(255,255,255,0.03);
+
+  backdrop-filter: blur(10px);
 
   border-radius:14px;
 
   padding:26px;
 
-  border:1px solid var(--border);
+  border:1px solid rgba(255,255,255,0.06);
 
-  transition:0.25s;
+  transition: all 0.25s ease;
 
 }
 
 .stat-card:hover{
 
-  transform:translateY(-4px);
+  transform: translateY(-4px);
 
   border-color:#8b5cf6;
-  box-shadow:0 0 20px rgba(139,92,246,0.25);
 
+  background: rgba(139,92,246,0.08);
+
+  box-shadow:
+    0 0 20px rgba(139,92,246,0.25),
+    0 0 40px rgba(139,92,246,0.15);
+
+}
+.stat-card:hover .card-value{
+  color:#c4b5fd;
 }
 
 .card-title{
@@ -105,13 +106,19 @@
 .analytics-panel,
 .skills-panel{
 
-  background:var(--bg-card);
 
-  border-radius:16px;
+  background: rgba(255,255,255,0.03);
 
-  padding:24px;
+  backdrop-filter: blur(10px);
 
-  border:1px solid var(--border);
+  border-radius:14px;
+
+  padding:26px;
+
+  border:1px solid rgba(255,255,255,0.06);
+
+  transition: all 0.25s ease;
+
 
 }
 
@@ -126,11 +133,28 @@
 
 .skill-pill{
 
-  background:rgba(139,92,246,0.15);
+  padding:6px 12px;
+
+  border-radius:999px;
+
+  font-size:18px;
 
   color:#c4b5fd;
 
-  border:1px solid rgba(139,92,246,0.35);
+  background:rgba(139,92,246,0.12);
+
+  border:1px solid rgba(139,92,246,0.25);
+
+  transition:all 0.2s ease;
+
+}
+.skill-pill:hover{
+
+  background: rgba(139,92,246,0.18);
+
+  border-color: rgba(139,92,246,0.5);
+
+  box-shadow: 0 0 12px rgba(139,92,246,0.4);
 
 }
 
@@ -158,22 +182,18 @@
   border:1px solid rgba(139,92,246,0.25);
 
 }
+
 .topbar{
-
   height:70px;
-
   display:flex;
-
   align-items:center;
-
   justify-content:space-between;
-
   padding:0 30px;
 
-  background:var(--bg-secondary);
+  background:#020617;
+  backdrop-filter:blur(8px);
 
-  border-bottom:1px solid var(--border);
-
+  border-bottom:1px solid rgba(255,255,255,0.05);
 }
 .dashboard-header{
 

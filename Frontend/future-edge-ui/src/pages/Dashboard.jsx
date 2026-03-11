@@ -99,7 +99,7 @@ function Dashboard() {
 
       <div className="dashboard-header">
 
-        <h1>Welcome back 👋</h1>
+        <h1>Welcome👋</h1>
 
         <p>
         Track your AI career insights and improve your
