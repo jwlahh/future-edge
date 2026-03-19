@@ -1,0 +1,144 @@
+/* Import Professional Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+.profile-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass Card */
+.profile-card {
+  width: 720px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.7);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Avatar */
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Name + Email */
+.profile-header h2 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.profile-header p {
+  margin: 2px 0 0;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+/* Form */
+.profile-form {
+  margin-top: 30px;
+}
+
+/* Row */
+.form-row {
+  display: flex;
+  gap: 16px; /* spacing between boxes */
+  width: 100%;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.form-group label {
+  font-size: 13px;
+  color: #9ca3af;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Inputs */
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: #1f2937;
+  color: white;
+  font-size: 14px;
+  transition: all 0.25s ease;
+  width: 100%;
+  box-sizing: border-box;   
+}
+
+/* Hover */
+.form-group input:hover {
+  border: 1px solid #7c3aed;
+  background: #243041;
+}
+
+/* Focus */
+.form-group input:focus {
+  outline: none;
+  border: 1px solid #a78bfa;
+  box-shadow: 0 0 0 2px rgba(167, 139, 250, 0.3);
+}
+
+/* Buttons */
+.profile-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Cancel */
+.cancel-btn {
+  background: transparent;
+  border: 1px solid #6b7280;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancel-btn:hover {
+  border-color: #a78bfa;
+}
+
+/* Save */
+.save-btn {
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-btn:hover {
+  transform: scale(1.05);
+}

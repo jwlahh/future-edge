@@ -33,11 +33,17 @@ function SignUp() {
     }
 
     if (data?.user) {
-      alert("Signup successful! .");
-      navigate("/dashboard");
-    } else {
-      alert("Signup failed. Please try again.");
-    }
+      await supabase.from("users").insert([
+    {
+      id: data.user.id,
+      email: data.user.email,
+      name: "",
+    },
+  ]);
+
+  alert("Signup successful!");
+  navigate("/profile");
+}
   };
 
   return (

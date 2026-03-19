@@ -36,3 +36,36 @@
   width:auto;
   object-fit:contain;
 }
+.nav-right {
+  position: relative;
+}
+
+.user-icon {
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Dropdown */
+.profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background: #1e1e2f;
+  border-radius: 10px;
+  width: 140px;
+  padding: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  z-index: 100;
+}
+
+.profile-dropdown p {
+  margin: 10px 0;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+.profile-dropdown p:hover {
+  color: #a78bfa;
+}

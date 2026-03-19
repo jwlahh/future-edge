@@ -6,6 +6,7 @@ import Dashboard from "./pages/Dashboard";
 import ResumeAnalysis from "./pages/ResumeAnalysis";
 import SkillGap from "./pages/SkillGap";
 import SignUp from "./pages/SignUp";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/analysis" element={<ResumeAnalysis />} />
         <Route path="/skill-gap" element={<SkillGap />} />
-
+        <Route path="/profile" element={<Profile />} />
       </Routes>
+      
     </BrowserRouter>
   );
 }
