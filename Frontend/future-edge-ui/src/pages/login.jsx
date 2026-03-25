@@ -10,20 +10,27 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const [errorMsg, setErrorMsg] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+
   const handleLogin = async () => {
 
-    const { data, error } = await supabase.auth.signInWithPassword({
+    setErrorMsg("");
+
+    const { error } = await supabase.auth.signInWithPassword({
       email: email,
       password: password,
     });
 
     if (error) {
-      alert(error.message);
+      setErrorMsg("Invalid email or password");
     } else {
       navigate("/dashboard");
     }
 
   };
+
+  // clear old data
   localStorage.removeItem("resume_skills");
   localStorage.removeItem("resume_careers");
   localStorage.removeItem("resume_score");
@@ -36,6 +43,8 @@ function Login() {
         <h1 className="logo">Future Edge</h1>
         <p className="subtitle">AI Career Intelligence Platform</p>
 
+        {errorMsg && <div className="error-box">{errorMsg}</div>}
+
         <input
           type="email"
           placeholder="Email"
@@ -44,13 +53,22 @@ function Login() {
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <input
-          type="password"
-          placeholder="Password"
-          className="input-field"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
+        <div className="password-wrapper">
+          <input
+            type={showPassword ? "text" : "password"}
+            placeholder="Password"
+            className="input-field"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+
+          <span
+            className="toggle-password"
+            onClick={() => setShowPassword(!showPassword)}
+          >
+            {showPassword ? "Hide" : "Show"}
+          </span>
+        </div>
 
         <button className="login-btn" onClick={handleLogin}>
           Login

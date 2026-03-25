@@ -1,148 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
 
-/* page background */
-
+/* 🔥 Gradient Background */
 .login-container {
-
   height: 100vh;
-
   display: flex;
-
   justify-content: center;
-
   align-items: center;
 
-  background:#020617;
+  position: relative;
+  overflow: hidden;
 
+  background: radial-gradient(
+    circle at center,
+    #5b0a8c 0%,
+    #3b0a5a 35%,
+    #301934 60%,
+    #0a0215 100%
+  );
 }
 
-/* glass card */
+/* 🔥 Optional Glow Effect */
+.login-container::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(124,58,237,0.4), transparent 70%);
+  filter: blur(80px);
+  z-index: 0;
+}
 
+/* 🔥 Glass Card */
 .login-box {
+  position: relative;
+  z-index: 1;
 
-  background:linear-gradient(
-    145deg,
-    rgba(139,92,246,0.15),
-    rgba(0,0,0,0.65)
-  );
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(18px);
 
-  backdrop-filter: blur(12px);
+  border-radius: 24px;
 
-  border-radius: 16px;
-
-  padding: 40px;
-
-  width: 340px;
+  padding: 55px 45px;
+  width: 480px;
+  max-width: 90%;
 
   text-align: center;
 
-  border: 1px solid rgba(255,255,255,0.4);
-
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 25px 70px rgba(0,0,0,0.8);
 }
 
-/* title */
-
+/* Title */
 .logo {
-
-  margin-bottom: 6px;
-
+  color: white;
   font-weight: 600;
-
+  font-size: 26px;
 }
 
-/* subtitle */
-
+/* Subtitle */
 .subtitle {
-
+  color: #9ca3af;
+  margin-bottom: 30px;
   font-size: 14px;
-
-  color: #64748b;
-
-  margin-bottom: 25px;
-
 }
 
-/* inputs */
-
-.input-field {
-
-  width: 100%;
-
+/* Error Box */
+.error-box {
+  background: rgba(255, 0, 0, 0.1);
+  color: #f87171;
   padding: 12px;
-
-  margin-bottom: 15px;
-
   border-radius: 10px;
-
-  border: 1px solid #e2e8f0;
-
-  outline: none;
-
-  transition: 0.2s;
-
+  margin-bottom: 15px;
+  font-size: 13px;
 }
 
-.input-field:focus {
-
-  border-color: #6366f1;
-
-  box-shadow: 0 0 0 2px rgba(99,102,241,0.2);
-
-}
-
-/* button */
-
-.login-btn {
-
+/* 🔥 Inputs */
+.input-field {
   width: 100%;
+  padding: 16px;
+  margin-bottom: 18px;
 
-  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid transparent;
 
-  background: linear-gradient(
-    135deg,
-    #6366f1,
-    #8b5cf6
-  );
+  font-size: 15px;
 
+  box-sizing: border-box;
+
+  background: rgba(255,255,255,0.06);
   color: white;
 
-  border: none;
+  transition: all 0.3s ease;
+}
 
-  border-radius: 10px;
+.input-field::placeholder {
+  color: #9ca3af;
+}
+
+/* Hover */
+.input-field:hover {
+  border: 1px solid rgba(167,139,250,0.6);
+  background: rgba(255,255,255,0.1);
+}
+
+/* Focus */
+.input-field:focus {
+  outline: none;
+  border: 1px solid #a78bfa;
+  box-shadow: 0 0 18px rgba(167,139,250,0.4);
+}
+
+/* Password Wrapper */
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 14px;
+  top: 16px;
+  font-size: 12px;
+  color: #a78bfa;
+  cursor: pointer;
+}
+
+/* 🔥 Button */
+.login-btn {
+  width: 100%;
+  padding: 16px;
+
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+
+  border: none;
+  border-radius: 14px;
+
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
 
   cursor: pointer;
-
-  font-weight: 500;
-
-  transition: transform 0.15s ease;
-
+  transition: all 0.3s ease;
 }
 
 .login-btn:hover {
-
-  transform: translateY(-2px);
-
+  transform: scale(1.05);
 }
 
-/* signup text */
+/* Spinner */
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  margin: auto;
+  animation: spin 0.8s linear infinite;
+}
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Signup */
 .signup-text {
-
-  margin-top: 15px;
-
-  font-size: 13px;
-
+  margin-top: 18px;
+  color: #9ca3af;
+  font-size: 14px;
 }
 
 .signup-text span {
-
-  color: #6366f1;
-
+  color: #a78bfa;
   cursor: pointer;
-
 }

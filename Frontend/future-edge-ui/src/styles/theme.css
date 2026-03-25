@@ -1,36 +1,72 @@
-:root{
+/* 🔥 PREMIUM THEME SYSTEM */
 
-  /* Background */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-  --bg-main:#020617;
-  --bg-secondary:#0f172a;
-  --bg-card:#111827;
+:root {
 
-  /* Accent */
+  /* 🔥 BACKGROUND */
 
-  --accent:#3b82f6;
-  --accent-light:#60a5fa;
+  --bg-main: #0a0215;
+  --bg-secondary: #140a24;
+  --bg-card: rgba(20, 20, 35, 0.5);
 
-  /* Text */
+  /* 🔥 PRIMARY PURPLE */
 
-  --text-main:#f1f5f9;
-  --text-muted:#94a3b8;
+  --primary: #8b5cf6;
+  --primary-light: #a78bfa;
+  --primary-soft: rgba(139,92,246,0.15);
 
-  /* Borders */
+  /* 🔥 ACCENT */
 
-  --border:rgba(255,255,255,0.06);
+  --accent: #c084fc;
 
+  /* 🔥 TEXT */
+
+  --text-main: #f5f3ff;
+  --text-muted: #a1a1aa;
+
+  /* 🔥 BORDER */
+
+  --border: rgba(255,255,255,0.08);
+
+  /* 🔥 SHADOW */
+
+  --shadow: 0 15px 40px rgba(0,0,0,0.6);
 }
 
-body{
-  margin:0;
-  font-family:"Inter",sans-serif;
+/* 🔥 GLOBAL */
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
 
   background: radial-gradient(
-    circle at center,
-    #391b47,
-    #020617
+    circle at top,
+    #5b0a8c,   /* rich violet (NO blue) */
+    #3b0a5a,   /* deep royal purple */
+    #1a0328    /* dark purple base (not black) */
   );
 
-  color:var(--text-main);
+  color: var(--text-main);
+}
+
+/* Typography */
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  color: var(--text-muted);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139,92,246,0.5);
+  border-radius: 10px;
 }

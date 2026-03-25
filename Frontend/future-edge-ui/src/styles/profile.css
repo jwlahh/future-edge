@@ -1,4 +1,3 @@
-/* Import Professional Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 .profile-page {
@@ -8,16 +7,17 @@
   align-items: center;
 }
 
-/* Glass Card */
+/* Bigger Card */
 .profile-card {
-  width: 720px;
-  background: rgba(0, 0, 0, 0.85);
-  border-radius: 20px;
-  padding: 30px;
-  color: white;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.7);
+  width: 850px;
+  max-width: 90%;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 24px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
   font-family: 'Inter', sans-serif;
+  color: white;
 }
 
 /* Header */
@@ -29,27 +29,35 @@
 
 /* Avatar */
 .avatar {
-  width: 70px;
-  height: 70px;
+  position: relative;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: linear-gradient(135deg, #7c3aed, #a78bfa);
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.avatar span {
   font-size: 28px;
   font-weight: 600;
-}
-
-/* Name + Email */
-.profile-header h2 {
-  margin: 0;
-  font-weight: 600;
-}
-
-.profile-header p {
-  margin: 2px 0 0;
-  color: #9ca3af;
-  font-size: 14px;
 }
 
 /* Form */
@@ -57,52 +65,50 @@
   margin-top: 30px;
 }
 
-/* Row */
 .form-row {
   display: flex;
-  gap: 16px; /* spacing between boxes */
-  width: 100%;
+  gap: 16px;
 }
 
 .form-group {
   flex: 1;
   display: flex;
   flex-direction: column;
+  margin-bottom: 18px;
 }
 
-/* Labels */
 .form-group label {
   font-size: 13px;
   color: #9ca3af;
   margin-bottom: 5px;
-  display: block;
 }
 
-/* Inputs */
+/* Glass Inputs */
 .form-group input {
   width: 100%;
-  padding: 12px;
-  border-radius: 12px;
+  padding: 14px;
+  border-radius: 14px;
   border: 1px solid transparent;
-  background: #1f2937;
+  background: rgba(255, 255, 255, 0.05);
   color: white;
   font-size: 14px;
-  transition: all 0.25s ease;
-  width: 100%;
-  box-sizing: border-box;   
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 
 /* Hover */
 .form-group input:hover {
-  border: 1px solid #7c3aed;
-  background: #243041;
+  border: 1px solid rgba(167, 139, 250, 0.6);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 /* Focus */
 .form-group input:focus {
   outline: none;
   border: 1px solid #a78bfa;
-  box-shadow: 0 0 0 2px rgba(167, 139, 250, 0.3);
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 15px rgba(167, 139, 250, 0.4);
 }
 
 /* Buttons */
@@ -113,7 +119,6 @@
   margin-top: 20px;
 }
 
-/* Cancel */
 .cancel-btn {
   background: transparent;
   border: 1px solid #6b7280;
@@ -121,14 +126,12 @@
   border-radius: 10px;
   color: white;
   cursor: pointer;
-  transition: 0.3s;
 }
 
 .cancel-btn:hover {
   border-color: #a78bfa;
 }
 
-/* Save */
 .save-btn {
   background: linear-gradient(135deg, #7c3aed, #a78bfa);
   border: none;
@@ -141,4 +144,30 @@
 
 .save-btn:hover {
   transform: scale(1.05);
+}
+.phone-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.country-code {
+  width: 120px;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+
+  background: rgba(255,255,255,0.08);
+  color: white;
+
+  cursor: pointer;
+}
+
+/* 🔥 FIX DROPDOWN OPTIONS */
+.country-code option {
+  background: #1f2937;   /* dark background */
+  color: white;          /* visible text */
+}
+
+.phone-wrapper input {
+  flex: 1;
 }

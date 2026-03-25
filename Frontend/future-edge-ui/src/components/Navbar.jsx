@@ -29,8 +29,8 @@ function Navbar() {
 
         {open && (
           <div className="profile-dropdown">
-            <p onClick={() => navigate("/profile")}>Profile</p>
-            <p onClick={handleLogout}>Sign Out</p>
+            <div onClick={() => navigate("/profile")}>Profile</div>
+            <div onClick={handleLogout}>Log Out</div>
           </div>
         )}
       </div>
