@@ -13,6 +13,7 @@ function Dashboard() {
   const [jobReadiness, setJobReadiness] = useState(0);
   const [matchedSkills, setMatchedSkills] = useState([]);
   const [missingSkills, setMissingSkills] = useState([]);
+  const [profile, setProfile] = useState(null);
 
   const fetchSkillGap = async (career) => {
 
@@ -48,6 +49,15 @@ function Dashboard() {
 
       if (!user) return;
 
+      const { data: userData } = await supabase
+        .from("users")
+        .select("First_name")
+        .eq("user_id", user.id)
+        .single();
+
+      setProfile(userData);
+
+
       const storedData =
         localStorage.getItem(`resume_analysis_${user.id}`);
 
@@ -55,7 +65,7 @@ function Dashboard() {
 
         const parsed = JSON.parse(storedData);
 
-        setSkills(parsed.skills || []);
+        setSkills(Array.isArray(parsed.skills) ? parsed.skills : []);
         setCareers(parsed.careers || []);
         setAtsScore(parsed.score || 0);
 
@@ -84,6 +94,7 @@ function Dashboard() {
       if (storedScore) {
         setAtsScore(storedScore);
       }
+      // ✅ FETCH USER NAME
 
     };
 
@@ -99,8 +110,9 @@ function Dashboard() {
 
       <div className="dashboard-header">
 
-        <h1>Welcome👋</h1>
-
+        <h1>
+          Welcome, {profile?.First_name ? profile.First_name : "User"} 👋
+        </h1>
         <p>
         Track your AI career insights and improve your
         skills to become job-ready.

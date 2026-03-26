@@ -7,6 +7,9 @@ import ResumeAnalysis from "./pages/ResumeAnalysis";
 import SkillGap from "./pages/SkillGap";
 import SignUp from "./pages/SignUp";
 import Profile from "./pages/Profile";
+import MockTest from "./pages/MockTest";
+import MockInterview from "./pages/MockInterview";
+
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/analysis" element={<ResumeAnalysis />} />
         <Route path="/skill-gap" element={<SkillGap />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/assessment/mock-test" element={<MockTest />} />
+        <Route path="/assessment/mock-interview" element={<MockInterview />} />
+
       </Routes>
       
     </BrowserRouter>

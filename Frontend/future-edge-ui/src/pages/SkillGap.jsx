@@ -106,14 +106,15 @@ function SkillGap() {
               >
 
                 <h3>{career.role}</h3>
-                <p>{career.score}% Match</p>
-
-                <div className="match-bar">
-
-                  <div
-                    className="match-fill"
-                    style={{ width: `${career.score}%` }}
-                  ></div>
+                
+                <p>
+                  {career.skill_score}% Match ({career.matched_count}/{career.total_required_skills})
+                </p>
+                <div className="match-bar">   
+                <div
+                  className="match-fill"
+                  style={{ width: `${career.skill_score}%` }}
+                ></div>
 
                 </div>
 

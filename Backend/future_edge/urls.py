@@ -20,6 +20,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from core.views import upload_resume
+from core.views import save_user_skills
 
 
 urlpatterns = [
@@ -28,6 +29,8 @@ urlpatterns = [
     path("api/upload-resume/", upload_resume),
 
     path("api/", include("career_gap.urls")),
+    
+    path('api/save-user-skills/', save_user_skills),
 ]
 
 if settings.DEBUG:

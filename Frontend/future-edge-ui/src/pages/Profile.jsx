@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { supabase } from "../supabaseClient";
-import { useNavigate } from "react-router-dom"; // 🔥 added
+import { useNavigate } from "react-router-dom";
 import "../styles/profile.css";
 import bgImage from "../assets/clouds.png";
 
 function Profile() {
   const [user, setUser] = useState(null);
 
-  const navigate = useNavigate(); // 🔥 added
+  const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     first_name: "",
@@ -38,16 +38,27 @@ function Profile() {
   const getUser = async () => {
     const { data } = await supabase.auth.getUser();
     const currentUser = data.user;
+
+    if (!currentUser) return;
+
     setUser(currentUser);
 
-    const { data: userData } = await supabase
+    const { data: userData, error } = await supabase
       .from("users")
       .select("*")
-      .eq("id", currentUser.id)
+      .eq("user_id", currentUser.id) // ✅ FIXED
       .single();
 
     if (userData) {
-      setFormData(userData);
+      setFormData({
+        first_name: userData.first_name || userData.First_name || "",
+        last_name: userData.last_name || userData.Last_Name || "",
+        phone: userData.phone || "",
+        country_code: userData.country_code || "+91",
+        education: userData.education || "",
+        linkedin: userData.linkedin || "",
+        avatar_url: userData.avatar_url || "",
+      });
     }
   };
 
@@ -57,7 +68,7 @@ function Profile() {
 
   const handleImageUpload = async (e) => {
     const file = e.target.files[0];
-    if (!file) return;
+    if (!file || !user) return;
 
     const fileName = `${user.id}-${Date.now()}`;
 
@@ -78,12 +89,28 @@ function Profile() {
   };
 
   const handleSave = async () => {
-    await supabase
-      .from("users")
-      .update(formData)
-      .eq("id", user.id);
+    if (!user) return;
 
-    alert("Profile updated!");
+    const { error } = await supabase
+      .from("users")
+      .update({
+        First_name: formData.first_name,
+        Last_Name: formData.last_name,
+        phone: formData.phone,
+        country_code: formData.country_code,
+        education: formData.education,
+        linkedin: formData.linkedin,
+        avatar_url: formData.avatar_url,
+      })
+      .eq("user_id", user.id); // ✅ FIXED
+
+    if (error) {
+      console.error("FULL ERROR:", error);
+      alert(error.message); // 👈 instead of generic message
+    
+    } else {
+     navigate("/dashboard"); // ✅ REDIRECT
+    }
   };
 
   return (
@@ -133,7 +160,7 @@ function Profile() {
               <label>First Name</label>
               <input
                 name="first_name"
-                value={formData.first_name || ""}
+                value={formData.first_name}
                 onChange={handleChange}
               />
             </div>
@@ -142,7 +169,7 @@ function Profile() {
               <label>Last Name</label>
               <input
                 name="last_name"
-                value={formData.last_name || ""}
+                value={formData.last_name}
                 onChange={handleChange}
               />
             </div>
@@ -158,7 +185,7 @@ function Profile() {
               <select
                 className="country-code"
                 name="country_code"
-                value={formData.country_code || "+91"}
+                value={formData.country_code}
                 onChange={handleChange}
               >
                 <option value="+91">🇮🇳 +91</option>
@@ -174,7 +201,7 @@ function Profile() {
 
               <input
                 name="phone"
-                value={formData.phone || ""}
+                value={formData.phone}
                 onChange={(e) => {
                   const value = e.target.value.replace(/\D/g, "");
                   const maxLength =
@@ -193,7 +220,7 @@ function Profile() {
             <label>Highest Education</label>
             <input
               name="education"
-              value={formData.education || ""}
+              value={formData.education}
               onChange={handleChange}
             />
           </div>
@@ -202,14 +229,14 @@ function Profile() {
             <label>LinkedIn Profile</label>
             <input
               name="linkedin"
-              value={formData.linkedin || ""}
+              value={formData.linkedin}
               onChange={handleChange}
             />
           </div>
 
         </div>
 
-        {/* 🔥 Buttons */}
+        {/* Buttons */}
         <div className="profile-actions">
           <button
             className="cancel-btn"

@@ -1,8 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
+import { useState } from "react"; // ✅ ADD THIS
 import {
   FaHome,
   FaFileAlt,
-  FaChartBar
+  FaChartBar,
+  FaClipboardList,
+  FaChevronDown,
+  FaChevronRight 
 } from "react-icons/fa";
 
 import "../styles/sidebar.css";
@@ -10,6 +14,7 @@ import "../styles/sidebar.css";
 function Sidebar({ collapsed, toggleSidebar }) {
 
   const location = useLocation();
+  const [assessmentOpen, setAssessmentOpen] = useState(false);
 
   return (
 
@@ -45,10 +50,42 @@ function Sidebar({ collapsed, toggleSidebar }) {
           </Link>
         </li>
 
+        <li className={assessmentOpen ? "active" : ""}>
+          <div
+            className="nav-link"
+            onClick={() => setAssessmentOpen(!assessmentOpen)}
+          >
+            <span className="icon icon-assessment">
+              <FaClipboardList />
+            </span>
+
+            {!collapsed && <span>Assessment</span>}
+
+            {!collapsed && (
+              <span className={`arrow ${assessmentOpen ? "open" : ""}`}>
+                <FaChevronRight />
+              </span>
+            )}
+          </div>
+
+          {assessmentOpen && !collapsed && (
+            <ul className="submenu">
+              <li>
+                <Link to="/assessment/mock-test">Skill Assessment</Link>
+              </li>
+              <li>
+                <Link to="/assessment/mock-interview">
+                  Online Assessment
+                </Link>
+              </li>
+            </ul>
+          )}
+
+        </li>
+
       </ul>
 
     </div>
-
   );
 }
 

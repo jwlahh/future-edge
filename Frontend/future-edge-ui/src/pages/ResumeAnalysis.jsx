@@ -18,6 +18,7 @@ function ResumeAnalysis() {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
   const [loadingStep, setLoadingStep] = useState("");
+  const [isSaved, setIsSaved] = useState(false);
 
   useEffect(() => {
 
@@ -124,10 +125,9 @@ function ResumeAnalysis() {
     }
   };
 
-  const handleFileChange = (event) => {
+  const handleFileChange = async (event) => {
 
     const selectedFile = event.target.files[0];
-
     if (!selectedFile) return;
 
     setFile(selectedFile);
@@ -138,13 +138,37 @@ function ResumeAnalysis() {
     setDeductions([]);
     setSuggestions([]);
 
-    localStorage.removeItem("resume_skills");
-    localStorage.removeItem("resume_careers");
-    localStorage.removeItem("resume_score");
-    localStorage.removeItem("resume_deductions");
-    localStorage.removeItem("resume_suggestions");
+    const { data: { user } } = await supabase.auth.getUser();
 
+    if (user) {
+      localStorage.removeItem(`resume_analysis_${user.id}`);
+    }
+    setIsSaved(false);   // 🔄 reset button
   };
+  const saveToProfile = async () => {
+
+  const { data: { user } } = await supabase.auth.getUser();
+
+  if (!user || skills.length === 0) return;
+
+  const response = await fetch(
+    "http://127.0.0.1:8000/api/save-user-skills/",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        user_id: user.id,
+        skills: skills
+      })
+    }
+  );
+
+  await response.json();
+
+  setIsSaved(true);   // ✅ disable button
+};
 
   return (
 
@@ -259,18 +283,26 @@ function ResumeAnalysis() {
 
           <h3>Skills Extracted</h3>
 
-          <div className="skills-grid">
+          <button
+            onClick={saveToProfile}
+            className="save-subtle-btn"
+            disabled={isSaved}
+          >
+            {isSaved ? "✓ Saved" : "+ Save to profile"}
+          </button>
 
+          <div className="skills-grid">
+         
             {skills.map((skill, index) => (
 
               <div key={index} className="skill-pill">
                 {skill}
               </div>
-
+          
             ))}
 
           </div>
-
+          
         </div>
 
       )}
@@ -291,7 +323,7 @@ function ResumeAnalysis() {
               <CareerCard
                 key={index}
                 role={role.role}
-                score={role.score}
+                score={role.ml_score}
               />
 
             ))}

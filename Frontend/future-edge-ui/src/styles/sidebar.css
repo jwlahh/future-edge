@@ -156,6 +156,11 @@
   
 
 }
+/* Assessment icon */
+
+.icon-assessment {
+  color: #f472b6; /* pink */
+}
 /* Active page indicator */
 
 .nav-links li{
@@ -200,4 +205,102 @@
 
 .nav-links li.active:has(.icon-skillgap)::before{
   background:#8b5cf6;
+}
+/* Active Assessment icon */
+
+.nav-links li.active .icon-assessment {
+  color: #f472b6;
+  text-shadow: 0 0 8px rgba(244,114,182,0.6);
+}
+/* Assessment indicator */
+
+.nav-links li.active:has(.icon-assessment)::before {
+  background: #f472b6;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* REMOVE BULLETS */
+.submenu {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 6px;
+  margin-left: 10px;
+  border-left: 2px solid rgba(255,255,255,0.05);
+}
+
+/* EACH ITEM */
+.submenu li {
+  margin: 6px 0;
+}
+
+/* LINK STYLE */
+.submenu-link {
+  display: block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+/* HOVER */
+.submenu-link:hover {
+  background: rgba(139,92,246,0.15);
+  color: #c4b5fd;
+}
+
+/* ACTIVE */
+.submenu li.active .submenu-link {
+  background: rgba(139,92,246,0.25);
+  color: #e9d5ff;
+}
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar-item span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow {
+  margin-left: auto;
+  font-size: 12px;
+}
+/* make Assessment match other links */
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 20px;
+  color: #94a3b8;
+  cursor: pointer;
+  position: relative;
+}
+
+/* arrow alignment fix */
+.arrow {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+/* rotate arrow */
+.arrow.open {
+  transform: rotate(90deg);
+  transition: transform 0.2s ease;
 }

@@ -40,7 +40,7 @@ const CustomTooltip = ({ active, payload }) => {
         <strong>{data.name}</strong>
 
         <p style={{ marginTop: "6px", color: "#c4b5fd" }}>
-          Score: {data.value}%
+          Score: {Math.round(data.value)}%
         </p>
 
         <div style={{ marginTop: "8px" }}>
@@ -115,7 +115,7 @@ function Charts({ careers }) {
 
   const careerData = careers.map((career) => ({
     name: career.role,
-    score: career.score
+    score: Number(career.ml_score) || 0
   }));
 
   /* Top 5 jobs with missing skills */
@@ -123,7 +123,7 @@ function Charts({ careers }) {
     .slice(0, 5)
     .map((career) => ({
       name: career.role,
-      value: career.score,
+      value: Number(career.ml_score) || 0,
       missingSkills: career.missingSkills || []
     }));
 
@@ -152,13 +152,17 @@ function Charts({ careers }) {
 
             <XAxis
               dataKey="name"
-              tick={false} 
+              tick={{ fill: "#EAF6FF", fontSize: 12 }}
               tickLine={false}
               axisLine={{ stroke: "#aaa" }} 
+              interval={0}          // 🔥 force all labels
+              angle={-25}           // 🔥 tilt labels
+              textAnchor="end"      // 🔥 align properly
+              height={70} 
             />
 
             <YAxis
-              stroke="#EAF6FF"
+              stroke="#686e72"
               tick={{ fill: "#EAF6FF" }}
             />
 
@@ -167,11 +171,12 @@ function Charts({ careers }) {
               labelFormatter={(label, payload) =>
                 payload && payload.length ? payload[0].payload.name : ""
               }
+              cursor={{ fill: "transparent" }}
               contentStyle={{
                 background: "linear-gradient(145deg, rgba(139,92,246,0.15), rgba(0,0,0,0.7))",
                 border: "1px solid rgba(139,92,246,0.25)",
                 borderRadius: "12px",
-                color: "#efeafa"
+                color: "#c8b7eb"
               }}
             />
 
@@ -181,6 +186,7 @@ function Charts({ careers }) {
               radius={[14, 14, 0, 0]}
               barSize={55}
               animationDuration={1200}
+              activeBar={false}
               style={{
                 filter: "drop-shadow(0 0 12px rgba(139,92,246,0.6))"
               }}

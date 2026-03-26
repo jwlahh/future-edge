@@ -1,13 +1,16 @@
 function CareerCard({ role, score, onClick }) {
 
-  const percent = score <= 1 ? score * 100 : score;
+  // ✅ SAFETY FIX
+  const safeScore = Number(score) || 0;
+
+  const percent = safeScore <= 1 ? safeScore * 100 : safeScore;
 
   return (
     <div className="career-card" onClick={onClick}>
 
       <h3>{role}</h3>
 
-      <p>{Math.round(percent)}% Match</p>
+      <p>{percent.toFixed(2)}% Match</p>
 
       <div className="match-bar">
 
