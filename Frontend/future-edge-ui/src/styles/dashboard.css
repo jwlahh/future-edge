@@ -23,7 +23,7 @@
   justify-content: space-between;
   padding: 0 30px;
 
-  background: rgba(30, 10, 60, 0.6);
+  background: rgba(20, 4, 36, 0.7);
   backdrop-filter: blur(12px);
 
   border-bottom: 1px solid var(--border);
@@ -46,7 +46,7 @@
 }
 
 .dashboard-header p {
-  color: #b8b5c9;
+  color: var(--text-muted);
 }
 
 /* Cards */
@@ -57,55 +57,70 @@
   gap: 24px;
 }
 
-/* 🔥 Stat Cards */
+/* 🔥 PREMIUM DARK PURPLE GLASS CARDS */
 
 .stat-card {
-  backdrop-filter: blur(16px);
+  position: relative;
+
+  background: linear-gradient(
+    145deg,
+    rgba(28, 8, 51, 0.85),
+    rgba(10, 2, 21, 0.95)
+  );
+
+  backdrop-filter: blur(18px);
+
   border-radius: 18px;
   padding: 26px;
+
   border: 1px solid var(--border);
-  transition: 0.3s ease;
+
+  overflow: hidden;
+
+  transition: all 0.35s ease;
 }
 
-/* 🔥 Different gradient for each */
+/* subtle glow */
+.stat-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
 
-.stat-card:nth-child(1) {
   background: linear-gradient(
-    135deg,
-    rgba(168, 85, 247, 0.35),
-    rgba(26, 3, 40, 0.8)
+    120deg,
+    rgba(139,92,246,0.25),
+    transparent,
+    rgba(167,139,250,0.15)
   );
+
+  opacity: 0.4;
+  pointer-events: none;
 }
 
-.stat-card:nth-child(2) {
-  background: linear-gradient(
-    135deg,
-    rgba(192, 132, 252, 0.28),
-    rgba(26, 3, 40, 0.8)
-  );
-}
-
-.stat-card:nth-child(3) {
-  background: linear-gradient(
-    135deg,
-    rgba(139, 92, 246, 0.25),
-    rgba(26, 3, 40, 0.8)
-  );
-}
-
+/* hover */
 .stat-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-8px) scale(1.02);
+
+  border-color: rgba(139,92,246,0.5);
+
   box-shadow:
-    0 0 20px rgba(139,92,246,0.25),
-    0 0 40px rgba(139,92,246,0.15);
+    0 10px 30px rgba(0,0,0,0.7),
+    0 0 25px rgba(139,92,246,0.25);
 }
+
+.stat-card:hover::before {
+  opacity: 0.7;
+}
+
+/* text */
 
 .card-title {
-  color: #c4b5fd;
+  color: var(--primary-light);
+  opacity: 0.9;
 }
 
 .card-value {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -122,7 +137,8 @@
 
 .analytics-panel,
 .skills-panel {
-  background: rgba(10, 5, 25, 0.65);
+  background: rgba(28, 8, 51, 0.7);
+
   backdrop-filter: blur(18px);
 
   border-radius: 18px;
@@ -143,7 +159,6 @@
 .skills-subtitle {
   font-size: 13px;
   margin-top: 5px;
-  color: var(--text-muted);
 }
 
 .skills-grid {
@@ -163,16 +178,16 @@
 
   color: var(--primary-light);
 
-  transition: 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 .skill-pill:hover {
-  transform: scale(1.12);
-  background: rgba(139,92,246,0.3);
-  box-shadow: 0 0 14px rgba(139,92,246,0.6);
+  transform: scale(1.1);
+  background: rgba(139,92,246,0.25);
+  box-shadow: 0 0 12px rgba(139,92,246,0.5);
 }
 
-/* Footer inside skills */
+/* Footer */
 
 .skills-footer {
   margin-top: auto;
@@ -191,7 +206,8 @@
 }
 
 .chart-card {
-  background: rgba(26, 3, 40, 0.75);
+  background: rgba(28, 8, 51, 0.7);
+
   backdrop-filter: blur(18px);
 
   border-radius: 18px;
@@ -200,6 +216,7 @@
   border: 1px solid var(--border);
 
   min-height: 350px;
+
   transition: 0.3s ease;
 }
 
@@ -209,4 +226,45 @@
 
 .chart-card h3 {
   margin-bottom: 10px;
+}
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+
+.chart-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border-radius: 20px;
+  padding: 20px;
+
+  border: 1px solid rgba(139, 92, 246, 0.2);
+
+  box-shadow:
+    0 0 20px rgba(139, 92, 246, 0.15),
+    inset 0 0 25px rgba(255, 255, 255, 0.02);
+
+  transition: all 0.4s ease;
+}
+
+.chart-card:hover {
+  transform: translateY(-6px) scale(1.01);
+
+  box-shadow:
+    0 0 30px rgba(139, 92, 246, 0.35),
+    0 0 60px rgba(139, 92, 246, 0.15),
+    inset 0 0 30px rgba(255, 255, 255, 0.05);
+}
+
+.chart-card h3 {
+  color: #e9d5ff;
+  text-shadow: 0 0 10px rgba(139, 92, 246, 0.6);
 }

@@ -1,29 +1,29 @@
-/* 🔥 PREMIUM THEME SYSTEM */
+/* 🔥 PREMIUM PURPLE THEME SYSTEM */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
 
-  /* 🔥 BACKGROUND */
+  /* 🔥 BACKGROUND (DEEP PURPLE BASE) */
 
   --bg-main: #0a0215;
-  --bg-secondary: #140a24;
-  --bg-card: rgba(20, 20, 35, 0.5);
+  --bg-deep: #140424;
+  --bg-soft: #1c0833;
+
+  /* 🔥 CARD */
+
+  --bg-card: rgba(28, 8, 51, 0.6);
 
   /* 🔥 PRIMARY PURPLE */
 
   --primary: #8b5cf6;
   --primary-light: #a78bfa;
-  --primary-soft: rgba(139,92,246,0.15);
-
-  /* 🔥 ACCENT */
-
-  --accent: #c084fc;
+  --primary-soft: rgba(139,92,246,0.12);
 
   /* 🔥 TEXT */
 
   --text-main: #f5f3ff;
-  --text-muted: #a1a1aa;
+  --text-muted: #b4b0c9;
 
   /* 🔥 BORDER */
 
@@ -31,21 +31,19 @@
 
   /* 🔥 SHADOW */
 
-  --shadow: 0 15px 40px rgba(0,0,0,0.6);
+  --shadow: 0 20px 60px rgba(0,0,0,0.7);
 }
 
-/* 🔥 GLOBAL */
+/* 🔥 MAIN BACKGROUND */
 
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
 
-  background: radial-gradient(
-    circle at top,
-    #5b0a8c,   /* rich violet (NO blue) */
-    #3b0a5a,   /* deep royal purple */
-    #1a0328    /* dark purple base (not black) */
-  );
+  background:
+    radial-gradient(circle at 20% 20%, #2a0a4a, transparent 40%),
+    radial-gradient(circle at 80% 80%, #140424, transparent 50%),
+    linear-gradient(135deg, #0a0215, #140424, #0a0215);
 
   color: var(--text-main);
 }
@@ -54,6 +52,7 @@ body {
 
 h1, h2, h3 {
   font-weight: 600;
+  letter-spacing: -0.5px;
 }
 
 p {
@@ -67,6 +66,6 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(139,92,246,0.5);
+  background: rgba(139,92,246,0.4);
   border-radius: 10px;
 }

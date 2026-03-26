@@ -25,7 +25,6 @@ def extract_skills_spacy(text, skills_master):
         skill_name = skill["skill_name"].lower()
         skill_id = skill["skill_id"]
 
-        # Create word-boundary regex (safe match)
         pattern = r'\b' + re.escape(skill_name) + r'\b'
 
         if re.search(pattern, full_text):
@@ -103,7 +102,7 @@ def upload_resume(request):
         skills_master = skills_response.data
 
         # -----------------------------
-        # STEP 5: Detect skills (UPDATED)
+        # STEP 5: Detect skills
         # -----------------------------
         skills_found, skill_ids = extract_skills_spacy(clean_text, skills_master)
 
@@ -138,7 +137,7 @@ def upload_resume(request):
         career_matches = []
 
         # -----------------------------
-        # STEP 9: Match careers (UNCHANGED)
+        # STEP 9: Match careers
         # -----------------------------
         for role in roles:
 
@@ -179,7 +178,7 @@ def upload_resume(request):
             })
 
         # -----------------------------
-        # STEP 11: Skill gap (UNCHANGED)
+        # STEP 11: Skill gap (UPDATED)
         # -----------------------------
         top_careers = career_matches[:5]
 
@@ -192,7 +191,8 @@ def upload_resume(request):
                 .eq("job_role", role_name) \
                 .execute()
 
-            if not role_response.data:
+            # ✅ SAFE CHECK
+            if not role_response.data or len(role_response.data) == 0:
                 continue
 
             role = role_response.data[0]
@@ -218,6 +218,10 @@ def upload_resume(request):
                     2
                 )
 
+            # ✅ MAIN FIX
+            career["matchedSkills"] = matched_skills
+            career["missingSkills"] = missing_skills
+
             existing = supabase.table("skill_gap") \
                 .select("*") \
                 .eq("user_id", user_id) \
@@ -234,7 +238,7 @@ def upload_resume(request):
                 }).execute()
 
         # -----------------------------
-        # STEP 12: Response (UNCHANGED)
+        # STEP 12: Response (UPDATED)
         # -----------------------------
         return Response({
             "skills_found": skills_found,
@@ -242,7 +246,7 @@ def upload_resume(request):
             "ats_score": ats_score,
             "deductions": deductions,
             "suggestions": suggestions,
-            "careers": career_matches[:5]
+            "careers": top_careers  # ✅ FIXED
         })
 
     except Exception as e:
