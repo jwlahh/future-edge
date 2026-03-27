@@ -9,7 +9,8 @@ function SkillGap() {
   const [selectedCareer, setSelectedCareer] = useState(null);
 
   const [requiredSkills, setRequiredSkills] = useState([]);
-  const [userSkills, setUserSkills] = useState([]);
+  const [allSkills, setAllSkills] = useState([]);
+  const [matchedSkills, setMatchedSkills] = useState([]);
   const [missingSkills, setMissingSkills] = useState([]);
 
   const [loading, setLoading] = useState(false);
@@ -31,6 +32,7 @@ function SkillGap() {
       const parsed = JSON.parse(storedData);
 
       setCareers(parsed.careers || []);
+      setAllSkills(parsed.skills || []);
 
     };
 
@@ -54,8 +56,8 @@ function SkillGap() {
             "Content-Type": "application/json"
           },
           body: JSON.stringify({
-            user_id: user.id,
-            role: career.role
+            role: career.role,
+            skills: allSkills   // 🔥 THIS IS THE FIX
           })
         }
       );
@@ -63,7 +65,7 @@ function SkillGap() {
       const data = await response.json();
 
       setRequiredSkills(data.required_skills || []);
-      setUserSkills(data.user_skills || []);
+      setMatchedSkills(data.user_skills || []);
       setMissingSkills(data.missing_skills || []);
 
       setLoading(false);
@@ -169,7 +171,7 @@ function SkillGap() {
                     <h3>Your Skills</h3>
 
                     <ul>
-                      {userSkills.map((skill, index) => (
+                      {matchedSkills.map((skill, index) => (
                         <li key={index} style={{ color: "#00ff9d" }}>
                           ✔ {skill}
                         </li>

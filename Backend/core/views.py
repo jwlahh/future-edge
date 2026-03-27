@@ -143,7 +143,17 @@ def upload_resume(request):
 
         # STEP 8: ML career prediction
         service = CareerRecommendationMLService.get_instance()
-        ml_result = service.predict(resume_text=clean_text, k=5)
+        # 🎯 Create strong skill signal
+        skills_block = " ".join(skills_found * 5)
+
+        enhanced_text = f"""
+        {clean_text}
+
+        skills section:
+        {skills_block}
+        """
+
+        ml_result = service.predict(resume_text=enhanced_text, k=5)
 
         # STEP 9: For each predicted role, calculate percentage using:
         # matched skills / total required skills * 100
