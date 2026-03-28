@@ -4,7 +4,7 @@ from rest_framework.response import Response
 
 from .supabase_client import supabase
 from core.ats_engine import calculate_ats_score
-from core.ml_service import CareerRecommendationMLService, ModelIntegrationError
+from core.ml_service import recommend_roles, ModelIntegrationError
 
 import fitz
 import re
@@ -70,8 +70,9 @@ def save_user_skills(request):
         
     return Response({"message": "Skills saved successfully"})
 
-@parser_classes([MultiPartParser, FormParser])
 @api_view(['POST'])
+@parser_classes([MultiPartParser, FormParser])
+
 def upload_resume(request):
     print("FILES:", request.FILES)
     print("DATA:", request.data)
@@ -141,26 +142,26 @@ def upload_resume(request):
         # STEP 7: Calculate total experience
         total_experience = extract_experience(clean_text)
 
-        # STEP 8: ML career prediction
-        service = CareerRecommendationMLService.get_instance()
-        # 🎯 Create strong skill signal
-        skills_block = " ".join(skills_found * 5)
+        # STEP 8: Fetch job roles from Supabase
+        roles_response = supabase.table("job_roles").select("*").execute()
+        roles_data = roles_response.data
 
-        enhanced_text = f"""
-        {clean_text}
+        # Convert DB fields into proper format
+        for role in roles_data:
+            role["core_skills"] = [s.strip().lower() for s in (role.get("core_skills") or "").split(",") if s.strip()]
+            role["secondary_skills"] = [s.strip().lower() for s in (role.get("secondary_skills") or "").split(",") if s.strip()]
+            role["optional_skills"] = [s.strip().lower() for s in (role.get("optional_skills") or "").split(",") if s.strip()]
+            role["related_keywords"] = [s.strip().lower() for s in (role.get("related_keywords") or "").split(",") if s.strip()]
 
-        skills section:
-        {skills_block}
-        """
-
-        ml_result = service.predict(resume_text=enhanced_text, k=5)
-
+        # Run new model
+        ml_results = recommend_roles(text, roles_data)        
+        print("ML RESULTS:", ml_results)
         # STEP 9: For each predicted role, calculate percentage using:
         # matched skills / total required skills * 100
         career_matches = []
 
-        for item in ml_result["predictions"]:
-            role_name = item["label"]
+        for item in ml_results:
+            role_name = item["role"]
 
             role_response = supabase.table("job_roles") \
                 .select("*") \
@@ -173,43 +174,64 @@ def upload_resume(request):
             role = role_response.data[0]
             role_id = role["role_id"]
 
-            required_skills = role["job_skills"].split(";")
-            required_skills = [s.strip() for s in required_skills if s.strip()]
+            # 🔥 DEFINE SKILL LISTS
+            core_list = [s.strip().lower() for s in (role.get("core_skills") or "").split(",") if s.strip()]
+            secondary_list = [s.strip().lower() for s in (role.get("secondary_skills") or "").split(",") if s.strip()]
+            optional_list = [s.strip().lower() for s in (role.get("optional_skills") or "").split(",") if s.strip()]
 
-            matched_skills = []
-            missing_skills = []
+            resume_skills = [s.lower() for s in skills_found]
 
-            for skill in required_skills:
-                if skill.lower() in [s.lower() for s in skills_found]:
-                    matched_skills.append(skill)
-                else:
-                    missing_skills.append(skill)
+            # 🔥 WEIGHTED SCORING
+            score = 0
+            max_score = 0
+
+            for skill in core_list:
+                max_score += 3
+                if skill in resume_skills:
+                    score += 3
+
+            for skill in secondary_list:
+                max_score += 2
+                if skill in resume_skills:
+                    score += 2
+
+            for skill in optional_list:
+                max_score += 1
+                if skill in resume_skills:
+                    score += 1
 
             match_percentage = 0
-            if len(required_skills) > 0:
-                match_percentage = round(
-                    (len(matched_skills) / len(required_skills)) * 100,
-                    2
-                )
+            if max_score > 0:
+                match_percentage = round((score / max_score) * 100, 2)
 
+            # 🔥 BOOST
+            match_percentage = min(90, match_percentage * 1.2)
+
+            # 🔥 FINAL SCORE (ML + SKILLS)
+            final_score = round((match_percentage * 0.7) + (item["score"] * 0.3), 2)
+
+            # 🔥 APPEND RESULT
             career_matches.append({
                 "role": role_name,
-
-                # 🔵 ML score → for Resume Analysis page
                 "ml_score": item["score"],
-
-                # 🟢 Skill score → for Skill Gap page
                 "skill_score": match_percentage,
+                "final_score": final_score,
 
-                "matched_skills": matched_skills,
-                "missing_skills": missing_skills,
-                "total_required_skills": len(required_skills),
-                "matched_count": len(matched_skills),
-                "match_summary": f"{len(matched_skills)}/{len(required_skills)} skills matched"
+                "core_skills": core_list,
+                "secondary_skills": secondary_list,
+                "optional_skills": optional_list,
+
+                "core_matched": [s for s in core_list if s in resume_skills],
+                "core_missing": [s for s in core_list if s not in resume_skills],
+
+                "secondary_matched": [s for s in secondary_list if s in resume_skills],
+                "secondary_missing": [s for s in secondary_list if s not in resume_skills],
+
+                "optional_matched": [s for s in optional_list if s in resume_skills],
+                "optional_missing": [s for s in optional_list if s not in resume_skills],
             })
-           
 
-            # Store skill gap
+            # 🔥 STORE SKILL GAP (optional but safe)
             existing_gap = supabase.table("skill_gap") \
                 .select("*") \
                 .eq("user_id", user_id) \
@@ -220,14 +242,14 @@ def upload_resume(request):
                 supabase.table("skill_gap").insert({
                     "user_id": user_id,
                     "role_id": role_id,
-                    "matched_skills": ";".join(matched_skills),
-                    "missing_skills": ";".join(missing_skills),
+                    "matched_skills": ";".join([s for s in core_list if s in resume_skills]),
+                    "missing_skills": ";".join([s for s in core_list if s not in resume_skills]),
                     "gap_score": match_percentage
                 }).execute()
 
         # Sort again by calculated skill percentage
         career_matches = sorted(career_matches, key=lambda x: x["skill_score"], reverse=True)
-
+        
         # STEP 10: Return response
         return Response({
             "skills_found": skills_found,
@@ -238,6 +260,7 @@ def upload_resume(request):
             "careers": career_matches
             
         })
+    
 
     except ModelIntegrationError as e:
         print("ML ERROR:", e)
@@ -252,3 +275,4 @@ def upload_resume(request):
             "skills_found": [],
             "error": str(e)
         }, status=500)
+    

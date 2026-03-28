@@ -39,44 +39,23 @@ function SkillGap() {
     loadCareers();
 
   }, []);
-  const fetchSkillGap = async (career) => {
+  const fetchSkillGap = (career) => {
+  setSelectedCareer(career);
 
-    setSelectedCareer(career);
-    setLoading(true);
+  setRequiredSkills([]); // not needed anymore
 
-    try {
+  setMatchedSkills([
+    ...career.core_matched,
+    ...career.secondary_matched,
+    ...career.optional_matched
+  ]);
 
-      const { data: { user } } = await supabase.auth.getUser();
-
-      const response = await fetch(
-        "http://127.0.0.1:8000/api/skill-gap/",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            role: career.role,
-            skills: allSkills   // 🔥 THIS IS THE FIX
-          })
-        }
-      );
-
-      const data = await response.json();
-
-      setRequiredSkills(data.required_skills || []);
-      setMatchedSkills(data.user_skills || []);
-      setMissingSkills(data.missing_skills || []);
-
-      setLoading(false);
-
-    } catch (error) {
-
-      console.error("Skill gap error:", error);
-
-    }
-
-  };
+  setMissingSkills([
+    ...career.core_missing,
+    ...career.secondary_missing,
+    ...career.optional_missing
+  ]);
+};
 
   return (
 
@@ -110,7 +89,7 @@ function SkillGap() {
                 <h3>{career.role}</h3>
                 
                 <p>
-                  {career.skill_score}% Match ({career.matched_count}/{career.total_required_skills})
+                  {career.skill_score}% Match 
                 </p>
                 <div className="match-bar">   
                 <div
@@ -152,50 +131,46 @@ function SkillGap() {
 
                 <div className="skills-container">
 
-                  {/* Required Skills */}
-                  <div className="skill-box">
+  {/* CORE */}
+  <div className="skill-box">
+    <h3>Core Skills</h3>
 
-                    <h3>Required Skills</h3>
+    {selectedCareer.core_matched.map((skill, i) => (
+      <p key={i} style={{ color: "#00ff9d" }}>✔ {skill}</p>
+    ))}
 
-                    <ul>
-                      {requiredSkills.map((skill, index) => (
-                        <li key={index}>{skill}</li>
-                      ))}
-                    </ul>
+    {selectedCareer.core_missing.map((skill, i) => (
+      <p key={i} style={{ color: "red" }}>❌ {skill}</p>
+    ))}
+  </div>
 
-                  </div>
+  {/* SECONDARY */}
+  <div className="skill-box">
+    <h3>Secondary Skills</h3>
 
-                  {/* Your Skills */}
-                  <div className="skill-box">
+    {selectedCareer.secondary_matched.map((skill, i) => (
+      <p key={i} style={{ color: "#00ff9d" }}>✔ {skill}</p>
+    ))}
 
-                    <h3>Your Skills</h3>
+    {selectedCareer.secondary_missing.map((skill, i) => (
+      <p key={i} style={{ color: "red" }}>❌ {skill}</p>
+    ))}
+  </div>
 
-                    <ul>
-                      {matchedSkills.map((skill, index) => (
-                        <li key={index} style={{ color: "#00ff9d" }}>
-                          ✔ {skill}
-                        </li>
-                      ))}
-                    </ul>
+  {/* OPTIONAL */}
+  <div className="skill-box">
+    <h3>Optional Skills</h3>
 
-                  </div>
+    {selectedCareer.optional_matched.map((skill, i) => (
+      <p key={i} style={{ color: "#00ff9d" }}>✔ {skill}</p>
+    ))}
 
-                  {/* Missing Skills */}
-                  <div className="skill-box">
+    {selectedCareer.optional_missing.map((skill, i) => (
+      <p key={i} style={{ color: "red" }}>❌ {skill}</p>
+    ))}
+  </div>
 
-                    <h3>Missing Skills</h3>
-
-                    <ul>
-                      {missingSkills.map((skill, index) => (
-                        <li key={index} style={{ color: "red" }}>
-                          ❌ {skill}
-                        </li>
-                      ))}
-                    </ul>
-
-                  </div>
-
-                </div>
+</div>
 
               )}
 
