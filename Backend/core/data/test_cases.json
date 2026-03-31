@@ -1,0 +1,411 @@
+{
+  "skill": "Test Cases",
+  "mcqs": [
+    {
+      "id": "test_cases_001",
+      "question": "test cases question 1?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_002",
+      "question": "test cases question 2?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "test_cases_003",
+      "question": "test cases question 3?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "test_cases_004",
+      "question": "test cases question 4?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_005",
+      "question": "test cases question 5?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_006",
+      "question": "test cases question 6?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_007",
+      "question": "test cases question 7?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_008",
+      "question": "test cases question 8?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_009",
+      "question": "test cases question 9?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_010",
+      "question": "test cases question 10?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_011",
+      "question": "test cases question 11?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "test_cases_012",
+      "question": "test cases question 12?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_013",
+      "question": "test cases question 13?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_014",
+      "question": "test cases question 14?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_015",
+      "question": "test cases question 15?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "test_cases_016",
+      "question": "test cases question 16?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_017",
+      "question": "test cases question 17?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_018",
+      "question": "test cases question 18?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_019",
+      "question": "test cases question 19?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "test_cases_020",
+      "question": "test cases question 20?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_021",
+      "question": "test cases question 21?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "test_cases_022",
+      "question": "test cases question 22?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "test_cases_023",
+      "question": "test cases question 23?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "test_cases_024",
+      "question": "test cases question 24?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_025",
+      "question": "test cases question 25?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_026",
+      "question": "test cases question 26?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_027",
+      "question": "test cases question 27?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_028",
+      "question": "test cases question 28?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "test_cases_029",
+      "question": "test cases question 29?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "test_cases_030",
+      "question": "test cases question 30?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    }
+  ],
+  "coding_mcqs": [
+    {
+      "id": "test_cases_c_001",
+      "question": "Sample code question",
+      "code": "print('hello')",
+      "options": [
+        "valid",
+        "invalid",
+        "none",
+        "loop"
+      ],
+      "correct_answer": "valid",
+      "difficulty": "easy",
+      "weight": 1
+    }
+  ]
+}

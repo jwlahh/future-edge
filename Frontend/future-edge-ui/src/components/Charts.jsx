@@ -21,7 +21,7 @@ const COLORS = [
   "#6d28d9"
 ];
 
-/* Tooltip (Pie Chart - Job specific) */
+/* ================= TOOLTIP ================= */
 const CustomTooltip = ({ active, payload }) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
@@ -61,7 +61,7 @@ const CustomTooltip = ({ active, payload }) => {
   return null;
 };
 
-/* Pop-out slice */
+/* ================= ACTIVE PIE SLICE ================= */
 const renderActiveShape = (props) => {
   const {
     cx, cy,
@@ -118,19 +118,16 @@ function Charts({ careers }) {
     score: Number(career.ml_score) || 0
   }));
 
-  /* Top 5 jobs with missing skills */
-  const pieData = careers
-    .slice(0, 5)
-    .map((career) => ({
-      name: career.role,
-      value: Number(career.ml_score) || 0,
-      missingSkills: career.missingSkills || []
-    }));
+  const pieData = careers.slice(0, 5).map((career) => ({
+    name: career.role,
+    value: Number(career.ml_score) || 0,
+    missingSkills: career.missingSkills || []
+  }));
 
   return (
     <div className="charts-grid">
 
-      {/* 🔥 PREMIUM BAR CHART */}
+      {/* ================= BAR CHART ================= */}
       <div className="chart-card">
         <h3>Top Career Matches</h3>
 
@@ -138,7 +135,7 @@ function Charts({ careers }) {
           <BarChart
             data={careerData}
             margin={{ top: 20, right: 20, left: 10, bottom: 10 }}
-            barCategoryGap="25%"
+            barCategoryGap="20%" 
           >
 
             <defs>
@@ -152,13 +149,9 @@ function Charts({ careers }) {
 
             <XAxis
               dataKey="name"
-              tick={{ fill: "#EAF6FF", fontSize: 12 }}
-              tickLine={false}
-              axisLine={{ stroke: "#aaa" }} 
-              interval={0}          // 🔥 force all labels
-              angle={-25}           // 🔥 tilt labels
-              textAnchor="end"      // 🔥 align properly
-              height={70} 
+              tick={false}          // ❌ hides labels
+              tickLine={false}      // optional clean look
+              axisLine={{ stroke: "#aaa" }}  // ✅ keeps the line
             />
 
             <YAxis
@@ -184,7 +177,7 @@ function Charts({ careers }) {
               dataKey="score"
               fill="url(#barGradient)"
               radius={[14, 14, 0, 0]}
-              barSize={55}
+              barSize={55}  
               animationDuration={1200}
               activeBar={false}
               style={{
@@ -203,7 +196,7 @@ function Charts({ careers }) {
       </div>
 
 
-      {/* 🔥 PREMIUM PIE CHART */}
+      {/* ================= PIE CHART ================= */}
       <div className="chart-card">
         <h3>Top Career Distribution</h3>
 
@@ -229,7 +222,29 @@ function Charts({ careers }) {
               activeShape={renderActiveShape}
               onMouseEnter={(_, index) => setActiveIndex(index)}
               onMouseLeave={() => setActiveIndex(null)}
-              label={({ value }) => `${Math.round(value)}%`}
+              
+              /* ✅ SHOW ROLE NAME INSTEAD OF % */
+              label={({ name, x, y, cx, cy }) => {
+              const words = name.split(" ");
+
+              return (
+                <text
+                  x={x}
+                  y={y}
+                  fill="#c4b5fd"
+                  textAnchor={x > cx ? "start" : "end"}
+                  dominantBaseline="central"
+                  style={{ fontSize: "11px" }}
+                >
+                  {words.map((word, index) => (
+                  <tspan x={x} dy={index === 0 ? 0 : 12} key={index}>
+                  {word}
+                  </tspan>
+                  ))}
+                </text>
+              );
+            }}  
+
               animationDuration={1200}
             >
               {pieData.map((entry, index) => (

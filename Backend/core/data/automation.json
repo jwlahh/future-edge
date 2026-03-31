@@ -1,0 +1,411 @@
+{
+  "skill": "Automation",
+  "mcqs": [
+    {
+      "id": "automation_001",
+      "question": "automation question 1?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "automation_002",
+      "question": "automation question 2?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "automation_003",
+      "question": "automation question 3?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_004",
+      "question": "automation question 4?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_005",
+      "question": "automation question 5?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "automation_006",
+      "question": "automation question 6?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_007",
+      "question": "automation question 7?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_008",
+      "question": "automation question 8?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_009",
+      "question": "automation question 9?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_010",
+      "question": "automation question 10?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "automation_011",
+      "question": "automation question 11?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "automation_012",
+      "question": "automation question 12?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "automation_013",
+      "question": "automation question 13?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_014",
+      "question": "automation question 14?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "automation_015",
+      "question": "automation question 15?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "automation_016",
+      "question": "automation question 16?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "automation_017",
+      "question": "automation question 17?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "automation_018",
+      "question": "automation question 18?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "automation_019",
+      "question": "automation question 19?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_020",
+      "question": "automation question 20?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "automation_021",
+      "question": "automation question 21?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "automation_022",
+      "question": "automation question 22?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "automation_023",
+      "question": "automation question 23?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "automation_024",
+      "question": "automation question 24?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "automation_025",
+      "question": "automation question 25?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "automation_026",
+      "question": "automation question 26?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "automation_027",
+      "question": "automation question 27?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "automation_028",
+      "question": "automation question 28?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "automation_029",
+      "question": "automation question 29?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "automation_030",
+      "question": "automation question 30?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    }
+  ],
+  "coding_mcqs": [
+    {
+      "id": "automation_c_001",
+      "question": "Sample code question",
+      "code": "print('hello')",
+      "options": [
+        "valid",
+        "invalid",
+        "none",
+        "loop"
+      ],
+      "correct_answer": "valid",
+      "difficulty": "easy",
+      "weight": 1
+    }
+  ]
+}

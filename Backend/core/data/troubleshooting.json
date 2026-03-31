@@ -1,0 +1,411 @@
+{
+  "skill": "Troubleshooting",
+  "mcqs": [
+    {
+      "id": "troubleshooting_001",
+      "question": "troubleshooting question 1?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_002",
+      "question": "troubleshooting question 2?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "troubleshooting_003",
+      "question": "troubleshooting question 3?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_004",
+      "question": "troubleshooting question 4?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_005",
+      "question": "troubleshooting question 5?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_006",
+      "question": "troubleshooting question 6?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_007",
+      "question": "troubleshooting question 7?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_008",
+      "question": "troubleshooting question 8?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "troubleshooting_009",
+      "question": "troubleshooting question 9?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_010",
+      "question": "troubleshooting question 10?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_011",
+      "question": "troubleshooting question 11?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_012",
+      "question": "troubleshooting question 12?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_013",
+      "question": "troubleshooting question 13?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "troubleshooting_014",
+      "question": "troubleshooting question 14?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_015",
+      "question": "troubleshooting question 15?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "troubleshooting_016",
+      "question": "troubleshooting question 16?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_017",
+      "question": "troubleshooting question 17?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_018",
+      "question": "troubleshooting question 18?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_019",
+      "question": "troubleshooting question 19?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "troubleshooting_020",
+      "question": "troubleshooting question 20?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_021",
+      "question": "troubleshooting question 21?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "troubleshooting_022",
+      "question": "troubleshooting question 22?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_023",
+      "question": "troubleshooting question 23?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_024",
+      "question": "troubleshooting question 24?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "troubleshooting_025",
+      "question": "troubleshooting question 25?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_026",
+      "question": "troubleshooting question 26?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "troubleshooting_027",
+      "question": "troubleshooting question 27?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_028",
+      "question": "troubleshooting question 28?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "troubleshooting_029",
+      "question": "troubleshooting question 29?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "troubleshooting_030",
+      "question": "troubleshooting question 30?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    }
+  ],
+  "coding_mcqs": [
+    {
+      "id": "troubleshooting_c_001",
+      "question": "Sample code question",
+      "code": "print('hello')",
+      "options": [
+        "valid",
+        "invalid",
+        "none",
+        "loop"
+      ],
+      "correct_answer": "valid",
+      "difficulty": "easy",
+      "weight": 1
+    }
+  ]
+}

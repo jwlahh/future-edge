@@ -1,0 +1,42 @@
+{
+  "skill":"HTML",
+  "mcqs":[
+
+    {"id":"html_001","question":"HTML stands for?","options":["HyperText Markup Language","none","loop","array"],"correct_answer":"HyperText Markup Language","difficulty":"easy","weight":1},
+    {"id":"html_002","question":"Tag for paragraph?","options":["p","div","span","none"],"correct_answer":"p","difficulty":"easy","weight":1},
+    {"id":"html_003","question":"Link tag?","options":["a","p","div","none"],"correct_answer":"a","difficulty":"easy","weight":1},
+    {"id":"html_004","question":"Image tag?","options":["img","image","pic","none"],"correct_answer":"img","difficulty":"easy","weight":1},
+    {"id":"html_005","question":"Heading tag?","options":["h1","p","div","none"],"correct_answer":"h1","difficulty":"easy","weight":1},
+    {"id":"html_006","question":"List tag?","options":["ul","li","ol","all"],"correct_answer":"all","difficulty":"easy","weight":1},
+    {"id":"html_007","question":"Table tag?","options":["table","tr","td","all"],"correct_answer":"all","difficulty":"easy","weight":1},
+    {"id":"html_008","question":"Form tag?","options":["form","input","div","none"],"correct_answer":"form","difficulty":"easy","weight":1},
+    {"id":"html_009","question":"Input type text?","options":["text","string","char","none"],"correct_answer":"text","difficulty":"easy","weight":1},
+    {"id":"html_010","question":"Button tag?","options":["button","btn","click","none"],"correct_answer":"button","difficulty":"easy","weight":1},
+
+    {"id":"html_011","question":"Block element?","options":["div","span","none","loop"],"correct_answer":"div","difficulty":"medium","weight":2},
+    {"id":"html_012","question":"Inline element?","options":["span","div","none","loop"],"correct_answer":"span","difficulty":"medium","weight":2},
+    {"id":"html_013","question":"Semantic tag?","options":["header","div","none","loop"],"correct_answer":"header","difficulty":"medium","weight":2},
+    {"id":"html_014","question":"Alt attribute?","options":["image text","link","none","loop"],"correct_answer":"image text","difficulty":"medium","weight":2},
+    {"id":"html_015","question":"Meta tag?","options":["metadata","style","script","none"],"correct_answer":"metadata","difficulty":"medium","weight":2},
+    {"id":"html_016","question":"Iframe used for?","options":["embed page","image","none","loop"],"correct_answer":"embed page","difficulty":"medium","weight":2},
+    {"id":"html_017","question":"Label tag?","options":["form label","style","none","loop"],"correct_answer":"form label","difficulty":"medium","weight":2},
+    {"id":"html_018","question":"Required attribute?","options":["mandatory input","optional","none","loop"],"correct_answer":"mandatory input","difficulty":"medium","weight":2},
+    {"id":"html_019","question":"Select tag?","options":["dropdown","input","none","loop"],"correct_answer":"dropdown","difficulty":"medium","weight":2},
+    {"id":"html_020","question":"Textarea?","options":["multi-line","single","none","loop"],"correct_answer":"multi-line","difficulty":"medium","weight":2},
+
+    {"id":"html_021","question":"DOCTYPE defines?","options":["html version","style","none","loop"],"correct_answer":"html version","difficulty":"hard","weight":3},
+    {"id":"html_022","question":"DOM is?","options":["document model","style","none","loop"],"correct_answer":"document model","difficulty":"hard","weight":3},
+    {"id":"html_023","question":"Local storage?","options":["browser storage","server","none","loop"],"correct_answer":"browser storage","difficulty":"hard","weight":3},
+    {"id":"html_024","question":"Canvas used for?","options":["graphics","text","none","loop"],"correct_answer":"graphics","difficulty":"hard","weight":3},
+    {"id":"html_025","question":"SVG used for?","options":["vector graphics","text","none","loop"],"correct_answer":"vector graphics","difficulty":"hard","weight":3},
+    {"id":"html_026","question":"SEO tags?","options":["meta","style","none","loop"],"correct_answer":"meta","difficulty":"hard","weight":3},
+    {"id":"html_027","question":"Accessibility?","options":["usable for all","style","none","loop"],"correct_answer":"usable for all","difficulty":"hard","weight":3},
+    {"id":"html_028","question":"Lazy loading?","options":["load later","fast","none","loop"],"correct_answer":"load later","difficulty":"hard","weight":3},
+    {"id":"html_029","question":"Shadow DOM?","options":["encapsulation","style","none","loop"],"correct_answer":"encapsulation","difficulty":"hard","weight":3},
+    {"id":"html_030","question":"Web components?","options":["reusable UI","none","loop","array"],"correct_answer":"reusable UI","difficulty":"hard","weight":3}
+
+  ],
+  "coding_mcqs":[
+    {"id":"html_c_001","question":"Tag?","code":"<p>","options":["paragraph","link","none","loop"],"correct_answer":"paragraph","difficulty":"easy","weight":1}
+  ]
+}

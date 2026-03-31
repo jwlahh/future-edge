@@ -1,0 +1,411 @@
+{
+  "skill": "Swift",
+  "mcqs": [
+    {
+      "id": "swift_001",
+      "question": "swift question 1?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "swift_002",
+      "question": "swift question 2?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "swift_003",
+      "question": "swift question 3?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "swift_004",
+      "question": "swift question 4?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "swift_005",
+      "question": "swift question 5?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "swift_006",
+      "question": "swift question 6?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_007",
+      "question": "swift question 7?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "swift_008",
+      "question": "swift question 8?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "swift_009",
+      "question": "swift question 9?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "swift_010",
+      "question": "swift question 10?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "swift_011",
+      "question": "swift question 11?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "swift_012",
+      "question": "swift question 12?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "swift_013",
+      "question": "swift question 13?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "swift_014",
+      "question": "swift question 14?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "swift_015",
+      "question": "swift question 15?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_016",
+      "question": "swift question 16?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "swift_017",
+      "question": "swift question 17?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "swift_018",
+      "question": "swift question 18?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "swift_019",
+      "question": "swift question 19?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "swift_020",
+      "question": "swift question 20?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_021",
+      "question": "swift question 21?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "swift_022",
+      "question": "swift question 22?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "swift_023",
+      "question": "swift question 23?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "swift_024",
+      "question": "swift question 24?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "swift_025",
+      "question": "swift question 25?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "swift_026",
+      "question": "swift question 26?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "swift_027",
+      "question": "swift question 27?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "swift_028",
+      "question": "swift question 28?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "swift_029",
+      "question": "swift question 29?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "swift_030",
+      "question": "swift question 30?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    }
+  ],
+  "coding_mcqs": [
+    {
+      "id": "swift_c_001",
+      "question": "Sample code question",
+      "code": "print('hello')",
+      "options": [
+        "valid",
+        "invalid",
+        "none",
+        "loop"
+      ],
+      "correct_answer": "valid",
+      "difficulty": "easy",
+      "weight": 1
+    }
+  ]
+}

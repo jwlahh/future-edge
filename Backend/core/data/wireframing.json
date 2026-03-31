@@ -1,0 +1,411 @@
+{
+  "skill": "Wireframing",
+  "mcqs": [
+    {
+      "id": "wireframing_001",
+      "question": "wireframing question 1?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_002",
+      "question": "wireframing question 2?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_003",
+      "question": "wireframing question 3?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_004",
+      "question": "wireframing question 4?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_005",
+      "question": "wireframing question 5?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_006",
+      "question": "wireframing question 6?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_007",
+      "question": "wireframing question 7?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_008",
+      "question": "wireframing question 8?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_009",
+      "question": "wireframing question 9?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_010",
+      "question": "wireframing question 10?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_011",
+      "question": "wireframing question 11?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_012",
+      "question": "wireframing question 12?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_013",
+      "question": "wireframing question 13?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_014",
+      "question": "wireframing question 14?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_015",
+      "question": "wireframing question 15?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_016",
+      "question": "wireframing question 16?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_017",
+      "question": "wireframing question 17?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_018",
+      "question": "wireframing question 18?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_019",
+      "question": "wireframing question 19?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_020",
+      "question": "wireframing question 20?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_021",
+      "question": "wireframing question 21?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_022",
+      "question": "wireframing question 22?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "hard",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_023",
+      "question": "wireframing question 23?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_024",
+      "question": "wireframing question 24?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_025",
+      "question": "wireframing question 25?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_026",
+      "question": "wireframing question 26?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_027",
+      "question": "wireframing question 27?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "wireframing_028",
+      "question": "wireframing question 28?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "wireframing_029",
+      "question": "wireframing question 29?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "wireframing_030",
+      "question": "wireframing question 30?",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correct_answer": "option1",
+      "difficulty": "easy",
+      "weight": 1
+    }
+  ],
+  "coding_mcqs": [
+    {
+      "id": "wireframing_c_001",
+      "question": "Sample code question",
+      "code": "print('hello')",
+      "options": [
+        "valid",
+        "invalid",
+        "none",
+        "loop"
+      ],
+      "correct_answer": "valid",
+      "difficulty": "easy",
+      "weight": 1
+    }
+  ]
+}

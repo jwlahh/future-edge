@@ -1,0 +1,43 @@
+{
+  "skill":"PHP",
+  "mcqs":[
+
+    {"id":"php_001","question":"PHP stands for?","options":["Hypertext Preprocessor","none","loop","array"],"correct_answer":"Hypertext Preprocessor","difficulty":"easy","weight":1},
+    {"id":"php_002","question":"PHP is?","options":["server-side","client-side","db","none"],"correct_answer":"server-side","difficulty":"easy","weight":1},
+    {"id":"php_003","question":"Variable symbol?","options":["$","@","#","none"],"correct_answer":"$","difficulty":"easy","weight":1},
+    {"id":"php_004","question":"Echo used for?","options":["print","input","none","loop"],"correct_answer":"print","difficulty":"easy","weight":1},
+    {"id":"php_005","question":"File extension?","options":[".php",".html",".js",".none"],"correct_answer":".php","difficulty":"easy","weight":1},
+    {"id":"php_006","question":"Superglobal example?","options":["$_POST","post()","none","loop"],"correct_answer":"$_POST","difficulty":"easy","weight":1},
+    {"id":"php_007","question":"Include file?","options":["include","import","none","loop"],"correct_answer":"include","difficulty":"easy","weight":1},
+    {"id":"php_008","question":"Session used for?","options":["store user data","db","none","loop"],"correct_answer":"store user data","difficulty":"easy","weight":1},
+    {"id":"php_009","question":"Cookie used for?","options":["store client data","server","none","loop"],"correct_answer":"store client data","difficulty":"easy","weight":1},
+    {"id":"php_010","question":"Array type?","options":["indexed","string","none","loop"],"correct_answer":"indexed","difficulty":"easy","weight":1},
+
+    {"id":"php_011","question":"Associative array?","options":["key-value","list","none","loop"],"correct_answer":"key-value","difficulty":"medium","weight":2},
+    {"id":"php_012","question":"Function keyword?","options":["function","def","none","loop"],"correct_answer":"function","difficulty":"medium","weight":2},
+    {"id":"php_013","question":"mysqli used for?","options":["database","file","none","loop"],"correct_answer":"database","difficulty":"medium","weight":2},
+    {"id":"php_014","question":"PDO stands for?","options":["PHP Data Objects","none","loop","array"],"correct_answer":"PHP Data Objects","difficulty":"medium","weight":2},
+    {"id":"php_015","question":"Error handling?","options":["try catch","loop","none","array"],"correct_answer":"try catch","difficulty":"medium","weight":2},
+    {"id":"php_016","question":"Form method?","options":["GET/POST","PUT","none","loop"],"correct_answer":"GET/POST","difficulty":"medium","weight":2},
+    {"id":"php_017","question":"isset()?","options":["check var","delete","none","loop"],"correct_answer":"check var","difficulty":"medium","weight":2},
+    {"id":"php_018","question":"empty()?","options":["check empty","delete","none","loop"],"correct_answer":"check empty","difficulty":"medium","weight":2},
+    {"id":"php_019","question":"Header() used for?","options":["redirect","db","none","loop"],"correct_answer":"redirect","difficulty":"medium","weight":2},
+    {"id":"php_020","question":"explode()?","options":["split string","join","none","loop"],"correct_answer":"split string","difficulty":"medium","weight":2},
+
+    {"id":"php_021","question":"OOP in PHP?","options":["supported","not","none","loop"],"correct_answer":"supported","difficulty":"hard","weight":3},
+    {"id":"php_022","question":"Magic methods?","options":["__construct","loop","none","array"],"correct_answer":"__construct","difficulty":"hard","weight":3},
+    {"id":"php_023","question":"Namespace?","options":["avoid conflict","loop","none","array"],"correct_answer":"avoid conflict","difficulty":"hard","weight":3},
+    {"id":"php_024","question":"Composer?","options":["dependency manager","loop","none","array"],"correct_answer":"dependency manager","difficulty":"hard","weight":3},
+    {"id":"php_025","question":"Laravel is?","options":["framework","db","none","loop"],"correct_answer":"framework","difficulty":"hard","weight":3},
+    {"id":"php_026","question":"Security best practice?","options":["sanitize input","none","loop","array"],"correct_answer":"sanitize input","difficulty":"hard","weight":3},
+    {"id":"php_027","question":"CSRF attack?","options":["forged request","safe","none","loop"],"correct_answer":"forged request","difficulty":"hard","weight":3},
+    {"id":"php_028","question":"XSS prevention?","options":["escape output","none","loop","array"],"correct_answer":"escape output","difficulty":"hard","weight":3},
+    {"id":"php_029","question":"MVC pattern?","options":["design pattern","loop","none","array"],"correct_answer":"design pattern","difficulty":"hard","weight":3},
+    {"id":"php_030","question":"Session hijacking?","options":["steal session","safe","none","loop"],"correct_answer":"steal session","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"php_c_001","question":"Output?","code":"echo 5+5;","options":["10","55","error","none"],"correct_answer":"10","difficulty":"easy","weight":1}
+  ]
+}

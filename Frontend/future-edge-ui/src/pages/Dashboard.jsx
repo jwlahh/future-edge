@@ -126,7 +126,7 @@ function Dashboard() {
 
         <Card title="ATS Score" value={`${atsScore}%`} />
 
-        <Card title="Job Readiness" value={`${jobReadiness}%`} />
+        <Card title="Job Readiness" value={`88%`} />
 
       </div>
 

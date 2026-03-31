@@ -1,0 +1,50 @@
+{
+    "skill": "AI/ML",
+    "mcqs":[
+      {"id":"ml_001","question":"AI stands for?","options":["Artificial Intelligence","Auto Intelligence","Advanced Input","none"],"correct_answer":"Artificial Intelligence","difficulty":"easy","weight":1},
+      {"id":"ml_002","question":"ML stands for?","options":["Machine Learning","Model Learning","Math Learning","none"],"correct_answer":"Machine Learning","difficulty":"easy","weight":1},
+      {"id":"ml_003","question":"Supervised learning uses?","options":["labeled data","unlabeled","none","loop"],"correct_answer":"labeled data","difficulty":"easy","weight":1},
+      {"id":"ml_004","question":"Unsupervised learning uses?","options":["unlabeled","labeled","none","loop"],"correct_answer":"unlabeled","difficulty":"easy","weight":1},
+      {"id":"ml_005","question":"Regression predicts?","options":["continuous","categorical","none","loop"],"correct_answer":"continuous","difficulty":"easy","weight":1},
+      {"id":"ml_006","question":"Classification predicts?","options":["categorical","continuous","none","loop"],"correct_answer":"categorical","difficulty":"easy","weight":1},
+      {"id":"ml_007","question":"Overfitting means?","options":["too complex","too simple","none","loop"],"correct_answer":"too complex","difficulty":"easy","weight":1},
+      {"id":"ml_008","question":"Underfitting means?","options":["too simple","too complex","none","loop"],"correct_answer":"too simple","difficulty":"easy","weight":1},
+      {"id":"ml_009","question":"Which is ML library?","options":["scikit-learn","html","css","none"],"correct_answer":"scikit-learn","difficulty":"easy","weight":1},
+      {"id":"ml_010","question":"Which is DL library?","options":["TensorFlow","SQL","Java","none"],"correct_answer":"TensorFlow","difficulty":"easy","weight":1},
+  
+      {"id":"ml_011","question":"Which algorithm is supervised?","options":["Linear Regression","K-means","PCA","none"],"correct_answer":"Linear Regression","difficulty":"medium","weight":2},
+      {"id":"ml_012","question":"K-means is?","options":["clustering","classification","regression","none"],"correct_answer":"clustering","difficulty":"medium","weight":2},
+      {"id":"ml_013","question":"Decision tree used for?","options":["both","none","loop","array"],"correct_answer":"both","difficulty":"medium","weight":2},
+      {"id":"ml_014","question":"Bias-variance tradeoff?","options":["model balance","loop","none","array"],"correct_answer":"model balance","difficulty":"medium","weight":2},
+      {"id":"ml_015","question":"Cross validation used for?","options":["model evaluation","training","testing","none"],"correct_answer":"model evaluation","difficulty":"medium","weight":2},
+      {"id":"ml_016","question":"Precision measures?","options":["correct positives","all positives","none","loop"],"correct_answer":"correct positives","difficulty":"medium","weight":2},
+      {"id":"ml_017","question":"Recall measures?","options":["actual positives","predicted","none","loop"],"correct_answer":"actual positives","difficulty":"medium","weight":2},
+      {"id":"ml_018","question":"F1 score is?","options":["harmonic mean","average","sum","none"],"correct_answer":"harmonic mean","difficulty":"medium","weight":2},
+      {"id":"ml_019","question":"Gradient descent used for?","options":["optimization","sorting","searching","none"],"correct_answer":"optimization","difficulty":"medium","weight":2},
+      {"id":"ml_020","question":"Epoch means?","options":["one pass","loop","none","array"],"correct_answer":"one pass","difficulty":"medium","weight":2},
+  
+      {"id":"ml_021","question":"CNN used for?","options":["images","text","audio","none"],"correct_answer":"images","difficulty":"hard","weight":3},
+      {"id":"ml_022","question":"RNN used for?","options":["sequence","image","none","loop"],"correct_answer":"sequence","difficulty":"hard","weight":3},
+      {"id":"ml_023","question":"Dropout prevents?","options":["overfitting","underfitting","none","loop"],"correct_answer":"overfitting","difficulty":"hard","weight":3},
+      {"id":"ml_024","question":"Activation function?","options":["introduce non-linearity","linear","none","loop"],"correct_answer":"introduce non-linearity","difficulty":"hard","weight":3},
+      {"id":"ml_025","question":"Softmax used for?","options":["probabilities","regression","none","loop"],"correct_answer":"probabilities","difficulty":"hard","weight":3},
+      {"id":"ml_026","question":"Loss function measures?","options":["error","accuracy","none","loop"],"correct_answer":"error","difficulty":"hard","weight":3},
+      {"id":"ml_027","question":"Backpropagation is?","options":["training method","testing","none","loop"],"correct_answer":"training method","difficulty":"hard","weight":3},
+      {"id":"ml_028","question":"Reinforcement learning uses?","options":["reward","label","none","loop"],"correct_answer":"reward","difficulty":"hard","weight":3},
+      {"id":"ml_029","question":"GAN has?","options":["generator discriminator","none","loop","array"],"correct_answer":"generator discriminator","difficulty":"hard","weight":3},
+      {"id":"ml_030","question":"Transformer used for?","options":["NLP","image","none","loop"],"correct_answer":"NLP","difficulty":"hard","weight":3}
+    ],
+  
+    "coding_mcqs":[
+      {"id":"ml_c_001","question":"Output?","code":"import numpy as np\nprint(np.array([1,2])+1)","options":["[2 3]","[1 2]","error","none"],"correct_answer":"[2 3]","difficulty":"easy","weight":1},
+      {"id":"ml_c_002","question":"Output?","code":"import pandas as pd\ndf=pd.DataFrame({'a':[1,2]})\nprint(df.shape)","options":["(2,1)","(1,2)","error","none"],"correct_answer":"(2,1)","difficulty":"easy","weight":1},
+      {"id":"ml_c_003","question":"Find error","code":"import numpy\nnumpy.array(1,2,3)","options":["wrong args","valid","none","loop"],"correct_answer":"wrong args","difficulty":"easy","weight":1},
+      {"id":"ml_c_004","question":"Output?","code":"from sklearn.linear_model import LinearRegression","options":["no output","error","none","loop"],"correct_answer":"no output","difficulty":"easy","weight":1},
+      {"id":"ml_c_005","question":"Output?","code":"import numpy as np\nprint(np.mean([1,2,3]))","options":["2","3","1","error"],"correct_answer":"2","difficulty":"medium","weight":2},
+      {"id":"ml_c_006","question":"Output?","code":"import pandas as pd\ndf=pd.DataFrame({'a':[1,2]})\nprint(df['a'].sum())","options":["3","2","1","error"],"correct_answer":"3","difficulty":"medium","weight":2},
+      {"id":"ml_c_007","question":"Output?","code":"import numpy as np\nprint(np.zeros(3))","options":["[0. 0. 0.]","[0 0 0]","error","none"],"correct_answer":"[0. 0. 0.]","difficulty":"medium","weight":2},
+      {"id":"ml_c_008","question":"Output?","code":"import numpy as np\nprint(np.eye(2))","options":["identity matrix","zero","error","none"],"correct_answer":"identity matrix","difficulty":"hard","weight":3},
+      {"id":"ml_c_009","question":"Output?","code":"import pandas as pd\nprint(pd.Series([1,2]).mean())","options":["1.5","2","1","error"],"correct_answer":"1.5","difficulty":"hard","weight":3},
+      {"id":"ml_c_010","question":"Find error","code":"model.fit(x)","options":["missing y","valid","none","loop"],"correct_answer":"missing y","difficulty":"hard","weight":3}
+    ]
+  }

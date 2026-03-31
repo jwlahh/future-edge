@@ -1,0 +1,43 @@
+{
+  "skill":"CSS",
+  "mcqs":[
+
+    {"id":"css_001","question":"CSS stands for?","options":["Cascading Style Sheets","none","loop","array"],"correct_answer":"Cascading Style Sheets","difficulty":"easy","weight":1},
+    {"id":"css_002","question":"Selector is?","options":["target element","value","none","loop"],"correct_answer":"target element","difficulty":"easy","weight":1},
+    {"id":"css_003","question":"Property example?","options":["color","div","p","none"],"correct_answer":"color","difficulty":"easy","weight":1},
+    {"id":"css_004","question":"Value example?","options":["red","color","div","none"],"correct_answer":"red","difficulty":"easy","weight":1},
+    {"id":"css_005","question":"Inline CSS?","options":["style attr","file","none","loop"],"correct_answer":"style attr","difficulty":"easy","weight":1},
+    {"id":"css_006","question":"External CSS?","options":["separate file","inline","none","loop"],"correct_answer":"separate file","difficulty":"easy","weight":1},
+    {"id":"css_007","question":"ID selector?","options":["#id",".class","tag","none"],"correct_answer":"#id","difficulty":"easy","weight":1},
+    {"id":"css_008","question":"Class selector?","options":[".class","#id","tag","none"],"correct_answer":".class","difficulty":"easy","weight":1},
+    {"id":"css_009","question":"Box model includes?","options":["margin padding border","color","font","none"],"correct_answer":"margin padding border","difficulty":"easy","weight":1},
+    {"id":"css_010","question":"Display block?","options":["new line","same line","none","loop"],"correct_answer":"new line","difficulty":"easy","weight":1},
+
+    {"id":"css_011","question":"Flexbox used for?","options":["layout","color","font","none"],"correct_answer":"layout","difficulty":"medium","weight":2},
+    {"id":"css_012","question":"Grid used for?","options":["layout","color","none","loop"],"correct_answer":"layout","difficulty":"medium","weight":2},
+    {"id":"css_013","question":"Position absolute?","options":["relative to parent","screen","none","loop"],"correct_answer":"relative to parent","difficulty":"medium","weight":2},
+    {"id":"css_014","question":"Z-index?","options":["stack order","color","none","loop"],"correct_answer":"stack order","difficulty":"medium","weight":2},
+    {"id":"css_015","question":"Overflow hidden?","options":["hide extra","show","none","loop"],"correct_answer":"hide extra","difficulty":"medium","weight":2},
+    {"id":"css_016","question":"Media query?","options":["responsive","color","none","loop"],"correct_answer":"responsive","difficulty":"medium","weight":2},
+    {"id":"css_017","question":"Float used for?","options":["layout","color","none","loop"],"correct_answer":"layout","difficulty":"medium","weight":2},
+    {"id":"css_018","question":"Clear property?","options":["fix float","color","none","loop"],"correct_answer":"fix float","difficulty":"medium","weight":2},
+    {"id":"css_019","question":"Opacity?","options":["transparency","color","none","loop"],"correct_answer":"transparency","difficulty":"medium","weight":2},
+    {"id":"css_020","question":"Pseudo class?","options":[":hover",".class","#id","none"],"correct_answer":":hover","difficulty":"medium","weight":2},
+
+    {"id":"css_021","question":"Specificity?","options":["priority rules","color","none","loop"],"correct_answer":"priority rules","difficulty":"hard","weight":3},
+    {"id":"css_022","question":"Inline vs external?","options":["inline highest","external highest","none","loop"],"correct_answer":"inline highest","difficulty":"hard","weight":3},
+    {"id":"css_023","question":"Rem vs em?","options":["root vs parent","same","none","loop"],"correct_answer":"root vs parent","difficulty":"hard","weight":3},
+    {"id":"css_024","question":"Position sticky?","options":["stick scroll","fixed","none","loop"],"correct_answer":"stick scroll","difficulty":"hard","weight":3},
+    {"id":"css_025","question":"Flex-grow?","options":["expand space","shrink","none","loop"],"correct_answer":"expand space","difficulty":"hard","weight":3},
+    {"id":"css_026","question":"Grid template?","options":["define layout","color","none","loop"],"correct_answer":"define layout","difficulty":"hard","weight":3},
+    {"id":"css_027","question":"Transform?","options":["rotate scale","color","none","loop"],"correct_answer":"rotate scale","difficulty":"hard","weight":3},
+    {"id":"css_028","question":"Transition?","options":["smooth change","instant","none","loop"],"correct_answer":"smooth change","difficulty":"hard","weight":3},
+    {"id":"css_029","question":"Animation?","options":["keyframes","color","none","loop"],"correct_answer":"keyframes","difficulty":"hard","weight":3},
+    {"id":"css_030","question":"Shadow property?","options":["box-shadow","color","none","loop"],"correct_answer":"box-shadow","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"css_c_001","question":"Property?","code":"color:red;","options":["text color","bg","none","loop"],"correct_answer":"text color","difficulty":"easy","weight":1}
+  ]
+}

@@ -1,0 +1,344 @@
+{
+    "skill": "OOPs",
+    "mcqs": [
+
+      {
+        "id": "oops_001",
+        "question": "What does OOP stand for?",
+        "options": ["Object Oriented Programming", "Only Object Programming", "Object Operating Program", "None"],
+        "correct_answer": "Object Oriented Programming",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_002",
+        "question": "Which is a basic OOP concept?",
+        "options": ["Encapsulation", "Compilation", "Execution", "Linking"],
+        "correct_answer": "Encapsulation",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_003",
+        "question": "What is a class?",
+        "options": ["object instance", "blueprint of object", "function", "variable"],
+        "correct_answer": "blueprint of object",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_004",
+        "question": "What is an object?",
+        "options": ["instance of class", "method", "variable", "loop"],
+        "correct_answer": "instance of class",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_005",
+        "question": "Which concept hides data?",
+        "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+        "correct_answer": "Encapsulation",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_006",
+        "question": "Which concept allows reuse?",
+        "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
+        "correct_answer": "Inheritance",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_007",
+        "question": "Which concept shows multiple forms?",
+        "options": ["Polymorphism", "Encapsulation", "Inheritance", "Abstraction"],
+        "correct_answer": "Polymorphism",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_008",
+        "question": "Which concept hides implementation?",
+        "options": ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+        "correct_answer": "Abstraction",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_009",
+        "question": "Which keyword is used for inheritance in Java?",
+        "options": ["extends", "implements", "inherits", "super"],
+        "correct_answer": "extends",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_010",
+        "question": "Which is not OOP?",
+        "options": ["Encapsulation", "Polymorphism", "Compilation", "Inheritance"],
+        "correct_answer": "Compilation",
+        "difficulty": "easy",
+        "weight": 1
+      },
+  
+      {
+        "id": "oops_011",
+        "question": "What is method overloading?",
+        "options": ["same method diff params", "same params diff method", "same method same params", "none"],
+        "correct_answer": "same method diff params",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_012",
+        "question": "What is method overriding?",
+        "options": ["child modifies parent method", "same method diff params", "same class method", "none"],
+        "correct_answer": "child modifies parent method",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_013",
+        "question": "What is an abstract class?",
+        "options": ["cannot instantiate", "fully implemented", "only variables", "none"],
+        "correct_answer": "cannot instantiate",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_014",
+        "question": "What is an interface?",
+        "options": ["contract", "class", "object", "method"],
+        "correct_answer": "contract",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_015",
+        "question": "Which supports multiple inheritance?",
+        "options": ["class", "interface", "object", "method"],
+        "correct_answer": "interface",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_016",
+        "question": "What is constructor?",
+        "options": ["initializes object", "destroys object", "method", "loop"],
+        "correct_answer": "initializes object",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_017",
+        "question": "What is access modifier?",
+        "options": ["controls visibility", "controls memory", "controls loops", "none"],
+        "correct_answer": "controls visibility",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_018",
+        "question": "Which is tight coupling?",
+        "options": ["dependent classes", "independent", "loosely connected", "none"],
+        "correct_answer": "dependent classes",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_019",
+        "question": "Which principle reduces dependency?",
+        "options": ["Abstraction", "Inheritance", "Encapsulation", "Polymorphism"],
+        "correct_answer": "Abstraction",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_020",
+        "question": "What is composition?",
+        "options": ["has-a relation", "is-a relation", "loop", "method"],
+        "correct_answer": "has-a relation",
+        "difficulty": "medium",
+        "weight": 2
+      },
+  
+      {
+        "id": "oops_021",
+        "question": "Difference between abstraction & encapsulation?",
+        "options": ["hide logic vs hide data", "same", "none", "reverse"],
+        "correct_answer": "hide logic vs hide data",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_022",
+        "question": "Which principle enables runtime polymorphism?",
+        "options": ["overriding", "overloading", "inheritance", "encapsulation"],
+        "correct_answer": "overriding",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_023",
+        "question": "What is loose coupling?",
+        "options": ["independent modules", "dependent", "tight", "none"],
+        "correct_answer": "independent modules",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_024",
+        "question": "Which principle improves maintainability?",
+        "options": ["Encapsulation", "Inheritance", "Polymorphism", "All"],
+        "correct_answer": "All",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_025",
+        "question": "SOLID principle S stands for?",
+        "options": ["Single Responsibility", "Simple", "Standard", "Structure"],
+        "correct_answer": "Single Responsibility",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_026",
+        "question": "Open-Closed principle means?",
+        "options": ["open extend closed modify", "closed extend open modify", "both open", "none"],
+        "correct_answer": "open extend closed modify",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_027",
+        "question": "Liskov principle ensures?",
+        "options": ["substitutable objects", "inheritance", "encapsulation", "none"],
+        "correct_answer": "substitutable objects",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_028",
+        "question": "Dependency inversion means?",
+        "options": ["depend on abstraction", "depend on class", "depend on object", "none"],
+        "correct_answer": "depend on abstraction",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_029",
+        "question": "Which is not SOLID?",
+        "options": ["Single", "Open", "Linked", "Dependency"],
+        "correct_answer": "Linked",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_030",
+        "question": "Which supports dynamic binding?",
+        "options": ["overriding", "overloading", "static", "final"],
+        "correct_answer": "overriding",
+        "difficulty": "hard",
+        "weight": 3
+      }
+  
+    ],
+  
+    "coding_mcqs": [
+  
+      {
+        "id": "oops_c_001",
+        "question": "What is the output?",
+        "code": "class A {}\nclass B extends A {}\nSystem.out.println(new B() instanceof A);",
+        "options": ["true", "false", "error", "none"],
+        "correct_answer": "true",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_c_002",
+        "question": "What is the output?",
+        "code": "class A { void show(){System.out.println(\"A\");}}\nclass B extends A { void show(){System.out.println(\"B\");}}\nA obj = new B();\nobj.show();",
+        "options": ["A", "B", "Error", "None"],
+        "correct_answer": "B",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_c_003",
+        "question": "Find the error",
+        "code": "abstract class A {\n void show();\n}",
+        "options": ["no error", "method must be abstract", "syntax error", "class error"],
+        "correct_answer": "method must be abstract",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_c_004",
+        "question": "What is the output?",
+        "code": "class A { int x=10; }\nclass B extends A {}\nB obj=new B();\nSystem.out.println(obj.x);",
+        "options": ["10", "0", "Error", "None"],
+        "correct_answer": "10",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_c_005",
+        "question": "What is the output?",
+        "code": "class A { static void show(){System.out.println(\"A\");}}\nclass B extends A { static void show(){System.out.println(\"B\");}}\nA obj=new B();\nobj.show();",
+        "options": ["A", "B", "Error", "None"],
+        "correct_answer": "A",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_c_006",
+        "question": "Find the error",
+        "code": "interface A { void show(){ System.out.println(\"Hi\"); }}",
+        "options": ["no error", "interface cannot have body", "syntax error", "none"],
+        "correct_answer": "interface cannot have body",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_c_007",
+        "question": "What is the output?",
+        "code": "class A { A(){System.out.println(\"A\");}}\nclass B extends A { B(){System.out.println(\"B\");}}\nnew B();",
+        "options": ["A B", "B A", "A", "B"],
+        "correct_answer": "A B",
+        "difficulty": "medium",
+        "weight": 2
+      },
+      {
+        "id": "oops_c_008",
+        "question": "What is the output?",
+        "code": "class A {}\nclass B extends A {}\nA obj = new B();\nSystem.out.println(obj instanceof B);",
+        "options": ["true", "false", "error", "none"],
+        "correct_answer": "true",
+        "difficulty": "hard",
+        "weight": 3
+      },
+      {
+        "id": "oops_c_009",
+        "question": "Find the error",
+        "code": "final class A {}\nclass B extends A {}",
+        "options": ["cannot inherit final class", "syntax error", "no error", "none"],
+        "correct_answer": "cannot inherit final class",
+        "difficulty": "easy",
+        "weight": 1
+      },
+      {
+        "id": "oops_c_010",
+        "question": "What is the output?",
+        "code": "class A { void show(){System.out.println(\"A\");}}\nclass B extends A { void show(){System.out.println(\"B\");}}\nB obj=new B();\nobj.show();",
+        "options": ["A", "B", "Error", "None"],
+        "correct_answer": "B",
+        "difficulty": "easy",
+        "weight": 1
+      }
+  
+    ]
+  }

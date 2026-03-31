@@ -1,0 +1,43 @@
+{
+  "skill":"Network Security",
+  "mcqs":[
+
+    {"id":"ns_001","question":"Firewall does?","options":["block traffic","store data","run code","none"],"correct_answer":"block traffic","difficulty":"easy","weight":1},
+    {"id":"ns_002","question":"Encryption means?","options":["secure data","delete","store","none"],"correct_answer":"secure data","difficulty":"easy","weight":1},
+    {"id":"ns_003","question":"HTTPS uses?","options":["SSL/TLS","HTTP","none","loop"],"correct_answer":"SSL/TLS","difficulty":"easy","weight":1},
+    {"id":"ns_004","question":"VPN is?","options":["secure network","fast net","none","loop"],"correct_answer":"secure network","difficulty":"easy","weight":1},
+    {"id":"ns_005","question":"Antivirus does?","options":["detect malware","store","none","loop"],"correct_answer":"detect malware","difficulty":"easy","weight":1},
+    {"id":"ns_006","question":"Malware is?","options":["harmful software","safe","none","loop"],"correct_answer":"harmful software","difficulty":"easy","weight":1},
+    {"id":"ns_007","question":"Password best practice?","options":["strong password","weak","none","loop"],"correct_answer":"strong password","difficulty":"easy","weight":1},
+    {"id":"ns_008","question":"Phishing is?","options":["fake attack","real","none","loop"],"correct_answer":"fake attack","difficulty":"easy","weight":1},
+    {"id":"ns_009","question":"Two factor auth?","options":["extra security","none","loop","array"],"correct_answer":"extra security","difficulty":"easy","weight":1},
+    {"id":"ns_010","question":"Spyware?","options":["tracks user","protect","none","loop"],"correct_answer":"tracks user","difficulty":"easy","weight":1},
+
+    {"id":"ns_011","question":"IDS stands for?","options":["intrusion detection","none","loop","array"],"correct_answer":"intrusion detection","difficulty":"medium","weight":2},
+    {"id":"ns_012","question":"IPS stands for?","options":["intrusion prevention","none","loop","array"],"correct_answer":"intrusion prevention","difficulty":"medium","weight":2},
+    {"id":"ns_013","question":"Hashing used for?","options":["data integrity","encrypt","none","loop"],"correct_answer":"data integrity","difficulty":"medium","weight":2},
+    {"id":"ns_014","question":"Symmetric key?","options":["same key","diff","none","loop"],"correct_answer":"same key","difficulty":"medium","weight":2},
+    {"id":"ns_015","question":"Asymmetric key?","options":["public private","same","none","loop"],"correct_answer":"public private","difficulty":"medium","weight":2},
+    {"id":"ns_016","question":"DDoS attack?","options":["flood traffic","secure","none","loop"],"correct_answer":"flood traffic","difficulty":"medium","weight":2},
+    {"id":"ns_017","question":"Port scanning?","options":["find ports","close","none","loop"],"correct_answer":"find ports","difficulty":"medium","weight":2},
+    {"id":"ns_018","question":"SSL handshake?","options":["secure connection","none","loop","array"],"correct_answer":"secure connection","difficulty":"medium","weight":2},
+    {"id":"ns_019","question":"Digital signature?","options":["verify","store","none","loop"],"correct_answer":"verify","difficulty":"medium","weight":2},
+    {"id":"ns_020","question":"Access control?","options":["restrict access","allow all","none","loop"],"correct_answer":"restrict access","difficulty":"medium","weight":2},
+
+    {"id":"ns_021","question":"Zero trust?","options":["verify always","trust all","none","loop"],"correct_answer":"verify always","difficulty":"hard","weight":3},
+    {"id":"ns_022","question":"MITM attack?","options":["intercept","secure","none","loop"],"correct_answer":"intercept","difficulty":"hard","weight":3},
+    {"id":"ns_023","question":"SQL injection?","options":["attack DB","secure","none","loop"],"correct_answer":"attack DB","difficulty":"hard","weight":3},
+    {"id":"ns_024","question":"XSS attack?","options":["script injection","secure","none","loop"],"correct_answer":"script injection","difficulty":"hard","weight":3},
+    {"id":"ns_025","question":"Brute force?","options":["guess password","secure","none","loop"],"correct_answer":"guess password","difficulty":"hard","weight":3},
+    {"id":"ns_026","question":"Tokenization?","options":["replace data","encrypt","none","loop"],"correct_answer":"replace data","difficulty":"hard","weight":3},
+    {"id":"ns_027","question":"PKI?","options":["key infra","db","none","loop"],"correct_answer":"key infra","difficulty":"hard","weight":3},
+    {"id":"ns_028","question":"SOC?","options":["security ops","db","none","loop"],"correct_answer":"security ops","difficulty":"hard","weight":3},
+    {"id":"ns_029","question":"Pen testing?","options":["test security","attack","none","loop"],"correct_answer":"test security","difficulty":"hard","weight":3},
+    {"id":"ns_030","question":"Zero day?","options":["unknown exploit","known","none","loop"],"correct_answer":"unknown exploit","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"ns_c_001","question":"Protocol?","code":"https","options":["secure","not","none","loop"],"correct_answer":"secure","difficulty":"easy","weight":1}
+  ]
+}

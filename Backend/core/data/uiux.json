@@ -1,0 +1,43 @@
+{
+  "skill":"UI/UX Design",
+  "mcqs":[
+
+    {"id":"uiux_001","question":"UI stands for?","options":["User Interface","User Input","Universal Interface","none"],"correct_answer":"User Interface","difficulty":"easy","weight":1},
+    {"id":"uiux_002","question":"UX stands for?","options":["User Experience","User Example","Universal Experience","none"],"correct_answer":"User Experience","difficulty":"easy","weight":1},
+    {"id":"uiux_003","question":"Wireframe is?","options":["layout sketch","final design","code","none"],"correct_answer":"layout sketch","difficulty":"easy","weight":1},
+    {"id":"uiux_004","question":"Prototype means?","options":["interactive model","final app","code","none"],"correct_answer":"interactive model","difficulty":"easy","weight":1},
+    {"id":"uiux_005","question":"Usability means?","options":["ease of use","color","speed","none"],"correct_answer":"ease of use","difficulty":"easy","weight":1},
+    {"id":"uiux_006","question":"Figma is?","options":["design tool","language","db","none"],"correct_answer":"design tool","difficulty":"easy","weight":1},
+    {"id":"uiux_007","question":"Color palette?","options":["set of colors","layout","code","none"],"correct_answer":"set of colors","difficulty":"easy","weight":1},
+    {"id":"uiux_008","question":"Typography?","options":["font style","layout","code","none"],"correct_answer":"font style","difficulty":"easy","weight":1},
+    {"id":"uiux_009","question":"Layout grid?","options":["structure design","color","none","loop"],"correct_answer":"structure design","difficulty":"easy","weight":1},
+    {"id":"uiux_010","question":"User flow?","options":["path user takes","code","db","none"],"correct_answer":"path user takes","difficulty":"easy","weight":1},
+
+    {"id":"uiux_011","question":"Accessibility means?","options":["usable by all","fast","secure","none"],"correct_answer":"usable by all","difficulty":"medium","weight":2},
+    {"id":"uiux_012","question":"Responsive design?","options":["adapt screen","fixed","none","loop"],"correct_answer":"adapt screen","difficulty":"medium","weight":2},
+    {"id":"uiux_013","question":"Heuristic evaluation?","options":["usability test","code","none","loop"],"correct_answer":"usability test","difficulty":"medium","weight":2},
+    {"id":"uiux_014","question":"A/B testing?","options":["compare designs","delete","none","loop"],"correct_answer":"compare designs","difficulty":"medium","weight":2},
+    {"id":"uiux_015","question":"Persona?","options":["user profile","code","none","loop"],"correct_answer":"user profile","difficulty":"medium","weight":2},
+    {"id":"uiux_016","question":"Information architecture?","options":["structure content","code","none","loop"],"correct_answer":"structure content","difficulty":"medium","weight":2},
+    {"id":"uiux_017","question":"Low fidelity design?","options":["basic sketch","final","none","loop"],"correct_answer":"basic sketch","difficulty":"medium","weight":2},
+    {"id":"uiux_018","question":"High fidelity design?","options":["detailed design","basic","none","loop"],"correct_answer":"detailed design","difficulty":"medium","weight":2},
+    {"id":"uiux_019","question":"User research?","options":["study users","code","none","loop"],"correct_answer":"study users","difficulty":"medium","weight":2},
+    {"id":"uiux_020","question":"Design thinking?","options":["problem solving","code","none","loop"],"correct_answer":"problem solving","difficulty":"medium","weight":2},
+
+    {"id":"uiux_021","question":"Consistency principle?","options":["same design","random","none","loop"],"correct_answer":"same design","difficulty":"hard","weight":3},
+    {"id":"uiux_022","question":"Affordance?","options":["visual cue","code","none","loop"],"correct_answer":"visual cue","difficulty":"hard","weight":3},
+    {"id":"uiux_023","question":"Cognitive load?","options":["mental effort","speed","none","loop"],"correct_answer":"mental effort","difficulty":"hard","weight":3},
+    {"id":"uiux_024","question":"Fitts Law?","options":["target size/time","color","none","loop"],"correct_answer":"target size/time","difficulty":"hard","weight":3},
+    {"id":"uiux_025","question":"Jakob’s Law?","options":["users expect familiar","random","none","loop"],"correct_answer":"users expect familiar","difficulty":"hard","weight":3},
+    {"id":"uiux_026","question":"Design system?","options":["reusable components","code","none","loop"],"correct_answer":"reusable components","difficulty":"hard","weight":3},
+    {"id":"uiux_027","question":"Microinteractions?","options":["small animations","code","none","loop"],"correct_answer":"small animations","difficulty":"hard","weight":3},
+    {"id":"uiux_028","question":"Dark pattern?","options":["misleading design","good design","none","loop"],"correct_answer":"misleading design","difficulty":"hard","weight":3},
+    {"id":"uiux_029","question":"Visual hierarchy?","options":["importance order","code","none","loop"],"correct_answer":"importance order","difficulty":"hard","weight":3},
+    {"id":"uiux_030","question":"White space?","options":["empty space","color","none","loop"],"correct_answer":"empty space","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"uiux_c_001","question":"Tool?","code":"Figma","options":["design tool","db","none","loop"],"correct_answer":"design tool","difficulty":"easy","weight":1}
+  ]
+}

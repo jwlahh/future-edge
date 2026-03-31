@@ -323,7 +323,7 @@ function ResumeAnalysis() {
               <CareerCard
                 key={index}
                 role={role.role}
-                score={role.ml_score}
+                score={role.final_score}
               />
 
             ))}

@@ -1,0 +1,43 @@
+{
+  "skill":"React",
+  "mcqs":[
+
+    {"id":"react_001","question":"React is?","options":["JS library","framework","language","none"],"correct_answer":"JS library","difficulty":"easy","weight":1},
+    {"id":"react_002","question":"Used for?","options":["UI","DB","OS","none"],"correct_answer":"UI","difficulty":"easy","weight":1},
+    {"id":"react_003","question":"Component is?","options":["reusable UI","function","loop","none"],"correct_answer":"reusable UI","difficulty":"easy","weight":1},
+    {"id":"react_004","question":"JSX is?","options":["syntax","language","db","none"],"correct_answer":"syntax","difficulty":"easy","weight":1},
+    {"id":"react_005","question":"State is?","options":["data","UI","loop","none"],"correct_answer":"data","difficulty":"easy","weight":1},
+    {"id":"react_006","question":"Props are?","options":["inputs","outputs","loops","none"],"correct_answer":"inputs","difficulty":"easy","weight":1},
+    {"id":"react_007","question":"Hook example?","options":["useState","state()","hook()","none"],"correct_answer":"useState","difficulty":"easy","weight":1},
+    {"id":"react_008","question":"Virtual DOM?","options":["memory DOM","real DOM","none","loop"],"correct_answer":"memory DOM","difficulty":"easy","weight":1},
+    {"id":"react_009","question":"Event handling?","options":["onClick","click","event","none"],"correct_answer":"onClick","difficulty":"easy","weight":1},
+    {"id":"react_010","question":"Render method?","options":["render()","show()","display()","none"],"correct_answer":"render()","difficulty":"easy","weight":1},
+
+    {"id":"react_011","question":"useEffect used for?","options":["side effects","state","loop","none"],"correct_answer":"side effects","difficulty":"medium","weight":2},
+    {"id":"react_012","question":"Key prop?","options":["identify list","style","loop","none"],"correct_answer":"identify list","difficulty":"medium","weight":2},
+    {"id":"react_013","question":"Controlled component?","options":["state controlled","uncontrolled","none","loop"],"correct_answer":"state controlled","difficulty":"medium","weight":2},
+    {"id":"react_014","question":"Uncontrolled component?","options":["DOM controlled","state","none","loop"],"correct_answer":"DOM controlled","difficulty":"medium","weight":2},
+    {"id":"react_015","question":"Context API?","options":["global state","local","none","loop"],"correct_answer":"global state","difficulty":"medium","weight":2},
+    {"id":"react_016","question":"Fragment?","options":["no extra div","div","none","loop"],"correct_answer":"no extra div","difficulty":"medium","weight":2},
+    {"id":"react_017","question":"Lazy loading?","options":["load later","instant","none","loop"],"correct_answer":"load later","difficulty":"medium","weight":2},
+    {"id":"react_018","question":"Memo?","options":["optimize render","loop","none","array"],"correct_answer":"optimize render","difficulty":"medium","weight":2},
+    {"id":"react_019","question":"Redux used for?","options":["state mgmt","UI","none","loop"],"correct_answer":"state mgmt","difficulty":"medium","weight":2},
+    {"id":"react_020","question":"Router?","options":["navigation","DB","none","loop"],"correct_answer":"navigation","difficulty":"medium","weight":2},
+
+    {"id":"react_021","question":"Reconciliation?","options":["diff algo","loop","none","array"],"correct_answer":"diff algo","difficulty":"hard","weight":3},
+    {"id":"react_022","question":"Fiber?","options":["render engine","loop","none","array"],"correct_answer":"render engine","difficulty":"hard","weight":3},
+    {"id":"react_023","question":"useRef?","options":["persist value","state","none","loop"],"correct_answer":"persist value","difficulty":"hard","weight":3},
+    {"id":"react_024","question":"Pure component?","options":["no re-render","loop","none","array"],"correct_answer":"no re-render","difficulty":"hard","weight":3},
+    {"id":"react_025","question":"Error boundary?","options":["catch errors","loop","none","array"],"correct_answer":"catch errors","difficulty":"hard","weight":3},
+    {"id":"react_026","question":"Suspense?","options":["loading UI","loop","none","array"],"correct_answer":"loading UI","difficulty":"hard","weight":3},
+    {"id":"react_027","question":"Higher order comp?","options":["wrap component","loop","none","array"],"correct_answer":"wrap component","difficulty":"hard","weight":3},
+    {"id":"react_028","question":"SSR?","options":["server render","client","none","loop"],"correct_answer":"server render","difficulty":"hard","weight":3},
+    {"id":"react_029","question":"Hydration?","options":["attach events","loop","none","array"],"correct_answer":"attach events","difficulty":"hard","weight":3},
+    {"id":"react_030","question":"Concurrent mode?","options":["async rendering","sync","none","loop"],"correct_answer":"async rendering","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"react_c_001","question":"Hook?","code":"const [x,setX]=useState(0);","options":["state hook","error","none","loop"],"correct_answer":"state hook","difficulty":"easy","weight":1}
+  ]
+}

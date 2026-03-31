@@ -1,0 +1,43 @@
+{
+  "skill":"Node.js",
+  "mcqs":[
+
+    {"id":"node_001","question":"Node.js is?","options":["runtime","language","db","none"],"correct_answer":"runtime","difficulty":"easy","weight":1},
+    {"id":"node_002","question":"Built on?","options":["V8","Java","C#","none"],"correct_answer":"V8","difficulty":"easy","weight":1},
+    {"id":"node_003","question":"Used for?","options":["backend","UI","db","none"],"correct_answer":"backend","difficulty":"easy","weight":1},
+    {"id":"node_004","question":"Package manager?","options":["npm","pip","gradle","none"],"correct_answer":"npm","difficulty":"easy","weight":1},
+    {"id":"node_005","question":"File system module?","options":["fs","file","sys","none"],"correct_answer":"fs","difficulty":"easy","weight":1},
+    {"id":"node_006","question":"HTTP module?","options":["http","net","req","none"],"correct_answer":"http","difficulty":"easy","weight":1},
+    {"id":"node_007","question":"Event loop?","options":["async model","sync","none","loop"],"correct_answer":"async model","difficulty":"easy","weight":1},
+    {"id":"node_008","question":"Require used for?","options":["import module","export","none","loop"],"correct_answer":"import module","difficulty":"easy","weight":1},
+    {"id":"node_009","question":"JSON file?","options":["data format","code","none","loop"],"correct_answer":"data format","difficulty":"easy","weight":1},
+    {"id":"node_010","question":"Express is?","options":["framework","db","none","loop"],"correct_answer":"framework","difficulty":"easy","weight":1},
+
+    {"id":"node_011","question":"Middleware?","options":["interceptor","db","none","loop"],"correct_answer":"interceptor","difficulty":"medium","weight":2},
+    {"id":"node_012","question":"Callback?","options":["function arg","loop","none","array"],"correct_answer":"function arg","difficulty":"medium","weight":2},
+    {"id":"node_013","question":"Promise?","options":["async result","loop","none","array"],"correct_answer":"async result","difficulty":"medium","weight":2},
+    {"id":"node_014","question":"Async await?","options":["handle promise","loop","none","array"],"correct_answer":"handle promise","difficulty":"medium","weight":2},
+    {"id":"node_015","question":"Stream?","options":["data flow","loop","none","array"],"correct_answer":"data flow","difficulty":"medium","weight":2},
+    {"id":"node_016","question":"Buffer?","options":["binary data","string","none","loop"],"correct_answer":"binary data","difficulty":"medium","weight":2},
+    {"id":"node_017","question":"Cluster?","options":["multi process","single","none","loop"],"correct_answer":"multi process","difficulty":"medium","weight":2},
+    {"id":"node_018","question":"CORS?","options":["cross origin","same","none","loop"],"correct_answer":"cross origin","difficulty":"medium","weight":2},
+    {"id":"node_019","question":"JWT?","options":["auth token","db","none","loop"],"correct_answer":"auth token","difficulty":"medium","weight":2},
+    {"id":"node_020","question":"REST API?","options":["web service","db","none","loop"],"correct_answer":"web service","difficulty":"medium","weight":2},
+
+    {"id":"node_021","question":"Non blocking?","options":["async I/O","sync","none","loop"],"correct_answer":"async I/O","difficulty":"hard","weight":3},
+    {"id":"node_022","question":"Single thread?","options":["yes","no","none","loop"],"correct_answer":"yes","difficulty":"hard","weight":3},
+    {"id":"node_023","question":"Event emitter?","options":["handle events","loop","none","array"],"correct_answer":"handle events","difficulty":"hard","weight":3},
+    {"id":"node_024","question":"Process object?","options":["env info","loop","none","array"],"correct_answer":"env info","difficulty":"hard","weight":3},
+    {"id":"node_025","question":"Child process?","options":["run parallel","loop","none","array"],"correct_answer":"run parallel","difficulty":"hard","weight":3},
+    {"id":"node_026","question":"WebSocket?","options":["real-time","http","none","loop"],"correct_answer":"real-time","difficulty":"hard","weight":3},
+    {"id":"node_027","question":"Load balancing?","options":["distribute load","loop","none","array"],"correct_answer":"distribute load","difficulty":"hard","weight":3},
+    {"id":"node_028","question":"Scaling?","options":["handle load","loop","none","array"],"correct_answer":"handle load","difficulty":"hard","weight":3},
+    {"id":"node_029","question":"Microservices?","options":["small services","loop","none","array"],"correct_answer":"small services","difficulty":"hard","weight":3},
+    {"id":"node_030","question":"Cluster vs fork?","options":["process scaling","loop","none","array"],"correct_answer":"process scaling","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"node_c_001","question":"Module import?","code":"const fs = require('fs');","options":["import fs","error","none","loop"],"correct_answer":"import fs","difficulty":"easy","weight":1}
+  ]
+}

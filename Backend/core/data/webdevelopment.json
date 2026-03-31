@@ -1,0 +1,43 @@
+{
+  "skill":"Web Development",
+  "mcqs":[
+
+    {"id":"web_001","question":"Web dev includes?","options":["frontend+backend","only frontend","none","loop"],"correct_answer":"frontend+backend","difficulty":"easy","weight":1},
+    {"id":"web_002","question":"Frontend example?","options":["HTML","DB","none","loop"],"correct_answer":"HTML","difficulty":"easy","weight":1},
+    {"id":"web_003","question":"Backend example?","options":["Node.js","HTML","none","loop"],"correct_answer":"Node.js","difficulty":"easy","weight":1},
+    {"id":"web_004","question":"HTTP is?","options":["protocol","language","none","loop"],"correct_answer":"protocol","difficulty":"easy","weight":1},
+    {"id":"web_005","question":"Browser used for?","options":["render web","store","none","loop"],"correct_answer":"render web","difficulty":"easy","weight":1},
+    {"id":"web_006","question":"Client-server model?","options":["request-response","loop","none","array"],"correct_answer":"request-response","difficulty":"easy","weight":1},
+    {"id":"web_007","question":"URL is?","options":["web address","code","none","loop"],"correct_answer":"web address","difficulty":"easy","weight":1},
+    {"id":"web_008","question":"Domain?","options":["site name","code","none","loop"],"correct_answer":"site name","difficulty":"easy","weight":1},
+    {"id":"web_009","question":"Hosting?","options":["store website","code","none","loop"],"correct_answer":"store website","difficulty":"easy","weight":1},
+    {"id":"web_010","question":"DNS?","options":["name to IP","code","none","loop"],"correct_answer":"name to IP","difficulty":"easy","weight":1},
+
+    {"id":"web_011","question":"REST API?","options":["web service","db","none","loop"],"correct_answer":"web service","difficulty":"medium","weight":2},
+    {"id":"web_012","question":"Session?","options":["user state","db","none","loop"],"correct_answer":"user state","difficulty":"medium","weight":2},
+    {"id":"web_013","question":"Cookie?","options":["client storage","server","none","loop"],"correct_answer":"client storage","difficulty":"medium","weight":2},
+    {"id":"web_014","question":"Authentication?","options":["verify user","db","none","loop"],"correct_answer":"verify user","difficulty":"medium","weight":2},
+    {"id":"web_015","question":"Authorization?","options":["grant access","db","none","loop"],"correct_answer":"grant access","difficulty":"medium","weight":2},
+    {"id":"web_016","question":"CORS?","options":["cross origin","same","none","loop"],"correct_answer":"cross origin","difficulty":"medium","weight":2},
+    {"id":"web_017","question":"AJAX?","options":["async request","sync","none","loop"],"correct_answer":"async request","difficulty":"medium","weight":2},
+    {"id":"web_018","question":"JSON?","options":["data format","code","none","loop"],"correct_answer":"data format","difficulty":"medium","weight":2},
+    {"id":"web_019","question":"MVC?","options":["architecture","loop","none","array"],"correct_answer":"architecture","difficulty":"medium","weight":2},
+    {"id":"web_020","question":"API?","options":["interface","db","none","loop"],"correct_answer":"interface","difficulty":"medium","weight":2},
+
+    {"id":"web_021","question":"Scalability?","options":["handle load","loop","none","array"],"correct_answer":"handle load","difficulty":"hard","weight":3},
+    {"id":"web_022","question":"Load balancing?","options":["distribute load","loop","none","array"],"correct_answer":"distribute load","difficulty":"hard","weight":3},
+    {"id":"web_023","question":"Caching?","options":["improve speed","delete","none","loop"],"correct_answer":"improve speed","difficulty":"hard","weight":3},
+    {"id":"web_024","question":"CDN?","options":["fast delivery","db","none","loop"],"correct_answer":"fast delivery","difficulty":"hard","weight":3},
+    {"id":"web_025","question":"HTTPS?","options":["secure HTTP","none","loop","array"],"correct_answer":"secure HTTP","difficulty":"hard","weight":3},
+    {"id":"web_026","question":"XSS?","options":["script attack","safe","none","loop"],"correct_answer":"script attack","difficulty":"hard","weight":3},
+    {"id":"web_027","question":"SQL injection?","options":["db attack","safe","none","loop"],"correct_answer":"db attack","difficulty":"hard","weight":3},
+    {"id":"web_028","question":"WebSocket?","options":["real-time","http","none","loop"],"correct_answer":"real-time","difficulty":"hard","weight":3},
+    {"id":"web_029","question":"Microservices?","options":["small services","loop","none","array"],"correct_answer":"small services","difficulty":"hard","weight":3},
+    {"id":"web_030","question":"Serverless?","options":["no server mgmt","loop","none","array"],"correct_answer":"no server mgmt","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"web_c_001","question":"Protocol?","code":"GET /api","options":["HTTP request","error","none","loop"],"correct_answer":"HTTP request","difficulty":"easy","weight":1}
+  ]
+}

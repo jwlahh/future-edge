@@ -1,0 +1,43 @@
+{
+  "skill":"Natural Language Processing",
+  "mcqs":[
+
+    {"id":"nlp_001","question":"NLP stands for?","options":["Natural Language Processing","none","loop","array"],"correct_answer":"Natural Language Processing","difficulty":"easy","weight":1},
+    {"id":"nlp_002","question":"Used for?","options":["text analysis","db","none","loop"],"correct_answer":"text analysis","difficulty":"easy","weight":1},
+    {"id":"nlp_003","question":"Tokenization?","options":["split text","join","none","loop"],"correct_answer":"split text","difficulty":"easy","weight":1},
+    {"id":"nlp_004","question":"Stopwords?","options":["common words","rare","none","loop"],"correct_answer":"common words","difficulty":"easy","weight":1},
+    {"id":"nlp_005","question":"Stemming?","options":["root word","full","none","loop"],"correct_answer":"root word","difficulty":"easy","weight":1},
+    {"id":"nlp_006","question":"Lemmatization?","options":["dictionary root","random","none","loop"],"correct_answer":"dictionary root","difficulty":"easy","weight":1},
+    {"id":"nlp_007","question":"Corpus?","options":["text dataset","code","none","loop"],"correct_answer":"text dataset","difficulty":"easy","weight":1},
+    {"id":"nlp_008","question":"Bag of words?","options":["word freq","order","none","loop"],"correct_answer":"word freq","difficulty":"easy","weight":1},
+    {"id":"nlp_009","question":"TF-IDF?","options":["weighting","loop","none","array"],"correct_answer":"weighting","difficulty":"easy","weight":1},
+    {"id":"nlp_010","question":"NER?","options":["entity extraction","loop","none","array"],"correct_answer":"entity extraction","difficulty":"easy","weight":1},
+
+    {"id":"nlp_011","question":"Sentiment analysis?","options":["emotion detect","loop","none","array"],"correct_answer":"emotion detect","difficulty":"medium","weight":2},
+    {"id":"nlp_012","question":"POS tagging?","options":["grammar tags","loop","none","array"],"correct_answer":"grammar tags","difficulty":"medium","weight":2},
+    {"id":"nlp_013","question":"Word embedding?","options":["vector rep","loop","none","array"],"correct_answer":"vector rep","difficulty":"medium","weight":2},
+    {"id":"nlp_014","question":"Word2Vec?","options":["embedding model","loop","none","array"],"correct_answer":"embedding model","difficulty":"medium","weight":2},
+    {"id":"nlp_015","question":"N-gram?","options":["word sequence","loop","none","array"],"correct_answer":"word sequence","difficulty":"medium","weight":2},
+    {"id":"nlp_016","question":"Text classification?","options":["label text","loop","none","array"],"correct_answer":"label text","difficulty":"medium","weight":2},
+    {"id":"nlp_017","question":"Topic modeling?","options":["discover topics","loop","none","array"],"correct_answer":"discover topics","difficulty":"medium","weight":2},
+    {"id":"nlp_018","question":"Language model?","options":["predict text","loop","none","array"],"correct_answer":"predict text","difficulty":"medium","weight":2},
+    {"id":"nlp_019","question":"Tokenizer?","options":["split text","loop","none","array"],"correct_answer":"split text","difficulty":"medium","weight":2},
+    {"id":"nlp_020","question":"Corpus cleaning?","options":["clean text","loop","none","array"],"correct_answer":"clean text","difficulty":"medium","weight":2},
+
+    {"id":"nlp_021","question":"Transformer?","options":["deep model","loop","none","array"],"correct_answer":"deep model","difficulty":"hard","weight":3},
+    {"id":"nlp_022","question":"Attention?","options":["focus words","loop","none","array"],"correct_answer":"focus words","difficulty":"hard","weight":3},
+    {"id":"nlp_023","question":"BERT?","options":["language model","loop","none","array"],"correct_answer":"language model","difficulty":"hard","weight":3},
+    {"id":"nlp_024","question":"GPT?","options":["text generator","loop","none","array"],"correct_answer":"text generator","difficulty":"hard","weight":3},
+    {"id":"nlp_025","question":"BLEU score?","options":["translation metric","loop","none","array"],"correct_answer":"translation metric","difficulty":"hard","weight":3},
+    {"id":"nlp_026","question":"Perplexity?","options":["model metric","loop","none","array"],"correct_answer":"model metric","difficulty":"hard","weight":3},
+    {"id":"nlp_027","question":"Seq2Seq?","options":["sequence model","loop","none","array"],"correct_answer":"sequence model","difficulty":"hard","weight":3},
+    {"id":"nlp_028","question":"Encoder-decoder?","options":["two-part model","loop","none","array"],"correct_answer":"two-part model","difficulty":"hard","weight":3},
+    {"id":"nlp_029","question":"Fine-tuning?","options":["adapt model","loop","none","array"],"correct_answer":"adapt model","difficulty":"hard","weight":3},
+    {"id":"nlp_030","question":"Chatbot uses?","options":["NLP","db","none","loop"],"correct_answer":"NLP","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"nlp_c_001","question":"Library?","code":"import nltk","options":["NLP library","db","none","loop"],"correct_answer":"NLP library","difficulty":"easy","weight":1}
+  ]
+}

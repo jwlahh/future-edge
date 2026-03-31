@@ -1,0 +1,44 @@
+{
+  "skill":"System Design",
+  "mcqs":[
+
+    {"id":"sd_001","question":"Scalability means?","options":["handle load","store data","delete","none"],"correct_answer":"handle load","difficulty":"easy","weight":1},
+    {"id":"sd_002","question":"Load balancer does?","options":["distribute traffic","store","compute","none"],"correct_answer":"distribute traffic","difficulty":"easy","weight":1},
+    {"id":"sd_003","question":"Database is?","options":["data store","server","network","none"],"correct_answer":"data store","difficulty":"easy","weight":1},
+    {"id":"sd_004","question":"Cache used for?","options":["fast access","store","delete","none"],"correct_answer":"fast access","difficulty":"easy","weight":1},
+    {"id":"sd_005","question":"API is?","options":["interface","database","OS","none"],"correct_answer":"interface","difficulty":"easy","weight":1},
+    {"id":"sd_006","question":"Latency means?","options":["delay","speed","size","none"],"correct_answer":"delay","difficulty":"easy","weight":1},
+    {"id":"sd_007","question":"Throughput means?","options":["requests per sec","delay","error","none"],"correct_answer":"requests per sec","difficulty":"easy","weight":1},
+    {"id":"sd_008","question":"Vertical scaling?","options":["increase power","add servers","delete","none"],"correct_answer":"increase power","difficulty":"easy","weight":1},
+    {"id":"sd_009","question":"Horizontal scaling?","options":["add servers","increase RAM","delete","none"],"correct_answer":"add servers","difficulty":"easy","weight":1},
+    {"id":"sd_010","question":"Monolith app?","options":["single unit","microservices","none","loop"],"correct_answer":"single unit","difficulty":"easy","weight":1},
+
+    {"id":"sd_011","question":"Microservices?","options":["small services","single app","none","loop"],"correct_answer":"small services","difficulty":"medium","weight":2},
+    {"id":"sd_012","question":"Sharding?","options":["split database","merge","delete","none"],"correct_answer":"split database","difficulty":"medium","weight":2},
+    {"id":"sd_013","question":"Replication?","options":["copy data","delete","merge","none"],"correct_answer":"copy data","difficulty":"medium","weight":2},
+    {"id":"sd_014","question":"CDN used for?","options":["fast delivery","storage","compute","none"],"correct_answer":"fast delivery","difficulty":"medium","weight":2},
+    {"id":"sd_015","question":"Queue used for?","options":["async processing","store","delete","none"],"correct_answer":"async processing","difficulty":"medium","weight":2},
+    {"id":"sd_016","question":"Consistency means?","options":["same data","fast","secure","none"],"correct_answer":"same data","difficulty":"medium","weight":2},
+    {"id":"sd_017","question":"Availability means?","options":["always accessible","secure","fast","none"],"correct_answer":"always accessible","difficulty":"medium","weight":2},
+    {"id":"sd_018","question":"Partition tolerance?","options":["network failure handling","fast","none","loop"],"correct_answer":"network failure handling","difficulty":"medium","weight":2},
+    {"id":"sd_019","question":"Index improves?","options":["search speed","size","delete","none"],"correct_answer":"search speed","difficulty":"medium","weight":2},
+    {"id":"sd_020","question":"API gateway?","options":["entry point","db","none","loop"],"correct_answer":"entry point","difficulty":"medium","weight":2},
+
+    {"id":"sd_021","question":"CAP theorem?","options":["consistency availability partition","none","loop","array"],"correct_answer":"consistency availability partition","difficulty":"hard","weight":3},
+    {"id":"sd_022","question":"Eventual consistency?","options":["eventually same data","instant","none","loop"],"correct_answer":"eventually same data","difficulty":"hard","weight":3},
+    {"id":"sd_023","question":"Leader election?","options":["select node","delete","none","loop"],"correct_answer":"select node","difficulty":"hard","weight":3},
+    {"id":"sd_024","question":"Rate limiting?","options":["limit requests","delete","none","loop"],"correct_answer":"limit requests","difficulty":"hard","weight":3},
+    {"id":"sd_025","question":"Circuit breaker?","options":["prevent failure","store","none","loop"],"correct_answer":"prevent failure","difficulty":"hard","weight":3},
+    {"id":"sd_026","question":"Idempotent API?","options":["same result","different","none","loop"],"correct_answer":"same result","difficulty":"hard","weight":3},
+    {"id":"sd_027","question":"Load shedding?","options":["drop traffic","store","none","loop"],"correct_answer":"drop traffic","difficulty":"hard","weight":3},
+    {"id":"sd_028","question":"Hotspot issue?","options":["uneven load","equal","none","loop"],"correct_answer":"uneven load","difficulty":"hard","weight":3},
+    {"id":"sd_029","question":"Consistency vs availability?","options":["tradeoff","same","none","loop"],"correct_answer":"tradeoff","difficulty":"hard","weight":3},
+    {"id":"sd_030","question":"Distributed system?","options":["multiple nodes","single","none","loop"],"correct_answer":"multiple nodes","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"sd_c_001","question":"Example cache?","code":"Redis","options":["cache","db","none","loop"],"correct_answer":"cache","difficulty":"easy","weight":1},
+    {"id":"sd_c_002","question":"Load balancer example?","code":"NGINX","options":["balancer","db","none","loop"],"correct_answer":"balancer","difficulty":"easy","weight":1}
+  ]
+}

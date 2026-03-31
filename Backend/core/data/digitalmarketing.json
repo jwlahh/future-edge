@@ -1,0 +1,43 @@
+{
+  "skill":"Digital Marketing",
+  "mcqs":[
+
+    {"id":"dm_001","question":"SEO stands for?","options":["Search Engine Optimization","none","loop","array"],"correct_answer":"Search Engine Optimization","difficulty":"easy","weight":1},
+    {"id":"dm_002","question":"SEM means?","options":["Search Engine Marketing","none","loop","array"],"correct_answer":"Search Engine Marketing","difficulty":"easy","weight":1},
+    {"id":"dm_003","question":"Keyword is?","options":["search term","code","none","loop"],"correct_answer":"search term","difficulty":"easy","weight":1},
+    {"id":"dm_004","question":"Backlink?","options":["link from site","code","none","loop"],"correct_answer":"link from site","difficulty":"easy","weight":1},
+    {"id":"dm_005","question":"CTR means?","options":["click rate","code","none","loop"],"correct_answer":"click rate","difficulty":"easy","weight":1},
+    {"id":"dm_006","question":"Bounce rate?","options":["leave site","stay","none","loop"],"correct_answer":"leave site","difficulty":"easy","weight":1},
+    {"id":"dm_007","question":"Content marketing?","options":["content promotion","code","none","loop"],"correct_answer":"content promotion","difficulty":"easy","weight":1},
+    {"id":"dm_008","question":"Email marketing?","options":["email campaigns","code","none","loop"],"correct_answer":"email campaigns","difficulty":"easy","weight":1},
+    {"id":"dm_009","question":"Social media marketing?","options":["social promotion","code","none","loop"],"correct_answer":"social promotion","difficulty":"easy","weight":1},
+    {"id":"dm_010","question":"Google Ads?","options":["ad platform","code","none","loop"],"correct_answer":"ad platform","difficulty":"easy","weight":1},
+
+    {"id":"dm_011","question":"On-page SEO?","options":["optimize page","off page","none","loop"],"correct_answer":"optimize page","difficulty":"medium","weight":2},
+    {"id":"dm_012","question":"Off-page SEO?","options":["external links","internal","none","loop"],"correct_answer":"external links","difficulty":"medium","weight":2},
+    {"id":"dm_013","question":"Conversion rate?","options":["visitors to customers","none","loop","array"],"correct_answer":"visitors to customers","difficulty":"medium","weight":2},
+    {"id":"dm_014","question":"Landing page?","options":["target page","home","none","loop"],"correct_answer":"target page","difficulty":"medium","weight":2},
+    {"id":"dm_015","question":"Analytics tool?","options":["Google Analytics","code","none","loop"],"correct_answer":"Google Analytics","difficulty":"medium","weight":2},
+    {"id":"dm_016","question":"PPC?","options":["pay per click","free","none","loop"],"correct_answer":"pay per click","difficulty":"medium","weight":2},
+    {"id":"dm_017","question":"Organic traffic?","options":["free traffic","paid","none","loop"],"correct_answer":"free traffic","difficulty":"medium","weight":2},
+    {"id":"dm_018","question":"Impressions?","options":["views","clicks","none","loop"],"correct_answer":"views","difficulty":"medium","weight":2},
+    {"id":"dm_019","question":"Meta tag?","options":["page info","style","none","loop"],"correct_answer":"page info","difficulty":"medium","weight":2},
+    {"id":"dm_020","question":"SERP?","options":["search results page","code","none","loop"],"correct_answer":"search results page","difficulty":"medium","weight":2},
+
+    {"id":"dm_021","question":"Black hat SEO?","options":["unethical","ethical","none","loop"],"correct_answer":"unethical","difficulty":"hard","weight":3},
+    {"id":"dm_022","question":"White hat SEO?","options":["ethical","unethical","none","loop"],"correct_answer":"ethical","difficulty":"hard","weight":3},
+    {"id":"dm_023","question":"Remarketing?","options":["target again","new","none","loop"],"correct_answer":"target again","difficulty":"hard","weight":3},
+    {"id":"dm_024","question":"Affiliate marketing?","options":["commission model","none","loop","array"],"correct_answer":"commission model","difficulty":"hard","weight":3},
+    {"id":"dm_025","question":"Lead generation?","options":["get customers","none","loop","array"],"correct_answer":"get customers","difficulty":"hard","weight":3},
+    {"id":"dm_026","question":"Customer journey?","options":["user path","code","none","loop"],"correct_answer":"user path","difficulty":"hard","weight":3},
+    {"id":"dm_027","question":"ROI?","options":["return investment","loss","none","loop"],"correct_answer":"return investment","difficulty":"hard","weight":3},
+    {"id":"dm_028","question":"A/B testing?","options":["compare ads","code","none","loop"],"correct_answer":"compare ads","difficulty":"hard","weight":3},
+    {"id":"dm_029","question":"KPI?","options":["performance metric","code","none","loop"],"correct_answer":"performance metric","difficulty":"hard","weight":3},
+    {"id":"dm_030","question":"Funnel?","options":["conversion stages","code","none","loop"],"correct_answer":"conversion stages","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"dm_c_001","question":"Tool?","code":"Google Analytics","options":["analytics tool","db","none","loop"],"correct_answer":"analytics tool","difficulty":"easy","weight":1}
+  ]
+}

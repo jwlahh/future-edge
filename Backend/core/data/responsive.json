@@ -1,0 +1,43 @@
+{
+  "skill":"Responsive Design",
+  "mcqs":[
+
+    {"id":"rd_001","question":"Responsive design means?","options":["adapt screen","fixed layout","none","loop"],"correct_answer":"adapt screen","difficulty":"easy","weight":1},
+    {"id":"rd_002","question":"Media query used for?","options":["screen size","color","none","loop"],"correct_answer":"screen size","difficulty":"easy","weight":1},
+    {"id":"rd_003","question":"Viewport is?","options":["visible area","code","none","loop"],"correct_answer":"visible area","difficulty":"easy","weight":1},
+    {"id":"rd_004","question":"Mobile-first means?","options":["design mobile first","desktop first","none","loop"],"correct_answer":"design mobile first","difficulty":"easy","weight":1},
+    {"id":"rd_005","question":"Flexible grid?","options":["fluid layout","fixed","none","loop"],"correct_answer":"fluid layout","difficulty":"easy","weight":1},
+    {"id":"rd_006","question":"Percent width?","options":["responsive","fixed","none","loop"],"correct_answer":"responsive","difficulty":"easy","weight":1},
+    {"id":"rd_007","question":"Max-width?","options":["limit size","increase","none","loop"],"correct_answer":"limit size","difficulty":"easy","weight":1},
+    {"id":"rd_008","question":"CSS unit rem?","options":["relative root","fixed","none","loop"],"correct_answer":"relative root","difficulty":"easy","weight":1},
+    {"id":"rd_009","question":"CSS unit em?","options":["relative parent","fixed","none","loop"],"correct_answer":"relative parent","difficulty":"easy","weight":1},
+    {"id":"rd_010","question":"Flexbox helps?","options":["layout","color","none","loop"],"correct_answer":"layout","difficulty":"easy","weight":1},
+
+    {"id":"rd_011","question":"Grid system?","options":["layout structure","color","none","loop"],"correct_answer":"layout structure","difficulty":"medium","weight":2},
+    {"id":"rd_012","question":"Breakpoint?","options":["screen width","color","none","loop"],"correct_answer":"screen width","difficulty":"medium","weight":2},
+    {"id":"rd_013","question":"Orientation?","options":["portrait/landscape","color","none","loop"],"correct_answer":"portrait/landscape","difficulty":"medium","weight":2},
+    {"id":"rd_014","question":"Responsive image?","options":["adapt size","fixed","none","loop"],"correct_answer":"adapt size","difficulty":"medium","weight":2},
+    {"id":"rd_015","question":"CSS clamp()?","options":["responsive sizing","fixed","none","loop"],"correct_answer":"responsive sizing","difficulty":"medium","weight":2},
+    {"id":"rd_016","question":"vw unit?","options":["viewport width","height","none","loop"],"correct_answer":"viewport width","difficulty":"medium","weight":2},
+    {"id":"rd_017","question":"vh unit?","options":["viewport height","width","none","loop"],"correct_answer":"viewport height","difficulty":"medium","weight":2},
+    {"id":"rd_018","question":"Overflow issue?","options":["content spill","fit","none","loop"],"correct_answer":"content spill","difficulty":"medium","weight":2},
+    {"id":"rd_019","question":"Responsive typography?","options":["fluid text","fixed","none","loop"],"correct_answer":"fluid text","difficulty":"medium","weight":2},
+    {"id":"rd_020","question":"Device pixel ratio?","options":["screen density","size","none","loop"],"correct_answer":"screen density","difficulty":"medium","weight":2},
+
+    {"id":"rd_021","question":"Min-width vs max-width?","options":["responsive breakpoints","same","none","loop"],"correct_answer":"responsive breakpoints","difficulty":"hard","weight":3},
+    {"id":"rd_022","question":"Container queries?","options":["element-based","screen","none","loop"],"correct_answer":"element-based","difficulty":"hard","weight":3},
+    {"id":"rd_023","question":"Lazy loading images?","options":["load later","instant","none","loop"],"correct_answer":"load later","difficulty":"hard","weight":3},
+    {"id":"rd_024","question":"Aspect ratio?","options":["width/height","color","none","loop"],"correct_answer":"width/height","difficulty":"hard","weight":3},
+    {"id":"rd_025","question":"Retina display?","options":["high density","low","none","loop"],"correct_answer":"high density","difficulty":"hard","weight":3},
+    {"id":"rd_026","question":"Mobile breakpoint?","options":["<768px",">1200px","none","loop"],"correct_answer":"<768px","difficulty":"hard","weight":3},
+    {"id":"rd_027","question":"Tablet breakpoint?","options":["768-1024px","<500px","none","loop"],"correct_answer":"768-1024px","difficulty":"hard","weight":3},
+    {"id":"rd_028","question":"Desktop breakpoint?","options":[">1024px","<600px","none","loop"],"correct_answer":">1024px","difficulty":"hard","weight":3},
+    {"id":"rd_029","question":"Fluid image CSS?","options":["max-width:100%","fixed","none","loop"],"correct_answer":"max-width:100%","difficulty":"hard","weight":3},
+    {"id":"rd_030","question":"Best practice?","options":["mobile first","desktop","none","loop"],"correct_answer":"mobile first","difficulty":"hard","weight":3}
+
+  ],
+
+  "coding_mcqs":[
+    {"id":"rd_c_001","question":"CSS?","code":"@media (max-width:768px){}","options":["responsive rule","error","none","loop"],"correct_answer":"responsive rule","difficulty":"easy","weight":1}
+  ]
+}

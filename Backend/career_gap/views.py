@@ -36,8 +36,15 @@ def skill_gap(request):
 
     role = role_response.data[0]
 
-    required_skills = role["job_skills"].split(";")
-    required_skills = [s.strip() for s in required_skills if s.strip()]
+    core = role.get("core_skills", "")
+    secondary = role.get("secondary_skills", "")
+    optional = role.get("optional_skills", "")
+
+    required_skills = []
+
+    for group in [core, secondary, optional]:
+        if group:
+            required_skills.extend([s.strip() for s in group.split(",")])
 
     # -----------------------------
     # Find matched and missing

@@ -1,0 +1,50 @@
+{
+    "skill": "SQL",
+    "mcqs":[
+      {"id":"sql_001","question":"SQL stands for?","options":["Structured Query Language","Simple Query","System Query","none"],"correct_answer":"Structured Query Language","difficulty":"easy","weight":1},
+      {"id":"sql_002","question":"Select statement used for?","options":["retrieve data","insert","delete","update"],"correct_answer":"retrieve data","difficulty":"easy","weight":1},
+      {"id":"sql_003","question":"Primary key is?","options":["unique identifier","duplicate","null","none"],"correct_answer":"unique identifier","difficulty":"easy","weight":1},
+      {"id":"sql_004","question":"Which removes duplicates?","options":["DISTINCT","UNIQUE","REMOVE","DELETE"],"correct_answer":"DISTINCT","difficulty":"easy","weight":1},
+      {"id":"sql_005","question":"Which adds row?","options":["INSERT","UPDATE","SELECT","DELETE"],"correct_answer":"INSERT","difficulty":"easy","weight":1},
+      {"id":"sql_006","question":"Which deletes row?","options":["DELETE","REMOVE","DROP","CLEAR"],"correct_answer":"DELETE","difficulty":"easy","weight":1},
+      {"id":"sql_007","question":"Which updates data?","options":["UPDATE","MODIFY","CHANGE","SET"],"correct_answer":"UPDATE","difficulty":"easy","weight":1},
+      {"id":"sql_008","question":"Which sorts data?","options":["ORDER BY","GROUP BY","SORT","ARRANGE"],"correct_answer":"ORDER BY","difficulty":"easy","weight":1},
+      {"id":"sql_009","question":"Which filters rows?","options":["WHERE","HAVING","FILTER","SORT"],"correct_answer":"WHERE","difficulty":"easy","weight":1},
+      {"id":"sql_010","question":"Count function?","options":["COUNT()","SUM()","AVG()","MAX()"],"correct_answer":"COUNT()","difficulty":"easy","weight":1},
+  
+      {"id":"sql_011","question":"INNER JOIN returns?","options":["matching rows","all rows","left only","right only"],"correct_answer":"matching rows","difficulty":"medium","weight":2},
+      {"id":"sql_012","question":"LEFT JOIN returns?","options":["left + match","right only","match only","none"],"correct_answer":"left + match","difficulty":"medium","weight":2},
+      {"id":"sql_013","question":"GROUP BY used for?","options":["aggregation","sorting","filtering","none"],"correct_answer":"aggregation","difficulty":"medium","weight":2},
+      {"id":"sql_014","question":"HAVING used for?","options":["filter groups","filter rows","sort","none"],"correct_answer":"filter groups","difficulty":"medium","weight":2},
+      {"id":"sql_015","question":"Index improves?","options":["performance","storage","size","none"],"correct_answer":"performance","difficulty":"medium","weight":2},
+      {"id":"sql_016","question":"Normalization reduces?","options":["redundancy","performance","size","none"],"correct_answer":"redundancy","difficulty":"medium","weight":2},
+      {"id":"sql_017","question":"Foreign key ensures?","options":["referential integrity","uniqueness","sorting","none"],"correct_answer":"referential integrity","difficulty":"medium","weight":2},
+      {"id":"sql_018","question":"Which is aggregate?","options":["SUM()","SELECT","WHERE","JOIN"],"correct_answer":"SUM()","difficulty":"medium","weight":2},
+      {"id":"sql_019","question":"LIMIT used for?","options":["restrict rows","sort","join","none"],"correct_answer":"restrict rows","difficulty":"medium","weight":2},
+      {"id":"sql_020","question":"UNION does?","options":["combine results","sort","filter","none"],"correct_answer":"combine results","difficulty":"medium","weight":2},
+  
+      {"id":"sql_021","question":"ACID stands for?","options":["Atomicity Consistency Isolation Durability","none","loop","query"],"correct_answer":"Atomicity Consistency Isolation Durability","difficulty":"hard","weight":3},
+      {"id":"sql_022","question":"Which avoids dirty reads?","options":["isolation","atomicity","consistency","none"],"correct_answer":"isolation","difficulty":"hard","weight":3},
+      {"id":"sql_023","question":"Clustered index?","options":["physical order","logical","none","loop"],"correct_answer":"physical order","difficulty":"hard","weight":3},
+      {"id":"sql_024","question":"Subquery is?","options":["query inside query","loop","function","none"],"correct_answer":"query inside query","difficulty":"hard","weight":3},
+      {"id":"sql_025","question":"Window function used for?","options":["analytics","insert","delete","none"],"correct_answer":"analytics","difficulty":"hard","weight":3},
+      {"id":"sql_026","question":"CTE stands for?","options":["Common Table Expression","none","loop","query"],"correct_answer":"Common Table Expression","difficulty":"hard","weight":3},
+      {"id":"sql_027","question":"Which join returns unmatched?","options":["FULL JOIN","INNER","none","loop"],"correct_answer":"FULL JOIN","difficulty":"hard","weight":3},
+      {"id":"sql_028","question":"Denormalization improves?","options":["read performance","write","none","loop"],"correct_answer":"read performance","difficulty":"hard","weight":3},
+      {"id":"sql_029","question":"Deadlock occurs when?","options":["resource wait","loop","none","query"],"correct_answer":"resource wait","difficulty":"hard","weight":3},
+      {"id":"sql_030","question":"Index tradeoff?","options":["fast read slow write","fast write slow read","none","loop"],"correct_answer":"fast read slow write","difficulty":"hard","weight":3}
+    ],
+  
+    "coding_mcqs":[
+      {"id":"sql_c_001","question":"Query output?","code":"SELECT COUNT(*) FROM table;","options":["row count","error","sum","none"],"correct_answer":"row count","difficulty":"easy","weight":1},
+      {"id":"sql_c_002","question":"Query output?","code":"SELECT DISTINCT col FROM table;","options":["unique values","all","error","none"],"correct_answer":"unique values","difficulty":"easy","weight":1},
+      {"id":"sql_c_003","question":"Find error","code":"SELECT FROM table;","options":["missing column","valid","none","loop"],"correct_answer":"missing column","difficulty":"easy","weight":1},
+      {"id":"sql_c_004","question":"Output?","code":"SELECT 1+1;","options":["2","1","error","0"],"correct_answer":"2","difficulty":"easy","weight":1},
+      {"id":"sql_c_005","question":"Find error","code":"INSERT table VALUES(1);","options":["missing INTO","valid","none","loop"],"correct_answer":"missing INTO","difficulty":"medium","weight":2},
+      {"id":"sql_c_006","question":"Output?","code":"SELECT MAX(col) FROM table;","options":["max value","min","error","none"],"correct_answer":"max value","difficulty":"medium","weight":2},
+      {"id":"sql_c_007","question":"Output?","code":"SELECT * FROM t WHERE col>10;","options":["filtered rows","all","none","error"],"correct_answer":"filtered rows","difficulty":"medium","weight":2},
+      {"id":"sql_c_008","question":"Output?","code":"SELECT * FROM A INNER JOIN B ON A.id=B.id;","options":["matched rows","all","none","error"],"correct_answer":"matched rows","difficulty":"hard","weight":3},
+      {"id":"sql_c_009","question":"Output?","code":"SELECT SUM(col) FROM table;","options":["sum","count","error","none"],"correct_answer":"sum","difficulty":"medium","weight":2},
+      {"id":"sql_c_010","question":"Find error","code":"SELECT col GROUP BY col;","options":["missing FROM","valid","none","loop"],"correct_answer":"missing FROM","difficulty":"hard","weight":3}
+    ]
+  }

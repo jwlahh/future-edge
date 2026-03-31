@@ -1,0 +1,17 @@
+{
+  "skill":"CI/CD",
+  "mcqs":[
+    {"id":"cicd_001","question":"CI stands for?","options":["Continuous Integration","Continuous Input","Control Integration","none"],"correct_answer":"Continuous Integration","difficulty":"easy","weight":1},
+    {"id":"cicd_002","question":"CD stands for?","options":["Continuous Deployment","Code Deploy","Control Deploy","none"],"correct_answer":"Continuous Deployment","difficulty":"easy","weight":1},
+    {"id":"cicd_003","question":"Pipeline is?","options":["automation flow","code","server","none"],"correct_answer":"automation flow","difficulty":"easy","weight":1},
+
+    {"id":"cicd_004","question":"Build stage?","options":["compile code","run","deploy","none"],"correct_answer":"compile code","difficulty":"medium","weight":2},
+    {"id":"cicd_005","question":"Test stage?","options":["verify code","compile","deploy","none"],"correct_answer":"verify code","difficulty":"medium","weight":2},
+
+    {"id":"cicd_006","question":"Blue-green deployment?","options":["two env switch","one env","none","loop"],"correct_answer":"two env switch","difficulty":"hard","weight":3},
+    {"id":"cicd_007","question":"Rollback?","options":["revert version","deploy","none","loop"],"correct_answer":"revert version","difficulty":"hard","weight":3}
+  ],
+  "coding_mcqs":[
+    {"id":"cicd_c_001","question":"Pipeline file?","code":"Jenkinsfile","options":["config","code","none","loop"],"correct_answer":"config","difficulty":"easy","weight":1}
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "skill": "DSA",
+    "mcqs": [
+      {"id":"dsa_001","question":"What is an array?","options":["linear structure","tree","graph","none"],"correct_answer":"linear structure","difficulty":"easy","weight":1},
+      {"id":"dsa_002","question":"Stack follows?","options":["LIFO","FIFO","random","none"],"correct_answer":"LIFO","difficulty":"easy","weight":1},
+      {"id":"dsa_003","question":"Queue follows?","options":["FIFO","LIFO","random","none"],"correct_answer":"FIFO","difficulty":"easy","weight":1},
+      {"id":"dsa_004","question":"Linked list stores?","options":["nodes","arrays","trees","none"],"correct_answer":"nodes","difficulty":"easy","weight":1},
+      {"id":"dsa_005","question":"Binary tree max children?","options":["2","3","4","1"],"correct_answer":"2","difficulty":"easy","weight":1},
+      {"id":"dsa_006","question":"Which is linear DS?","options":["array","tree","graph","heap"],"correct_answer":"array","difficulty":"easy","weight":1},
+      {"id":"dsa_007","question":"Which is non-linear DS?","options":["tree","array","stack","queue"],"correct_answer":"tree","difficulty":"easy","weight":1},
+      {"id":"dsa_008","question":"Search complexity of array?","options":["O(n)","O(1)","O(log n)","O(n^2)"],"correct_answer":"O(n)","difficulty":"easy","weight":1},
+      {"id":"dsa_009","question":"Binary search works on?","options":["sorted array","unsorted","tree","none"],"correct_answer":"sorted array","difficulty":"easy","weight":1},
+      {"id":"dsa_010","question":"Which is dynamic DS?","options":["linked list","array","stack array","none"],"correct_answer":"linked list","difficulty":"easy","weight":1},
+  
+      {"id":"dsa_011","question":"Time complexity of binary search?","options":["O(log n)","O(n)","O(n log n)","O(1)"],"correct_answer":"O(log n)","difficulty":"medium","weight":2},
+      {"id":"dsa_012","question":"Worst case quicksort?","options":["O(n^2)","O(n log n)","O(n)","O(log n)"],"correct_answer":"O(n^2)","difficulty":"medium","weight":2},
+      {"id":"dsa_013","question":"Merge sort complexity?","options":["O(n log n)","O(n^2)","O(n)","O(log n)"],"correct_answer":"O(n log n)","difficulty":"medium","weight":2},
+      {"id":"dsa_014","question":"Heap is?","options":["complete binary tree","BST","graph","none"],"correct_answer":"complete binary tree","difficulty":"medium","weight":2},
+      {"id":"dsa_015","question":"DFS uses?","options":["stack","queue","array","none"],"correct_answer":"stack","difficulty":"medium","weight":2},
+      {"id":"dsa_016","question":"BFS uses?","options":["queue","stack","array","none"],"correct_answer":"queue","difficulty":"medium","weight":2},
+      {"id":"dsa_017","question":"Collision in hash?","options":["same index","different index","none","loop"],"correct_answer":"same index","difficulty":"medium","weight":2},
+      {"id":"dsa_018","question":"Recursion uses?","options":["stack","queue","heap","none"],"correct_answer":"stack","difficulty":"medium","weight":2},
+      {"id":"dsa_019","question":"Graph edges represent?","options":["connections","nodes","values","none"],"correct_answer":"connections","difficulty":"medium","weight":2},
+      {"id":"dsa_020","question":"Which is greedy?","options":["kruskal","merge","binary","none"],"correct_answer":"kruskal","difficulty":"medium","weight":2},
+  
+      {"id":"dsa_021","question":"AVL tree is?","options":["self balancing","binary","heap","none"],"correct_answer":"self balancing","difficulty":"hard","weight":3},
+      {"id":"dsa_022","question":"Red-black tree ensures?","options":["balance","sorting","loop","none"],"correct_answer":"balance","difficulty":"hard","weight":3},
+      {"id":"dsa_023","question":"Dynamic programming uses?","options":["memoization","loop","array","none"],"correct_answer":"memoization","difficulty":"hard","weight":3},
+      {"id":"dsa_024","question":"Dijkstra is for?","options":["shortest path","sorting","searching","none"],"correct_answer":"shortest path","difficulty":"hard","weight":3},
+      {"id":"dsa_025","question":"Bellman-Ford handles?","options":["negative weights","positive only","none","loop"],"correct_answer":"negative weights","difficulty":"hard","weight":3},
+      {"id":"dsa_026","question":"NP complete means?","options":["hard problems","easy","none","loop"],"correct_answer":"hard problems","difficulty":"hard","weight":3},
+      {"id":"dsa_027","question":"Backtracking is?","options":["trial and error","greedy","dp","none"],"correct_answer":"trial and error","difficulty":"hard","weight":3},
+      {"id":"dsa_028","question":"Trie is used for?","options":["strings","numbers","graphs","none"],"correct_answer":"strings","difficulty":"hard","weight":3},
+      {"id":"dsa_029","question":"Topological sort is for?","options":["DAG","tree","array","none"],"correct_answer":"DAG","difficulty":"hard","weight":3},
+      {"id":"dsa_030","question":"Segment tree used for?","options":["range queries","sorting","loop","none"],"correct_answer":"range queries","difficulty":"hard","weight":3}
+    ],
+  
+    "coding_mcqs":[
+      {"id":"dsa_c_001","question":"Output?","code":"int arr[]={1,2,3};\nSystem.out.println(arr.length);","options":["3","2","error","none"],"correct_answer":"3","difficulty":"easy","weight":1},
+      {"id":"dsa_c_002","question":"Output?","code":"Stack s=new Stack();\ns.push(1);\ns.push(2);\nSystem.out.println(s.pop());","options":["2","1","error","none"],"correct_answer":"2","difficulty":"easy","weight":1},
+      {"id":"dsa_c_003","question":"Output?","code":"Queue q=new LinkedList();\nq.add(1);\nq.add(2);\nSystem.out.println(q.remove());","options":["1","2","error","none"],"correct_answer":"1","difficulty":"easy","weight":1},
+      {"id":"dsa_c_004","question":"Binary search requires?","code":"array must be ____","options":["sorted","unsorted","random","none"],"correct_answer":"sorted","difficulty":"easy","weight":1},
+      {"id":"dsa_c_005","question":"Find error","code":"int arr[5];","options":["invalid syntax","valid","none","loop"],"correct_answer":"invalid syntax","difficulty":"medium","weight":2},
+      {"id":"dsa_c_006","question":"Output?","code":"int i=0;\nwhile(i<3){i++;}\nSystem.out.println(i);","options":["3","2","1","0"],"correct_answer":"3","difficulty":"medium","weight":2},
+      {"id":"dsa_c_007","question":"Output?","code":"int n=5;\nSystem.out.println(n*(n+1)/2);","options":["15","10","5","20"],"correct_answer":"15","difficulty":"medium","weight":2},
+      {"id":"dsa_c_008","question":"Output?","code":"int[] a={1,2};\nSystem.out.println(a[2]);","options":["error","2","1","0"],"correct_answer":"error","difficulty":"hard","weight":3},
+      {"id":"dsa_c_009","question":"Output?","code":"int n=1;\nfor(int i=0;i<3;i++) n*=2;\nSystem.out.println(n);","options":["8","6","4","2"],"correct_answer":"8","difficulty":"hard","weight":3},
+      {"id":"dsa_c_010","question":"Output?","code":"System.out.println(10/0);","options":["error","0","10","undefined"],"correct_answer":"error","difficulty":"hard","weight":3}
+    ]
+  }

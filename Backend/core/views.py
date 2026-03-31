@@ -8,7 +8,11 @@ from core.ml_service import recommend_roles, ModelIntegrationError
 
 import fitz
 import re
-
+import json
+import random
+import os
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 
 def extract_experience(text):
     exp_matches = re.findall(r'(\d+(\.\d+)?)\s*(years|yrs)', text.lower())
@@ -23,6 +27,28 @@ def detect_images_in_pdf(doc):
         if images:
             image_count += len(images)
     return image_count
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def load_json(file_name):
+    path = os.path.join(BASE_DIR, "data", file_name)
+    with open(path, "r") as file:
+        return json.load(file)
+
+skill_data = {}
+
+data_folder = os.path.join(BASE_DIR, "data")
+
+for file in os.listdir(data_folder):
+    if file.endswith(".json"):
+        try:
+            data = load_json(file)
+
+            file_name_clean = file.replace(".json", "").lower()
+            skill_data[file_name_clean] = data
+
+        except Exception as e:
+            print("ERROR LOADING:", file, e)
 
 @api_view(['POST'])
 def save_user_skills(request):
@@ -97,8 +123,19 @@ def upload_resume(request):
         print("EXTRACTED TEXT:", text[:500])
 
         raw_text = text.lower()
-        clean_text = re.sub(r"[^\w\s]", " ", raw_text)
+        clean_text = re.sub(r"[^\w\s\+#]", " ", raw_text)
         clean_text = re.sub(r"\s+", " ", clean_text).strip()
+
+        # 🔥 normalize variations of c++ and c#
+        replacements = {
+            "c plus plus": "c++",
+            "c + +": "c++",
+            "c sharp": "c#",
+            "c #": "c#"
+        }
+
+        for key, value in replacements.items():
+            clean_text = clean_text.replace(key, value)
 
         # STEP 2: ATS score
         ats_result = calculate_ats_score(raw_text, image_count)
@@ -120,9 +157,7 @@ def upload_resume(request):
             skill_name = original_skill.lower()
             skill_id = skill["skill_id"]
 
-            pattern = r'\b' + re.escape(skill_name) + r'\b'
-
-            if re.search(pattern, clean_text):
+            if skill_name in clean_text:
                 skills_found.append(original_skill)
                 skill_ids.append(skill_id)
 
@@ -248,7 +283,7 @@ def upload_resume(request):
                 }).execute()
 
         # Sort again by calculated skill percentage
-        career_matches = sorted(career_matches, key=lambda x: x["skill_score"], reverse=True)
+        career_matches = sorted(career_matches, key=lambda x: x["final_score"], reverse=True)
         
         # STEP 10: Return response
         return Response({
@@ -275,4 +310,160 @@ def upload_resume(request):
             "skills_found": [],
             "error": str(e)
         }, status=500)
+
+#-----------------------------
+# MOCK ASSESSMENT APIs
+# -----------------------------
+
+def get_skills_for_role(role_name):
+    try:
+        response = supabase.table("job_roles") \
+            .select("core_skills, secondary_skills, optional_skills") \
+            .eq("job_role", role_name) \
+            .execute()
+
+        if not response.data:
+            return None
+
+        role = response.data[0]
+
+        core = role.get("core_skills", "")
+        secondary = role.get("secondary_skills", "")
+        optional = role.get("optional_skills", "")
+
+        skills = []
+
+        for group in [core, secondary, optional]:
+            if group:
+                skills.extend([s.strip() for s in group.split(",")])
+
+        return skills
+
+    except Exception as e:
+        print("Error fetching skills:", e)
+        return None
+
+def get_assessment(request, role):
+    skills = get_skills_for_role(role)
+
+    if not skills:
+        return JsonResponse({"error": "Invalid role"}, status=400)
+
+    all_questions = []
+
+    for skill in skills:
+        normalized_skill = skill.lower().replace(" ", "_").replace("-", "_")
+
+        print("SKILL:", skill)
+        print("LOOKING FOR:", normalized_skill)
+        print("AVAILABLE:", skill_data.keys())
+
+        data = skill_data.get(normalized_skill)
+
+        if data:
+            all_questions.extend(data.get("mcqs", []))
+            all_questions.extend(data.get("coding_mcqs", []))
+
+    # ✅ FIX: fallback if no questions found
+    if not all_questions:
+        print("⚠️ No questions found, using fallback dataset")
+
+        for key in skill_data:
+            data = skill_data[key]
+            all_questions.extend(data.get("mcqs", []))
+            all_questions.extend(data.get("coding_mcqs", []))
+
+    random.shuffle(all_questions)
+
+    return JsonResponse(all_questions[:30], safe=False)
+
+
+@csrf_exempt
+def submit_assessment(request):
+    if request.method == "POST":
+        data = json.loads(request.body)
+        user_id = data.get("user_id")
+        time_taken = data.get("time_taken")
+        assessment_type = data.get("assessment_type")
+        user_answers = data.get("answers", [])
+        role = data.get("role")
+
+        if assessment_type == "online":
+            score = data.get("score")  # send from frontend
+
+            supabase.table("assessment").insert({
+                "role_id": None,
+                "assessment_type": "online",
+                "score": score,
+                "user_id": user_id,
+                "time_taken": time_taken
+            }).execute()
+
+            return JsonResponse({
+                "score": score,
+                "total": len(data.get("answers", []))
+            })
+
+        # Get skills for selected role
+        skills = []
+
+        if assessment_type == "skill":
+            skills = get_skills_for_role(role)
+
+            if not skills:
+                return JsonResponse({"error": "Invalid role"}, status=400)
+        all_questions = []
+
+        if assessment_type == "skill":
+            for skill in skills:
+                normalized_skill = skill.lower().replace(" ", "_")
+                dataset = skill_data.get(normalized_skill)
+
+                if dataset:
+                    all_questions.extend(dataset.get("mcqs", []))
+                    all_questions.extend(dataset.get("coding_mcqs", []))
+                # Debug (optional but useful)
+                
+        
+
+        score = 0
+
+        # Create quick lookup
+        question_map = {q["id"]: q for q in all_questions}
+
+        for ans in user_answers:
+            q = question_map.get(ans.get("id"))
+
+            if not q:
+                
+                continue
+
+            if q.get("correct_answer", "").strip().lower() == ans.get("answer", "").strip().lower():
+                score += 1
+        
+        role_id = None
+        
+        
+
+        # ✅ Only fetch role_id for skill assessment
+        if assessment_type == "skill":
+            role_response = supabase.table("job_roles") \
+                .select("role_id") \
+                .eq("job_role", role) \
+                .execute()
+
+            role_id = role_response.data[0]["role_id"] if role_response.data else None
+
+        # ✅ Insert into DB
+        supabase.table("assessment").insert({
+            "role_id": role_id,  # NULL for online assessment
+            "assessment_type": assessment_type,
+            "score": score,
+            "user_id": user_id,
+            "time_taken": time_taken
+        }).execute()
+        return JsonResponse({
+            "score": score,
+            "total": len(user_answers)
+        })
     
