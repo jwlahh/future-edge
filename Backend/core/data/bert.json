@@ -1,411 +1,363 @@
 {
-  "skill": "Bert",
+  "skill": "BERT",
+
   "mcqs": [
     {
       "id": "bert_001",
-      "question": "bert question 1?",
+      "question": "What makes BERT different from traditional language models?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Unidirectional context",
+        "Bidirectional context",
+        "Uses images",
+        "Only uses rules"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "bert_002",
-      "question": "bert question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Bidirectional context",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "bert_003",
-      "question": "bert question 3?",
+      "id": "bert_002",
+      "question": "What does BERT stand for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Bidirectional Encoder Representations from Transformers",
+        "Binary Encoding Representation Tool",
+        "Basic Encoder Representation Technique",
+        "None"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Bidirectional Encoder Representations from Transformers",
       "difficulty": "easy",
       "weight": 2
+    },
+    {
+      "id": "bert_003",
+      "question": "Which architecture is BERT based on?",
+      "options": [
+        "CNN",
+        "RNN",
+        "Transformer Encoder",
+        "GAN"
+      ],
+      "correct_answer": "Transformer Encoder",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "bert_004",
-      "question": "bert question 4?",
+      "question": "What is the purpose of [CLS] token?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Padding",
+        "Sentence classification",
+        "Masking",
+        "Token separation"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Sentence classification",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
       "id": "bert_005",
-      "question": "bert question 5?",
+      "question": "What is the purpose of [SEP] token?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Padding",
+        "Separate sentences",
+        "Mask token",
+        "Prediction"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Separate sentences",
+      "difficulty": "medium",
+      "weight": 3
     },
+
     {
       "id": "bert_006",
-      "question": "bert question 6?",
+      "question": "What is masked language modeling?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Predicting hidden words",
+        "Removing words",
+        "Tokenizing sentences",
+        "Classifying text"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Predicting hidden words",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "bert_007",
-      "question": "bert question 7?",
+      "question": "What is next sentence prediction used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Classification",
+        "Understanding sentence relationships",
+        "Clustering",
+        "Translation"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Understanding sentence relationships",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "bert_008",
-      "question": "bert question 8?",
+      "question": "Why is BERT pre-trained?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Reduce training cost",
+        "Improve performance on tasks",
+        "Reduce data",
+        "Speed up inference"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "Improve performance on tasks",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "bert_009",
-      "question": "bert question 9?",
+      "question": "What is fine-tuning in BERT?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Training from scratch",
+        "Adapting pre-trained model to task",
+        "Reducing model size",
+        "Removing layers"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Adapting pre-trained model to task",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
       "id": "bert_010",
-      "question": "bert question 10?",
+      "question": "What does attention mechanism help with?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Ignore context",
+        "Focus on important words",
+        "Reduce tokens",
+        "Increase speed only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "Focus on important words",
+      "difficulty": "medium",
+      "weight": 3
     },
+
     {
       "id": "bert_011",
-      "question": "bert question 11?",
+      "question": "What is tokenization in BERT?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Splitting text into tokens",
+        "Encoding images",
+        "Training model",
+        "Clustering"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Splitting text into tokens",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "bert_012",
-      "question": "bert question 12?",
+      "question": "What type of embeddings does BERT use?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Static embeddings",
+        "Contextual embeddings",
+        "Image embeddings",
+        "Audio embeddings"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Contextual embeddings",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "bert_013",
-      "question": "bert question 13?",
+      "question": "Why is BERT effective for NLP tasks?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Uses rules",
+        "Understands context deeply",
+        "Only uses keywords",
+        "Uses images"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Understands context deeply",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     },
     {
       "id": "bert_014",
-      "question": "bert question 14?",
+      "question": "Which task can BERT handle?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Text classification",
+        "NER",
+        "QA",
+        "All of the above"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "All of the above",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "bert_015",
-      "question": "bert question 15?",
+      "question": "What is WordPiece?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Tokenizer",
+        "Model",
+        "Dataset",
+        "Loss function"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Tokenizer",
+      "difficulty": "medium",
       "weight": 3
     },
+
     {
       "id": "bert_016",
-      "question": "bert question 16?",
+      "question": "What happens if sequence length exceeds limit?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Error",
+        "Truncated",
+        "Expanded",
+        "Ignored"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Truncated",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "bert_017",
-      "question": "bert question 17?",
+      "question": "What is self-attention?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Model attends to itself",
+        "Ignores tokens",
+        "Removes tokens",
+        "Clustering"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "Model attends to itself",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "bert_018",
-      "question": "bert question 18?",
+      "question": "Which layer outputs final representation?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Embedding layer",
+        "Final encoder layer",
+        "Tokenizer",
+        "Loss layer"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Final encoder layer",
       "difficulty": "hard",
-      "weight": 2
+      "weight": 3
     },
     {
       "id": "bert_019",
-      "question": "bert question 19?",
+      "question": "What is positional encoding used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Word order",
+        "Token type",
+        "Classification",
+        "Prediction"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Word order",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "bert_020",
-      "question": "bert question 20?",
+      "question": "Why does BERT outperform traditional models?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "More rules",
+        "Better contextual understanding",
+        "Less data",
+        "Simpler model"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "bert_021",
-      "question": "bert question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Better contextual understanding",
       "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "bert_022",
-      "question": "bert question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "bert_023",
-      "question": "bert question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "bert_024",
-      "question": "bert question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "bert_025",
-      "question": "bert question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "bert_026",
-      "question": "bert question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "bert_027",
-      "question": "bert question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "bert_028",
-      "question": "bert question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "bert_029",
-      "question": "bert question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "bert_030",
-      "question": "bert question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
     }
   ],
+
   "coding_mcqs": [
     {
       "id": "bert_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
-      "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
-      ],
-      "correct_answer": "valid",
+      "question": "What is this used for?",
+      "code": "tokenizer.encode('Hello world')",
+      "options": ["Tokenization", "Training", "Prediction", "Clustering"],
+      "correct_answer": "Tokenization",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "bert_c_002",
+      "question": "What does this return?",
+      "code": "tokenizer.tokenize('Hello world')",
+      "options": ["Tokens", "IDs", "Embeddings", "Labels"],
+      "correct_answer": "Tokens",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bert_c_003",
+      "question": "What is happening here?",
+      "code": "model = BertModel.from_pretrained('bert-base-uncased')",
+      "options": ["Training", "Loading pre-trained model", "Prediction", "Encoding"],
+      "correct_answer": "Loading pre-trained model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bert_c_004",
+      "question": "What does this represent?",
+      "code": "outputs = model(input_ids)",
+      "options": ["Predictions", "Embeddings", "Labels", "Tokens"],
+      "correct_answer": "Embeddings",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bert_c_005",
+      "question": "What is this used for?",
+      "code": "tokenizer.encode_plus(text, return_tensors='pt')",
+      "options": ["Tokenization with tensors", "Training", "Prediction", "Clustering"],
+      "correct_answer": "Tokenization with tensors",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "bert_c_006",
+      "question": "What does attention_mask do?",
+      "code": "inputs['attention_mask']",
+      "options": ["Ignore padding tokens", "Train model", "Predict labels", "Encode text"],
+      "correct_answer": "Ignore padding tokens",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bert_c_007",
+      "question": "What is this used for?",
+      "code": "model(**inputs)",
+      "options": ["Forward pass", "Training", "Tokenizing", "Clustering"],
+      "correct_answer": "Forward pass",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bert_c_008",
+      "question": "What does this represent?",
+      "code": "outputs.last_hidden_state",
+      "options": ["Final embeddings", "Labels", "Tokens", "Loss"],
+      "correct_answer": "Final embeddings",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bert_c_009",
+      "question": "What is this used for?",
+      "code": "outputs.pooler_output",
+      "options": ["Sentence representation", "Token IDs", "Loss", "Masking"],
+      "correct_answer": "Sentence representation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bert_c_010",
+      "question": "What does this represent?",
+      "code": "BertForSequenceClassification()",
+      "options": ["Classification model", "Tokenizer", "Embedding layer", "Loss"],
+      "correct_answer": "Classification model",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

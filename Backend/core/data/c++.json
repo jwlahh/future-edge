@@ -1,411 +1,558 @@
 {
   "skill": "C++",
+
   "mcqs": [
     {
-      "id": "c++_001",
-      "question": "c++ question 1?",
+      "id": "cpp_001",
+      "question": "What happens if memory allocated using new is not deleted?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Compilation error",
+        "Memory leak",
+        "Runtime crash",
+        "Auto cleanup"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Memory leak",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cpp_002",
+      "question": "What is the main advantage of using references over pointers?",
+      "options": [
+        "Faster execution",
+        "Safer and easier syntax",
+        "Uses less memory",
+        "Supports arithmetic"
+      ],
+      "correct_answer": "Safer and easier syntax",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "c++_002",
-      "question": "c++ question 2?",
+      "id": "cpp_003",
+      "question": "What is function overloading?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Same function name with different parameters",
+        "Different functions same parameters",
+        "Function inside function",
+        "Recursive function"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "c++_003",
-      "question": "c++ question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Same function name with different parameters",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "c++_004",
-      "question": "c++ question 4?",
+      "id": "cpp_004",
+      "question": "What is the purpose of virtual functions?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Compile-time binding",
+        "Runtime polymorphism",
+        "Memory allocation",
+        "Faster execution"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Runtime polymorphism",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_005",
+      "question": "Which feature allows code reuse in C++?",
+      "options": [
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism",
+        "Abstraction"
+      ],
+      "correct_answer": "Inheritance",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cpp_006",
+      "question": "What is a dangling pointer?",
+      "options": [
+        "Null pointer",
+        "Pointer to deleted memory",
+        "Pointer to constant",
+        "Pointer to function"
+      ],
+      "correct_answer": "Pointer to deleted memory",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_007",
+      "question": "What does const keyword ensure?",
+      "options": [
+        "Variable can change",
+        "Variable cannot be modified",
+        "Faster execution",
+        "Memory allocation"
+      ],
+      "correct_answer": "Variable cannot be modified",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cpp_008",
+      "question": "Which STL container provides dynamic array?",
+      "options": ["vector", "map", "set", "queue"],
+      "correct_answer": "vector",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cpp_009",
+      "question": "What is the use of destructor?",
+      "options": [
+        "Initialize object",
+        "Free resources",
+        "Allocate memory",
+        "Copy object"
+      ],
+      "correct_answer": "Free resources",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_010",
+      "question": "What is encapsulation?",
+      "options": [
+        "Data hiding",
+        "Inheritance",
+        "Polymorphism",
+        "Overloading"
+      ],
+      "correct_answer": "Data hiding",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cpp_011",
+      "question": "What is the difference between stack and heap?",
+      "options": [
+        "Stack is manual, heap automatic",
+        "Stack is automatic, heap manual",
+        "Both same",
+        "None"
+      ],
+      "correct_answer": "Stack is automatic, heap manual",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_012",
+      "question": "What is inline function?",
+      "options": [
+        "Function called multiple times",
+        "Function expanded at compile time",
+        "Recursive function",
+        "Virtual function"
+      ],
+      "correct_answer": "Function expanded at compile time",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_013",
+      "question": "Which operator is used for dynamic memory allocation?",
+      "options": ["new", "malloc", "alloc", "create"],
+      "correct_answer": "new",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cpp_014",
+      "question": "What is polymorphism?",
+      "options": [
+        "Multiple forms of function",
+        "Single function",
+        "Data hiding",
+        "Memory allocation"
+      ],
+      "correct_answer": "Multiple forms of function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_015",
+      "question": "Which access specifier allows access only within class?",
+      "options": ["private", "public", "protected", "global"],
+      "correct_answer": "private",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cpp_016",
+      "question": "What is a template in C++?",
+      "options": [
+        "Predefined class",
+        "Generic programming",
+        "Memory block",
+        "Loop"
+      ],
+      "correct_answer": "Generic programming",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_017",
+      "question": "Which container stores unique elements?",
+      "options": ["set", "vector", "list", "queue"],
+      "correct_answer": "set",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_018",
+      "question": "What is operator overloading?",
+      "options": [
+        "Redefining operators",
+        "Deleting operators",
+        "Creating operators",
+        "Ignoring operators"
+      ],
+      "correct_answer": "Redefining operators",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_019",
+      "question": "What is a reference variable?",
+      "options": [
+        "Alias to variable",
+        "Pointer",
+        "Constant",
+        "Function"
+      ],
+      "correct_answer": "Alias to variable",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cpp_020",
+      "question": "Which feature avoids multiple inheritance ambiguity?",
+      "options": [
+        "Virtual inheritance",
+        "Templates",
+        "Encapsulation",
+        "Inline functions"
+      ],
+      "correct_answer": "Virtual inheritance",
       "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "c++_005",
-      "question": "c++ question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "c++_006",
-      "question": "c++ question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "c++_007",
-      "question": "c++ question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "c++_008",
-      "question": "c++ question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "c++_009",
-      "question": "c++ question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 3
     },
+
     {
-      "id": "c++_010",
-      "question": "c++ question 10?",
+      "id": "cpp_021",
+      "question": "What is RAII in C++?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Memory leak",
+        "Resource management via object lifetime",
+        "Loop concept",
+        "Template type"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "c++_011",
-      "question": "c++ question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "c++_012",
-      "question": "c++ question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "c++_013",
-      "question": "c++ question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "c++_014",
-      "question": "c++ question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "c++_015",
-      "question": "c++ question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "c++_016",
-      "question": "c++ question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "c++_017",
-      "question": "c++ question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "c++_018",
-      "question": "c++ question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "c++_019",
-      "question": "c++ question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "c++_020",
-      "question": "c++ question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Resource management via object lifetime",
       "difficulty": "hard",
       "weight": 3
     },
     {
-      "id": "c++_021",
-      "question": "c++ question 21?",
+      "id": "cpp_022",
+      "question": "What does std::move do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Copies object",
+        "Transfers ownership",
+        "Deletes object",
+        "Allocates memory"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Transfers ownership",
+      "difficulty": "hard",
+      "weight": 3
     },
     {
-      "id": "c++_022",
-      "question": "c++ question 22?",
+      "id": "cpp_023",
+      "question": "What is lambda expression?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Anonymous function",
+        "Loop",
+        "Class",
+        "Pointer"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "c++_023",
-      "question": "c++ question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Anonymous function",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "c++_024",
-      "question": "c++ question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "id": "cpp_024",
+      "question": "Which container is FIFO?",
+      "options": ["queue", "stack", "vector", "set"],
+      "correct_answer": "queue",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "c++_025",
-      "question": "c++ question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "id": "cpp_025",
+      "question": "Which container is LIFO?",
+      "options": ["stack", "queue", "vector", "map"],
+      "correct_answer": "stack",
       "difficulty": "easy",
       "weight": 2
     },
+
     {
-      "id": "c++_026",
-      "question": "c++ question 26?",
+      "id": "cpp_026",
+      "question": "What is smart pointer?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Pointer with automatic memory management",
+        "Normal pointer",
+        "Function pointer",
+        "Null pointer"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "c++_027",
-      "question": "c++ question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Pointer with automatic memory management",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     },
     {
-      "id": "c++_028",
-      "question": "c++ question 28?",
+      "id": "cpp_027",
+      "question": "What does std::unique_ptr ensure?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Multiple ownership",
+        "Single ownership",
+        "No ownership",
+        "Shared memory"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "c++_029",
-      "question": "c++ question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Single ownership",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "c++_030",
-      "question": "c++ question 30?",
+      "id": "cpp_028",
+      "question": "What is segmentation fault?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Compile error",
+        "Invalid memory access",
+        "Syntax error",
+        "Logic error"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Invalid memory access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_029",
+      "question": "What is nullptr?",
+      "options": [
+        "Integer",
+        "Null pointer literal",
+        "Function",
+        "Class"
+      ],
+      "correct_answer": "Null pointer literal",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cpp_030",
+      "question": "What is move semantics used for?",
+      "options": [
+        "Copy data",
+        "Optimize resource transfer",
+        "Delete memory",
+        "Allocate memory"
+      ],
+      "correct_answer": "Optimize resource transfer",
       "difficulty": "hard",
-      "weight": 1
+      "weight": 3
     }
   ],
   "coding_mcqs": [
+
     {
-      "id": "c++_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
-      "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
-      ],
-      "correct_answer": "valid",
+      "id": "cpp_c_001",
+      "question": "What is the output?",
+      "code": "int x = 5;\nint *p = &x;\ncout << *p;",
+      "options": ["5", "Address", "Error", "0"],
+      "correct_answer": "5",
       "difficulty": "easy",
       "weight": 1
+    },
+    {
+      "id": "cpp_c_002",
+      "question": "What is the output?",
+      "code": "int x = 10;\nint &ref = x;\nref = 20;\ncout << x;",
+      "options": ["10", "20", "Error", "0"],
+      "correct_answer": "20",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cpp_c_003",
+      "question": "What is the output?",
+      "code": "int arr[] = {1,2,3};\ncout << *(arr+1);",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "2",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cpp_c_004",
+      "question": "Find the error",
+      "code": "int *p;\n*p = 10;",
+      "options": ["Uninitialized pointer", "Syntax error", "Type error", "No error"],
+      "correct_answer": "Uninitialized pointer",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cpp_c_005",
+      "question": "What is the output?",
+      "code": "int x = 5;\nint *p = &x;\ncout << p;",
+      "options": ["5", "Address", "Error", "0"],
+      "correct_answer": "Address",
+      "difficulty": "medium",
+      "weight": 2
+    },
+
+    {
+      "id": "cpp_c_006",
+      "question": "What is the output?",
+      "code": "int x = 5;\nint *p = &x;\nint **q = &p;\ncout << **q;",
+      "options": ["5", "Address", "Error", "0"],
+      "correct_answer": "5",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cpp_c_007",
+      "question": "What is the output?",
+      "code": "int x = 10;\nint *p = &x;\np++;\ncout << *p;",
+      "options": ["10", "Garbage value", "Error", "0"],
+      "correct_answer": "Garbage value",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "cpp_c_008",
+      "question": "What is the output?",
+      "code": "int a = 5;\nint b = a++;\ncout << a << b;",
+      "options": ["56", "65", "55", "Error"],
+      "correct_answer": "65",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cpp_c_009",
+      "question": "What is the output?",
+      "code": "int a = 5;\nint b = ++a;\ncout << a << b;",
+      "options": ["66", "65", "56", "Error"],
+      "correct_answer": "66",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cpp_c_010",
+      "question": "What is the output?",
+      "code": "int arr[3] = {1,2,3};\ncout << arr[2];",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 1
+    },
+
+    {
+      "id": "cpp_c_011",
+      "question": "Find the error",
+      "code": "int &ref;\nint x = 5;\nref = x;",
+      "options": ["Reference not initialized", "Syntax error", "Type error", "No error"],
+      "correct_answer": "Reference not initialized",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cpp_c_012",
+      "question": "What is the output?",
+      "code": "int x = 5;\ncout << sizeof(x);",
+      "options": ["2", "4", "8", "Depends"],
+      "correct_answer": "4",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cpp_c_013",
+      "question": "What is the output?",
+      "code": "int x = 5;\ncout << &x;",
+      "options": ["5", "Address", "Error", "0"],
+      "correct_answer": "Address",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cpp_c_014",
+      "question": "What is the output?",
+      "code": "int a = 10;\n{\n  int a = 20;\n}\ncout << a;",
+      "options": ["10", "20", "Error", "0"],
+      "correct_answer": "10",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cpp_c_015",
+      "question": "What is the output?",
+      "code": "int *p = new int(5);\ncout << *p;",
+      "options": ["5", "Address", "Error", "0"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 1
+    },
+
+    {
+      "id": "cpp_c_016",
+      "question": "What is the output?",
+      "code": "int *p = new int(5);\ndelete p;\ncout << *p;",
+      "options": ["5", "Garbage value", "Error", "0"],
+      "correct_answer": "Garbage value",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "cpp_c_017",
+      "question": "What is the output?",
+      "code": "vector<int> v = {1,2,3};\ncout << v.size();",
+      "options": ["2", "3", "1", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cpp_c_018",
+      "question": "What is the output?",
+      "code": "vector<int> v;\nv.push_back(10);\ncout << v[0];",
+      "options": ["10", "0", "Error", "Garbage"],
+      "correct_answer": "10",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cpp_c_019",
+      "question": "What is the output?",
+      "code": "string s = \"abc\";\ns += \"d\";\ncout << s;",
+      "options": ["abcd", "abc", "dabc", "Error"],
+      "correct_answer": "abcd",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cpp_c_020",
+      "question": "Find the error",
+      "code": "int *p = NULL;\ncout << *p;",
+      "options": ["Dereferencing null pointer", "Syntax error", "Type error", "No error"],
+      "correct_answer": "Dereferencing null pointer",
+      "difficulty": "medium",
+      "weight": 2
     }
+
   ]
 }

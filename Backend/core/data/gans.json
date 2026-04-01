@@ -1,411 +1,413 @@
 {
-  "skill": "Gans",
+  "skill": "GANs",
+
   "mcqs": [
     {
-      "id": "gans_001",
-      "question": "gans question 1?",
+      "id": "gan_001",
+      "question": "What is the main idea behind GANs?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single model training",
+        "Two models competing",
+        "Supervised learning",
+        "Clustering"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Two models competing",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "gans_002",
-      "question": "gans question 2?",
+      "id": "gan_002",
+      "question": "What does the generator do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Classify data",
+        "Generate fake data",
+        "Store data",
+        "Delete data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Generate fake data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gan_003",
+      "question": "What does the discriminator do?",
+      "options": [
+        "Generate data",
+        "Distinguish real vs fake",
+        "Store data",
+        "Delete data"
+      ],
+      "correct_answer": "Distinguish real vs fake",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gan_004",
+      "question": "What is adversarial training?",
+      "options": [
+        "Single model training",
+        "Models competing to improve",
+        "Clustering",
+        "Regression"
+      ],
+      "correct_answer": "Models competing to improve",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "gans_003",
-      "question": "gans question 3?",
+      "id": "gan_005",
+      "question": "What is mode collapse?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Better diversity",
+        "Generator produces limited outputs",
+        "Training stability",
+        "Loss reduction"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "gans_004",
-      "question": "gans question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "gans_005",
-      "question": "gans question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "gans_006",
-      "question": "gans question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Generator produces limited outputs",
+      "difficulty": "medium",
       "weight": 3
     },
+
     {
-      "id": "gans_007",
-      "question": "gans question 7?",
+      "id": "gan_006",
+      "question": "What is GAN loss based on?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Regression",
+        "Binary classification",
+        "Clustering",
+        "Sorting"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "gans_008",
-      "question": "gans question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "gans_009",
-      "question": "gans question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "gans_010",
-      "question": "gans question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "gans_011",
-      "question": "gans question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "gans_012",
-      "question": "gans question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Binary classification",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "gans_013",
-      "question": "gans question 13?",
+      "id": "gan_007",
+      "question": "What happens when discriminator is too strong?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Better generator",
+        "Generator fails to learn",
+        "Training stops",
+        "Loss decreases"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "gans_014",
-      "question": "gans question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "gans_015",
-      "question": "gans question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "gans_016",
-      "question": "gans question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "gans_017",
-      "question": "gans question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "gans_018",
-      "question": "gans question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "gans_019",
-      "question": "gans question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "gans_020",
-      "question": "gans question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "gans_021",
-      "question": "gans question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "gans_022",
-      "question": "gans question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "gans_023",
-      "question": "gans question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "gans_024",
-      "question": "gans question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Generator fails to learn",
       "difficulty": "hard",
       "weight": 3
     },
     {
-      "id": "gans_025",
-      "question": "gans question 25?",
+      "id": "gan_008",
+      "question": "What is latent space?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Output space",
+        "Input noise space",
+        "Loss space",
+        "Data storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "gans_026",
-      "question": "gans question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Input noise space",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "gans_027",
-      "question": "gans question 27?",
+      "id": "gan_009",
+      "question": "Why is GAN training unstable?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single model",
+        "Two-player optimization",
+        "Small data",
+        "Fast learning"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Two-player optimization",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "gans_028",
-      "question": "gans question 28?",
+      "id": "gan_010",
+      "question": "What is DCGAN?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "GAN using convolution layers",
+        "Clustering model",
+        "Regression model"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "GAN using convolution layers",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "gan_011",
+      "question": "What is Wasserstein GAN used for?",
+      "options": [
+        "Speed",
+        "Stable training",
+        "Storage",
+        "Clustering"
+      ],
+      "correct_answer": "Stable training",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_012",
+      "question": "What is generator input?",
+      "options": [
+        "Labels",
+        "Random noise",
+        "Images",
+        "Text"
+      ],
+      "correct_answer": "Random noise",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "gans_029",
-      "question": "gans question 29?",
+      "id": "gan_013",
+      "question": "What is discriminator output?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Image",
+        "Probability of real/fake",
+        "Text",
+        "Cluster"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Probability of real/fake",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "gans_030",
-      "question": "gans question 30?",
+      "id": "gan_014",
+      "question": "What is overfitting in GAN discriminator?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Better generalization",
+        "Memorizes training data",
+        "Improves generator",
+        "Faster training"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Memorizes training data",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_015",
+      "question": "What is conditional GAN?",
+      "options": [
+        "Unsupervised",
+        "Uses labels as input",
+        "Clustering",
+        "Regression"
+      ],
+      "correct_answer": "Uses labels as input",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "gan_016",
+      "question": "What is feature matching?",
+      "options": [
+        "Data deletion",
+        "Stabilize GAN training",
+        "Sorting",
+        "Clustering"
+      ],
+      "correct_answer": "Stabilize GAN training",
       "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "gan_017",
+      "question": "What is GAN evaluation challenge?",
+      "options": [
+        "Easy metrics",
+        "Hard to measure quality",
+        "Fast training",
+        "Small data"
+      ],
+      "correct_answer": "Hard to measure quality",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_018",
+      "question": "What is noise vector dimension impact?",
+      "options": [
+        "No effect",
+        "Controls output diversity",
+        "Deletes data",
+        "Sorting"
+      ],
+      "correct_answer": "Controls output diversity",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_019",
+      "question": "What is discriminator loss?",
+      "options": [
+        "Measure generator only",
+        "Measure real vs fake classification",
+        "Delete data",
+        "Sorting"
+      ],
+      "correct_answer": "Measure real vs fake classification",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_020",
+      "question": "What is generator objective?",
+      "options": [
+        "Detect fake",
+        "Fool discriminator",
+        "Store data",
+        "Delete data"
+      ],
+      "correct_answer": "Fool discriminator",
+      "difficulty": "easy",
       "weight": 2
     }
   ],
+
   "coding_mcqs": [
     {
-      "id": "gans_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "gan_c_001",
+      "question": "What is this layer used for?",
+      "code": "Dense(128, activation='relu')",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Generator layer",
+        "Fully connected layer",
+        "Pooling",
+        "Normalization"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Fully connected layer",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "gan_c_002",
+      "question": "What does this represent?",
+      "code": "noise = np.random.normal(0,1,(1,100))",
+      "options": [
+        "Training data",
+        "Latent vector",
+        "Labels",
+        "Loss"
+      ],
+      "correct_answer": "Latent vector",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gan_c_003",
+      "question": "What is this activation used for?",
+      "code": "Dense(1, activation='sigmoid')",
+      "options": [
+        "Regression",
+        "Binary classification",
+        "Clustering",
+        "Normalization"
+      ],
+      "correct_answer": "Binary classification",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gan_c_004",
+      "question": "What does this indicate?",
+      "code": "model.compile(loss='binary_crossentropy')",
+      "options": [
+        "Regression",
+        "Binary classification loss",
+        "Clustering",
+        "Sorting"
+      ],
+      "correct_answer": "Binary classification loss",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_c_005",
+      "question": "What is this layer used for?",
+      "code": "Conv2D(64, (3,3))",
+      "options": [
+        "Feature extraction",
+        "Pooling",
+        "Dense layer",
+        "Normalization"
+      ],
+      "correct_answer": "Feature extraction",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "gan_c_006",
+      "question": "What does this do?",
+      "code": "LeakyReLU(alpha=0.2)",
+      "options": [
+        "Activation function",
+        "Loss",
+        "Optimizer",
+        "Pooling"
+      ],
+      "correct_answer": "Activation function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_c_007",
+      "question": "What is this used for?",
+      "code": "BatchNormalization()",
+      "options": [
+        "Normalize activations",
+        "Delete data",
+        "Sort data",
+        "Pooling"
+      ],
+      "correct_answer": "Normalize activations",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_c_008",
+      "question": "What is this optimizer doing?",
+      "code": "optimizer='adam'",
+      "options": [
+        "Activation",
+        "Weight optimization",
+        "Loss calculation",
+        "Normalization"
+      ],
+      "correct_answer": "Weight optimization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gan_c_009",
+      "question": "What is this used for?",
+      "code": "model.predict(noise)",
+      "options": [
+        "Generate fake data",
+        "Train model",
+        "Evaluate",
+        "Delete data"
+      ],
+      "correct_answer": "Generate fake data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gan_c_010",
+      "question": "What is this step?",
+      "code": "model.fit(X, y)",
+      "options": [
+        "Training",
+        "Prediction",
+        "Evaluation",
+        "Normalization"
+      ],
+      "correct_answer": "Training",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

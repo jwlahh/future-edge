@@ -71,7 +71,45 @@ def skill_gap(request):
             (len(matched_skills) / len(required_skills)) * 100,
             2
         )
+    # -----------------------------
+    # Save to DB (FIXED)
+    # -----------------------------
 
+    user_id = request.data.get("user_id")
+    if not user_id:
+        return Response({"error": "User ID required"}, status=400)
+
+    role_id = role.get("role_id")
+    if not role_id:
+        return Response({"error": "Role ID not found"}, status=400)
+
+    # 🔥 Prepare data FIRST
+    data_to_store = {
+        "user_id": user_id,
+        "role_id": role_id,
+        "matched_skills": ";".join(matched_skills),
+        "missing_skills": ";".join(missing_skills),
+        "gap_score": gap_score
+    }
+
+    # 🔍 Check if record exists
+    existing = supabase.table("skill_gap") \
+        .select("id") \
+        .eq("user_id", user_id) \
+        .eq("role_id", role_id) \
+        .execute()
+
+    # 🔁 Update OR Insert
+    if existing.data:
+        supabase.table("skill_gap") \
+            .update(data_to_store) \
+            .eq("user_id", user_id) \
+            .eq("role_id", role_id) \
+            .execute()
+    else:
+        supabase.table("skill_gap") \
+            .insert(data_to_store) \
+            .execute()
     # -----------------------------
     # Response
     # -----------------------------

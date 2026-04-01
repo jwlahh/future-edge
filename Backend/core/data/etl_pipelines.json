@@ -1,411 +1,402 @@
 {
-  "skill": "Etl Pipelines",
+  "skill": "ETL Pipelines",
+
   "mcqs": [
     {
-      "id": "etl_pipelines_001",
-      "question": "etl pipelines question 1?",
+      "id": "etl_001",
+      "question": "What is the purpose of the Extract phase?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Transform data",
+        "Collect data from sources",
+        "Store data",
+        "Delete data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "etl_pipelines_002",
-      "question": "etl pipelines question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Collect data from sources",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "etl_pipelines_003",
-      "question": "etl pipelines question 3?",
+      "id": "etl_002",
+      "question": "What happens in the Transform phase?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Clean and convert data",
+        "Delete data",
+        "Collect data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "etl_pipelines_004",
-      "question": "etl pipelines question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "etl_pipelines_005",
-      "question": "etl pipelines question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "etl_pipelines_006",
-      "question": "etl pipelines question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_007",
-      "question": "etl pipelines question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_008",
-      "question": "etl pipelines question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "etl_pipelines_009",
-      "question": "etl pipelines question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_010",
-      "question": "etl pipelines question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Clean and convert data",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "etl_pipelines_011",
-      "question": "etl pipelines question 11?",
+      "id": "etl_003",
+      "question": "What is the Load phase?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Extract data",
+        "Store processed data into target system",
+        "Delete data",
+        "Transform data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_012",
-      "question": "etl pipelines question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "etl_pipelines_013",
-      "question": "etl pipelines question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_014",
-      "question": "etl pipelines question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "etl_pipelines_015",
-      "question": "etl pipelines question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_016",
-      "question": "etl pipelines question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "etl_pipelines_017",
-      "question": "etl pipelines question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "etl_pipelines_018",
-      "question": "etl pipelines question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Store processed data into target system",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "etl_pipelines_019",
-      "question": "etl pipelines question 19?",
+      "id": "etl_004",
+      "question": "What is data cleansing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete all data",
+        "Remove errors and inconsistencies",
+        "Store data",
+        "Encrypt data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_020",
-      "question": "etl pipelines question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "etl_pipelines_021",
-      "question": "etl pipelines question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "etl_pipelines_022",
-      "question": "etl pipelines question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "etl_pipelines_023",
-      "question": "etl pipelines question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_024",
-      "question": "etl pipelines question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_025",
-      "question": "etl pipelines question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "etl_pipelines_026",
-      "question": "etl pipelines question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "etl_pipelines_027",
-      "question": "etl pipelines question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Remove errors and inconsistencies",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "etl_pipelines_028",
-      "question": "etl pipelines question 28?",
+      "id": "etl_005",
+      "question": "What is schema mapping?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete schema",
+        "Align source and target structures",
+        "Store schema",
+        "Encrypt schema"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Align source and target structures",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "etl_006",
+      "question": "What is batch ETL?",
+      "options": [
+        "Real-time processing",
+        "Processing data in chunks",
+        "Manual process",
+        "Streaming"
+      ],
+      "correct_answer": "Processing data in chunks",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "etl_pipelines_029",
-      "question": "etl pipelines question 29?",
+      "id": "etl_007",
+      "question": "What is incremental load?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Load all data",
+        "Load only new/changed data",
+        "Delete data",
+        "Transform data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Load only new/changed data",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "etl_pipelines_030",
-      "question": "etl pipelines question 30?",
+      "id": "etl_008",
+      "question": "What is full load?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Load partial data",
+        "Load entire dataset",
+        "Delete data",
+        "Transform data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Load entire dataset",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "etl_009",
+      "question": "What is data validation?",
+      "options": [
+        "Delete data",
+        "Ensure data accuracy",
+        "Store data",
+        "Encrypt data"
+      ],
+      "correct_answer": "Ensure data accuracy",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "etl_010",
+      "question": "What is staging area?",
+      "options": [
+        "Final storage",
+        "Temporary data storage before processing",
+        "Delete area",
+        "UI area"
+      ],
+      "correct_answer": "Temporary data storage before processing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "etl_011",
+      "question": "What is ETL pipeline latency?",
+      "options": [
+        "Data size",
+        "Delay in processing",
+        "Storage size",
+        "Speed"
+      ],
+      "correct_answer": "Delay in processing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "etl_012",
+      "question": "What is data transformation logic?",
+      "options": [
+        "Delete rules",
+        "Rules applied to modify data",
+        "Storage rules",
+        "Encryption rules"
+      ],
+      "correct_answer": "Rules applied to modify data",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_013",
+      "question": "What is fault tolerance in ETL?",
+      "options": [
+        "Ignore errors",
+        "Handle failures gracefully",
+        "Delete data",
+        "Restart system"
+      ],
+      "correct_answer": "Handle failures gracefully",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_014",
+      "question": "What is parallel processing in ETL?",
+      "options": [
+        "Single process",
+        "Process data simultaneously",
+        "Delete data",
+        "Manual processing"
+      ],
+      "correct_answer": "Process data simultaneously",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_015",
+      "question": "What is data lineage?",
+      "options": [
+        "Delete history",
+        "Track data flow and origin",
+        "Store data",
+        "Encrypt data"
+      ],
+      "correct_answer": "Track data flow and origin",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "etl_016",
+      "question": "What is deduplication?",
+      "options": [
+        "Add duplicates",
+        "Remove duplicate data",
+        "Store data",
+        "Delete all data"
+      ],
+      "correct_answer": "Remove duplicate data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "etl_017",
+      "question": "What is data partitioning?",
+      "options": [
+        "Delete data",
+        "Divide data for efficiency",
+        "Merge data",
+        "Encrypt data"
+      ],
+      "correct_answer": "Divide data for efficiency",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_018",
+      "question": "What is ETL scalability?",
+      "options": [
+        "Delete data",
+        "Handle increasing data volume",
+        "Store data",
+        "Encrypt data"
+      ],
+      "correct_answer": "Handle increasing data volume",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_019",
+      "question": "What is error handling in ETL?",
+      "options": [
+        "Ignore errors",
+        "Detect and manage failures",
+        "Delete data",
+        "Restart system always"
+      ],
+      "correct_answer": "Detect and manage failures",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_020",
+      "question": "What is ETL orchestration?",
+      "options": [
+        "Manual process",
+        "Manage workflow execution",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Manage workflow execution",
       "difficulty": "medium",
       "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "etl_pipelines_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "etl_s_001",
+      "question": "Large dataset processed daily. What approach?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Streaming",
+        "Batch ETL",
+        "Manual",
+        "Delete data"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Batch ETL",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "etl_s_002",
+      "question": "Need real-time updates. What to use?",
+      "options": [
+        "Batch",
+        "Streaming ETL",
+        "Manual",
+        "Delete data"
+      ],
+      "correct_answer": "Streaming ETL",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_s_003",
+      "question": "Pipeline loads duplicate data. What to apply?",
+      "options": [
+        "Delete pipeline",
+        "Deduplication",
+        "Ignore",
+        "Restart"
+      ],
+      "correct_answer": "Deduplication",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "etl_s_004",
+      "question": "Schema mismatch between source and target. What to do?",
+      "options": [
+        "Delete data",
+        "Schema mapping",
+        "Ignore",
+        "Restart"
+      ],
+      "correct_answer": "Schema mapping",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_s_005",
+      "question": "Need faster ETL performance. What helps?",
+      "options": [
+        "Single process",
+        "Parallel processing",
+        "Delete data",
+        "Manual"
+      ],
+      "correct_answer": "Parallel processing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_s_006",
+      "question": "Pipeline fails midway. What ensures safe retry?",
+      "options": [
+        "Delete data",
+        "Idempotent design",
+        "Ignore",
+        "Restart"
+      ],
+      "correct_answer": "Idempotent design",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "etl_s_007",
+      "question": "Need to track data origin. What to implement?",
+      "options": [
+        "Delete logs",
+        "Data lineage",
+        "Ignore",
+        "Restart"
+      ],
+      "correct_answer": "Data lineage",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_s_008",
+      "question": "Frequent updates in source data. What load strategy?",
+      "options": [
+        "Full load",
+        "Incremental load",
+        "Delete data",
+        "Manual"
+      ],
+      "correct_answer": "Incremental load",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_s_009",
+      "question": "Pipeline must handle errors gracefully. What needed?",
+      "options": [
+        "Ignore",
+        "Error handling and retry",
+        "Delete data",
+        "Manual"
+      ],
+      "correct_answer": "Error handling and retry",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "etl_s_010",
+      "question": "Need to schedule ETL jobs. What to use?",
+      "options": [
+        "Manual",
+        "Orchestration tool",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Orchestration tool",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

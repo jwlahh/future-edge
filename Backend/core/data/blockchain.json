@@ -1,411 +1,363 @@
 {
   "skill": "Blockchain",
+
   "mcqs": [
     {
-      "id": "blockchain_001",
-      "question": "blockchain question 1?",
+      "id": "bc_001",
+      "question": "Why is blockchain considered immutable?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Blocks cannot be deleted",
+        "Each block is linked via cryptographic hashes",
+        "It uses databases",
+        "It is centralized"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Each block is linked via cryptographic hashes",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "blockchain_002",
-      "question": "blockchain question 2?",
+      "id": "bc_002",
+      "question": "What happens if a single block is altered?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Nothing changes",
+        "Entire chain becomes invalid",
+        "Only that block changes",
+        "System crashes"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_003",
-      "question": "blockchain question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Entire chain becomes invalid",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "blockchain_004",
-      "question": "blockchain question 4?",
+      "id": "bc_003",
+      "question": "Which mechanism ensures agreement among nodes?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Encryption",
+        "Consensus algorithm",
+        "Hashing",
+        "Mining"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_005",
-      "question": "blockchain question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_006",
-      "question": "blockchain question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_007",
-      "question": "blockchain question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_008",
-      "question": "blockchain question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_009",
-      "question": "blockchain question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_010",
-      "question": "blockchain question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_011",
-      "question": "blockchain question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_012",
-      "question": "blockchain question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_013",
-      "question": "blockchain question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_014",
-      "question": "blockchain question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_015",
-      "question": "blockchain question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_016",
-      "question": "blockchain question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_017",
-      "question": "blockchain question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_018",
-      "question": "blockchain question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "blockchain_019",
-      "question": "blockchain question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_020",
-      "question": "blockchain question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_021",
-      "question": "blockchain question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_022",
-      "question": "blockchain question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_023",
-      "question": "blockchain question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "blockchain_024",
-      "question": "blockchain question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Consensus algorithm",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "blockchain_025",
-      "question": "blockchain question 25?",
+      "id": "bc_004",
+      "question": "Why is decentralization important in blockchain?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Faster UI",
+        "Removes single point of failure",
+        "Reduces storage",
+        "Improves graphics"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Removes single point of failure",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "blockchain_026",
-      "question": "blockchain question 26?",
+      "id": "bc_005",
+      "question": "What role does hashing play in blockchain?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Stores data",
+        "Ensures data integrity",
+        "Transfers funds",
+        "Creates UI"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Ensures data integrity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "bc_006",
+      "question": "What is Proof of Work mainly used for?",
+      "options": [
+        "Data storage",
+        "Consensus and validation",
+        "UI design",
+        "Encryption"
+      ],
+      "correct_answer": "Consensus and validation",
       "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_007",
+      "question": "Why is Proof of Stake more energy efficient?",
+      "options": [
+        "Less hashing",
+        "No mining competition",
+        "Faster UI",
+        "Less data"
+      ],
+      "correct_answer": "No mining competition",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_008",
+      "question": "What is a smart contract?",
+      "options": [
+        "Legal document",
+        "Self-executing code on blockchain",
+        "Database",
+        "API"
+      ],
+      "correct_answer": "Self-executing code on blockchain",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "blockchain_027",
-      "question": "blockchain question 27?",
+      "id": "bc_009",
+      "question": "Why are smart contracts trusted?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They are hidden",
+        "They are immutable and transparent",
+        "They are fast",
+        "They are private"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_028",
-      "question": "blockchain question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "blockchain_029",
-      "question": "blockchain question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "They are immutable and transparent",
       "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_010",
+      "question": "What problem does double spending refer to?",
+      "options": [
+        "Sending money twice fraudulently",
+        "Network delay",
+        "Data duplication",
+        "Mining issue"
+      ],
+      "correct_answer": "Sending money twice fraudulently",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "bc_011",
+      "question": "How does blockchain prevent double spending?",
+      "options": [
+        "Central authority",
+        "Consensus validation",
+        "Encryption only",
+        "Database locking"
+      ],
+      "correct_answer": "Consensus validation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_012",
+      "question": "What is a private blockchain used for?",
+      "options": [
+        "Public transactions",
+        "Enterprise use",
+        "Gaming",
+        "Social media"
+      ],
+      "correct_answer": "Enterprise use",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "blockchain_030",
-      "question": "blockchain question 30?",
+      "id": "bc_013",
+      "question": "What is gas in blockchain (Ethereum)?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Energy",
+        "Transaction fee",
+        "Token",
+        "Block size"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Transaction fee",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_014",
+      "question": "What does a digital signature ensure?",
+      "options": [
+        "Speed",
+        "Authenticity and integrity",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Authenticity and integrity",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_015",
+      "question": "What is a node in blockchain?",
+      "options": [
+        "UI element",
+        "Participant maintaining ledger",
+        "Database",
+        "API"
+      ],
+      "correct_answer": "Participant maintaining ledger",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "bc_016",
+      "question": "What is mining in blockchain?",
+      "options": [
+        "Data storage",
+        "Validating and adding blocks",
+        "UI rendering",
+        "Encryption"
+      ],
+      "correct_answer": "Validating and adding blocks",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_017",
+      "question": "What is a fork in blockchain?",
+      "options": [
+        "Error",
+        "Chain split",
+        "Transaction",
+        "Token"
+      ],
+      "correct_answer": "Chain split",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_018",
+      "question": "Why are blocks timestamped?",
+      "options": [
+        "UI",
+        "Track order of transactions",
+        "Speed",
+        "Storage"
+      ],
+      "correct_answer": "Track order of transactions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_019",
+      "question": "What is Merkle Tree used for?",
+      "options": [
+        "UI",
+        "Efficient data verification",
+        "Mining",
+        "Storage"
+      ],
+      "correct_answer": "Efficient data verification",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "bc_020",
+      "question": "Why is blockchain secure?",
+      "options": [
+        "Central control",
+        "Cryptography and decentralization",
+        "UI",
+        "Speed"
+      ],
+      "correct_answer": "Cryptography and decentralization",
       "difficulty": "medium",
       "weight": 3
     }
   ],
+
   "coding_mcqs": [
     {
-      "id": "blockchain_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
-      "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
-      ],
-      "correct_answer": "valid",
+      "id": "bc_c_001",
+      "question": "What is this function used for?",
+      "code": "hashlib.sha256(data.encode()).hexdigest()",
+      "options": ["Encryption", "Hashing", "Decryption", "Storage"],
+      "correct_answer": "Hashing",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "bc_c_002",
+      "question": "What does this ensure?",
+      "code": "hash1 == hash2",
+      "options": ["Data integrity", "Encryption", "Mining", "Speed"],
+      "correct_answer": "Data integrity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bc_c_003",
+      "question": "What is happening here?",
+      "code": "block.previous_hash",
+      "options": ["Linking blocks", "Encryption", "Mining", "Storage"],
+      "correct_answer": "Linking blocks",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_c_004",
+      "question": "What is this used for?",
+      "code": "nonce += 1",
+      "options": ["Transaction", "Mining iteration", "Storage", "Encryption"],
+      "correct_answer": "Mining iteration",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_c_005",
+      "question": "What is this condition checking?",
+      "code": "hash.startswith('0000')",
+      "options": ["Difficulty target", "Encryption", "Transaction", "Storage"],
+      "correct_answer": "Difficulty target",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "bc_c_006",
+      "question": "What does this represent?",
+      "code": "blockchain.append(new_block)",
+      "options": ["Add block", "Delete block", "Encrypt block", "Validate"],
+      "correct_answer": "Add block",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bc_c_007",
+      "question": "What is being verified?",
+      "code": "if block.previous_hash != prev_block.hash:",
+      "options": ["Chain validity", "Encryption", "Transaction", "UI"],
+      "correct_answer": "Chain validity",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_c_008",
+      "question": "What does this represent?",
+      "code": "signature.verify(public_key)",
+      "options": ["Authentication", "Hashing", "Mining", "Storage"],
+      "correct_answer": "Authentication",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bc_c_009",
+      "question": "What is this used for?",
+      "code": "transaction.sender",
+      "options": ["Identify sender", "Encrypt data", "Mine block", "Store data"],
+      "correct_answer": "Identify sender",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bc_c_010",
+      "question": "What does this check?",
+      "code": "if transaction.balance >= amount:",
+      "options": ["Valid transaction", "Mining", "Hashing", "Storage"],
+      "correct_answer": "Valid transaction",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

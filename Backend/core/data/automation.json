@@ -1,411 +1,360 @@
 {
   "skill": "Automation",
+
   "mcqs": [
     {
       "id": "automation_001",
-      "question": "automation question 1?",
+      "question": "What is automation testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Manual testing",
+        "Using tools to execute tests automatically",
+        "UI designing",
+        "Database testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Using tools to execute tests automatically",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "automation_002",
-      "question": "automation question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
+      "question": "Which tool is widely used for automation testing?",
+      "options": ["Selenium", "Photoshop", "Excel", "Word"],
+      "correct_answer": "Selenium",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "automation_003",
-      "question": "automation question 3?",
+      "question": "What is a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A script",
+        "A set of steps to validate functionality",
+        "A bug",
+        "A UI element"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "A set of steps to validate functionality",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "automation_004",
-      "question": "automation question 4?",
+      "question": "What is regression testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Testing UI",
+        "Testing existing functionality after changes",
+        "Testing new features only",
+        "Database testing"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Testing existing functionality after changes",
       "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "automation_005",
-      "question": "automation question 5?",
+      "question": "What is a test script?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Manual steps",
+        "Automated code for testing",
+        "Design file",
+        "Bug report"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Automated code for testing",
+      "difficulty": "easy",
+      "weight": 2
     },
+
     {
       "id": "automation_006",
-      "question": "automation question 6?",
+      "question": "What is a test suite?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single test",
+        "Collection of test cases",
+        "Bug list",
+        "UI design"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Collection of test cases",
       "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "automation_007",
-      "question": "automation question 7?",
+      "question": "What does CI/CD stand for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Continuous Integration / Continuous Deployment",
+        "Code Integration / Code Deployment",
+        "Control Integration",
+        "None"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Continuous Integration / Continuous Deployment",
       "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "automation_008",
-      "question": "automation question 8?",
+      "question": "What is a bug?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Feature",
+        "Error in software",
+        "UI element",
+        "Tool"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Error in software",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "automation_009",
-      "question": "automation question 9?",
+      "question": "What is assertion used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Printing output",
+        "Verifying expected results",
+        "Looping",
+        "Storing data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Verifying expected results",
       "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "automation_010",
-      "question": "automation question 10?",
+      "question": "What is smoke testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Full testing",
+        "Basic functionality testing",
+        "UI testing",
+        "Load testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Basic functionality testing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "automation_011",
+      "question": "What is load testing?",
+      "options": [
+        "UI testing",
+        "Performance under load",
+        "Code testing",
+        "Database testing"
+      ],
+      "correct_answer": "Performance under load",
+      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "automation_011",
-      "question": "automation question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
       "id": "automation_012",
-      "question": "automation question 12?",
+      "question": "What is API testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Frontend testing",
+        "Backend service testing",
+        "UI testing",
+        "Design testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Backend service testing",
+      "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "automation_013",
-      "question": "automation question 13?",
+      "question": "What is test data?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "Input for testing",
+        "Code",
+        "Tool"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Input for testing",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "automation_014",
-      "question": "automation question 14?",
+      "question": "What is test execution?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Writing code",
+        "Running tests",
+        "Designing UI",
+        "Deploying app"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Running tests",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "automation_015",
-      "question": "automation question 15?",
+      "question": "Automation is best suited for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Random tasks",
+        "Repetitive tasks",
+        "Design",
+        "Documentation"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Repetitive tasks",
+      "difficulty": "easy",
+      "weight": 2
     },
+
     {
       "id": "automation_016",
-      "question": "automation question 16?",
+      "question": "What is a test framework?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Tool",
+        "Structure for organizing tests",
+        "Bug",
+        "UI"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Structure for organizing tests",
+      "difficulty": "medium",
+      "weight": 2
     },
     {
       "id": "automation_017",
-      "question": "automation question 17?",
+      "question": "What is manual testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Automation",
+        "Human-based testing",
+        "AI testing",
+        "None"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Human-based testing",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "automation_018",
-      "question": "automation question 18?",
+      "question": "Automation reduces?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Time",
+        "Quality",
+        "Accuracy",
+        "Reliability"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "Time",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "automation_019",
-      "question": "automation question 19?",
+      "question": "Flaky tests are?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Stable",
+        "Unreliable tests",
+        "UI tests",
+        "Manual tests"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Unreliable tests",
       "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "automation_020",
-      "question": "automation question 20?",
+      "question": "What is continuous testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Testing once",
+        "Testing throughout development",
+        "UI testing",
+        "Manual testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "automation_021",
-      "question": "automation question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Testing throughout development",
       "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "automation_022",
-      "question": "automation question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
-    },
-    {
-      "id": "automation_023",
-      "question": "automation question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "automation_024",
-      "question": "automation question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "automation_025",
-      "question": "automation question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "automation_026",
-      "question": "automation question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "automation_027",
-      "question": "automation question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "automation_028",
-      "question": "automation question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "automation_029",
-      "question": "automation question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "automation_030",
-      "question": "automation question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
     }
   ],
+
   "coding_mcqs": [
     {
       "id": "automation_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
-      "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
-      ],
-      "correct_answer": "valid",
+      "question": "What is the output?\nprint('Test')",
+      "code": "print('Test')",
+      "options": ["Test", "Error", "None", "Loop"],
+      "correct_answer": "Test",
       "difficulty": "easy",
       "weight": 1
+    },
+    {
+      "id": "automation_c_002",
+      "question": "Which loop is used to run test cases?",
+      "code": "for test in tests:\n run(test)",
+      "options": ["for loop", "if", "switch", "function"],
+      "correct_answer": "for loop",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "automation_c_003",
+      "question": "What does assert do?",
+      "code": "assert x == y",
+      "options": [
+        "Prints output",
+        "Checks condition",
+        "Loops",
+        "Stops always"
+      ],
+      "correct_answer": "Checks condition",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_c_004",
+      "question": "Output?\nlen([1,2,3])",
+      "code": "len([1,2,3])",
+      "options": ["2", "3", "1", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "automation_c_005",
+      "question": "Which keyword defines function?",
+      "code": "# function",
+      "options": ["def", "func", "function", "define"],
+      "correct_answer": "def",
+      "difficulty": "easy",
+      "weight": 1
+    }
+  ],
+
+  "scenario_mcqs": [
+    {
+      "id": "automation_s_001",
+      "question": "Tests fail randomly. What is this called?",
+      "options": ["Stable", "Flaky", "Correct", "Manual"],
+      "correct_answer": "Flaky",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_s_002",
+      "question": "You want to automate browser testing. What tool?",
+      "options": ["Selenium", "Excel", "Word", "Paint"],
+      "correct_answer": "Selenium",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "automation_s_003",
+      "question": "Frequent regression testing needed. What to do?",
+      "options": ["Manual", "Automate", "Skip", "Ignore"],
+      "correct_answer": "Automate",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "automation_s_004",
+      "question": "Test fails due to environment issue. What to check?",
+      "options": ["Test data", "Environment setup", "UI", "Code"],
+      "correct_answer": "Environment setup",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "automation_s_005",
+      "question": "Too many repetitive tests. Best solution?",
+      "options": ["Skip", "Automate", "Delete", "Manual"],
+      "correct_answer": "Automate",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

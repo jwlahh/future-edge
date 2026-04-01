@@ -6,8 +6,10 @@ import bgImage from "../assets/clouds.png";
 
 function Profile() {
   const [user, setUser] = useState(null);
-
   const navigate = useNavigate();
+
+  const [isEditing, setIsEditing] = useState(false);
+  const [originalData, setOriginalData] = useState(null);
 
   const [formData, setFormData] = useState({
     first_name: "",
@@ -43,14 +45,14 @@ function Profile() {
 
     setUser(currentUser);
 
-    const { data: userData, error } = await supabase
+    const { data: userData } = await supabase
       .from("users")
       .select("*")
-      .eq("user_id", currentUser.id) // ✅ FIXED
+      .eq("user_id", currentUser.id)
       .single();
 
     if (userData) {
-      setFormData({
+      const formattedData = {
         first_name: userData.first_name || userData.First_name || "",
         last_name: userData.last_name || userData.Last_Name || "",
         phone: userData.phone || "",
@@ -58,7 +60,10 @@ function Profile() {
         education: userData.education || "",
         linkedin: userData.linkedin || "",
         avatar_url: userData.avatar_url || "",
-      });
+      };
+
+      setFormData(formattedData);
+      setOriginalData(formattedData);
     }
   };
 
@@ -70,14 +75,20 @@ function Profile() {
     const file = e.target.files[0];
     if (!file || !user) return;
 
-    const fileName = `${user.id}-${Date.now()}`;
+    if (file.size > 2 * 1024 * 1024) {
+      alert("File too large (max 2MB)");
+      return;
+    }
+
+    const fileName = `${user.id}/avatar-${Date.now()}`;
 
     const { error } = await supabase.storage
       .from("avatars")
-      .upload(fileName, file);
+      .upload(fileName, file, { upsert: true });
 
     if (error) {
-      alert("Upload failed");
+      console.error("UPLOAD ERROR:", error);
+      alert(error.message);
       return;
     }
 
@@ -85,7 +96,10 @@ function Profile() {
       .from("avatars")
       .getPublicUrl(fileName);
 
-    setFormData({ ...formData, avatar_url: data.publicUrl });
+    setFormData((prev) => ({
+      ...prev,
+      avatar_url: data.publicUrl,
+    }));
   };
 
   const handleSave = async () => {
@@ -102,14 +116,15 @@ function Profile() {
         linkedin: formData.linkedin,
         avatar_url: formData.avatar_url,
       })
-      .eq("user_id", user.id); // ✅ FIXED
+      .eq("user_id", user.id);
 
     if (error) {
-      console.error("FULL ERROR:", error);
-      alert(error.message); // 👈 instead of generic message
-    
+      console.error(error);
+      alert(error.message);
     } else {
-     navigate("/dashboard"); // ✅ REDIRECT
+      setOriginalData(formData);
+      setIsEditing(false);
+      alert("Profile updated successfully!");
     }
   };
 
@@ -126,7 +141,14 @@ function Profile() {
 
         {/* Header */}
         <div className="profile-header">
-          <div className="avatar">
+
+          {/* Avatar */}
+          <div
+            className="avatar"
+            onClick={() =>
+              isEditing && document.getElementById("fileInput").click()
+            }
+          >
             {formData.avatar_url ? (
               <img src={formData.avatar_url} alt="profile" />
             ) : (
@@ -137,19 +159,38 @@ function Profile() {
               </span>
             )}
 
-            <input
-              type="file"
-              accept="image/*"
-              onChange={handleImageUpload}
-            />
+            {isEditing && (
+              <>
+                <div className="avatar-overlay">✏️</div>
+
+                <input
+                  id="fileInput"
+                  type="file"
+                  accept="image/*"
+                  onChange={handleImageUpload}
+                  hidden
+                />
+              </>
+            )}
           </div>
 
+          {/* Name + Email */}
           <div>
             <h2>
               {formData.first_name || "Your"} {formData.last_name || "Name"}
             </h2>
             <p>{user?.email}</p>
           </div>
+
+          {/* Edit Button */}
+          {!isEditing && (
+            <button
+              className="edit-btn"
+              onClick={() => setIsEditing(true)}
+            >
+              ✏️ Edit Profile
+            </button>
+          )}
         </div>
 
         {/* Form */}
@@ -162,6 +203,7 @@ function Profile() {
                 name="first_name"
                 value={formData.first_name}
                 onChange={handleChange}
+                disabled={!isEditing}
               />
             </div>
 
@@ -171,6 +213,7 @@ function Profile() {
                 name="last_name"
                 value={formData.last_name}
                 onChange={handleChange}
+                disabled={!isEditing}
               />
             </div>
           </div>
@@ -187,6 +230,7 @@ function Profile() {
                 name="country_code"
                 value={formData.country_code}
                 onChange={handleChange}
+                disabled={!isEditing}
               >
                 <option value="+91">🇮🇳 +91</option>
                 <option value="+1">🇺🇸 +1</option>
@@ -202,6 +246,7 @@ function Profile() {
               <input
                 name="phone"
                 value={formData.phone}
+                disabled={!isEditing}
                 onChange={(e) => {
                   const value = e.target.value.replace(/\D/g, "");
                   const maxLength =
@@ -222,6 +267,7 @@ function Profile() {
               name="education"
               value={formData.education}
               onChange={handleChange}
+              disabled={!isEditing}
             />
           </div>
 
@@ -231,34 +277,35 @@ function Profile() {
               name="linkedin"
               value={formData.linkedin}
               onChange={handleChange}
+              disabled={!isEditing}
             />
           </div>
 
         </div>
 
         {/* Buttons */}
-        <div className="profile-actions">
-          <button
-            className="cancel-btn"
-            onClick={() => {
-              if (window.history.length > 1) {
-                navigate(-1);
-              } else {
-                navigate("/dashboard");
-              }
-            }}
-          >
-            Cancel
-          </button>
+        {isEditing && (
+          <div className="profile-actions">
 
-          <button className="save-btn" onClick={handleSave}>
-            Save Changes
-          </button>
-        </div>
+            <button
+              className="cancel-btn"
+              onClick={() => {
+                setFormData(originalData);
+                setIsEditing(false);
+              }}
+            >
+              Cancel
+            </button>
+
+            <button className="save-btn" onClick={handleSave}>
+              Save Changes
+            </button>
+
+          </div>
+        )}
 
       </div>
     </div>
   );
 }
-
 export default Profile;

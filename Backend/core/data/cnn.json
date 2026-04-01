@@ -1,411 +1,403 @@
 {
-  "skill": "Cnn",
+  "skill": "CNN",
+
   "mcqs": [
     {
       "id": "cnn_001",
-      "question": "cnn question 1?",
+      "question": "Why are convolutional layers preferred over fully connected layers for images?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Faster UI",
+        "Capture spatial features efficiently",
+        "Use less data",
+        "Reduce training time only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Capture spatial features efficiently",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "cnn_002",
-      "question": "cnn question 2?",
+      "question": "What is the purpose of a convolution filter?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Extract features from input",
+        "Reduce size only",
+        "Normalize data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Extract features from input",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cnn_003",
+      "question": "What happens when stride increases in convolution?",
+      "options": [
+        "Output size increases",
+        "Output size decreases",
+        "No change",
+        "Error"
+      ],
+      "correct_answer": "Output size decreases",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "cnn_003",
-      "question": "cnn question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
       "id": "cnn_004",
-      "question": "cnn question 4?",
+      "question": "Why is padding used in CNN?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Increase parameters",
+        "Preserve spatial dimensions",
+        "Reduce data",
+        "Speed training"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Preserve spatial dimensions",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "cnn_005",
-      "question": "cnn question 5?",
+      "question": "What is the purpose of pooling layers?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Increase size",
+        "Reduce spatial dimensions",
+        "Add features",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
+      "correct_answer": "Reduce spatial dimensions",
+      "difficulty": "easy",
+      "weight": 2
     },
+
     {
       "id": "cnn_006",
-      "question": "cnn question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "question": "Which pooling type takes maximum value?",
+      "options": ["Max pooling", "Average pooling", "Min pooling", "Global pooling"],
+      "correct_answer": "Max pooling",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "cnn_007",
-      "question": "cnn question 7?",
+      "question": "What problem does CNN solve better than traditional ML?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Structured data",
+        "Image recognition",
+        "Database queries",
+        "Sorting"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "Image recognition",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "cnn_008",
-      "question": "cnn question 8?",
+      "question": "Why are activation functions used?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Linear mapping",
+        "Introduce non-linearity",
+        "Store data",
+        "Reduce size"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Introduce non-linearity",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "cnn_009",
-      "question": "cnn question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "question": "Which activation is commonly used in CNN hidden layers?",
+      "options": ["ReLU", "Sigmoid", "Softmax", "Linear"],
+      "correct_answer": "ReLU",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "cnn_010",
-      "question": "cnn question 10?",
+      "question": "What does softmax layer output?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Feature maps",
+        "Probabilities",
+        "Loss",
+        "Weights"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Probabilities",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
+
     {
       "id": "cnn_011",
-      "question": "cnn question 11?",
+      "question": "What is feature map in CNN?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Input image",
+        "Output of convolution",
+        "Loss function",
+        "Optimizer"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Output of convolution",
       "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "cnn_012",
-      "question": "cnn question 12?",
+      "question": "What does flatten layer do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Reduce features",
+        "Convert 2D to 1D",
+        "Normalize data",
+        "Add layers"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Convert 2D to 1D",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "cnn_013",
-      "question": "cnn question 13?",
+      "question": "Why is dropout used in CNN?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Increase accuracy",
+        "Prevent overfitting",
+        "Reduce size",
+        "Speed training"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Prevent overfitting",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "cnn_014",
-      "question": "cnn question 14?",
+      "question": "What is kernel size?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Image size",
+        "Filter dimensions",
+        "Output size",
+        "Loss value"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Filter dimensions",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "cnn_015",
-      "question": "cnn question 15?",
+      "question": "What is overfitting in CNN?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Model too simple",
+        "Model memorizes training data",
+        "Model underperforms always",
+        "Model ignores data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Model memorizes training data",
+      "difficulty": "medium",
+      "weight": 3
     },
+
     {
       "id": "cnn_016",
-      "question": "cnn question 16?",
+      "question": "What does batch normalization do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Normalize layer inputs",
+        "Reduce features",
+        "Store data",
+        "Add layers"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Normalize layer inputs",
       "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "cnn_017",
-      "question": "cnn question 17?",
+      "question": "What is stride in CNN?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Filter size",
+        "Step size of filter movement",
+        "Output size",
+        "Loss function"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "Step size of filter movement",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "cnn_018",
-      "question": "cnn question 18?",
+      "question": "Which layer is used for classification?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Convolution",
+        "Fully connected",
+        "Pooling",
+        "Dropout"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Fully connected",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "cnn_019",
-      "question": "cnn question 19?",
+      "question": "Why use multiple filters in CNN?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Increase size",
+        "Capture different features",
+        "Reduce data",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Capture different features",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "cnn_020",
-      "question": "cnn question 20?",
+      "question": "What is receptive field?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Output size",
+        "Region of input influencing neuron",
+        "Loss value",
+        "Weight matrix"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "cnn_021",
-      "question": "cnn question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "cnn_022",
-      "question": "cnn question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "cnn_023",
-      "question": "cnn question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "cnn_024",
-      "question": "cnn question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "cnn_025",
-      "question": "cnn question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Region of input influencing neuron",
       "difficulty": "hard",
       "weight": 3
-    },
-    {
-      "id": "cnn_026",
-      "question": "cnn question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "cnn_027",
-      "question": "cnn question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "cnn_028",
-      "question": "cnn question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "cnn_029",
-      "question": "cnn question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "cnn_030",
-      "question": "cnn question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
     }
   ],
+
   "coding_mcqs": [
     {
       "id": "cnn_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "question": "What is this layer doing?",
+      "code": "Conv2D(32, (3,3), activation='relu')",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Pooling",
+        "Convolution with 32 filters",
+        "Flattening",
+        "Normalization"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Convolution with 32 filters",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "cnn_c_002",
+      "question": "What is the purpose of this?",
+      "code": "MaxPooling2D(pool_size=(2,2))",
+      "options": [
+        "Increase size",
+        "Reduce spatial dimensions",
+        "Add filters",
+        "Normalize"
+      ],
+      "correct_answer": "Reduce spatial dimensions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cnn_c_003",
+      "question": "What does this layer do?",
+      "code": "Flatten()",
+      "options": [
+        "Convert 2D to 1D",
+        "Reduce size",
+        "Add features",
+        "Normalize"
+      ],
+      "correct_answer": "Convert 2D to 1D",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cnn_c_004",
+      "question": "What is this used for?",
+      "code": "Dense(128, activation='relu')",
+      "options": [
+        "Fully connected layer",
+        "Pooling",
+        "Normalization",
+        "Convolution"
+      ],
+      "correct_answer": "Fully connected layer",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cnn_c_005",
+      "question": "What does this output layer do?",
+      "code": "Dense(10, activation='softmax')",
+      "options": [
+        "Regression",
+        "Classification probabilities",
+        "Feature extraction",
+        "Pooling"
+      ],
+      "correct_answer": "Classification probabilities",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cnn_c_006",
+      "question": "What is happening here?",
+      "code": "model.compile(optimizer='adam', loss='categorical_crossentropy')",
+      "options": [
+        "Training model",
+        "Configuring model",
+        "Predicting",
+        "Loading data"
+      ],
+      "correct_answer": "Configuring model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cnn_c_007",
+      "question": "What does this do?",
+      "code": "model.fit(X_train, y_train, epochs=10)",
+      "options": [
+        "Train model",
+        "Test model",
+        "Predict",
+        "Normalize"
+      ],
+      "correct_answer": "Train model",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cnn_c_008",
+      "question": "What is this used for?",
+      "code": "model.evaluate(X_test, y_test)",
+      "options": [
+        "Training",
+        "Evaluation",
+        "Prediction",
+        "Normalization"
+      ],
+      "correct_answer": "Evaluation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cnn_c_009",
+      "question": "What does this return?",
+      "code": "model.predict(X)",
+      "options": [
+        "Predictions",
+        "Training data",
+        "Loss",
+        "Weights"
+      ],
+      "correct_answer": "Predictions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cnn_c_010",
+      "question": "What is this layer used for?",
+      "code": "Dropout(0.5)",
+      "options": [
+        "Increase features",
+        "Prevent overfitting",
+        "Reduce data",
+        "Normalize"
+      ],
+      "correct_answer": "Prevent overfitting",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

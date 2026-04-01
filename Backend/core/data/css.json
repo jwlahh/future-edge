@@ -1,43 +1,623 @@
 {
-  "skill":"CSS",
-  "mcqs":[
+  "skill": "CSS",
 
-    {"id":"css_001","question":"CSS stands for?","options":["Cascading Style Sheets","none","loop","array"],"correct_answer":"Cascading Style Sheets","difficulty":"easy","weight":1},
-    {"id":"css_002","question":"Selector is?","options":["target element","value","none","loop"],"correct_answer":"target element","difficulty":"easy","weight":1},
-    {"id":"css_003","question":"Property example?","options":["color","div","p","none"],"correct_answer":"color","difficulty":"easy","weight":1},
-    {"id":"css_004","question":"Value example?","options":["red","color","div","none"],"correct_answer":"red","difficulty":"easy","weight":1},
-    {"id":"css_005","question":"Inline CSS?","options":["style attr","file","none","loop"],"correct_answer":"style attr","difficulty":"easy","weight":1},
-    {"id":"css_006","question":"External CSS?","options":["separate file","inline","none","loop"],"correct_answer":"separate file","difficulty":"easy","weight":1},
-    {"id":"css_007","question":"ID selector?","options":["#id",".class","tag","none"],"correct_answer":"#id","difficulty":"easy","weight":1},
-    {"id":"css_008","question":"Class selector?","options":[".class","#id","tag","none"],"correct_answer":".class","difficulty":"easy","weight":1},
-    {"id":"css_009","question":"Box model includes?","options":["margin padding border","color","font","none"],"correct_answer":"margin padding border","difficulty":"easy","weight":1},
-    {"id":"css_010","question":"Display block?","options":["new line","same line","none","loop"],"correct_answer":"new line","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "css_001",
+      "question": "Which property controls element positioning relative to its normal position?",
+      "options": ["absolute", "relative", "fixed", "static"],
+      "correct_answer": "relative",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_002",
+      "question": "What does z-index control?",
+      "options": [
+        "Element size",
+        "Stacking order",
+        "Color",
+        "Padding"
+      ],
+      "correct_answer": "Stacking order",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_003",
+      "question": "Which display type is best for flexible layouts?",
+      "options": ["block", "inline", "flex", "none"],
+      "correct_answer": "flex",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_004",
+      "question": "What is the default position value?",
+      "options": ["relative", "absolute", "static", "fixed"],
+      "correct_answer": "static",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_005",
+      "question": "Which unit is relative to viewport width?",
+      "options": ["px", "em", "vw", "%"],
+      "correct_answer": "vw",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"css_011","question":"Flexbox used for?","options":["layout","color","font","none"],"correct_answer":"layout","difficulty":"medium","weight":2},
-    {"id":"css_012","question":"Grid used for?","options":["layout","color","none","loop"],"correct_answer":"layout","difficulty":"medium","weight":2},
-    {"id":"css_013","question":"Position absolute?","options":["relative to parent","screen","none","loop"],"correct_answer":"relative to parent","difficulty":"medium","weight":2},
-    {"id":"css_014","question":"Z-index?","options":["stack order","color","none","loop"],"correct_answer":"stack order","difficulty":"medium","weight":2},
-    {"id":"css_015","question":"Overflow hidden?","options":["hide extra","show","none","loop"],"correct_answer":"hide extra","difficulty":"medium","weight":2},
-    {"id":"css_016","question":"Media query?","options":["responsive","color","none","loop"],"correct_answer":"responsive","difficulty":"medium","weight":2},
-    {"id":"css_017","question":"Float used for?","options":["layout","color","none","loop"],"correct_answer":"layout","difficulty":"medium","weight":2},
-    {"id":"css_018","question":"Clear property?","options":["fix float","color","none","loop"],"correct_answer":"fix float","difficulty":"medium","weight":2},
-    {"id":"css_019","question":"Opacity?","options":["transparency","color","none","loop"],"correct_answer":"transparency","difficulty":"medium","weight":2},
-    {"id":"css_020","question":"Pseudo class?","options":[":hover",".class","#id","none"],"correct_answer":":hover","difficulty":"medium","weight":2},
+    {
+      "id": "css_006",
+      "question": "What does overflow: hidden do?",
+      "options": [
+        "Scroll content",
+        "Hide overflowing content",
+        "Expand element",
+        "Resize content"
+      ],
+      "correct_answer": "Hide overflowing content",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_007",
+      "question": "Which property is used for spacing inside element?",
+      "options": ["margin", "padding", "border", "gap"],
+      "correct_answer": "padding",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_008",
+      "question": "Which property is used for spacing outside element?",
+      "options": ["margin", "padding", "border", "gap"],
+      "correct_answer": "margin",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_009",
+      "question": "Which layout allows two-dimensional control?",
+      "options": ["flexbox", "grid", "block", "inline"],
+      "correct_answer": "grid",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_010",
+      "question": "What does display: none do?",
+      "options": [
+        "Hide but keep space",
+        "Remove element completely",
+        "Make transparent",
+        "Disable element"
+      ],
+      "correct_answer": "Remove element completely",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"css_021","question":"Specificity?","options":["priority rules","color","none","loop"],"correct_answer":"priority rules","difficulty":"hard","weight":3},
-    {"id":"css_022","question":"Inline vs external?","options":["inline highest","external highest","none","loop"],"correct_answer":"inline highest","difficulty":"hard","weight":3},
-    {"id":"css_023","question":"Rem vs em?","options":["root vs parent","same","none","loop"],"correct_answer":"root vs parent","difficulty":"hard","weight":3},
-    {"id":"css_024","question":"Position sticky?","options":["stick scroll","fixed","none","loop"],"correct_answer":"stick scroll","difficulty":"hard","weight":3},
-    {"id":"css_025","question":"Flex-grow?","options":["expand space","shrink","none","loop"],"correct_answer":"expand space","difficulty":"hard","weight":3},
-    {"id":"css_026","question":"Grid template?","options":["define layout","color","none","loop"],"correct_answer":"define layout","difficulty":"hard","weight":3},
-    {"id":"css_027","question":"Transform?","options":["rotate scale","color","none","loop"],"correct_answer":"rotate scale","difficulty":"hard","weight":3},
-    {"id":"css_028","question":"Transition?","options":["smooth change","instant","none","loop"],"correct_answer":"smooth change","difficulty":"hard","weight":3},
-    {"id":"css_029","question":"Animation?","options":["keyframes","color","none","loop"],"correct_answer":"keyframes","difficulty":"hard","weight":3},
-    {"id":"css_030","question":"Shadow property?","options":["box-shadow","color","none","loop"],"correct_answer":"box-shadow","difficulty":"hard","weight":3}
+    {
+      "id": "css_011",
+      "question": "Which property aligns items in flexbox?",
+      "options": ["align-items", "justify-content", "display", "gap"],
+      "correct_answer": "align-items",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_012",
+      "question": "Which property controls horizontal alignment in flexbox?",
+      "options": ["align-items", "justify-content", "flex", "grid"],
+      "correct_answer": "justify-content",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_013",
+      "question": "What is CSS specificity used for?",
+      "options": [
+        "Layout",
+        "Priority of styles",
+        "Animation",
+        "Color"
+      ],
+      "correct_answer": "Priority of styles",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_014",
+      "question": "Which selector has highest specificity?",
+      "options": ["class", "id", "element", "universal"],
+      "correct_answer": "id",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_015",
+      "question": "What does position: absolute do?",
+      "options": [
+        "Relative to viewport",
+        "Relative to nearest positioned ancestor",
+        "Normal flow",
+        "Inline element"
+      ],
+      "correct_answer": "Relative to nearest positioned ancestor",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
+    {
+      "id": "css_016",
+      "question": "What does position: fixed do?",
+      "options": [
+        "Relative to parent",
+        "Relative to viewport",
+        "Inline",
+        "Block"
+      ],
+      "correct_answer": "Relative to viewport",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_017",
+      "question": "What is media query used for?",
+      "options": [
+        "Animation",
+        "Responsive design",
+        "Color",
+        "Layout"
+      ],
+      "correct_answer": "Responsive design",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_018",
+      "question": "What does flex-wrap do?",
+      "options": [
+        "Wrap items to next line",
+        "Align items",
+        "Resize items",
+        "Hide items"
+      ],
+      "correct_answer": "Wrap items to next line",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_019",
+      "question": "What is box-sizing: border-box?",
+      "options": [
+        "Includes padding and border in width",
+        "Excludes padding",
+        "Only border counted",
+        "None"
+      ],
+      "correct_answer": "Includes padding and border in width",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_020",
+      "question": "What is opacity property?",
+      "options": [
+        "Visibility control",
+        "Transparency control",
+        "Positioning",
+        "Layout"
+      ],
+      "correct_answer": "Transparency control",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "css_021",
+      "question": "What is pseudo-class?",
+      "options": [
+        "Special state selector",
+        "Class name",
+        "Function",
+        "Loop"
+      ],
+      "correct_answer": "Special state selector",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_022",
+      "question": "What is :hover used for?",
+      "options": [
+        "Click event",
+        "Mouse hover state",
+        "Focus state",
+        "Load state"
+      ],
+      "correct_answer": "Mouse hover state",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_023",
+      "question": "What is display: inline-block?",
+      "options": [
+        "Inline only",
+        "Block only",
+        "Inline with block properties",
+        "Hidden"
+      ],
+      "correct_answer": "Inline with block properties",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_024",
+      "question": "What does transform property do?",
+      "options": [
+        "Resize",
+        "Rotate/scale elements",
+        "Align",
+        "Color"
+      ],
+      "correct_answer": "Rotate/scale elements",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_025",
+      "question": "What is transition used for?",
+      "options": [
+        "Animation effect",
+        "Layout",
+        "Color",
+        "Position"
+      ],
+      "correct_answer": "Animation effect",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "css_026",
+      "question": "What is flex-grow?",
+      "options": [
+        "Shrink element",
+        "Expand element proportionally",
+        "Align element",
+        "Hide element"
+      ],
+      "correct_answer": "Expand element proportionally",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "css_027",
+      "question": "What is gap in flex/grid?",
+      "options": [
+        "Border",
+        "Space between items",
+        "Padding",
+        "Margin"
+      ],
+      "correct_answer": "Space between items",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_028",
+      "question": "What is overflow: scroll?",
+      "options": [
+        "Hide content",
+        "Add scrollbar always",
+        "Remove content",
+        "Resize"
+      ],
+      "correct_answer": "Add scrollbar always",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_029",
+      "question": "What is max-width used for?",
+      "options": [
+        "Minimum size",
+        "Limit maximum width",
+        "Height",
+        "Color"
+      ],
+      "correct_answer": "Limit maximum width",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "css_030",
+      "question": "What is flex-direction: column?",
+      "options": [
+        "Horizontal layout",
+        "Vertical layout",
+        "Grid layout",
+        "Inline"
+      ],
+      "correct_answer": "Vertical layout",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ],
+  "coding_mcqs": [
 
-  "coding_mcqs":[
-    {"id":"css_c_001","question":"Property?","code":"color:red;","options":["text color","bg","none","loop"],"correct_answer":"text color","difficulty":"easy","weight":1}
+    {
+      "id": "css_c_001",
+      "question": "What will be the text color?",
+      "code": "p { color: red; }\np { color: blue; }",
+      "options": ["red", "blue", "black", "undefined"],
+      "correct_answer": "blue",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "css_c_002",
+      "question": "What will be the width of the div?",
+      "code": "div { width: 100px; padding: 10px; box-sizing: border-box; }",
+      "options": ["100px", "120px", "110px", "90px"],
+      "correct_answer": "100px",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_003",
+      "question": "Where will the element be positioned?",
+      "code": "div { position: absolute; top: 0; right: 0; }",
+      "options": [
+        "Top-right of viewport",
+        "Center",
+        "Bottom-left",
+        "Normal flow"
+      ],
+      "correct_answer": "Top-right of viewport",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_004",
+      "question": "What happens to the element?",
+      "code": "div { display: none; }",
+      "options": [
+        "Hidden but space remains",
+        "Removed completely",
+        "Transparent",
+        "Collapsed"
+      ],
+      "correct_answer": "Removed completely",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "css_c_005",
+      "question": "How are flex items arranged?",
+      "code": "div { display: flex; flex-direction: row; }",
+      "options": [
+        "Vertical",
+        "Horizontal",
+        "Grid",
+        "Stacked"
+      ],
+      "correct_answer": "Horizontal",
+      "difficulty": "easy",
+      "weight": 1
+    },
+
+    {
+      "id": "css_c_006",
+      "question": "How are flex items arranged?",
+      "code": "div { display: flex; flex-direction: column; }",
+      "options": [
+        "Horizontal",
+        "Vertical",
+        "Grid",
+        "Inline"
+      ],
+      "correct_answer": "Vertical",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "css_c_007",
+      "question": "What is the alignment?",
+      "code": "div { display: flex; justify-content: center; }",
+      "options": [
+        "Left",
+        "Center horizontally",
+        "Top",
+        "Bottom"
+      ],
+      "correct_answer": "Center horizontally",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_008",
+      "question": "What is the alignment?",
+      "code": "div { display: flex; align-items: center; height: 100px; }",
+      "options": [
+        "Center vertically",
+        "Center horizontally",
+        "Top",
+        "Bottom"
+      ],
+      "correct_answer": "Center vertically",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_009",
+      "question": "What happens?",
+      "code": "div { overflow: hidden; width: 50px; }",
+      "options": [
+        "Scroll appears",
+        "Content clipped",
+        "Expands",
+        "Nothing"
+      ],
+      "correct_answer": "Content clipped",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_010",
+      "question": "What is the position behavior?",
+      "code": "div { position: fixed; bottom: 0; }",
+      "options": [
+        "Relative to parent",
+        "Relative to viewport",
+        "Normal flow",
+        "Hidden"
+      ],
+      "correct_answer": "Relative to viewport",
+      "difficulty": "easy",
+      "weight": 1
+    },
+
+    {
+      "id": "css_c_011",
+      "question": "Which color applies?",
+      "code": "#id { color: red; }\n.class { color: blue; }",
+      "options": ["red", "blue", "black", "depends"],
+      "correct_answer": "red",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_012",
+      "question": "What happens?",
+      "code": "div { opacity: 0; }",
+      "options": [
+        "Hidden but clickable",
+        "Removed",
+        "Collapsed",
+        "Error"
+      ],
+      "correct_answer": "Hidden but clickable",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_013",
+      "question": "What is the layout?",
+      "code": "div { display: grid; grid-template-columns: 1fr 1fr; }",
+      "options": [
+        "Two equal columns",
+        "One column",
+        "Three columns",
+        "Row layout"
+      ],
+      "correct_answer": "Two equal columns",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_014",
+      "question": "What happens?",
+      "code": "div { visibility: hidden; }",
+      "options": [
+        "Removed",
+        "Hidden but space remains",
+        "Transparent",
+        "Error"
+      ],
+      "correct_answer": "Hidden but space remains",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_015",
+      "question": "What is the effect?",
+      "code": "div { transform: scale(2); }",
+      "options": [
+        "Shrink",
+        "Double size",
+        "Rotate",
+        "Move"
+      ],
+      "correct_answer": "Double size",
+      "difficulty": "easy",
+      "weight": 1
+    },
+
+    {
+      "id": "css_c_016",
+      "question": "What happens?",
+      "code": "div { width: 50%; }",
+      "options": [
+        "50px",
+        "50% of parent",
+        "Full width",
+        "Error"
+      ],
+      "correct_answer": "50% of parent",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "css_c_017",
+      "question": "What is the result?",
+      "code": "div { display: inline; width: 100px; }",
+      "options": [
+        "Width applied",
+        "Width ignored",
+        "Error",
+        "Block element"
+      ],
+      "correct_answer": "Width ignored",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_018",
+      "question": "What happens?",
+      "code": "div { margin: auto; width: 100px; }",
+      "options": [
+        "Left aligned",
+        "Centered horizontally",
+        "Right aligned",
+        "Top aligned"
+      ],
+      "correct_answer": "Centered horizontally",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "css_c_019",
+      "question": "What is the effect?",
+      "code": "div:hover { color: red; }",
+      "options": [
+        "Always red",
+        "Red on hover",
+        "Never red",
+        "Error"
+      ],
+      "correct_answer": "Red on hover",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "css_c_020",
+      "question": "What happens?",
+      "code": "div { flex-grow: 1; }",
+      "options": [
+        "Shrink",
+        "Expand to fill space",
+        "Center",
+        "Hide"
+      ],
+      "correct_answer": "Expand to fill space",
+      "difficulty": "medium",
+      "weight": 2
+    }
+
   ]
 }

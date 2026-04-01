@@ -1,411 +1,402 @@
 {
   "skill": "Cloud Security",
+
   "mcqs": [
     {
-      "id": "cloud_security_001",
-      "question": "cloud security question 1?",
+      "id": "cs_001",
+      "question": "Why is Identity and Access Management (IAM) critical in cloud security?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Improves UI",
+        "Controls who can access resources",
+        "Stores data",
+        "Speeds deployment"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Controls who can access resources",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_002",
+      "question": "What principle ensures users only get required permissions?",
+      "options": [
+        "Full access",
+        "Least privilege",
+        "Open access",
+        "Shared access"
+      ],
+      "correct_answer": "Least privilege",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_003",
+      "question": "What risk occurs if cloud storage is publicly accessible?",
+      "options": [
+        "Performance issue",
+        "Data breach",
+        "Faster access",
+        "Better scaling"
+      ],
+      "correct_answer": "Data breach",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_004",
+      "question": "What does encryption at rest protect against?",
+      "options": [
+        "Network attacks",
+        "Unauthorized data access from storage",
+        "UI issues",
+        "Deployment failures"
+      ],
+      "correct_answer": "Unauthorized data access from storage",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "cloud_security_002",
-      "question": "cloud security question 2?",
+      "id": "cs_005",
+      "question": "What does encryption in transit protect?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Stored data",
+        "Data moving over network",
+        "UI data",
+        "Logs"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Data moving over network",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_003",
-      "question": "cloud security question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_004",
-      "question": "cloud security question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
+
     {
-      "id": "cloud_security_005",
-      "question": "cloud security question 5?",
+      "id": "cs_006",
+      "question": "Why is multi-factor authentication (MFA) important?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Improves UI",
+        "Adds extra security layer",
+        "Speeds login",
+        "Stores passwords"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_006",
-      "question": "cloud security question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "cloud_security_007",
-      "question": "cloud security question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "cloud_security_008",
-      "question": "cloud security question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Adds extra security layer",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "cloud_security_009",
-      "question": "cloud security question 9?",
+      "id": "cs_007",
+      "question": "What is a common cause of cloud breaches?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI bugs",
+        "Misconfigured resources",
+        "Slow servers",
+        "Low storage"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Misconfigured resources",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "cloud_security_010",
-      "question": "cloud security question 10?",
+      "id": "cs_008",
+      "question": "What is the shared responsibility model?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "User manages everything",
+        "Cloud provider and user share security duties",
+        "Provider handles everything",
+        "No responsibility"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_011",
-      "question": "cloud security question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "cloud_security_012",
-      "question": "cloud security question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_013",
-      "question": "cloud security question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_014",
-      "question": "cloud security question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_015",
-      "question": "cloud security question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Cloud provider and user share security duties",
       "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "cloud_security_016",
-      "question": "cloud security question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_017",
-      "question": "cloud security question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
     },
     {
-      "id": "cloud_security_018",
-      "question": "cloud security question 18?",
+      "id": "cs_009",
+      "question": "What does a firewall do in cloud?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Control incoming/outgoing traffic",
+        "Encrypt data",
+        "Deploy apps"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "cloud_security_019",
-      "question": "cloud security question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "cloud_security_020",
-      "question": "cloud security question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "cloud_security_021",
-      "question": "cloud security question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Control incoming/outgoing traffic",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "cloud_security_022",
-      "question": "cloud security question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "cloud_security_023",
-      "question": "cloud security question 23?",
+      "id": "cs_010",
+      "question": "What is a DDoS attack?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Data theft",
+        "Overloading system with traffic",
+        "Encryption attack",
+        "UI bug"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Overloading system with traffic",
+      "difficulty": "medium",
+      "weight": 3
     },
+
     {
-      "id": "cloud_security_024",
-      "question": "cloud security question 24?",
+      "id": "cs_011",
+      "question": "Why is logging important in cloud security?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "Audit and detect suspicious activity",
+        "Store data",
+        "Deploy apps"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Audit and detect suspicious activity",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "cloud_security_025",
-      "question": "cloud security question 25?",
+      "id": "cs_012",
+      "question": "What is role-based access control (RBAC)?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Random access",
+        "Access based on user roles",
+        "Full access",
+        "No access"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "cloud_security_026",
-      "question": "cloud security question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Access based on user roles",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "cloud_security_027",
-      "question": "cloud security question 27?",
+      "id": "cs_013",
+      "question": "What risk does weak passwords create?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI issue",
+        "Unauthorized access",
+        "Storage issue",
+        "Performance issue"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Unauthorized access",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "cloud_security_028",
-      "question": "cloud security question 28?",
+      "id": "cs_014",
+      "question": "What is vulnerability scanning?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI testing",
+        "Detecting security weaknesses",
+        "Deployment",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Detecting security weaknesses",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "cloud_security_029",
-      "question": "cloud security question 29?",
+      "id": "cs_015",
+      "question": "What is a security group in cloud?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "User group",
+        "Virtual firewall rules",
+        "Database",
+        "Storage"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Virtual firewall rules",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "cs_016",
+      "question": "Why is patching important?",
+      "options": [
+        "Improve UI",
+        "Fix security vulnerabilities",
+        "Speed system",
+        "Store data"
+      ],
+      "correct_answer": "Fix security vulnerabilities",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "cloud_security_030",
-      "question": "cloud security question 30?",
+      "id": "cs_017",
+      "question": "What is data masking?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Encrypt data",
+        "Hide sensitive data",
+        "Delete data",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Hide sensitive data",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_018",
+      "question": "What is zero trust security model?",
+      "options": [
+        "Trust all users",
+        "Verify every access request",
+        "Ignore users",
+        "Open access"
+      ],
+      "correct_answer": "Verify every access request",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_019",
+      "question": "What is key management in cloud?",
+      "options": [
+        "UI control",
+        "Managing encryption keys",
+        "Database",
+        "Deployment"
+      ],
+      "correct_answer": "Managing encryption keys",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_020",
+      "question": "What is insider threat?",
+      "options": [
+        "External hacker",
+        "Authorized user misusing access",
+        "UI bug",
+        "Network issue"
+      ],
+      "correct_answer": "Authorized user misusing access",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "cloud_security_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "cs_s_001",
+      "question": "A storage bucket is accidentally made public. What is the immediate action?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Ignore",
+        "Restrict access immediately",
+        "Delete bucket",
+        "Restart system"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Restrict access immediately",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "cs_s_002",
+      "question": "Multiple failed login attempts detected. What should be enabled?",
+      "options": [
+        "Disable logging",
+        "Enable MFA and alerts",
+        "Ignore",
+        "Delete users"
+      ],
+      "correct_answer": "Enable MFA and alerts",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_s_003",
+      "question": "Sensitive data is being transmitted without encryption. What should be done?",
+      "options": [
+        "Ignore",
+        "Enable HTTPS/encryption",
+        "Delete data",
+        "Restart system"
+      ],
+      "correct_answer": "Enable HTTPS/encryption",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_s_004",
+      "question": "User has excessive permissions. What should be applied?",
+      "options": [
+        "Full access",
+        "Least privilege principle",
+        "Ignore",
+        "Delete user"
+      ],
+      "correct_answer": "Least privilege principle",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_s_005",
+      "question": "Application is under DDoS attack. What should be used?",
+      "options": [
+        "Ignore",
+        "DDoS protection service",
+        "Delete app",
+        "Restart server"
+      ],
+      "correct_answer": "DDoS protection service",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_s_006",
+      "question": "Logs show suspicious activity. What should be done?",
+      "options": [
+        "Ignore",
+        "Investigate and alert",
+        "Delete logs",
+        "Restart system"
+      ],
+      "correct_answer": "Investigate and alert",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_s_007",
+      "question": "Data breach detected. What is first step?",
+      "options": [
+        "Ignore",
+        "Contain and assess impact",
+        "Delete system",
+        "Restart server"
+      ],
+      "correct_answer": "Contain and assess impact",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "cs_s_008",
+      "question": "Application needs secure communication. What should be implemented?",
+      "options": [
+        "HTTP",
+        "HTTPS/TLS",
+        "FTP",
+        "None"
+      ],
+      "correct_answer": "HTTPS/TLS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_s_009",
+      "question": "Team wants to reduce attack surface. What should be done?",
+      "options": [
+        "Open all ports",
+        "Restrict access and close unused ports",
+        "Ignore",
+        "Increase users"
+      ],
+      "correct_answer": "Restrict access and close unused ports",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_s_010",
+      "question": "Sensitive data exposed in logs. What should be done?",
+      "options": [
+        "Ignore",
+        "Mask or remove sensitive data",
+        "Delete logs",
+        "Restart system"
+      ],
+      "correct_answer": "Mask or remove sensitive data",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

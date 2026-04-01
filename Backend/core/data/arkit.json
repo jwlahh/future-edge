@@ -1,411 +1,375 @@
 {
   "skill": "Arkit",
+
   "mcqs": [
     {
       "id": "arkit_001",
-      "question": "arkit question 1?",
+      "question": "What is ARKit primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Game development",
+        "Augmented Reality applications",
+        "Database management",
+        "Web development"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "Augmented Reality applications",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "arkit_002",
-      "question": "arkit question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "question": "Which programming language is mainly used with ARKit?",
+      "options": ["Swift", "Java", "Python", "C++"],
+      "correct_answer": "Swift",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "arkit_003",
-      "question": "arkit question 3?",
+      "question": "What does plane detection identify?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Faces",
+        "Flat surfaces",
+        "Text",
+        "Audio"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Flat surfaces",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "arkit_004",
-      "question": "arkit question 4?",
+      "question": "What is an anchor in ARKit?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A UI component",
+        "A fixed reference point in real world",
+        "An animation",
+        "A texture"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "A fixed reference point in real world",
+      "difficulty": "medium",
+      "weight": 2
     },
     {
       "id": "arkit_005",
-      "question": "arkit question 5?",
+      "question": "What does light estimation do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Adds sound",
+        "Matches virtual lighting with real environment",
+        "Creates UI",
+        "Runs animations"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Matches virtual lighting with real environment",
+      "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "arkit_006",
-      "question": "arkit question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
+      "question": "Which framework is used for rendering 3D content with ARKit?",
+      "options": ["SceneKit", "UIKit", "CoreData", "SpriteKit"],
+      "correct_answer": "SceneKit",
+      "difficulty": "medium",
+      "weight": 2
     },
     {
       "id": "arkit_007",
-      "question": "arkit question 7?",
+      "question": "What is RealityKit used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database handling",
+        "Advanced AR rendering",
+        "UI design",
+        "Networking"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "Advanced AR rendering",
+      "difficulty": "medium",
+      "weight": 2
     },
     {
       "id": "arkit_008",
-      "question": "arkit question 8?",
+      "question": "What does world tracking track?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI changes",
+        "Device position and orientation",
+        "Database",
+        "Files"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "Device position and orientation",
+      "difficulty": "medium",
+      "weight": 2
     },
     {
       "id": "arkit_009",
-      "question": "arkit question 9?",
+      "question": "What is hit testing used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Debugging",
+        "Detecting real-world surface positions",
+        "UI rendering",
+        "Animation"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Detecting real-world surface positions",
+      "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "arkit_010",
-      "question": "arkit question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "question": "ARKit works primarily on which platform?",
+      "options": ["Android", "iOS", "Windows", "Linux"],
+      "correct_answer": "iOS",
+      "difficulty": "easy",
+      "weight": 2
     },
+
     {
       "id": "arkit_011",
-      "question": "arkit question 11?",
+      "question": "What is face tracking used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Detecting surfaces",
+        "Creating face filters",
+        "Rendering UI",
+        "Networking"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "arkit_012",
-      "question": "arkit question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "arkit_013",
-      "question": "arkit question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "arkit_014",
-      "question": "arkit question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "arkit_015",
-      "question": "arkit question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "arkit_016",
-      "question": "arkit question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "arkit_017",
-      "question": "arkit question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Creating face filters",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "arkit_018",
-      "question": "arkit question 18?",
+      "id": "arkit_012",
+      "question": "What does an AR session manage?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI layout",
+        "Device tracking and environment understanding",
+        "Database",
+        "Networking"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Device tracking and environment understanding",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "arkit_013",
+      "question": "Which component represents a 3D object in ARKit?",
+      "options": ["Node", "Layer", "View", "File"],
+      "correct_answer": "Node",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "arkit_014",
+      "question": "What is required for ARKit to function?",
+      "options": ["Printer", "Camera and sensors", "Keyboard", "Mouse"],
+      "correct_answer": "Camera and sensors",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "arkit_015",
+      "question": "What does physics simulation add to AR objects?",
+      "options": [
+        "Color",
+        "Realistic motion and interactions",
+        "Text",
+        "Audio"
+      ],
+      "correct_answer": "Realistic motion and interactions",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_016",
+      "question": "Which tracking configuration is used for full AR experience?",
+      "options": [
+        "Face tracking",
+        "World tracking",
+        "Image tracking",
+        "None"
+      ],
+      "correct_answer": "World tracking",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_017",
+      "question": "What is image tracking used for?",
+      "options": [
+        "Tracking real-world images",
+        "UI design",
+        "Database",
+        "Networking"
+      ],
+      "correct_answer": "Tracking real-world images",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_018",
+      "question": "What does ARKit combine?",
+      "options": [
+        "UI and DB",
+        "Camera input and motion sensors",
+        "Audio and video",
+        "Code and UI"
+      ],
+      "correct_answer": "Camera input and motion sensors",
       "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "arkit_019",
-      "question": "arkit question 19?",
+      "question": "What is occlusion in AR?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Hiding objects behind real-world objects",
+        "Adding sound",
+        "Changing color",
+        "Deleting objects"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Hiding objects behind real-world objects",
+      "difficulty": "hard",
+      "weight": 3
     },
     {
       "id": "arkit_020",
-      "question": "arkit question 20?",
+      "question": "What is the purpose of anchors?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "Fixing virtual objects in real-world positions",
+        "Networking",
+        "Testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "arkit_021",
-      "question": "arkit question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Fixing virtual objects in real-world positions",
       "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "arkit_022",
-      "question": "arkit question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
-    },
-    {
-      "id": "arkit_023",
-      "question": "arkit question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "arkit_024",
-      "question": "arkit question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "arkit_025",
-      "question": "arkit question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "arkit_026",
-      "question": "arkit question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "arkit_027",
-      "question": "arkit question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "arkit_028",
-      "question": "arkit question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "arkit_029",
-      "question": "arkit question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "arkit_030",
-      "question": "arkit question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "arkit_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "arkit_s_001",
+      "question": "You want to place a virtual object on a table. What should you use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Face tracking",
+        "Plane detection",
+        "Animation",
+        "UI layout"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Plane detection",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "arkit_s_002",
+      "question": "AR object looks unrealistic due to lighting mismatch. What should you enable?",
+      "options": [
+        "Physics",
+        "Light estimation",
+        "UI changes",
+        "Networking"
+      ],
+      "correct_answer": "Light estimation",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_s_003",
+      "question": "You are building a Snapchat-like filter. Which feature is required?",
+      "options": [
+        "Plane detection",
+        "Face tracking",
+        "World tracking",
+        "Hit testing"
+      ],
+      "correct_answer": "Face tracking",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "arkit_s_004",
+      "question": "Virtual object moves incorrectly when the camera moves. What is the issue?",
+      "options": [
+        "Wrong tracking configuration",
+        "UI issue",
+        "Color mismatch",
+        "File error"
+      ],
+      "correct_answer": "Wrong tracking configuration",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "arkit_s_005",
+      "question": "You want an object to stay fixed in one position. What should you use?",
+      "options": [
+        "Node",
+        "Anchor",
+        "Camera",
+        "Texture"
+      ],
+      "correct_answer": "Anchor",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_s_006",
+      "question": "User taps screen to place object. Which technique is used?",
+      "options": [
+        "Hit testing",
+        "Animation",
+        "Lighting",
+        "UI layout"
+      ],
+      "correct_answer": "Hit testing",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_s_007",
+      "question": "You want realistic shadows and lighting. What should you enable?",
+      "options": [
+        "Light estimation",
+        "Face tracking",
+        "UI panel",
+        "Assets"
+      ],
+      "correct_answer": "Light estimation",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_s_008",
+      "question": "You want to track movement of the device in space. What should you use?",
+      "options": [
+        "World tracking",
+        "Face tracking",
+        "UI tracking",
+        "File tracking"
+      ],
+      "correct_answer": "World tracking",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_s_009",
+      "question": "You want to overlay AR content on a detected image. What should you use?",
+      "options": [
+        "Image tracking",
+        "Plane detection",
+        "UI layout",
+        "Animation"
+      ],
+      "correct_answer": "Image tracking",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "arkit_s_010",
+      "question": "You want smooth AR experience without jitter. What is important?",
+      "options": [
+        "Stable tracking configuration",
+        "UI design",
+        "Text styling",
+        "File size"
+      ],
+      "correct_answer": "Stable tracking configuration",
+      "difficulty": "hard",
+      "weight": 3
     }
   ]
 }

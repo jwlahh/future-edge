@@ -1,411 +1,402 @@
 {
   "skill": "Figma",
+
   "mcqs": [
     {
-      "id": "figma_001",
-      "question": "figma question 1?",
+      "id": "fig_001",
+      "question": "What is Figma primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Backend development",
+        "UI/UX design",
+        "Database management",
+        "Testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "figma_002",
-      "question": "figma question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "figma_003",
-      "question": "figma question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "UI/UX design",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "figma_004",
-      "question": "figma question 4?",
+      "id": "fig_002",
+      "question": "What is a component in Figma?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Image",
+        "Reusable design element",
+        "Code block",
+        "Animation"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Reusable design element",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "figma_005",
-      "question": "figma question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "figma_006",
-      "question": "figma question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "figma_007",
-      "question": "figma question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "figma_008",
-      "question": "figma question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "figma_009",
-      "question": "figma question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "figma_010",
-      "question": "figma question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "figma_011",
-      "question": "figma question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "figma_012",
-      "question": "figma question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "figma_013",
-      "question": "figma question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "figma_014",
-      "question": "figma question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "figma_015",
-      "question": "figma question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "figma_016",
-      "question": "figma question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "figma_017",
-      "question": "figma question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "figma_018",
-      "question": "figma question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "figma_019",
-      "question": "figma question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "figma_020",
-      "question": "figma question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "figma_021",
-      "question": "figma question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "figma_022",
-      "question": "figma question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "figma_023",
-      "question": "figma question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "figma_024",
-      "question": "figma question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "figma_025",
-      "question": "figma question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "figma_026",
-      "question": "figma question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "figma_027",
-      "question": "figma question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "figma_028",
-      "question": "figma question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "figma_029",
-      "question": "figma question 29?",
+      "id": "fig_003",
+      "question": "What is an instance?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Original component",
+        "Copy of component",
+        "Frame",
+        "Layer"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Copy of component",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "figma_030",
-      "question": "figma question 30?",
+      "id": "fig_004",
+      "question": "What is Auto Layout used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Color",
+        "Responsive layout design",
+        "Animation",
+        "Export"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Responsive layout design",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_005",
+      "question": "What is a frame?",
+      "options": [
+        "Text",
+        "Container for design elements",
+        "Color",
+        "Animation"
+      ],
+      "correct_answer": "Container for design elements",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "fig_006",
+      "question": "What is prototyping used for?",
+      "options": [
+        "Coding",
+        "Simulating user interactions",
+        "Storage",
+        "Testing backend"
+      ],
+      "correct_answer": "Simulating user interactions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_007",
+      "question": "What is design system?",
+      "options": [
+        "Database",
+        "Collection of reusable styles and components",
+        "Code library",
+        "Testing tool"
+      ],
+      "correct_answer": "Collection of reusable styles and components",
       "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "fig_008",
+      "question": "What is constraint in Figma?",
+      "options": [
+        "Delete element",
+        "Define resizing behavior",
+        "Color",
+        "Animation"
+      ],
+      "correct_answer": "Define resizing behavior",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "fig_009",
+      "question": "What is variant in components?",
+      "options": [
+        "Different styles of component",
+        "Frame",
+        "Color",
+        "Animation"
+      ],
+      "correct_answer": "Different styles of component",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "fig_010",
+      "question": "What is grid system used for?",
+      "options": [
+        "Animation",
+        "Align layout",
+        "Delete elements",
+        "Export"
+      ],
+      "correct_answer": "Align layout",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "fig_011",
+      "question": "What is collaboration feature in Figma?",
+      "options": [
+        "Single user",
+        "Real-time multi-user editing",
+        "Offline editing",
+        "Code writing"
+      ],
+      "correct_answer": "Real-time multi-user editing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_012",
+      "question": "What is vector tool used for?",
+      "options": [
+        "Text",
+        "Draw shapes and paths",
+        "Animation",
+        "Export"
+      ],
+      "correct_answer": "Draw shapes and paths",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_013",
+      "question": "What is opacity used for?",
+      "options": [
+        "Position",
+        "Transparency control",
+        "Layout",
+        "Export"
+      ],
+      "correct_answer": "Transparency control",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_014",
+      "question": "What is alignment tool used for?",
+      "options": [
+        "Color",
+        "Position elements properly",
+        "Animation",
+        "Export"
+      ],
+      "correct_answer": "Position elements properly",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_015",
+      "question": "What is layer hierarchy?",
+      "options": [
+        "Color",
+        "Organization of elements",
+        "Animation",
+        "Export"
+      ],
+      "correct_answer": "Organization of elements",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "fig_016",
+      "question": "What is interactive component?",
+      "options": [
+        "Static design",
+        "Component with interactions",
+        "Color",
+        "Export"
+      ],
+      "correct_answer": "Component with interactions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "fig_017",
+      "question": "What is spacing in Auto Layout?",
+      "options": [
+        "Color",
+        "Distance between elements",
+        "Animation",
+        "Export"
+      ],
+      "correct_answer": "Distance between elements",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_018",
+      "question": "What is padding in Auto Layout?",
+      "options": [
+        "Outside spacing",
+        "Inside spacing",
+        "Animation",
+        "Export"
+      ],
+      "correct_answer": "Inside spacing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_019",
+      "question": "What is prototyping link?",
+      "options": [
+        "Code link",
+        "Connection between frames",
+        "Export link",
+        "Color link"
+      ],
+      "correct_answer": "Connection between frames",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_020",
+      "question": "What is export feature?",
+      "options": [
+        "Delete design",
+        "Download assets",
+        "Animate design",
+        "Store data"
+      ],
+      "correct_answer": "Download assets",
+      "difficulty": "easy",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "figma_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "fig_s_001",
+      "question": "Need reusable button across project. What to use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Frame",
+        "Component",
+        "Layer",
+        "Group"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Component",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "fig_s_002",
+      "question": "UI should adapt to screen size. What to use?",
+      "options": [
+        "Color",
+        "Auto Layout",
+        "Export",
+        "Delete"
+      ],
+      "correct_answer": "Auto Layout",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_s_003",
+      "question": "Need clickable prototype for testing. What to use?",
+      "options": [
+        "Code",
+        "Prototyping",
+        "Export",
+        "Delete"
+      ],
+      "correct_answer": "Prototyping",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_s_004",
+      "question": "Multiple designers working together. What feature helps?",
+      "options": [
+        "Offline mode",
+        "Collaboration",
+        "Export",
+        "Delete"
+      ],
+      "correct_answer": "Collaboration",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_s_005",
+      "question": "Need consistent design across app. What to create?",
+      "options": [
+        "Frames",
+        "Design system",
+        "Export",
+        "Delete"
+      ],
+      "correct_answer": "Design system",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "fig_s_006",
+      "question": "Need multiple button states (hover, active). What to use?",
+      "options": [
+        "Frame",
+        "Variants",
+        "Layer",
+        "Group"
+      ],
+      "correct_answer": "Variants",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "fig_s_007",
+      "question": "Elements misaligned in layout. What to use?",
+      "options": [
+        "Color",
+        "Alignment tools",
+        "Export",
+        "Delete"
+      ],
+      "correct_answer": "Alignment tools",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "fig_s_008",
+      "question": "Need to control resizing behavior. What to use?",
+      "options": [
+        "Color",
+        "Constraints",
+        "Export",
+        "Delete"
+      ],
+      "correct_answer": "Constraints",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "fig_s_009",
+      "question": "Need to organize complex design. What helps?",
+      "options": [
+        "Color",
+        "Layer hierarchy",
+        "Export",
+        "Delete"
+      ],
+      "correct_answer": "Layer hierarchy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "fig_s_010",
+      "question": "Need to share design assets with developers. What to use?",
+      "options": [
+        "Delete",
+        "Export feature",
+        "Color",
+        "Animation"
+      ],
+      "correct_answer": "Export feature",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

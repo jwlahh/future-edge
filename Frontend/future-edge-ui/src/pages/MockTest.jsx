@@ -21,6 +21,7 @@ function MockTest() {
   const [startTime] = useState(new Date());
   const [loading, setLoading] = useState(false);
   const [showReview, setShowReview] = useState(false);
+  const [showConfirm, setShowConfirm] = useState(false);
 
   /* ================= TIMER ================= */
   useEffect(() => {
@@ -88,10 +89,6 @@ function MockTest() {
   /* ================= SUBMIT ================= */
  const handleSubmit = async () => {
 
-  if (Object.keys(answers).length !== questions.length) {
-    alert("Please answer all questions before submitting.");
-    return;
-  }
 
   try {
     const endTime = new Date();
@@ -269,9 +266,16 @@ function MockTest() {
 
   /* ================= MAIN UI ================= */
   return (
-  <Layout>
-    <div className="container">
-      <h1 className="title">Skill Assessment</h1>
+  <Layout hideSidebar={selectedRole !== null || showResult}>
+    <div className="mocktest-page">
+      {!selectedRole ? (
+        <h1 className="title">Skill Assessment</h1>
+      ) : (
+        <div className="assessment-header">
+          <h1 className="role-name neon-text">{selectedRole}</h1>
+          <p className="assessment-subtitle neon-sub">Skill Assessment</p>
+        </div>
+      )}
 
       {!selectedRole && (
         <div className="role-container">
@@ -299,96 +303,163 @@ function MockTest() {
         <div className="loader">Loading questions...</div>
       )}
 
-      {selectedRole && !loading && questions.length > 0 && questions[currentIndex] && (
-        <div className="quiz-wrapper">
+{selectedRole && !loading && questions.length > 0 && questions[currentIndex] && (
+<div className="quiz-wrapper">
 
-          <div className="quiz-top">
-            <div className="timer">⏱ {formatTime(timeLeft)}</div>
+  {/* 🔥 GLASS CARD START */}
+  <div className="quiz-glass-card">
 
-            <div className="actions">
-              <button
-                className="exit-btn"
-                onClick={() => setSelectedRole(null)}
-              >
-                End Test
-              </button>
+    {/* TOP */}
+    <div className="quiz-top">
+      <div className="timer">⏱ {formatTime(timeLeft)}</div>
 
-              {/* ✅ DISABLED BUTTON */}
-              <button
-                className={`submit-btn ${
-                  Object.keys(answers).length !== questions.length ? "disabled" : ""
-                }`}
-                onClick={handleSubmit}
-                disabled={Object.keys(answers).length !== questions.length}
-              >
-                Submit
-              </button>
+      <div className="actions">
+        <button
+          className="exit-btn"
+          onClick={() => {
+            setSelectedRole(null);
+            setQuestions([]);
+            setAnswers({});
+            setCurrentIndex(0);
+            setTimeLeft(1800);
+            setShowResult(false);
+            setResult(null);
+          }}
+                  >
+          End Test
+        </button>
+
+        <button
+          className="submit-btn"
+          onClick={() => {
+            const unanswered = questions.length - Object.keys(answers).length;
+
+            if (unanswered > 0) {
+              setShowConfirm(true);
+            } else {
+              handleSubmit();
+            }
+          }}
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+
+    {/* QUESTION */}
+    <div className="quiz-card-wrapper">
+      <div key={currentIndex} className="quiz-card-new slide">
+
+        <p className="question-count">
+          Question {currentIndex + 1} of {questions.length}
+        </p>
+
+        <h2 className="question-title">
+          {questions[currentIndex]?.question}
+        </h2>
+
+        {questions[currentIndex]?.code && (
+          <pre className="code-block">
+            <code>{questions[currentIndex].code}</code>
+          </pre>
+        )}
+
+        <div className="options-new">
+          {questions[currentIndex]?.options?.map((opt, i) => (
+            <div
+              key={i}
+              className={`option-new ${
+                answers[questions[currentIndex]?.id] === opt ? "selected" : ""
+              }`}
+              onClick={() =>
+                handleOptionClick(questions[currentIndex]?.id, opt)
+              }
+            >
+              {opt}
             </div>
-          </div>
+          ))}
+        </div>
 
-          <div className="quiz-card-new">
-            <p className="question-count">
-              Question {currentIndex + 1} of {questions.length}
-            </p>
+        <div className="nav-buttons">
 
-            <h2 className="question-title">
-              {questions[currentIndex]?.question}
-            </h2>
-
-            {questions[currentIndex]?.code && (
-              <pre className="code-block">
-                <code>{questions[currentIndex].code}</code>
-              </pre>
-            )}
-
-            <div className="options-new">
-              {questions[currentIndex]?.options?.map((opt, i) => (
-                <div
-                  key={i}
-                  className={`option-new ${
-                    answers[questions[currentIndex]?.id] === opt ? "selected" : ""
-                  }`}
-                  onClick={() =>
-                    handleOptionClick(questions[currentIndex]?.id, opt)
-                  }
-                >
-                  {opt}
-                </div>
-              ))}
-            </div>
-
+          {/* PREVIOUS */}
+          {currentIndex > 0 && (
             <button
               className="next-btn"
-              onClick={() => {
-                if (currentIndex < questions.length - 1) {
-                  setCurrentIndex((prev) => prev + 1);
-                }
-              }}
+              onClick={() => setCurrentIndex(prev => prev - 1)}
+            >
+              ← Previous
+            </button>
+          )}
+
+          {/* NEXT */}
+          {currentIndex < questions.length - 1 && (
+            <button
+              className="next-btn"
+              onClick={() => setCurrentIndex(prev => prev + 1)}
             >
               Next →
             </button>
-          </div>
-
-          <div className="question-nav">
-            {questions.map((q, i) => (
-              <div
-                key={i}
-                className={`nav-box 
-                  ${currentIndex === i ? "active" : ""} 
-                  ${answers[q.id] ? "answered" : ""}
-                `}
-                onClick={() => setCurrentIndex(i)}
-              >
-                {i + 1}
-              </div>
-            ))}
-          </div>
+          )}
 
         </div>
-      )}
-        </div>
-  </Layout>
+
+      </div>
+    </div>
+
+  </div> {/* 🔥 CLOSE GLASS CARD */}
+
+  {/* 🔥 QUESTION NAV MUST BE HERE (OUTSIDE) */}
+  <div className="question-nav">
+    {questions.map((q, i) => (
+      <div
+        key={i}
+        className={`nav-box 
+          ${currentIndex === i ? "active" : ""}
+          ${answers[q.id] ? "answered" : ""}
+          ${!answers[q.id] && i < currentIndex ? "unanswered" : ""}
+        `}
+        onClick={() => setCurrentIndex(i)}
+      >
+        {i + 1}
+      </div>
+    ))}
+  </div>
+
+</div>
+)}
+{/* 🔥 ADD THIS BLOCK HERE */}
+{showConfirm && (
+  <div className="modal-overlay">
+    <div className="modal-box">
+
+      <h3>Submit Test?</h3>
+      <p>You still have unanswered questions.</p>
+
+      <div className="modal-actions">
+        <button
+          className="cancel-btn"
+          onClick={() => setShowConfirm(false)}
+        >
+          Cancel
+        </button>
+
+        <button
+          className="confirm-btn"
+          onClick={() => {
+            setShowConfirm(false);
+            handleSubmit();
+          }}
+        >
+          Submit Anyway
+        </button>
+      </div>
+
+    </div>
+  </div>
+)}
+</div>
+</Layout>
 );
 }
-
 export default MockTest;

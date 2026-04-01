@@ -1,411 +1,402 @@
 {
   "skill": "Bug Tracking",
+
   "mcqs": [
     {
-      "id": "bug_tracking_001",
-      "question": "bug tracking question 1?",
+      "id": "bt_001",
+      "question": "A bug is reproducible only under specific conditions. What should be included in the report?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Ignore conditions",
+        "Detailed steps to reproduce",
+        "Only screenshots",
+        "Only logs"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "bug_tracking_002",
-      "question": "bug tracking question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Detailed steps to reproduce",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "bug_tracking_003",
-      "question": "bug tracking question 3?",
+      "id": "bt_002",
+      "question": "What is the difference between severity and priority?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Same thing",
+        "Severity = impact, Priority = urgency",
+        "Priority = impact, Severity = urgency",
+        "None"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "bug_tracking_004",
-      "question": "bug tracking question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "bug_tracking_005",
-      "question": "bug tracking question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "bug_tracking_006",
-      "question": "bug tracking question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "bug_tracking_007",
-      "question": "bug tracking question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "bug_tracking_008",
-      "question": "bug tracking question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Severity = impact, Priority = urgency",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "bug_tracking_009",
-      "question": "bug tracking question 9?",
+      "id": "bt_003",
+      "question": "Which bug should be fixed first?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Low severity, high priority",
+        "High severity, high priority",
+        "Low severity, low priority",
+        "Medium severity"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "bug_tracking_010",
-      "question": "bug tracking question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "bug_tracking_011",
-      "question": "bug tracking question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "bug_tracking_012",
-      "question": "bug tracking question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "High severity, high priority",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "bug_tracking_013",
-      "question": "bug tracking question 13?",
+      "id": "bt_004",
+      "question": "A bug crashes the application. What is its severity?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Low",
+        "Medium",
+        "High",
+        "Trivial"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "High",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "bug_tracking_014",
-      "question": "bug tracking question 14?",
+      "id": "bt_005",
+      "question": "What is the purpose of bug tracking tools like Jira?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "Track and manage bugs",
+        "Code execution",
+        "Database storage"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Track and manage bugs",
       "difficulty": "easy",
       "weight": 2
     },
+
     {
-      "id": "bug_tracking_015",
-      "question": "bug tracking question 15?",
+      "id": "bt_006",
+      "question": "What does 'bug status: reopened' indicate?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Bug is fixed",
+        "Bug still exists after fix",
+        "Bug deleted",
+        "Bug ignored"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "bug_tracking_016",
-      "question": "bug tracking question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Bug still exists after fix",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "bug_tracking_017",
-      "question": "bug tracking question 17?",
+      "id": "bt_007",
+      "question": "What is a duplicate bug?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "New bug",
+        "Same issue already reported",
+        "Critical bug",
+        "UI bug"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "bug_tracking_018",
-      "question": "bug tracking question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "bug_tracking_019",
-      "question": "bug tracking question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "bug_tracking_020",
-      "question": "bug tracking question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "bug_tracking_021",
-      "question": "bug tracking question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "bug_tracking_022",
-      "question": "bug tracking question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "bug_tracking_023",
-      "question": "bug tracking question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "bug_tracking_024",
-      "question": "bug tracking question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Same issue already reported",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "bug_tracking_025",
-      "question": "bug tracking question 25?",
+      "id": "bt_008",
+      "question": "What should be avoided in a bug report?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Clear steps",
+        "Ambiguous descriptions",
+        "Screenshots",
+        "Logs"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "bug_tracking_026",
-      "question": "bug tracking question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Ambiguous descriptions",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "bug_tracking_027",
-      "question": "bug tracking question 27?",
+      "id": "bt_009",
+      "question": "What is a blocker bug?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Minor issue",
+        "Stops entire functionality",
+        "UI issue",
+        "Low priority"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "bug_tracking_028",
-      "question": "bug tracking question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Stops entire functionality",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "bug_tracking_029",
-      "question": "bug tracking question 29?",
+      "id": "bt_010",
+      "question": "What is regression bug?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "New bug",
+        "Bug in old working feature",
+        "UI bug",
+        "Performance bug"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Bug in old working feature",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "bt_011",
+      "question": "What is the purpose of assigning bugs?",
+      "options": [
+        "Ignore bug",
+        "Assign responsibility",
+        "Delete bug",
+        "Close bug"
+      ],
+      "correct_answer": "Assign responsibility",
       "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bt_012",
+      "question": "What does 'cannot reproduce' mean?",
+      "options": [
+        "Bug fixed",
+        "Bug not found during testing",
+        "Bug deleted",
+        "Bug ignored"
+      ],
+      "correct_answer": "Bug not found during testing",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "bug_tracking_030",
-      "question": "bug tracking question 30?",
+      "id": "bt_013",
+      "question": "What is the purpose of logs in bug tracking?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "Help identify root cause",
+        "Store data",
+        "Delete bugs"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Help identify root cause",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bt_014",
+      "question": "What is triaging?",
+      "options": [
+        "Fixing bugs",
+        "Prioritizing and analyzing bugs",
+        "Deleting bugs",
+        "Writing code"
+      ],
+      "correct_answer": "Prioritizing and analyzing bugs",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bt_015",
+      "question": "What is the role of QA in bug tracking?",
+      "options": [
+        "Write code",
+        "Identify and report bugs",
+        "Deploy app",
+        "Design UI"
+      ],
+      "correct_answer": "Identify and report bugs",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "bt_016",
+      "question": "What is a bug lifecycle?",
+      "options": [
+        "Code process",
+        "Stages a bug goes through",
+        "UI design",
+        "Database flow"
+      ],
+      "correct_answer": "Stages a bug goes through",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bt_017",
+      "question": "Why is prioritization important?",
+      "options": [
+        "Reduce bugs",
+        "Fix critical issues first",
+        "Improve UI",
+        "Speed coding"
+      ],
+      "correct_answer": "Fix critical issues first",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bt_018",
+      "question": "What is a minor bug?",
+      "options": [
+        "Crash",
+        "Cosmetic issue",
+        "Security issue",
+        "Data loss"
+      ],
+      "correct_answer": "Cosmetic issue",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bt_019",
+      "question": "Why attach screenshots in bug reports?",
+      "options": [
+        "Decoration",
+        "Visual evidence",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Visual evidence",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bt_020",
+      "question": "What indicates a bug is resolved?",
+      "options": [
+        "Assigned",
+        "Closed after verification",
+        "New",
+        "Open"
+      ],
+      "correct_answer": "Closed after verification",
       "difficulty": "medium",
       "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "bug_tracking_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "bt_s_001",
+      "question": "A bug is reported but cannot be reproduced by developers. What should QA do?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Close bug",
+        "Provide detailed steps and environment",
+        "Ignore",
+        "Delete bug"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Provide detailed steps and environment",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bt_s_002",
+      "question": "Two testers report the same issue. What should be done?",
+      "options": [
+        "Keep both",
+        "Mark one as duplicate",
+        "Delete both",
+        "Ignore"
+      ],
+      "correct_answer": "Mark one as duplicate",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "bt_s_003",
+      "question": "A bug is fixed but still occurs occasionally. What is the next step?",
+      "options": [
+        "Close bug",
+        "Reopen bug",
+        "Ignore",
+        "Delete"
+      ],
+      "correct_answer": "Reopen bug",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bt_s_004",
+      "question": "A minor UI bug exists but deadline is near. What should be done?",
+      "options": [
+        "Fix immediately",
+        "Defer to later",
+        "Ignore permanently",
+        "Delete bug"
+      ],
+      "correct_answer": "Defer to later",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bt_s_005",
+      "question": "A bug causes data loss. What should be its priority?",
+      "options": [
+        "Low",
+        "Medium",
+        "High",
+        "Ignore"
+      ],
+      "correct_answer": "High",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bt_s_006",
+      "question": "Bug report lacks logs. What should QA do?",
+      "options": [
+        "Close bug",
+        "Request more information",
+        "Ignore",
+        "Assign bug"
+      ],
+      "correct_answer": "Request more information",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bt_s_007",
+      "question": "Bug appears only on specific device. What should be done?",
+      "options": [
+        "Ignore",
+        "Mention device details",
+        "Close bug",
+        "Delete"
+      ],
+      "correct_answer": "Mention device details",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bt_s_008",
+      "question": "Bug fixed but not tested. What is next?",
+      "options": [
+        "Close",
+        "Verify and test",
+        "Ignore",
+        "Delete"
+      ],
+      "correct_answer": "Verify and test",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "bt_s_009",
+      "question": "Multiple critical bugs exist. What should team do?",
+      "options": [
+        "Fix randomly",
+        "Prioritize based on impact",
+        "Ignore some",
+        "Delay all"
+      ],
+      "correct_answer": "Prioritize based on impact",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "bt_s_010",
+      "question": "Bug is unclear and vague. What is best action?",
+      "options": [
+        "Close bug",
+        "Ask for clarification",
+        "Ignore",
+        "Assign randomly"
+      ],
+      "correct_answer": "Ask for clarification",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

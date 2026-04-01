@@ -1,50 +1,587 @@
 {
-    "skill": "AI/ML",
-    "mcqs":[
-      {"id":"ml_001","question":"AI stands for?","options":["Artificial Intelligence","Auto Intelligence","Advanced Input","none"],"correct_answer":"Artificial Intelligence","difficulty":"easy","weight":1},
-      {"id":"ml_002","question":"ML stands for?","options":["Machine Learning","Model Learning","Math Learning","none"],"correct_answer":"Machine Learning","difficulty":"easy","weight":1},
-      {"id":"ml_003","question":"Supervised learning uses?","options":["labeled data","unlabeled","none","loop"],"correct_answer":"labeled data","difficulty":"easy","weight":1},
-      {"id":"ml_004","question":"Unsupervised learning uses?","options":["unlabeled","labeled","none","loop"],"correct_answer":"unlabeled","difficulty":"easy","weight":1},
-      {"id":"ml_005","question":"Regression predicts?","options":["continuous","categorical","none","loop"],"correct_answer":"continuous","difficulty":"easy","weight":1},
-      {"id":"ml_006","question":"Classification predicts?","options":["categorical","continuous","none","loop"],"correct_answer":"categorical","difficulty":"easy","weight":1},
-      {"id":"ml_007","question":"Overfitting means?","options":["too complex","too simple","none","loop"],"correct_answer":"too complex","difficulty":"easy","weight":1},
-      {"id":"ml_008","question":"Underfitting means?","options":["too simple","too complex","none","loop"],"correct_answer":"too simple","difficulty":"easy","weight":1},
-      {"id":"ml_009","question":"Which is ML library?","options":["scikit-learn","html","css","none"],"correct_answer":"scikit-learn","difficulty":"easy","weight":1},
-      {"id":"ml_010","question":"Which is DL library?","options":["TensorFlow","SQL","Java","none"],"correct_answer":"TensorFlow","difficulty":"easy","weight":1},
-  
-      {"id":"ml_011","question":"Which algorithm is supervised?","options":["Linear Regression","K-means","PCA","none"],"correct_answer":"Linear Regression","difficulty":"medium","weight":2},
-      {"id":"ml_012","question":"K-means is?","options":["clustering","classification","regression","none"],"correct_answer":"clustering","difficulty":"medium","weight":2},
-      {"id":"ml_013","question":"Decision tree used for?","options":["both","none","loop","array"],"correct_answer":"both","difficulty":"medium","weight":2},
-      {"id":"ml_014","question":"Bias-variance tradeoff?","options":["model balance","loop","none","array"],"correct_answer":"model balance","difficulty":"medium","weight":2},
-      {"id":"ml_015","question":"Cross validation used for?","options":["model evaluation","training","testing","none"],"correct_answer":"model evaluation","difficulty":"medium","weight":2},
-      {"id":"ml_016","question":"Precision measures?","options":["correct positives","all positives","none","loop"],"correct_answer":"correct positives","difficulty":"medium","weight":2},
-      {"id":"ml_017","question":"Recall measures?","options":["actual positives","predicted","none","loop"],"correct_answer":"actual positives","difficulty":"medium","weight":2},
-      {"id":"ml_018","question":"F1 score is?","options":["harmonic mean","average","sum","none"],"correct_answer":"harmonic mean","difficulty":"medium","weight":2},
-      {"id":"ml_019","question":"Gradient descent used for?","options":["optimization","sorting","searching","none"],"correct_answer":"optimization","difficulty":"medium","weight":2},
-      {"id":"ml_020","question":"Epoch means?","options":["one pass","loop","none","array"],"correct_answer":"one pass","difficulty":"medium","weight":2},
-  
-      {"id":"ml_021","question":"CNN used for?","options":["images","text","audio","none"],"correct_answer":"images","difficulty":"hard","weight":3},
-      {"id":"ml_022","question":"RNN used for?","options":["sequence","image","none","loop"],"correct_answer":"sequence","difficulty":"hard","weight":3},
-      {"id":"ml_023","question":"Dropout prevents?","options":["overfitting","underfitting","none","loop"],"correct_answer":"overfitting","difficulty":"hard","weight":3},
-      {"id":"ml_024","question":"Activation function?","options":["introduce non-linearity","linear","none","loop"],"correct_answer":"introduce non-linearity","difficulty":"hard","weight":3},
-      {"id":"ml_025","question":"Softmax used for?","options":["probabilities","regression","none","loop"],"correct_answer":"probabilities","difficulty":"hard","weight":3},
-      {"id":"ml_026","question":"Loss function measures?","options":["error","accuracy","none","loop"],"correct_answer":"error","difficulty":"hard","weight":3},
-      {"id":"ml_027","question":"Backpropagation is?","options":["training method","testing","none","loop"],"correct_answer":"training method","difficulty":"hard","weight":3},
-      {"id":"ml_028","question":"Reinforcement learning uses?","options":["reward","label","none","loop"],"correct_answer":"reward","difficulty":"hard","weight":3},
-      {"id":"ml_029","question":"GAN has?","options":["generator discriminator","none","loop","array"],"correct_answer":"generator discriminator","difficulty":"hard","weight":3},
-      {"id":"ml_030","question":"Transformer used for?","options":["NLP","image","none","loop"],"correct_answer":"NLP","difficulty":"hard","weight":3}
-    ],
-  
-    "coding_mcqs":[
-      {"id":"ml_c_001","question":"Output?","code":"import numpy as np\nprint(np.array([1,2])+1)","options":["[2 3]","[1 2]","error","none"],"correct_answer":"[2 3]","difficulty":"easy","weight":1},
-      {"id":"ml_c_002","question":"Output?","code":"import pandas as pd\ndf=pd.DataFrame({'a':[1,2]})\nprint(df.shape)","options":["(2,1)","(1,2)","error","none"],"correct_answer":"(2,1)","difficulty":"easy","weight":1},
-      {"id":"ml_c_003","question":"Find error","code":"import numpy\nnumpy.array(1,2,3)","options":["wrong args","valid","none","loop"],"correct_answer":"wrong args","difficulty":"easy","weight":1},
-      {"id":"ml_c_004","question":"Output?","code":"from sklearn.linear_model import LinearRegression","options":["no output","error","none","loop"],"correct_answer":"no output","difficulty":"easy","weight":1},
-      {"id":"ml_c_005","question":"Output?","code":"import numpy as np\nprint(np.mean([1,2,3]))","options":["2","3","1","error"],"correct_answer":"2","difficulty":"medium","weight":2},
-      {"id":"ml_c_006","question":"Output?","code":"import pandas as pd\ndf=pd.DataFrame({'a':[1,2]})\nprint(df['a'].sum())","options":["3","2","1","error"],"correct_answer":"3","difficulty":"medium","weight":2},
-      {"id":"ml_c_007","question":"Output?","code":"import numpy as np\nprint(np.zeros(3))","options":["[0. 0. 0.]","[0 0 0]","error","none"],"correct_answer":"[0. 0. 0.]","difficulty":"medium","weight":2},
-      {"id":"ml_c_008","question":"Output?","code":"import numpy as np\nprint(np.eye(2))","options":["identity matrix","zero","error","none"],"correct_answer":"identity matrix","difficulty":"hard","weight":3},
-      {"id":"ml_c_009","question":"Output?","code":"import pandas as pd\nprint(pd.Series([1,2]).mean())","options":["1.5","2","1","error"],"correct_answer":"1.5","difficulty":"hard","weight":3},
-      {"id":"ml_c_010","question":"Find error","code":"model.fit(x)","options":["missing y","valid","none","loop"],"correct_answer":"missing y","difficulty":"hard","weight":3}
-    ]
-  }
+  "skill": "AI/ML",
+
+  "mcqs": [
+    {
+      "id": "aiml_001",
+      "question": "A model has very low training error but high validation error. What is the problem?",
+      "options": [
+        "Underfitting",
+        "Overfitting",
+        "Data leakage",
+        "High bias"
+      ],
+      "correct_answer": "Overfitting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_002",
+      "question": "Which technique helps reduce overfitting in decision trees?",
+      "options": [
+        "Increase depth",
+        "Pruning",
+        "More features",
+        "Higher learning rate"
+      ],
+      "correct_answer": "Pruning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_003",
+      "question": "When should you use Logistic Regression instead of Linear Regression?",
+      "options": [
+        "For continuous output",
+        "For classification tasks",
+        "For clustering",
+        "For dimensionality reduction"
+      ],
+      "correct_answer": "For classification tasks",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "aiml_004",
+      "question": "Which metric is best for imbalanced datasets?",
+      "options": [
+        "Accuracy",
+        "Precision/Recall",
+        "Mean squared error",
+        "R-squared"
+      ],
+      "correct_answer": "Precision/Recall",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_005",
+      "question": "What happens if you increase K in KNN too much?",
+      "options": [
+        "Overfitting",
+        "Underfitting",
+        "Better accuracy",
+        "No change"
+      ],
+      "correct_answer": "Underfitting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "aiml_006",
+      "question": "Which technique is used to reduce dimensionality?",
+      "options": [
+        "KNN",
+        "PCA",
+        "Logistic Regression",
+        "Decision Tree"
+      ],
+      "correct_answer": "PCA",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_007",
+      "question": "What is the purpose of cross-validation?",
+      "options": [
+        "Increase training speed",
+        "Evaluate model robustness",
+        "Reduce dataset size",
+        "Remove features"
+      ],
+      "correct_answer": "Evaluate model robustness",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_008",
+      "question": "Which algorithm is sensitive to feature scaling?",
+      "options": [
+        "Decision Tree",
+        "KNN",
+        "Random Forest",
+        "Naive Bayes"
+      ],
+      "correct_answer": "KNN",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_009",
+      "question": "What does regularization help prevent?",
+      "options": [
+        "Underfitting",
+        "Overfitting",
+        "Data loss",
+        "Noise"
+      ],
+      "correct_answer": "Overfitting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_010",
+      "question": "Which model is best for non-linear relationships?",
+      "options": [
+        "Linear Regression",
+        "Decision Tree",
+        "Logistic Regression",
+        "Naive Bayes"
+      ],
+      "correct_answer": "Decision Tree",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "aiml_011",
+      "question": "What is bias in ML?",
+      "options": [
+        "Error from variance",
+        "Error due to assumptions",
+        "Data size",
+        "Noise"
+      ],
+      "correct_answer": "Error due to assumptions",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "aiml_012",
+      "question": "What is variance in ML?",
+      "options": [
+        "Error due to model complexity",
+        "Error due to data",
+        "Training error",
+        "Loss function"
+      ],
+      "correct_answer": "Error due to model complexity",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "aiml_013",
+      "question": "Which method improves model performance by combining models?",
+      "options": [
+        "Normalization",
+        "Ensemble learning",
+        "Scaling",
+        "Encoding"
+      ],
+      "correct_answer": "Ensemble learning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_014",
+      "question": "Random Forest is an example of?",
+      "options": [
+        "Clustering",
+        "Ensemble learning",
+        "Regression",
+        "Optimization"
+      ],
+      "correct_answer": "Ensemble learning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_015",
+      "question": "What is gradient descent used for?",
+      "options": [
+        "Feature selection",
+        "Minimizing loss function",
+        "Data cleaning",
+        "Clustering"
+      ],
+      "correct_answer": "Minimizing loss function",
+      "difficulty": "hard",
+      "weight": 3
+    },
+
+    {
+      "id": "aiml_016",
+      "question": "What happens if learning rate is too high?",
+      "options": [
+        "Slow convergence",
+        "Overshooting minimum",
+        "Perfect training",
+        "No training"
+      ],
+      "correct_answer": "Overshooting minimum",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_017",
+      "question": "Which algorithm is best for clustering?",
+      "options": [
+        "K-Means",
+        "Linear Regression",
+        "Logistic Regression",
+        "SVM"
+      ],
+      "correct_answer": "K-Means",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "aiml_018",
+      "question": "Which metric is used in regression?",
+      "options": [
+        "Accuracy",
+        "F1 score",
+        "Mean Squared Error",
+        "Precision"
+      ],
+      "correct_answer": "Mean Squared Error",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_019",
+      "question": "What is data leakage?",
+      "options": [
+        "Data loss",
+        "Using future data in training",
+        "Missing values",
+        "Noise"
+      ],
+      "correct_answer": "Using future data in training",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "aiml_020",
+      "question": "Why is feature scaling important?",
+      "options": [
+        "Improve UI",
+        "Improve model performance",
+        "Reduce data size",
+        "Remove noise"
+      ],
+      "correct_answer": "Improve model performance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_021",
+      "question": "Which technique helps handle imbalanced datasets?",
+      "options": [
+        "Normalization",
+        "SMOTE",
+        "PCA",
+        "Scaling"
+      ],
+      "correct_answer": "SMOTE",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_022",
+      "question": "What is the purpose of a confusion matrix?",
+      "options": [
+        "Reduce features",
+        "Evaluate classification performance",
+        "Train model",
+        "Normalize data"
+      ],
+      "correct_answer": "Evaluate classification performance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_023",
+      "question": "Which algorithm is best suited for high-dimensional data?",
+      "options": [
+        "KNN",
+        "SVM",
+        "K-Means",
+        "Linear Regression"
+      ],
+      "correct_answer": "SVM",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "aiml_024",
+      "question": "What is the main advantage of Random Forest over Decision Trees?",
+      "options": [
+        "Faster training",
+        "Reduces overfitting",
+        "Uses less data",
+        "Simpler model"
+      ],
+      "correct_answer": "Reduces overfitting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_025",
+      "question": "What does L1 regularization do?",
+      "options": [
+        "Increases features",
+        "Performs feature selection",
+        "Adds noise",
+        "Reduces data"
+      ],
+      "correct_answer": "Performs feature selection",
+      "difficulty": "hard",
+      "weight": 3
+    },
+
+    {
+      "id": "aiml_026",
+      "question": "Which activation function is commonly used in hidden layers?",
+      "options": [
+        "Sigmoid",
+        "ReLU",
+        "Softmax",
+        "Linear"
+      ],
+      "correct_answer": "ReLU",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_027",
+      "question": "What is the role of softmax function?",
+      "options": [
+        "Normalize input",
+        "Convert outputs to probabilities",
+        "Reduce dimensions",
+        "Optimize model"
+      ],
+      "correct_answer": "Convert outputs to probabilities",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_028",
+      "question": "Which algorithm works best for sequential data?",
+      "options": [
+        "CNN",
+        "RNN",
+        "KNN",
+        "Decision Tree"
+      ],
+      "correct_answer": "RNN",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_029",
+      "question": "What is dropout in neural networks?",
+      "options": [
+        "Removing data",
+        "Regularization technique",
+        "Optimization method",
+        "Scaling technique"
+      ],
+      "correct_answer": "Regularization technique",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "aiml_030",
+      "question": "Which technique is used to tune hyperparameters?",
+      "options": [
+        "Gradient descent",
+        "Grid search",
+        "PCA",
+        "Normalization"
+      ],
+      "correct_answer": "Grid search",
+      "difficulty": "medium",
+      "weight": 3
+    }
+  ],
+  "coding_mcqs": [
+
+    {
+      "id": "aiml_c_001",
+      "question": "What is this step performing in an ML pipeline?",
+      "code": "model.fit(X_train, y_train)",
+      "options": ["Training the model", "Testing the model", "Normalizing data", "Splitting data"],
+      "correct_answer": "Training the model",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "aiml_c_002",
+      "question": "What is the purpose of this function?",
+      "code": "model.predict(X_test)",
+      "options": ["Train model", "Generate predictions", "Clean data", "Scale data"],
+      "correct_answer": "Generate predictions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "aiml_c_003",
+      "question": "What is this function used for?",
+      "code": "train_test_split(X, y, test_size=0.2)",
+      "options": ["Train model", "Split dataset", "Normalize data", "Evaluate model"],
+      "correct_answer": "Split dataset",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "aiml_c_004",
+      "question": "What is happening here?",
+      "code": "StandardScaler().fit_transform(X)",
+      "options": ["Feature scaling", "Model training", "Prediction", "Clustering"],
+      "correct_answer": "Feature scaling",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_005",
+      "question": "What is the purpose of this function?",
+      "code": "accuracy_score(y_test, y_pred)",
+      "options": ["Train model", "Evaluate accuracy", "Normalize data", "Split dataset"],
+      "correct_answer": "Evaluate accuracy",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "aiml_c_006",
+      "question": "What does this code evaluate?",
+      "code": "confusion_matrix(y_test, y_pred)",
+      "options": ["Regression", "Classification performance", "Clustering", "Scaling"],
+      "correct_answer": "Classification performance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_007",
+      "question": "What is this used for?",
+      "code": "GridSearchCV(model, param_grid)",
+      "options": ["Data cleaning", "Hyperparameter tuning", "Feature selection", "Prediction"],
+      "correct_answer": "Hyperparameter tuning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_008",
+      "question": "What type of model is defined here?",
+      "code": "model = LogisticRegression()",
+      "options": ["Regression", "Classification", "Clustering", "Dimensionality reduction"],
+      "correct_answer": "Classification",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_009",
+      "question": "What is this model typically used for?",
+      "code": "model = KMeans(n_clusters=3)",
+      "options": ["Classification", "Regression", "Clustering", "Prediction"],
+      "correct_answer": "Clustering",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "aiml_c_010",
+      "question": "What does this function do?",
+      "code": "model.fit_predict(X)",
+      "options": ["Train only", "Predict only", "Train and predict", "Normalize data"],
+      "correct_answer": "Train and predict",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "aiml_c_011",
+      "question": "What is this used for?",
+      "code": "LabelEncoder().fit_transform(y)",
+      "options": ["Scaling", "Encoding categorical labels", "Clustering", "Prediction"],
+      "correct_answer": "Encoding categorical labels",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_012",
+      "question": "What is this operation doing?",
+      "code": "df.dropna()",
+      "options": ["Add missing values", "Remove missing data", "Sort data", "Normalize data"],
+      "correct_answer": "Remove missing data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "aiml_c_013",
+      "question": "What is this function used for?",
+      "code": "df.isnull().sum()",
+      "options": ["Remove data", "Check missing values", "Encode data", "Train model"],
+      "correct_answer": "Check missing values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "aiml_c_014",
+      "question": "What is happening here?",
+      "code": "X = X / X.max()",
+      "options": ["Normalization", "Encoding", "Prediction", "Clustering"],
+      "correct_answer": "Normalization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_015",
+      "question": "What does this function return?",
+      "code": "np.argmax(predictions)",
+      "options": ["Max value", "Index of max value", "Sorted values", "Error"],
+      "correct_answer": "Index of max value",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "aiml_c_016",
+      "question": "What is this evaluating?",
+      "code": "model.score(X_test, y_test)",
+      "options": ["Training", "Model performance", "Data cleaning", "Scaling"],
+      "correct_answer": "Model performance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_017",
+      "question": "What does this model represent?",
+      "code": "DecisionTreeClassifier()",
+      "options": ["Regression", "Classification", "Clustering", "Scaling"],
+      "correct_answer": "Classification",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_018",
+      "question": "What is this used for?",
+      "code": "PCA(n_components=2)",
+      "options": ["Clustering", "Dimensionality reduction", "Classification", "Scaling"],
+      "correct_answer": "Dimensionality reduction",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_019",
+      "question": "What does this represent?",
+      "code": "RandomForestClassifier()",
+      "options": ["Single model", "Ensemble model", "Clustering", "Scaling"],
+      "correct_answer": "Ensemble model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "aiml_c_020",
+      "question": "What is this used for?",
+      "code": "y_pred = model.predict(X_test)",
+      "options": ["Training", "Prediction", "Cleaning", "Scaling"],
+      "correct_answer": "Prediction",
+      "difficulty": "easy",
+      "weight": 2
+    }
+
+  ]
+}

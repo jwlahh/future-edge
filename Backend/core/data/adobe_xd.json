@@ -3,409 +3,398 @@
   "mcqs": [
     {
       "id": "adobe_xd_001",
-      "question": "adobe xd question 1?",
+      "question": "What is Adobe XD primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Video editing",
+        "UI/UX design and prototyping",
+        "3D modeling",
+        "Photo editing"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "UI/UX design and prototyping",
       "difficulty": "hard",
       "weight": 2
     },
     {
       "id": "adobe_xd_002",
-      "question": "adobe xd question 2?",
+      "question": "Which feature in Adobe XD allows repeating elements like lists or grids?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Repeat Grid",
+        "Artboard Tool",
+        "Pen Tool",
+        "Layers Panel"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Repeat Grid",
       "difficulty": "hard",
       "weight": 1
     },
     {
       "id": "adobe_xd_003",
-      "question": "adobe xd question 3?",
+      "question": "What is an Artboard in Adobe XD?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A drawing tool",
+        "A workspace for designing screens",
+        "A color palette",
+        "A plugin"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "A workspace for designing screens",
       "difficulty": "hard",
       "weight": 2
     },
     {
       "id": "adobe_xd_004",
-      "question": "adobe xd question 4?",
+      "question": "Which mode is used to create interactions between screens?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Design Mode",
+        "Prototype Mode",
+        "Preview Mode",
+        "Assets Mode"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Prototype Mode",
       "difficulty": "hard",
       "weight": 1
     },
     {
       "id": "adobe_xd_005",
-      "question": "adobe xd question 5?",
+      "question": "Which shortcut is used to switch to Prototype mode?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Ctrl + 1",
+        "Ctrl + 2",
+        "Ctrl + 3",
+        "Ctrl + 4"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Ctrl + 2",
       "difficulty": "easy",
       "weight": 3
     },
     {
       "id": "adobe_xd_006",
-      "question": "adobe xd question 6?",
+      "question": "What does the Assets panel store?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Images only",
+        "Colors, components, and character styles",
+        "Code snippets",
+        "Export settings"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Colors, components, and character styles",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "adobe_xd_007",
-      "question": "adobe xd question 7?",
+      "question": "What is a Component in Adobe XD?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A color style",
+        "Reusable design element",
+        "A plugin",
+        "A grid layout"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Reusable design element",
       "difficulty": "hard",
       "weight": 2
     },
     {
       "id": "adobe_xd_008",
-      "question": "adobe xd question 8?",
+      "question": "Which feature allows scrolling within an artboard?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Viewport",
+        "Scroll Groups",
+        "Auto Animate",
+        "Overlay"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Scroll Groups",
       "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "adobe_xd_009",
-      "question": "adobe xd question 9?",
+      "question": "What is Auto-Animate used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Exporting files",
+        "Creating transitions between artboards",
+        "Editing images",
+        "Aligning objects"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Creating transitions between artboards",
       "difficulty": "hard",
       "weight": 2
     },
     {
       "id": "adobe_xd_010",
-      "question": "adobe xd question 10?",
+      "question": "Which format can Adobe XD export designs to?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "PNG",
+        "JPG",
+        "SVG",
+        "All of the above"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "All of the above",
       "difficulty": "hard",
       "weight": 2
     },
+
     {
       "id": "adobe_xd_011",
-      "question": "adobe xd question 11?",
+      "question": "What is the purpose of wireframing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Final design",
+        "Basic layout planning",
+        "Animation",
+        "Coding"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Basic layout planning",
       "difficulty": "hard",
       "weight": 3
     },
     {
       "id": "adobe_xd_012",
-      "question": "adobe xd question 12?",
+      "question": "Which tool is used to draw custom shapes?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Pen Tool",
+        "Grid Tool",
+        "Text Tool",
+        "Zoom Tool"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Pen Tool",
       "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "adobe_xd_013",
-      "question": "adobe xd question 13?",
+      "question": "What does 'Mask with Shape' do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Deletes image",
+        "Clips image inside shape",
+        "Resizes artboard",
+        "Applies color"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Clips image inside shape",
       "difficulty": "hard",
       "weight": 2
     },
     {
       "id": "adobe_xd_014",
-      "question": "adobe xd question 14?",
+      "question": "Which shortcut creates a component?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Ctrl + K",
+        "Ctrl + G",
+        "Ctrl + D",
+        "Ctrl + Shift + C"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Ctrl + K",
       "difficulty": "easy",
       "weight": 3
     },
     {
       "id": "adobe_xd_015",
-      "question": "adobe xd question 15?",
+      "question": "What is an overlay interaction?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "New artboard",
+        "Pop-up screen over design",
+        "Background image",
+        "Grid layout"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Pop-up screen over design",
       "difficulty": "hard",
       "weight": 1
     },
+
     {
       "id": "adobe_xd_016",
-      "question": "adobe xd question 16?",
+      "question": "Which tool aligns objects automatically?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Align Tool",
+        "Selection Tool",
+        "Pen Tool",
+        "Zoom Tool"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Align Tool",
       "difficulty": "easy",
       "weight": 1
     },
     {
       "id": "adobe_xd_017",
-      "question": "adobe xd question 17?",
+      "question": "What is responsive resize?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Export option",
+        "Auto adjustment of elements",
+        "Animation type",
+        "Grid setting"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Auto adjustment of elements",
       "difficulty": "hard",
       "weight": 1
     },
     {
       "id": "adobe_xd_018",
-      "question": "adobe xd question 18?",
+      "question": "Which panel shows layers?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Layers Panel",
+        "Assets Panel",
+        "Prototype Panel",
+        "Preview Panel"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Layers Panel",
       "difficulty": "medium",
       "weight": 1
     },
     {
       "id": "adobe_xd_019",
-      "question": "adobe xd question 19?",
+      "question": "What is padding in stacks?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Spacing inside group",
+        "Font style",
+        "Color setting",
+        "Export option"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Spacing inside group",
       "difficulty": "hard",
       "weight": 1
     },
     {
       "id": "adobe_xd_020",
-      "question": "adobe xd question 20?",
+      "question": "Which view previews the prototype?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Preview Window",
+        "Assets Panel",
+        "Layers Panel",
+        "Grid View"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Preview Window",
       "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "adobe_xd_021",
-      "question": "adobe xd question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "adobe_xd_022",
-      "question": "adobe xd question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "adobe_xd_023",
-      "question": "adobe xd question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "adobe_xd_024",
-      "question": "adobe xd question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "adobe_xd_025",
-      "question": "adobe xd question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "adobe_xd_026",
-      "question": "adobe xd question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "adobe_xd_027",
-      "question": "adobe xd question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "adobe_xd_028",
-      "question": "adobe xd question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "adobe_xd_029",
-      "question": "adobe xd question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "adobe_xd_030",
-      "question": "adobe xd question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
-    {
-      "id": "adobe_xd_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
-      "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
-      ],
-      "correct_answer": "valid",
-      "difficulty": "easy",
-      "weight": 1
-    }
-  ]
+
+  "scenario_mcqs": [
+  {
+    "id": "adobe_xd_s_001",
+    "question": "You want to create a reusable button across multiple screens. What should you use?",
+    "options": [
+      "Group",
+      "Component",
+      "Artboard",
+      "Mask"
+    ],
+    "correct_answer": "Component",
+    "difficulty": "easy",
+    "weight": 2
+  },
+  {
+    "id": "adobe_xd_s_002",
+    "question": "You need to create a list of items that repeats dynamically. Which feature helps?",
+    "options": [
+      "Repeat Grid",
+      "Stack",
+      "Pen Tool",
+      "Assets Panel"
+    ],
+    "correct_answer": "Repeat Grid",
+    "difficulty": "easy",
+    "weight": 2
+  },
+  {
+    "id": "adobe_xd_s_003",
+    "question": "You want to simulate a button click that transitions to another screen. What should you use?",
+    "options": [
+      "Design Mode",
+      "Prototype Mode",
+      "Assets Panel",
+      "Layers Panel"
+    ],
+    "correct_answer": "Prototype Mode",
+    "difficulty": "easy",
+    "weight": 2
+  },
+  {
+    "id": "adobe_xd_s_004",
+    "question": "You want a smooth transition animation between two screens. Which feature should you use?",
+    "options": [
+      "Overlay",
+      "Auto-Animate",
+      "Repeat Grid",
+      "Mask"
+    ],
+    "correct_answer": "Auto-Animate",
+    "difficulty": "medium",
+    "weight": 3
+  },
+  {
+    "id": "adobe_xd_s_005",
+    "question": "You are designing a mobile screen with scrollable content. What should you use?",
+    "options": [
+      "Artboard",
+      "Scroll Group",
+      "Component",
+      "Stack"
+    ],
+    "correct_answer": "Scroll Group",
+    "difficulty": "medium",
+    "weight": 3
+  },
+  {
+    "id": "adobe_xd_s_006",
+    "question": "You want consistent spacing between UI elements that automatically adjusts. What should you use?",
+    "options": [
+      "Repeat Grid",
+      "Stack",
+      "Mask",
+      "Pen Tool"
+    ],
+    "correct_answer": "Stack",
+    "difficulty": "medium",
+    "weight": 2
+  },
+  {
+    "id": "adobe_xd_s_007",
+    "question": "You want to update a logo across all screens at once. What should you do?",
+    "options": [
+      "Edit each manually",
+      "Use Component",
+      "Duplicate layers",
+      "Use Mask"
+    ],
+    "correct_answer": "Use Component",
+    "difficulty": "easy",
+    "weight": 2
+  },
+  {
+    "id": "adobe_xd_s_008",
+    "question": "You want to preview how your app works interactively. What should you do?",
+    "options": [
+      "Export file",
+      "Use Preview mode",
+      "Open Assets panel",
+      "Use Layers panel"
+    ],
+    "correct_answer": "Use Preview mode",
+    "difficulty": "easy",
+    "weight": 2
+  },
+  {
+    "id": "adobe_xd_s_009",
+    "question": "You need to present your design to stakeholders with clickable navigation. What is the best approach?",
+    "options": [
+      "Static images",
+      "Prototype with interactions",
+      "PDF export",
+      "Screenshot"
+    ],
+    "correct_answer": "Prototype with interactions",
+    "difficulty": "medium",
+    "weight": 3
+  },
+  {
+    "id": "adobe_xd_s_010",
+    "question": "You want to reuse colors and text styles consistently. What should you use?",
+    "options": [
+      "Layers Panel",
+      "Assets Panel",
+      "Repeat Grid",
+      "Artboard"
+    ],
+    "correct_answer": "Assets Panel",
+    "difficulty": "easy",
+    "weight": 2
+  }
+]
 }

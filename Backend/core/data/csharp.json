@@ -1,49 +1,573 @@
 {
   "skill": "C#",
-  "mcqs":[
 
-    {"id":"cs_001","question":"C# is?","options":["programming language","OS","database","none"],"correct_answer":"programming language","difficulty":"easy","weight":1},
-    {"id":"cs_002","question":"Main method entry point?","options":["Main()","Start()","Run()","Init()"],"correct_answer":"Main()","difficulty":"easy","weight":1},
-    {"id":"cs_003","question":"Which keyword defines class?","options":["class","struct","define","object"],"correct_answer":"class","difficulty":"easy","weight":1},
-    {"id":"cs_004","question":"Which type stores integers?","options":["int","float","char","bool"],"correct_answer":"int","difficulty":"easy","weight":1},
-    {"id":"cs_005","question":"Comment symbol?","options":["//","#","/* */","--"],"correct_answer":"//","difficulty":"easy","weight":1},
-    {"id":"cs_006","question":"Object creation keyword?","options":["new","create","object","init"],"correct_answer":"new","difficulty":"easy","weight":1},
-    {"id":"cs_007","question":"Boolean type?","options":["bool","int","string","char"],"correct_answer":"bool","difficulty":"easy","weight":1},
-    {"id":"cs_008","question":"Loop keyword?","options":["for","loop","iterate","repeat"],"correct_answer":"for","difficulty":"easy","weight":1},
-    {"id":"cs_009","question":"Exit loop?","options":["break","stop","exit","return"],"correct_answer":"break","difficulty":"easy","weight":1},
-    {"id":"cs_010","question":"Comparison operator?","options":["==","=","+=","!="],"correct_answer":"==","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "cs_001",
+      "question": "What is the difference between value type and reference type?",
+      "options": [
+        "Same",
+        "Value types store data directly, reference types store address",
+        "Reference types faster",
+        "Value types use heap"
+      ],
+      "correct_answer": "Value types store data directly, reference types store address",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_002",
+      "question": "Which keyword is used to define a class in C#?",
+      "options": ["class", "struct", "define", "object"],
+      "correct_answer": "class",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_003",
+      "question": "What is inheritance used for?",
+      "options": [
+        "Code reuse",
+        "Memory allocation",
+        "UI design",
+        "Looping"
+      ],
+      "correct_answer": "Code reuse",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_004",
+      "question": "What is polymorphism?",
+      "options": [
+        "Multiple forms of behavior",
+        "Single function",
+        "Memory allocation",
+        "Loop"
+      ],
+      "correct_answer": "Multiple forms of behavior",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_005",
+      "question": "Which keyword is used for method overriding?",
+      "options": ["override", "virtual", "new", "base"],
+      "correct_answer": "override",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
-    {"id":"cs_011","question":"CLR stands for?","options":["Common Language Runtime","Core Language Runtime","Common Logic Runtime","none"],"correct_answer":"Common Language Runtime","difficulty":"medium","weight":2},
-    {"id":"cs_012","question":"CTS means?","options":["Common Type System","Core Type System","Common Tool System","none"],"correct_answer":"Common Type System","difficulty":"medium","weight":2},
-    {"id":"cs_013","question":"Garbage collection does?","options":["memory cleanup","compile","execute","none"],"correct_answer":"memory cleanup","difficulty":"medium","weight":2},
-    {"id":"cs_014","question":"Value type example?","options":["int","string","object","array"],"correct_answer":"int","difficulty":"medium","weight":2},
-    {"id":"cs_015","question":"Reference type example?","options":["string","int","bool","char"],"correct_answer":"string","difficulty":"medium","weight":2},
-    {"id":"cs_016","question":"Method overloading?","options":["same name diff params","same params","diff name","none"],"correct_answer":"same name diff params","difficulty":"medium","weight":2},
-    {"id":"cs_017","question":"Encapsulation means?","options":["data hiding","inheritance","loop","none"],"correct_answer":"data hiding","difficulty":"medium","weight":2},
-    {"id":"cs_018","question":"Inheritance keyword?","options":[":","extends","inherits","super"],"correct_answer":":","difficulty":"medium","weight":2},
-    {"id":"cs_019","question":"Interface is?","options":["contract","class","object","method"],"correct_answer":"contract","difficulty":"medium","weight":2},
-    {"id":"cs_020","question":"Exception handling keyword?","options":["try","catch","throw","all"],"correct_answer":"all","difficulty":"medium","weight":2},
+    {
+      "id": "cs_006",
+      "question": "What does 'virtual' keyword enable?",
+      "options": [
+        "Compile-time binding",
+        "Runtime overriding",
+        "Memory allocation",
+        "Looping"
+      ],
+      "correct_answer": "Runtime overriding",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_007",
+      "question": "What is an interface?",
+      "options": [
+        "Class",
+        "Contract with method definitions",
+        "Variable",
+        "Loop"
+      ],
+      "correct_answer": "Contract with method definitions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_008",
+      "question": "What is encapsulation?",
+      "options": [
+        "Data hiding",
+        "Inheritance",
+        "Loop",
+        "Memory allocation"
+      ],
+      "correct_answer": "Data hiding",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_009",
+      "question": "What is a delegate in C#?",
+      "options": [
+        "Pointer to function",
+        "Class",
+        "Variable",
+        "Loop"
+      ],
+      "correct_answer": "Pointer to function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_010",
+      "question": "What is LINQ used for?",
+      "options": [
+        "UI design",
+        "Querying collections",
+        "Memory allocation",
+        "Looping"
+      ],
+      "correct_answer": "Querying collections",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
-    {"id":"cs_021","question":"Polymorphism means?","options":["many forms","one form","loop","none"],"correct_answer":"many forms","difficulty":"hard","weight":3},
-    {"id":"cs_022","question":"Abstract class?","options":["cannot instantiate","can instantiate","loop","none"],"correct_answer":"cannot instantiate","difficulty":"hard","weight":3},
-    {"id":"cs_023","question":"Sealed class?","options":["no inheritance","inherit","loop","none"],"correct_answer":"no inheritance","difficulty":"hard","weight":3},
-    {"id":"cs_024","question":"Delegate is?","options":["function pointer","class","loop","none"],"correct_answer":"function pointer","difficulty":"hard","weight":3},
-    {"id":"cs_025","question":"LINQ used for?","options":["data query","loop","compile","none"],"correct_answer":"data query","difficulty":"hard","weight":3},
-    {"id":"cs_026","question":"Async keyword?","options":["async","await","both","none"],"correct_answer":"both","difficulty":"hard","weight":3},
-    {"id":"cs_027","question":"Boxing is?","options":["value to object","object to value","loop","none"],"correct_answer":"value to object","difficulty":"hard","weight":3},
-    {"id":"cs_028","question":"Unboxing is?","options":["object to value","value to object","loop","none"],"correct_answer":"object to value","difficulty":"hard","weight":3},
-    {"id":"cs_029","question":"Nullable type?","options":["int?","int","string","none"],"correct_answer":"int?","difficulty":"hard","weight":3},
-    {"id":"cs_030","question":"Lambda expression?","options":["=>","->","lambda","none"],"correct_answer":"=>","difficulty":"hard","weight":3}
+    {
+      "id": "cs_011",
+      "question": "What is exception handling used for?",
+      "options": [
+        "UI design",
+        "Handling runtime errors",
+        "Memory allocation",
+        "Loop"
+      ],
+      "correct_answer": "Handling runtime errors",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_012",
+      "question": "Which block always executes?",
+      "options": ["try", "catch", "finally", "throw"],
+      "correct_answer": "finally",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_013",
+      "question": "What is garbage collection?",
+      "options": [
+        "Manual memory free",
+        "Automatic memory management",
+        "Loop",
+        "Variable storage"
+      ],
+      "correct_answer": "Automatic memory management",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_014",
+      "question": "What is async/await used for?",
+      "options": [
+        "Synchronous code",
+        "Asynchronous programming",
+        "Looping",
+        "Memory"
+      ],
+      "correct_answer": "Asynchronous programming",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_015",
+      "question": "What is Task in C#?",
+      "options": [
+        "Thread",
+        "Represents async operation",
+        "Loop",
+        "Variable"
+      ],
+      "correct_answer": "Represents async operation",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
+    {
+      "id": "cs_016",
+      "question": "What is struct in C#?",
+      "options": [
+        "Reference type",
+        "Value type",
+        "Class",
+        "Loop"
+      ],
+      "correct_answer": "Value type",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_017",
+      "question": "What is boxing?",
+      "options": [
+        "Value to reference conversion",
+        "Reference to value",
+        "Loop",
+        "Memory allocation"
+      ],
+      "correct_answer": "Value to reference conversion",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_018",
+      "question": "What is unboxing?",
+      "options": [
+        "Reference to value",
+        "Value to reference",
+        "Loop",
+        "Memory"
+      ],
+      "correct_answer": "Reference to value",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_019",
+      "question": "What is readonly keyword?",
+      "options": [
+        "Variable constant after initialization",
+        "Loop",
+        "Memory",
+        "Function"
+      ],
+      "correct_answer": "Variable constant after initialization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_020",
+      "question": "What is sealed class?",
+      "options": [
+        "Cannot be inherited",
+        "Cannot be created",
+        "Loop",
+        "Function"
+      ],
+      "correct_answer": "Cannot be inherited",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "cs_021",
+      "question": "What is abstraction?",
+      "options": [
+        "Hiding implementation",
+        "Loop",
+        "Memory",
+        "Variable"
+      ],
+      "correct_answer": "Hiding implementation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_022",
+      "question": "What is namespace?",
+      "options": [
+        "Group of classes",
+        "Loop",
+        "Memory",
+        "Function"
+      ],
+      "correct_answer": "Group of classes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_023",
+      "question": "What is using keyword?",
+      "options": [
+        "Import namespace",
+        "Loop",
+        "Memory",
+        "Function"
+      ],
+      "correct_answer": "Import namespace",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cs_024",
+      "question": "What is nullable type?",
+      "options": [
+        "Can store null",
+        "Cannot store null",
+        "Loop",
+        "Memory"
+      ],
+      "correct_answer": "Can store null",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_025",
+      "question": "What is var keyword?",
+      "options": [
+        "Dynamic type inference",
+        "Loop",
+        "Memory",
+        "Function"
+      ],
+      "correct_answer": "Dynamic type inference",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cs_026",
+      "question": "What is IEnumerable?",
+      "options": [
+        "Collection interface",
+        "Loop",
+        "Memory",
+        "Function"
+      ],
+      "correct_answer": "Collection interface",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_027",
+      "question": "What is extension method?",
+      "options": [
+        "Add methods to existing types",
+        "Loop",
+        "Memory",
+        "Function"
+      ],
+      "correct_answer": "Add methods to existing types",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cs_028",
+      "question": "What is dependency injection?",
+      "options": [
+        "Provide dependencies externally",
+        "Loop",
+        "Memory",
+        "Function"
+      ],
+      "correct_answer": "Provide dependencies externally",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "cs_029",
+      "question": "What is async deadlock?",
+      "options": [
+        "Infinite loop",
+        "Blocking async execution",
+        "Memory issue",
+        "Function error"
+      ],
+      "correct_answer": "Blocking async execution",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "cs_030",
+      "question": "What is difference between List and Array?",
+      "options": [
+        "Same",
+        "List is dynamic, array fixed",
+        "Array dynamic",
+        "List fixed"
+      ],
+      "correct_answer": "List is dynamic, array fixed",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ],
+  "coding_mcqs": [
 
-  "coding_mcqs":[
+    {
+      "id": "cs_c_001",
+      "question": "What is the output?",
+      "code": "int x = 5;\nConsole.WriteLine(x);",
+      "options": ["5", "0", "Error", "Null"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cs_c_002",
+      "question": "What is the output?",
+      "code": "int x = 5;\nint y = x;\ny = 10;\nConsole.WriteLine(x);",
+      "options": ["5", "10", "Error", "Null"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cs_c_003",
+      "question": "What is the output?",
+      "code": "class A { public int x = 5; }\nA a1 = new A();\nA a2 = a1;\na2.x = 10;\nConsole.WriteLine(a1.x);",
+      "options": ["5", "10", "Error", "Null"],
+      "correct_answer": "10",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cs_c_004",
+      "question": "What is the output?",
+      "code": "int a = 5;\nConsole.WriteLine(a++);",
+      "options": ["5", "6", "Error", "0"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cs_c_005",
+      "question": "What is the output?",
+      "code": "int a = 5;\nConsole.WriteLine(++a);",
+      "options": ["5", "6", "Error", "0"],
+      "correct_answer": "6",
+      "difficulty": "easy",
+      "weight": 1
+    },
 
-    {"id":"cs_c_001","question":"Output?","code":"Console.WriteLine(5+5);","options":["10","55","error","none"],"correct_answer":"10","difficulty":"easy","weight":1},
-    {"id":"cs_c_002","question":"Output?","code":"int x=5; Console.WriteLine(x++);","options":["5","6","error","0"],"correct_answer":"5","difficulty":"medium","weight":2},
-    {"id":"cs_c_003","question":"Find error","code":"int x; Console.WriteLine(x);","options":["uninitialized","syntax","none","loop"],"correct_answer":"uninitialized","difficulty":"easy","weight":1},
-    {"id":"cs_c_004","question":"Output?","code":"Console.WriteLine(true && false);","options":["false","true","error","none"],"correct_answer":"false","difficulty":"easy","weight":1},
-    {"id":"cs_c_005","question":"Output?","code":"string s=\"Hi\"; Console.WriteLine(s.Length);","options":["2","1","error","0"],"correct_answer":"2","difficulty":"medium","weight":2}
+    {
+      "id": "cs_c_006",
+      "question": "What is the output?",
+      "code": "string s = \"Hello\";\ns += \" World\";\nConsole.WriteLine(s);",
+      "options": ["Hello", "Hello World", "World", "Error"],
+      "correct_answer": "Hello World",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cs_c_007",
+      "question": "What is the output?",
+      "code": "int[] arr = {1,2,3};\nConsole.WriteLine(arr.Length);",
+      "options": ["2", "3", "1", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cs_c_008",
+      "question": "What is the output?",
+      "code": "int[] arr = {1,2,3};\nConsole.WriteLine(arr[1]);",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "2",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cs_c_009",
+      "question": "What is the output?",
+      "code": "List<int> list = new List<int>{1,2,3};\nConsole.WriteLine(list.Count);",
+      "options": ["2", "3", "1", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cs_c_010",
+      "question": "What is the output?",
+      "code": "List<int> list = new List<int>();\nlist.Add(10);\nConsole.WriteLine(list[0]);",
+      "options": ["10", "0", "Error", "Null"],
+      "correct_answer": "10",
+      "difficulty": "easy",
+      "weight": 1
+    },
+
+    {
+      "id": "cs_c_011",
+      "question": "What is the output?",
+      "code": "int x = 5;\nConsole.WriteLine(x == 5 ? 1 : 0);",
+      "options": ["1", "0", "5", "Error"],
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "cs_c_012",
+      "question": "What is the output?",
+      "code": "try { int x = 0; int y = 5/x; }\ncatch { Console.WriteLine(\"Error\"); }",
+      "options": ["Error", "0", "5", "Crash"],
+      "correct_answer": "Error",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cs_c_013",
+      "question": "What is the output?",
+      "code": "int? x = null;\nConsole.WriteLine(x.HasValue);",
+      "options": ["True", "False", "Null", "Error"],
+      "correct_answer": "False",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cs_c_014",
+      "question": "What is the output?",
+      "code": "var x = 5;\nConsole.WriteLine(x.GetType());",
+      "options": ["System.Int32", "int", "var", "Error"],
+      "correct_answer": "System.Int32",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cs_c_015",
+      "question": "What is the output?",
+      "code": "Func<int,int> square = x => x*x;\nConsole.WriteLine(square(3));",
+      "options": ["6", "9", "3", "Error"],
+      "correct_answer": "9",
+      "difficulty": "medium",
+      "weight": 2
+    },
+
+    {
+      "id": "cs_c_016",
+      "question": "What is the output?",
+      "code": "int[] arr = {1,2,3};\nvar result = arr.Where(x => x > 1);\nConsole.WriteLine(result.Count());",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "2",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cs_c_017",
+      "question": "What is the output?",
+      "code": "async Task<int> Test() { return 5; }\nvar t = Test();\nConsole.WriteLine(t.Result);",
+      "options": ["5", "0", "Error", "Null"],
+      "correct_answer": "5",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cs_c_018",
+      "question": "What is the output?",
+      "code": "string s = null;\nConsole.WriteLine(s ?? \"default\");",
+      "options": ["default", "null", "Error", "empty"],
+      "correct_answer": "default",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cs_c_019",
+      "question": "What is the output?",
+      "code": "object x = 5;\nConsole.WriteLine(x is int);",
+      "options": ["True", "False", "Error", "Null"],
+      "correct_answer": "True",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "cs_c_020",
+      "question": "What is the output?",
+      "code": "int x = 5;\nConsole.WriteLine(x & 1);",
+      "options": ["1", "0", "5", "Error"],
+      "correct_answer": "1",
+      "difficulty": "medium",
+      "weight": 2
+    }
 
   ]
 }

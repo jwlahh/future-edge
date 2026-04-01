@@ -266,21 +266,7 @@ def upload_resume(request):
                 "optional_missing": [s for s in optional_list if s not in resume_skills],
             })
 
-            # 🔥 STORE SKILL GAP (optional but safe)
-            existing_gap = supabase.table("skill_gap") \
-                .select("*") \
-                .eq("user_id", user_id) \
-                .eq("role_id", role_id) \
-                .execute()
-
-            if not existing_gap.data:
-                supabase.table("skill_gap").insert({
-                    "user_id": user_id,
-                    "role_id": role_id,
-                    "matched_skills": ";".join([s for s in core_list if s in resume_skills]),
-                    "missing_skills": ";".join([s for s in core_list if s not in resume_skills]),
-                    "gap_score": match_percentage
-                }).execute()
+            
 
         # Sort again by calculated skill percentage
         career_matches = sorted(career_matches, key=lambda x: x["final_score"], reverse=True)

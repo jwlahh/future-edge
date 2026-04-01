@@ -1,17 +1,402 @@
 {
-  "skill":"CI/CD",
-  "mcqs":[
-    {"id":"cicd_001","question":"CI stands for?","options":["Continuous Integration","Continuous Input","Control Integration","none"],"correct_answer":"Continuous Integration","difficulty":"easy","weight":1},
-    {"id":"cicd_002","question":"CD stands for?","options":["Continuous Deployment","Code Deploy","Control Deploy","none"],"correct_answer":"Continuous Deployment","difficulty":"easy","weight":1},
-    {"id":"cicd_003","question":"Pipeline is?","options":["automation flow","code","server","none"],"correct_answer":"automation flow","difficulty":"easy","weight":1},
+  "skill": "CI/CD",
 
-    {"id":"cicd_004","question":"Build stage?","options":["compile code","run","deploy","none"],"correct_answer":"compile code","difficulty":"medium","weight":2},
-    {"id":"cicd_005","question":"Test stage?","options":["verify code","compile","deploy","none"],"correct_answer":"verify code","difficulty":"medium","weight":2},
+  "mcqs": [
+    {
+      "id": "cicd_001",
+      "question": "What problem does CI primarily solve in development?",
+      "options": [
+        "UI design",
+        "Integration conflicts between developers",
+        "Database scaling",
+        "Testing UI"
+      ],
+      "correct_answer": "Integration conflicts between developers",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_002",
+      "question": "Why is frequent integration important?",
+      "options": [
+        "Reduces merge conflicts",
+        "Improves UI",
+        "Reduces storage",
+        "Speeds deployment only"
+      ],
+      "correct_answer": "Reduces merge conflicts",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_003",
+      "question": "What is the main goal of Continuous Delivery?",
+      "options": [
+        "Automatic deployment to production",
+        "Keep code ready for release",
+        "Manual testing",
+        "UI updates"
+      ],
+      "correct_answer": "Keep code ready for release",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_004",
+      "question": "What distinguishes Continuous Deployment from Continuous Delivery?",
+      "options": [
+        "No difference",
+        "Automatic release to production",
+        "Manual testing",
+        "No pipelines"
+      ],
+      "correct_answer": "Automatic release to production",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_005",
+      "question": "Why are automated tests critical in CI/CD?",
+      "options": [
+        "Improve UI",
+        "Ensure code quality before deployment",
+        "Reduce storage",
+        "Speed coding"
+      ],
+      "correct_answer": "Ensure code quality before deployment",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"cicd_006","question":"Blue-green deployment?","options":["two env switch","one env","none","loop"],"correct_answer":"two env switch","difficulty":"hard","weight":3},
-    {"id":"cicd_007","question":"Rollback?","options":["revert version","deploy","none","loop"],"correct_answer":"revert version","difficulty":"hard","weight":3}
+    {
+      "id": "cicd_006",
+      "question": "What happens if a build fails in CI pipeline?",
+      "options": [
+        "Continue deployment",
+        "Stop pipeline",
+        "Ignore failure",
+        "Restart system"
+      ],
+      "correct_answer": "Stop pipeline",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_007",
+      "question": "What is a pipeline in CI/CD?",
+      "options": [
+        "Database",
+        "Automated workflow of steps",
+        "UI component",
+        "Code file"
+      ],
+      "correct_answer": "Automated workflow of steps",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_008",
+      "question": "Why use version control in CI/CD?",
+      "options": [
+        "Store UI",
+        "Track changes and enable collaboration",
+        "Run tests",
+        "Deploy code"
+      ],
+      "correct_answer": "Track changes and enable collaboration",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_009",
+      "question": "What is rollback in deployment?",
+      "options": [
+        "Delete code",
+        "Revert to previous stable version",
+        "Restart system",
+        "Run tests"
+      ],
+      "correct_answer": "Revert to previous stable version",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_010",
+      "question": "What is artifact in CI/CD?",
+      "options": [
+        "UI file",
+        "Build output ready for deployment",
+        "Database",
+        "Test case"
+      ],
+      "correct_answer": "Build output ready for deployment",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "cicd_011",
+      "question": "What is the purpose of staging environment?",
+      "options": [
+        "Development",
+        "Testing before production",
+        "Deployment",
+        "UI design"
+      ],
+      "correct_answer": "Testing before production",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_012",
+      "question": "What is blue-green deployment?",
+      "options": [
+        "Testing method",
+        "Switch between two environments",
+        "Database backup",
+        "UI update"
+      ],
+      "correct_answer": "Switch between two environments",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_013",
+      "question": "What is canary deployment?",
+      "options": [
+        "Deploy to all users",
+        "Deploy to small subset first",
+        "Delete system",
+        "Rollback method"
+      ],
+      "correct_answer": "Deploy to small subset first",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_014",
+      "question": "Why monitor after deployment?",
+      "options": [
+        "UI design",
+        "Detect issues early",
+        "Speed code",
+        "Store data"
+      ],
+      "correct_answer": "Detect issues early",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_015",
+      "question": "What is pipeline trigger?",
+      "options": [
+        "Manual testing",
+        "Event that starts pipeline",
+        "Deployment",
+        "UI update"
+      ],
+      "correct_answer": "Event that starts pipeline",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cicd_016",
+      "question": "What is shift-left testing?",
+      "options": [
+        "Testing late",
+        "Testing early in development",
+        "UI testing",
+        "Manual testing"
+      ],
+      "correct_answer": "Testing early in development",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_017",
+      "question": "Why use containers in CI/CD?",
+      "options": [
+        "UI design",
+        "Consistent environments",
+        "Database storage",
+        "Testing only"
+      ],
+      "correct_answer": "Consistent environments",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_018",
+      "question": "What is infrastructure as code?",
+      "options": [
+        "Manual setup",
+        "Managing infra using code",
+        "UI tool",
+        "Testing method"
+      ],
+      "correct_answer": "Managing infra using code",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_019",
+      "question": "What is pipeline failure recovery?",
+      "options": [
+        "Ignore failure",
+        "Retry or rollback",
+        "Delete code",
+        "Stop system"
+      ],
+      "correct_answer": "Retry or rollback",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_020",
+      "question": "Why is automation critical in CI/CD?",
+      "options": [
+        "UI design",
+        "Reduce human error",
+        "Increase manual work",
+        "Store data"
+      ],
+      "correct_answer": "Reduce human error",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ],
-  "coding_mcqs":[
-    {"id":"cicd_c_001","question":"Pipeline file?","code":"Jenkinsfile","options":["config","code","none","loop"],"correct_answer":"config","difficulty":"easy","weight":1}
+
+  "scenario_mcqs": [
+    {
+      "id": "cicd_s_001",
+      "question": "A build fails due to test failure. What should be done?",
+      "options": [
+        "Deploy anyway",
+        "Fix tests before proceeding",
+        "Ignore failure",
+        "Restart system"
+      ],
+      "correct_answer": "Fix tests before proceeding",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_s_002",
+      "question": "Frequent merge conflicts occur. What should team adopt?",
+      "options": [
+        "Less commits",
+        "Frequent integration",
+        "Manual testing",
+        "Ignore conflicts"
+      ],
+      "correct_answer": "Frequent integration",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_s_003",
+      "question": "A deployment causes issues in production. What is best action?",
+      "options": [
+        "Ignore",
+        "Rollback",
+        "Delete code",
+        "Restart system"
+      ],
+      "correct_answer": "Rollback",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_s_004",
+      "question": "You want zero downtime deployment. What should you use?",
+      "options": [
+        "Rollback",
+        "Blue-green deployment",
+        "Manual deployment",
+        "Delete system"
+      ],
+      "correct_answer": "Blue-green deployment",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_s_005",
+      "question": "You want to test new feature with few users. What to use?",
+      "options": [
+        "Full deployment",
+        "Canary deployment",
+        "Rollback",
+        "Manual testing"
+      ],
+      "correct_answer": "Canary deployment",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_s_006",
+      "question": "Pipeline takes too long due to repeated setups. What helps?",
+      "options": [
+        "Manual setup",
+        "Caching or containers",
+        "Ignore",
+        "Delete steps"
+      ],
+      "correct_answer": "Caching or containers",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_s_007",
+      "question": "Deployment works locally but fails in pipeline. Why?",
+      "options": [
+        "Different environment",
+        "UI issue",
+        "Code error",
+        "Network issue"
+      ],
+      "correct_answer": "Different environment",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_s_008",
+      "question": "You want faster feedback on code quality. What to do?",
+      "options": [
+        "Test later",
+        "Run automated tests in CI",
+        "Manual testing",
+        "Ignore"
+      ],
+      "correct_answer": "Run automated tests in CI",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cicd_s_009",
+      "question": "Production bug detected post deployment. What next?",
+      "options": [
+        "Ignore",
+        "Monitor and rollback if needed",
+        "Delete code",
+        "Stop system"
+      ],
+      "correct_answer": "Monitor and rollback if needed",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cicd_s_010",
+      "question": "Team wants consistent environments across stages. What to use?",
+      "options": [
+        "Manual setup",
+        "Containers",
+        "UI tools",
+        "Ignore"
+      ],
+      "correct_answer": "Containers",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ]
 }

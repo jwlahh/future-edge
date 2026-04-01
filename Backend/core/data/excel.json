@@ -1,411 +1,402 @@
 {
   "skill": "Excel",
+
   "mcqs": [
     {
       "id": "excel_001",
-      "question": "excel question 1?",
+      "question": "What is the purpose of VLOOKUP?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Sort data",
+        "Search vertically in table",
+        "Delete data",
+        "Format cells"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "excel_002",
-      "question": "excel question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Search vertically in table",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "excel_003",
-      "question": "excel question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "excel_004",
-      "question": "excel question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "excel_005",
-      "question": "excel question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "excel_006",
-      "question": "excel question 6?",
+      "id": "excel_002",
+      "question": "What does IF function do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Loop",
+        "Conditional logic",
+        "Sorting",
+        "Formatting"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Conditional logic",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_003",
+      "question": "What is SUMIF used for?",
+      "options": [
+        "Sum all data",
+        "Sum based on condition",
+        "Average",
+        "Count"
+      ],
+      "correct_answer": "Sum based on condition",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_004",
+      "question": "What is pivot table used for?",
+      "options": [
+        "Delete data",
+        "Summarize and analyze data",
+        "Format cells",
+        "Sort data"
+      ],
+      "correct_answer": "Summarize and analyze data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_005",
+      "question": "What is conditional formatting?",
+      "options": [
+        "Manual format",
+        "Format based on conditions",
+        "Delete data",
+        "Sort data"
+      ],
+      "correct_answer": "Format based on conditions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "excel_006",
+      "question": "What is COUNT function used for?",
+      "options": [
+        "Count text",
+        "Count numeric values",
+        "Sum values",
+        "Sort values"
+      ],
+      "correct_answer": "Count numeric values",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "excel_007",
-      "question": "excel question 7?",
+      "question": "What is COUNTA?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Count numbers",
+        "Count non-empty cells",
+        "Sum values",
+        "Delete data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Count non-empty cells",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "excel_008",
-      "question": "excel question 8?",
+      "question": "What is XLOOKUP advantage over VLOOKUP?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Slower",
+        "Search in any direction",
+        "Only vertical",
+        "Delete data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Search in any direction",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "excel_009",
-      "question": "excel question 9?",
+      "question": "What is data validation used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete data",
+        "Restrict input values",
+        "Sort data",
+        "Format cells"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Restrict input values",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "excel_010",
-      "question": "excel question 10?",
+      "question": "What is CONCAT used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Split text",
+        "Join text",
+        "Delete data",
+        "Sort data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Join text",
+      "difficulty": "easy",
+      "weight": 2
     },
+
     {
       "id": "excel_011",
-      "question": "excel question 11?",
+      "question": "What is INDEX-MATCH used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Sorting",
+        "Advanced lookup",
+        "Delete data",
+        "Formatting"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Advanced lookup",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
       "id": "excel_012",
-      "question": "excel question 12?",
+      "question": "What is filter used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete data",
+        "Show specific rows",
+        "Sort data",
+        "Format cells"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Show specific rows",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "excel_013",
-      "question": "excel question 13?",
+      "question": "What is sorting used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete data",
+        "Arrange data in order",
+        "Format cells",
+        "Join data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Arrange data in order",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "excel_014",
-      "question": "excel question 14?",
+      "question": "What is freeze panes?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete data",
+        "Lock rows/columns",
+        "Format cells",
+        "Sort data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Lock rows/columns",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "excel_015",
-      "question": "excel question 15?",
+      "question": "What is chart used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete data",
+        "Visualize data",
+        "Sort data",
+        "Format cells"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Visualize data",
+      "difficulty": "easy",
       "weight": 2
     },
+
     {
       "id": "excel_016",
-      "question": "excel question 16?",
+      "question": "What is TEXT function used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Format numbers as text",
+        "Delete text",
+        "Sort data",
+        "Join text"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Format numbers as text",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "excel_017",
-      "question": "excel question 17?",
+      "question": "What is TRIM function?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Remove extra spaces",
+        "Delete data",
+        "Sort data",
+        "Join text"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Remove extra spaces",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "excel_018",
-      "question": "excel question 18?",
+      "question": "What is LEFT function?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Extract left text",
+        "Delete text",
+        "Sort data",
+        "Join text"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Extract left text",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "excel_019",
-      "question": "excel question 19?",
+      "question": "What is RIGHT function?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Extract right text",
+        "Delete text",
+        "Sort data",
+        "Join text"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Extract right text",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "excel_020",
-      "question": "excel question 20?",
+      "question": "What is LEN function?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Count characters",
+        "Delete text",
+        "Sort data",
+        "Join text"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Count characters",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "excel_021",
-      "question": "excel question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "excel_022",
-      "question": "excel question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "excel_023",
-      "question": "excel question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "excel_024",
-      "question": "excel question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "excel_025",
-      "question": "excel question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "excel_026",
-      "question": "excel question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "excel_027",
-      "question": "excel question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "excel_028",
-      "question": "excel question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "excel_029",
-      "question": "excel question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "excel_030",
-      "question": "excel question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "excel_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "excel_s_001",
+      "question": "Need to find value from large table efficiently. What to use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "SUM",
+        "XLOOKUP",
+        "DELETE",
+        "SORT"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "XLOOKUP",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "excel_s_002",
+      "question": "Need to summarize sales by region. What to use?",
+      "options": [
+        "Filter",
+        "Pivot table",
+        "Sort",
+        "Delete"
+      ],
+      "correct_answer": "Pivot table",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "excel_s_003",
+      "question": "Cells contain extra spaces. What function?",
+      "options": [
+        "LEN",
+        "TRIM",
+        "LEFT",
+        "RIGHT"
+      ],
+      "correct_answer": "TRIM",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_s_004",
+      "question": "Need to restrict input to specific values. What to use?",
+      "options": [
+        "Filter",
+        "Data validation",
+        "Sort",
+        "Delete"
+      ],
+      "correct_answer": "Data validation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_s_005",
+      "question": "Highlight values above threshold. What to use?",
+      "options": [
+        "Sorting",
+        "Conditional formatting",
+        "Delete",
+        "Filter"
+      ],
+      "correct_answer": "Conditional formatting",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_s_006",
+      "question": "Need dynamic condition-based calculation. What to use?",
+      "options": [
+        "IF function",
+        "SUM",
+        "LEN",
+        "DELETE"
+      ],
+      "correct_answer": "IF function",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_s_007",
+      "question": "Need to combine first and last name columns. What to use?",
+      "options": [
+        "LEFT",
+        "CONCAT",
+        "LEN",
+        "DELETE"
+      ],
+      "correct_answer": "CONCAT",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_s_008",
+      "question": "Large dataset slow lookup. What to use instead of VLOOKUP?",
+      "options": [
+        "SUM",
+        "INDEX-MATCH",
+        "LEN",
+        "DELETE"
+      ],
+      "correct_answer": "INDEX-MATCH",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "excel_s_009",
+      "question": "Need to visualize trends. What to use?",
+      "options": [
+        "Delete",
+        "Chart",
+        "Sort",
+        "Filter"
+      ],
+      "correct_answer": "Chart",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "excel_s_010",
+      "question": "Need to view only specific data rows. What to use?",
+      "options": [
+        "Sort",
+        "Filter",
+        "Delete",
+        "Chart"
+      ],
+      "correct_answer": "Filter",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

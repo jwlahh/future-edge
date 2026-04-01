@@ -1,43 +1,168 @@
 [
-  { "id": "apt_1", "question": "What is the average of first 20 natural numbers?", "options": ["10", "10.5", "11", "9.5"], "answer": "10.5", "type": "aptitude" },
-  { "id": "apt_2", "question": "If a train travels 60 km in 1 hour, how long to travel 150 km?", "options": ["2h", "2.5h", "3h", "1.5h"], "answer": "2.5h", "type": "aptitude" },
-  { "id": "apt_3", "question": "Find the missing number: 2, 6, 12, 20, ?", "options": ["28", "30", "32", "36"], "answer": "30", "type": "aptitude" },
-  { "id": "apt_4", "question": "If 5 workers finish a job in 10 days, how many days for 10 workers?", "options": ["5", "10", "15", "20"], "answer": "5", "type": "aptitude" },
-  { "id": "apt_5", "question": "What is 25% of 480?", "options": ["100", "110", "120", "130"], "answer": "120", "type": "aptitude" },
-  { "id": "apt_6", "question": "A number increased by 20% becomes 120. What is the number?", "options": ["90", "100", "110", "80"], "answer": "100", "type": "aptitude" },
-  { "id": "apt_7", "question": "Find simple interest on ₹1000 at 10% for 2 years", "options": ["100", "150", "200", "250"], "answer": "200", "type": "aptitude" },
-  { "id": "apt_8", "question": "If 3x = 12, what is x²?", "options": ["4", "8", "16", "12"], "answer": "16", "type": "aptitude" },
-  { "id": "apt_9", "question": "What is the next term: 3, 9, 27, 81, ?", "options": ["162", "243", "324", "218"], "answer": "243", "type": "aptitude" },
-  { "id": "apt_10", "question": "A shop gives 10% discount on ₹500. Final price?", "options": ["450", "400", "420", "480"], "answer": "450", "type": "aptitude" },
-  { "id": "apt_11", "question": "If ratio of A:B is 3:4 and A=60, find B", "options": ["70", "80", "90", "100"], "answer": "80", "type": "aptitude" },
-  { "id": "apt_12", "question": "What is LCM of 12 and 18?", "options": ["36", "24", "48", "72"], "answer": "36", "type": "aptitude" },
-  { "id": "apt_13", "question": "Find HCF of 36 and 48", "options": ["6", "12", "18", "24"], "answer": "12", "type": "aptitude" },
-  { "id": "apt_14", "question": "If cost price is ₹200 and selling price ₹250, profit %?", "options": ["20%", "25%", "30%", "15%"], "answer": "25%", "type": "aptitude" },
-  { "id": "apt_15", "question": "Solve: 2x + 3 = 11", "options": ["3", "4", "5", "6"], "answer": "4", "type": "aptitude" },
-  { "id": "apt_16", "question": "Speed = 40 km/h, distance = 120 km, time?", "options": ["2h", "3h", "4h", "5h"], "answer": "3h", "type": "aptitude" },
-  { "id": "apt_17", "question": "Find next: 5, 10, 20, 40, ?", "options": ["60", "70", "80", "90"], "answer": "80", "type": "aptitude" },
-  { "id": "apt_18", "question": "What is square root of 144?", "options": ["10", "11", "12", "13"], "answer": "12", "type": "aptitude" },
-  { "id": "apt_19", "question": "If 8 men complete work in 6 days, how many men needed in 3 days?", "options": ["16", "12", "10", "8"], "answer": "16", "type": "aptitude" },
-  { "id": "apt_20", "question": "Find missing: 1, 4, 9, 16, ?", "options": ["20", "24", "25", "30"], "answer": "25", "type": "aptitude" },
 
-  { "id": "verbal_1", "question": "Choose synonym of 'Obsolete'", "options": ["Modern", "Outdated", "New", "Fresh"], "answer": "Outdated", "type": "verbal" },
-  { "id": "verbal_2", "question": "Choose antonym of 'Expand'", "options": ["Grow", "Stretch", "Contract", "Increase"], "answer": "Contract", "type": "verbal" },
-  { "id": "verbal_3", "question": "Choose correct sentence", "options": ["He go to school", "He goes to school", "He going school", "He gone school"], "answer": "He goes to school", "type": "verbal" },
-  { "id": "verbal_4", "question": "Fill blank: She ___ finished her work", "options": ["have", "has", "had", "having"], "answer": "has", "type": "verbal" },
-  { "id": "verbal_5", "question": "Synonym of 'Eloquent'", "options": ["Silent", "Fluent", "Rude", "Angry"], "answer": "Fluent", "type": "verbal" },
-  { "id": "verbal_6", "question": "Antonym of 'Scarce'", "options": ["Rare", "Plenty", "Few", "Less"], "answer": "Plenty", "type": "verbal" },
-  { "id": "verbal_7", "question": "Choose correct word: He is good ___ maths", "options": ["in", "at", "on", "for"], "answer": "at", "type": "verbal" },
-  { "id": "verbal_8", "question": "Fill blank: They ___ playing cricket", "options": ["is", "are", "was", "be"], "answer": "are", "type": "verbal" },
-  { "id": "verbal_9", "question": "Synonym of 'Vast'", "options": ["Small", "Huge", "Tiny", "Short"], "answer": "Huge", "type": "verbal" },
-  { "id": "verbal_10", "question": "Antonym of 'Accept'", "options": ["Receive", "Reject", "Allow", "Agree"], "answer": "Reject", "type": "verbal" },
-  { "id": "verbal_11", "question": "Choose correct sentence", "options": ["She have a car", "She has a car", "She having a car", "She had car"], "answer": "She has a car", "type": "verbal" },
-  { "id": "verbal_12", "question": "Fill blank: I ___ to the market yesterday", "options": ["go", "went", "gone", "going"], "answer": "went", "type": "verbal" },
-  { "id": "verbal_13", "question": "Synonym of 'Brilliant'", "options": ["Dull", "Smart", "Slow", "Lazy"], "answer": "Smart", "type": "verbal" },
-  { "id": "verbal_14", "question": "Antonym of 'Increase'", "options": ["Grow", "Rise", "Decrease", "Expand"], "answer": "Decrease", "type": "verbal" },
-  { "id": "verbal_15", "question": "Choose correct sentence", "options": ["They is coming", "They are coming", "They coming", "They be coming"], "answer": "They are coming", "type": "verbal" },
-  { "id": "verbal_16", "question": "Fill blank: He ___ completed his work", "options": ["have", "has", "had", "having"], "answer": "has", "type": "verbal" },
-  { "id": "verbal_17", "question": "Synonym of 'Accurate'", "options": ["Wrong", "Exact", "False", "Approx"], "answer": "Exact", "type": "verbal" },
-  { "id": "verbal_18", "question": "Antonym of 'Fast'", "options": ["Quick", "Slow", "Rapid", "Speedy"], "answer": "Slow", "type": "verbal" },
-  { "id": "verbal_19", "question": "Choose correct preposition: She is afraid ___ dogs", "options": ["of", "from", "with", "at"], "answer": "of", "type": "verbal" },
-  { "id": "verbal_20", "question": "Fill blank: We ___ watching TV", "options": ["is", "are", "was", "be"], "answer": "are", "type": "verbal" }
+
+{"id":"apt_1","question":"A can do a work in 12 days and B in 18 days. Together they work for 6 days. Work left?","options":["1/6","1/4","1/3","1/2"],"answer":"1/6","type":"aptitude","difficulty":"medium"},
+{"id":"apt_2","question":"A train 150m long crosses a pole in 5 seconds. Speed?","options":["108 km/h","72 km/h","90 km/h","60 km/h"],"answer":"108 km/h","type":"aptitude","difficulty":"medium"},
+{"id":"apt_3","question":"Find missing: 2, 6, 15, 31, 56, ?","options":["92","94","90","96"],"answer":"92","type":"aptitude","difficulty":"hard"},
+{"id":"apt_4","question":"Marked price ₹500, discount 20%, profit 25%. Cost price?","options":["300","320","350","400"],"answer":"320","type":"aptitude","difficulty":"hard"},
+{"id":"apt_5","question":"Simple interest: ₹1000 becomes ₹1200 in 2 years. Rate?","options":["8%","10%","12%","15%"],"answer":"10%","type":"aptitude","difficulty":"medium"},
+{"id":"apt_6","question":"LCM of 24 and 36?","options":["72","48","96","108"],"answer":"72","type":"aptitude","difficulty":"easy"},
+{"id":"apt_7","question":"If 3x + 2 = 17, find x²","options":["25","16","36","49"],"answer":"25","type":"aptitude","difficulty":"easy"},
+{"id":"apt_8","question":"Pipe A fills in 12 hrs, B empties in 18 hrs. Time to fill?","options":["36","24","30","18"],"answer":"36","type":"aptitude","difficulty":"hard"},
+{"id":"apt_9","question":"Probability of exactly 2 heads in 3 tosses?","options":["3/8","1/2","1/4","3/4"],"answer":"3/8","type":"aptitude","difficulty":"medium"},
+{"id":"apt_10","question":"Find missing: 1, 4, 10, 22, 46, ?","options":["94","92","90","96"],"answer":"94","type":"aptitude","difficulty":"hard"},
+
+{"id":"apt_11","question":"A train crosses a 200m bridge in 20 sec at 54 km/h. Length of train?","options":["100","120","150","180"],"answer":"100","type":"aptitude","difficulty":"hard"},
+{"id":"apt_12","question":"Average of 5 numbers is 20. One replaced by 40 makes avg 24. Original number?","options":["0","10","20","30"],"answer":"0","type":"aptitude","difficulty":"hard"},
+{"id":"apt_13","question":"Ratio A:B = 3:4, B:C = 2:5. Find A:B:C","options":["6:8:20","3:4:10","6:8:10","3:4:5"],"answer":"6:8:20","type":"aptitude","difficulty":"medium"},
+{"id":"apt_14","question":"Profit 20% on cost price. If CP = 500, SP?","options":["550","600","650","700"],"answer":"600","type":"aptitude","difficulty":"easy"},
+{"id":"apt_15","question":"Speed 60 km/h, distance 150 km. Time?","options":["2h","2.5h","3h","4h"],"answer":"2.5h","type":"aptitude","difficulty":"easy"},
+
+
+
+{
+"id": "di_1",
+"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. What is the percentage increase in sales from 2020 to 2023?",
+"options": ["100%", "120%", "150%", "200%"],
+"answer": "150%",
+"type": "aptitude",
+"difficulty": "medium"
+},
+{
+"id": "di_2",
+"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. What is the average sales over the four years?",
+"options": ["150", "175", "200", "180"],
+"answer": "175",
+"type": "aptitude",
+"difficulty": "medium"
+},
+{
+"id": "di_3",
+"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. Which year shows the highest growth compared to the previous year?",
+"options": ["2020–21", "2021–22", "2022–23", "All show equal growth"],
+"answer": "All show equal growth",
+"type": "aptitude",
+"difficulty": "easy"
+},
+
+
+{"id":"apt_16","question":"Compound interest on ₹1000 at 10% for 2 years?","options":["200","210","220","230"],"answer":"210","type":"aptitude","difficulty":"medium"},
+{"id":"apt_17","question":"Find next: 5, 10, 20, 40, ?","options":["60","70","80","90"],"answer":"80","type":"aptitude","difficulty":"easy"},
+{"id":"apt_18","question":"HCF of 36 and 48?","options":["6","12","18","24"],"answer":"12","type":"aptitude","difficulty":"easy"},
+{"id":"apt_19","question":"Boat downstream 20 km in 2 hrs. Speed?","options":["10","12","8","6"],"answer":"10","type":"aptitude","difficulty":"easy"},
+{"id":"apt_20","question":"Upstream takes 4 hrs. Stream speed?","options":["2.5","3","4","5"],"answer":"2.5","type":"aptitude","difficulty":"hard"},
+
+{"id":"apt_21","question":"If x:y = 2:3 and y:z = 4:5, find x:y:z","options":["8:12:15","2:3:5","4:6:5","8:6:15"],"answer":"8:12:15","type":"aptitude","difficulty":"medium"},
+{"id":"apt_22","question":"Square root of 784?","options":["24","26","28","30"],"answer":"28","type":"aptitude","difficulty":"easy"},
+{"id":"apt_23","question":"Discount 10% on ₹1000. Price?","options":["900","850","800","950"],"answer":"900","type":"aptitude","difficulty":"easy"},
+{"id":"apt_24","question":"Find missing: 2, 4, 12, 48, ?","options":["96","120","240","144"],"answer":"240","type":"aptitude","difficulty":"medium"},
+{"id":"apt_25","question":"A does work in 10 days. B is twice efficient. Together time?","options":["3.33","5","4","6"],"answer":"3.33","type":"aptitude","difficulty":"hard"},
+
+{"id":"apt_26","question":"Probability of 1 head in 2 tosses?","options":["1/2","1/4","3/4","1"],"answer":"1/2","type":"aptitude","difficulty":"easy"},
+{"id":"apt_27","question":"LCM of 8 and 12?","options":["24","16","32","48"],"answer":"24","type":"aptitude","difficulty":"easy"},
+{"id":"apt_28","question":"Find next: 1, 3, 7, 15, ?","options":["31","30","29","32"],"answer":"31","type":"aptitude","difficulty":"medium"},
+{"id":"apt_29","question":"If CP = 400, SP = 500. Profit %?","options":["20%","25%","30%","15%"],"answer":"25%","type":"aptitude","difficulty":"easy"},
+{"id":"apt_30","question":"Average of first 10 natural numbers?","options":["5","5.5","6","4.5"],"answer":"5.5","type":"aptitude","difficulty":"easy"},
+
+{"id":"apt_31","question":"Find next: 3, 9, 27, 81, ?","options":["162","243","324","108"],"answer":"243","type":"aptitude","difficulty":"easy"},
+{"id":"apt_32","question":"Time for 120 km at 40 km/h?","options":["2","3","4","5"],"answer":"3","type":"aptitude","difficulty":"easy"},
+{"id":"apt_33","question":"SI on ₹5000 at 5% for 2 years?","options":["500","400","300","200"],"answer":"500","type":"aptitude","difficulty":"easy"},
+{"id":"apt_34","question":"Find missing: 4, 6, 9, 13, 18, ?","options":["24","25","26","27"],"answer":"24","type":"aptitude","difficulty":"medium"},
+{"id":"apt_35","question":"If 5 workers do job in 10 days, 10 workers?","options":["5","10","15","20"],"answer":"5","type":"aptitude","difficulty":"easy"},
+
+{"id":"apt_36","question":"Probability of even number on dice?","options":["1/2","1/3","2/3","1/6"],"answer":"1/2","type":"aptitude","difficulty":"easy"},
+{"id":"apt_37","question":"Find square of 15","options":["200","225","250","275"],"answer":"225","type":"aptitude","difficulty":"easy"},
+{"id":"apt_38","question":"Find next: 2, 5, 10, 17, 26, ?","options":["35","36","37","38"],"answer":"37","type":"aptitude","difficulty":"medium"},
+{"id":"apt_39","question":"HCF of 18 and 24?","options":["6","12","18","3"],"answer":"6","type":"aptitude","difficulty":"easy"},
+{"id":"apt_40","question":"Speed 50 km/h for 2 hrs. Distance?","options":["100","80","120","90"],"answer":"100","type":"aptitude","difficulty":"easy"},
+
+
+
+{"id":"verbal_1","question":"Choose correct sentence","options":["Each of the boys have done","Each of the boys has done","Each boys has done","Each boys have done"],"answer":"Each of the boys has done","type":"verbal","difficulty":"medium"},
+{"id":"verbal_2","question":"Synonym of Pragmatic","options":["Emotional","Practical","Theoretical","Idealistic"],"answer":"Practical","type":"verbal","difficulty":"medium"},
+{"id":"verbal_3","question":"Antonym of Expand","options":["Grow","Stretch","Contract","Increase"],"answer":"Contract","type":"verbal","difficulty":"easy"},
+{"id":"verbal_4","question":"Fill: Hardly had he entered ___ phone rang","options":["than","when","then","that"],"answer":"when","type":"verbal","difficulty":"medium"},
+{"id":"verbal_5","question":"Choose correct preposition: good ___ maths","options":["in","at","on","for"],"answer":"at","type":"verbal","difficulty":"easy"},
+
+
+{
+"id": "rc_1_q1",
+"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development. What is the main idea of the passage?",
+"options": ["Technology is harmful", "Technology has both benefits and drawbacks", "Technology only improves communication", "Face-to-face interaction is unnecessary"],
+"answer": "Technology has both benefits and drawbacks",
+"type": "verbal",
+"difficulty": "medium"
+},
+{
+"id": "rc_1_q2",
+"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development.Which of the following is mentioned as a drawback?",
+"options": ["Faster communication", "Global connectivity", "Decline in interpersonal skills", "Business expansion"],
+"answer": "Decline in interpersonal skills",
+"type": "verbal",
+"difficulty": "easy"
+},
+{
+"id": "rc_1_q3",
+"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development. What tone does the author use?",
+"options": ["Completely positive", "Completely negative", "Balanced", "Critical"],
+"answer": "Balanced",
+"type": "verbal",
+"difficulty": "medium"
+},
+
+{"id":"verbal_6","question":"Synonym of Ephemeral","options":["Permanent","Short-lived","Long","Strong"],"answer":"Short-lived","type":"verbal","difficulty":"hard"},
+{"id":"verbal_7","question":"Antonym of Scarce","options":["Rare","Few","Plenty","Less"],"answer":"Plenty","type":"verbal","difficulty":"easy"},
+{"id":"verbal_8","question":"Choose correct passive","options":["House built","House is built","House is being built","House was built"],"answer":"House is being built","type":"verbal","difficulty":"medium"},
+{"id":"verbal_9","question":"Fill: No sooner ___ he arrived than rain started","options":["had","has","have","was"],"answer":"had","type":"verbal","difficulty":"medium"},
+{"id":"verbal_10","question":"Error: She do her work","options":["She","do","her","work"],"answer":"do","type":"verbal","difficulty":"easy"},
+
+{"id":"verbal_11","question":"Synonym of Accurate","options":["Wrong","Exact","False","Approx"],"answer":"Exact","type":"verbal","difficulty":"easy"},
+{"id":"verbal_12","question":"Antonym of Fast","options":["Quick","Rapid","Slow","Speedy"],"answer":"Slow","type":"verbal","difficulty":"easy"},
+{"id":"verbal_13","question":"Fill: He insisted ___ going","options":["on","in","at","for"],"answer":"on","type":"verbal","difficulty":"medium"},
+{"id":"verbal_14","question":"Correct sentence","options":["He go school","He goes school","He goes to school","He going school"],"answer":"He goes to school","type":"verbal","difficulty":"easy"},
+{"id":"verbal_15","question":"Synonym of Vast","options":["Small","Huge","Tiny","Short"],"answer":"Huge","type":"verbal","difficulty":"easy"},
+
+{"id":"verbal_16","question":"Antonym of Accept","options":["Agree","Reject","Allow","Receive"],"answer":"Reject","type":"verbal","difficulty":"easy"},
+{"id":"verbal_17","question":"Fill: She ___ finished work","options":["have","has","had","having"],"answer":"has","type":"verbal","difficulty":"easy"},
+{"id":"verbal_18","question":"Choose correct","options":["They is coming","They are coming","They coming","They be coming"],"answer":"They are coming","type":"verbal","difficulty":"easy"},
+{"id":"verbal_19","question":"Synonym Brilliant","options":["Dull","Smart","Slow","Lazy"],"answer":"Smart","type":"verbal","difficulty":"easy"},
+{"id":"verbal_20","question":"Antonym Increase","options":["Grow","Rise","Decrease","Expand"],"answer":"Decrease","type":"verbal","difficulty":"easy"},
+
+
+
+{"id":"lr_1","question":"CAT → DBU, DOG → ?","options":["EPH","EPG","EOH","EPH"],"answer":"EPH","type":"logical","difficulty":"medium"},
+{"id":"lr_2","question":"Next: A, C, F, J, O, ?","options":["T","U","V","W"],"answer":"U","type":"logical","difficulty":"hard"},
+{"id":"lr_3","question":"All roses are flowers. Some flowers are red. Conclusion?","options":["All roses red","Some roses may be red","None red","All flowers roses"],"answer":"Some roses may be red","type":"logical","difficulty":"medium"},
+{"id":"lr_4","question":"TREE → UQFF, BOOK → ?","options":["CPPL","CPQM","BQPL","BPPL"],"answer":"CPPL","type":"logical","difficulty":"medium"},
+{"id":"lr_5","question":"Next: 2, 4, 8, 16, ?","options":["24","32","30","36"],"answer":"32","type":"logical","difficulty":"easy"},
+
+{"id":"lr_6","question":"Mirror of 6:25","options":["5:35","6:36","5:36","6:35"],"answer":"5:35","type":"logical","difficulty":"medium"},
+{"id":"lr_7","question":"Odd one out","options":["Apple","Banana","Carrot","Mango"],"answer":"Carrot","type":"logical","difficulty":"easy"},
+{"id":"lr_8","question":"Coding: ABC → BCD, XYZ → ?","options":["YZA","YAB","ZAB","YZX"],"answer":"YZA","type":"logical","difficulty":"easy"},
+{"id":"lr_9","question":"If A>B and B>C, then?","options":["A>C","C>A","B>A","None"],"answer":"A>C","type":"logical","difficulty":"easy"},
+{"id":"lr_10","question":"Find next: 1, 1, 2, 3, 5, ?","options":["6","7","8","9"],"answer":"8","type":"logical","difficulty":"easy"},
+
+{"id":"lr_11","question":"Odd: 2, 4, 6, 9, 8","options":["2","4","6","9"],"answer":"9","type":"logical","difficulty":"easy"},
+{"id":"lr_12","question":"Direction: North → East → South → ?","options":["West","North","East","South"],"answer":"West","type":"logical","difficulty":"easy"},
+{"id":"lr_13","question":"Series: Z, X, U, Q, ?","options":["L","M","N","O"],"answer":"L","type":"logical","difficulty":"hard"},
+{"id":"lr_14","question":"Coding: 123 → 234, 567 → ?","options":["678","679","6789","677"],"answer":"678","type":"logical","difficulty":"easy"},
+{"id":"lr_15","question":"If 1=A, 2=B, 3=C, then 5=?","options":["D","E","F","G"],"answer":"E","type":"logical","difficulty":"easy"},
+
+{"id":"lr_16","question":"Puzzle: A left of B, B left of C. Who rightmost?","options":["A","B","C","None"],"answer":"C","type":"logical","difficulty":"easy"},
+{"id":"lr_17","question":"Odd one","options":["Circle","Square","Triangle","Red"],"answer":"Red","type":"logical","difficulty":"easy"},
+{"id":"lr_18","question":"Next: 3, 6, 18, 72, ?","options":["144","216","288","360"],"answer":"360","type":"logical","difficulty":"medium"},
+{"id":"lr_19","question":"Alphabet position of D","options":["2","3","4","5"],"answer":"4","type":"logical","difficulty":"easy"},
+{"id":"lr_20","question":"If DAY → 4, NIGHT → ?","options":["5","6","7","8"],"answer":"5","type":"logical","difficulty":"easy"},
+
+{"id":"lr_21","question":"Next: 11, 13, 17, 19, ?","options":["21","23","25","27"],"answer":"23","type":"logical","difficulty":"medium"},
+{"id":"lr_22","question":"Find missing: B, E, I, N, ?","options":["T","S","R","Q"],"answer":"T","type":"logical","difficulty":"hard"},
+{"id":"lr_23","question":"If 7+3=73, 8+2=?","options":["82","28","84","72"],"answer":"82","type":"logical","difficulty":"medium"},
+{"id":"lr_24","question":"Odd: Dog, Cat, Cow, Car","options":["Dog","Cat","Cow","Car"],"answer":"Car","type":"logical","difficulty":"easy"},
+{"id":"lr_25","question":"Next: 2, 3, 5, 9, 17, ?","options":["33","32","34","35"],"answer":"33","type":"logical","difficulty":"hard"},
+
+{"id":"lr_26","question":"Clock 3:00 angle","options":["90","60","120","180"],"answer":"90","type":"logical","difficulty":"easy"},
+{"id":"lr_27","question":"If MON=3, TUE=3, WED=?","options":["3","4","5","6"],"answer":"3","type":"logical","difficulty":"easy"},
+{"id":"lr_28","question":"Coding: HELLO → IFMMP, WORLD → ?","options":["XPSME","XPSLD","WPSME","XORLE"],"answer":"XPSME","type":"logical","difficulty":"medium"},
+{"id":"lr_29","question":"Next: 100, 90, 80, 70, ?","options":["60","65","75","85"],"answer":"60","type":"logical","difficulty":"easy"},
+{"id":"lr_30","question":"If all cats are animals, then?","options":["All animals cats","Some animals cats","None","All cats animals"],"answer":"All cats animals","type":"logical","difficulty":"easy"}
 ]

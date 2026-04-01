@@ -1,411 +1,402 @@
 {
   "skill": "Encryption",
+
   "mcqs": [
     {
-      "id": "encryption_001",
-      "question": "encryption question 1?",
+      "id": "enc_001",
+      "question": "What is the main goal of encryption?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Increase speed",
+        "Protect data confidentiality",
+        "Store data",
+        "Delete data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "encryption_002",
-      "question": "encryption question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "encryption_003",
-      "question": "encryption question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "encryption_004",
-      "question": "encryption question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "encryption_005",
-      "question": "encryption question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "encryption_006",
-      "question": "encryption question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Protect data confidentiality",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "encryption_007",
-      "question": "encryption question 7?",
+      "id": "enc_002",
+      "question": "What is symmetric encryption?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Two keys",
+        "Same key for encryption and decryption",
+        "No key",
+        "Public key only"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Same key for encryption and decryption",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "enc_003",
+      "question": "What is asymmetric encryption?",
+      "options": [
+        "One key",
+        "Public and private keys",
+        "No key",
+        "Hashing"
+      ],
+      "correct_answer": "Public and private keys",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "enc_004",
+      "question": "Why is hashing not reversible?",
+      "options": [
+        "Uses key",
+        "One-way function",
+        "Stores data",
+        "Encrypts data"
+      ],
+      "correct_answer": "One-way function",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "encryption_008",
-      "question": "encryption question 8?",
+      "id": "enc_005",
+      "question": "What is salt in hashing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Encryption key",
+        "Random data added before hashing",
+        "Password",
+        "Algorithm"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Random data added before hashing",
       "difficulty": "medium",
       "weight": 3
     },
+
     {
-      "id": "encryption_009",
-      "question": "encryption question 9?",
+      "id": "enc_006",
+      "question": "What is SSL/TLS used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Storage",
+        "Secure communication",
+        "Hashing",
+        "Database"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "encryption_010",
-      "question": "encryption question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "encryption_011",
-      "question": "encryption question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Secure communication",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "encryption_012",
-      "question": "encryption question 12?",
+      "id": "enc_007",
+      "question": "What is digital signature used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Encryption only",
+        "Authentication and integrity",
+        "Storage",
+        "Hashing only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "encryption_013",
-      "question": "encryption question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Authentication and integrity",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "encryption_014",
-      "question": "encryption question 14?",
+      "id": "enc_008",
+      "question": "What is brute force attack?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Guessing passwords systematically",
+        "Hashing",
+        "Encryption",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "encryption_015",
-      "question": "encryption question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "encryption_016",
-      "question": "encryption question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Guessing passwords systematically",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "encryption_017",
-      "question": "encryption question 17?",
+      "id": "enc_009",
+      "question": "What is key length important for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Speed",
+        "Security strength",
+        "Storage",
+        "UI"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "encryption_018",
-      "question": "encryption question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Security strength",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "encryption_019",
-      "question": "encryption question 19?",
+      "id": "enc_010",
+      "question": "What is man-in-the-middle attack?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete data",
+        "Intercept communication",
+        "Encrypt data",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Intercept communication",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "enc_011",
+      "question": "What is public key used for?",
+      "options": [
+        "Decrypt",
+        "Encrypt or verify",
+        "Store data",
+        "Delete data"
+      ],
+      "correct_answer": "Encrypt or verify",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "encryption_020",
-      "question": "encryption question 20?",
+      "id": "enc_012",
+      "question": "What is private key used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Encrypt",
+        "Decrypt or sign",
+        "Store data",
+        "Delete data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Decrypt or sign",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "encryption_021",
-      "question": "encryption question 21?",
+      "id": "enc_013",
+      "question": "What is integrity in security?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Hide data",
+        "Ensure data is not altered",
+        "Encrypt data",
+        "Store data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Ensure data is not altered",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "encryption_022",
-      "question": "encryption question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "encryption_023",
-      "question": "encryption question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "encryption_024",
-      "question": "encryption question 24?",
+      "id": "enc_014",
+      "question": "What is authentication?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Encrypt data",
+        "Verify identity",
+        "Store data",
+        "Delete data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Verify identity",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "encryption_025",
-      "question": "encryption question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "encryption_026",
-      "question": "encryption question 26?",
+      "id": "enc_015",
+      "question": "What is confidentiality?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Data deletion",
+        "Prevent unauthorized access",
+        "Storage",
+        "Speed"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Prevent unauthorized access",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "enc_016",
+      "question": "Why use HTTPS over HTTP?",
+      "options": [
+        "Faster",
+        "Encrypted communication",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Encrypted communication",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "enc_017",
+      "question": "What is hashing used for in passwords?",
+      "options": [
+        "Store plain text",
+        "Secure storage",
+        "Encryption",
+        "Delete data"
+      ],
+      "correct_answer": "Secure storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "enc_018",
+      "question": "What is replay attack?",
+      "options": [
+        "Delete data",
+        "Reuse captured data",
+        "Encrypt data",
+        "Store data"
+      ],
+      "correct_answer": "Reuse captured data",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "encryption_027",
-      "question": "encryption question 27?",
+      "id": "enc_019",
+      "question": "What is certificate authority?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Encrypt data",
+        "Verify identities and issue certificates",
+        "Store data",
+        "Delete data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Verify identities and issue certificates",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "encryption_028",
-      "question": "encryption question 28?",
+      "id": "enc_020",
+      "question": "What is key exchange?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete keys",
+        "Securely share keys",
+        "Encrypt data",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "encryption_029",
-      "question": "encryption question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "encryption_030",
-      "question": "encryption question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Securely share keys",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "encryption_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "enc_s_001",
+      "question": "Need fast encryption for large data. What to use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Asymmetric",
+        "Symmetric encryption",
+        "Hashing",
+        "None"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Symmetric encryption",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "enc_s_002",
+      "question": "Need secure key exchange over internet. What to use?",
+      "options": [
+        "Symmetric",
+        "Asymmetric encryption",
+        "Hashing",
+        "None"
+      ],
+      "correct_answer": "Asymmetric encryption",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "enc_s_003",
+      "question": "Store passwords securely. What to use?",
+      "options": [
+        "Plain text",
+        "Hashing",
+        "Encryption",
+        "None"
+      ],
+      "correct_answer": "Hashing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "enc_s_004",
+      "question": "Need to verify sender identity. What to use?",
+      "options": [
+        "Encryption",
+        "Digital signature",
+        "Hashing",
+        "None"
+      ],
+      "correct_answer": "Digital signature",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "enc_s_005",
+      "question": "Data altered during transmission. What is affected?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Authentication",
+        "Availability"
+      ],
+      "correct_answer": "Integrity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "enc_s_006",
+      "question": "Prevent brute force attacks on passwords. What to add?",
+      "options": [
+        "Salt",
+        "Delete data",
+        "Encrypt twice",
+        "None"
+      ],
+      "correct_answer": "Salt",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "enc_s_007",
+      "question": "Website needs secure communication. What protocol?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correct_answer": "HTTPS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "enc_s_008",
+      "question": "Prevent replay attacks. What is needed?",
+      "options": [
+        "Encryption",
+        "Nonce/timestamp",
+        "Hashing",
+        "None"
+      ],
+      "correct_answer": "Nonce/timestamp",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "enc_s_009",
+      "question": "Need both speed and security in communication. What approach?",
+      "options": [
+        "Only symmetric",
+        "Hybrid encryption",
+        "Only hashing",
+        "None"
+      ],
+      "correct_answer": "Hybrid encryption",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "enc_s_010",
+      "question": "Certificate is invalid. What risk?",
+      "options": [
+        "Storage issue",
+        "Man-in-the-middle attack",
+        "UI issue",
+        "Performance issue"
+      ],
+      "correct_answer": "Man-in-the-middle attack",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 
-function Layout({ children }) {
+function Layout({ children, hideSidebar }) {
 
   const [collapsed, setCollapsed] = useState(false);
 
@@ -11,31 +11,36 @@ function Layout({ children }) {
   };
 
   return (
-
     <div>
 
-      <Navbar />
+      {/* ✅ Navbar */}
+      {!hideSidebar && <Navbar />}
 
-      <Sidebar
-        collapsed={collapsed}
-        toggleSidebar={toggleSidebar}
-      />
+      {/* ✅ Sidebar */}
+      {!hideSidebar && (
+        <Sidebar
+          collapsed={collapsed}
+          toggleSidebar={toggleSidebar}
+        />
+      )}
 
+      {/* ✅ Main */}
       <main
         style={{
-          marginTop: "70px",
-          marginLeft: collapsed ? "70px" : "230px",
+          marginTop: hideSidebar ? "0px" : "70px",
+          marginLeft: hideSidebar
+            ? "0px"
+            : collapsed
+            ? "70px"
+            : "230px",
           padding: "40px",
           transition: "0.3s"
         }}
       >
-
         {children}
-
       </main>
 
     </div>
-
   );
 }
 

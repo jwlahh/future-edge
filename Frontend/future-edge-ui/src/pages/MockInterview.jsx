@@ -221,7 +221,7 @@ function MockInterview() {
             <div className="actions">
               <button
                 className="exit-btn"
-                onClick={() => window.location.reload()}
+                onClick={() => window.location.href = "/dashboard"}
               >
                 End Test
               </button>
@@ -265,16 +265,29 @@ function MockInterview() {
               ))}
             </div>
 
-            <button
-              className="next-btn"
-              onClick={() => {
-                if (currentIndex < questions.length - 1) {
-                  setCurrentIndex(prev => prev + 1);
-                }
-              }}
-            >
-              Next →
-            </button>
+            <div className="nav-buttons">
+
+              {/* PREVIOUS */}
+              {currentIndex > 0 && (
+                <button
+                  className="next-btn"
+                  onClick={() => setCurrentIndex(prev => prev - 1)}
+                >
+                  ← Previous
+                </button>
+              )}
+
+              {/* NEXT */}
+              {currentIndex < questions.length - 1 && (
+                <button
+                  className="next-btn"
+                  onClick={() => setCurrentIndex(prev => prev + 1)}
+                >
+                  Next →
+                </button>
+              )}
+
+            </div>
 
           </div>
 

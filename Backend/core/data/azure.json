@@ -1,411 +1,402 @@
 {
   "skill": "Azure",
+
   "mcqs": [
     {
       "id": "azure_001",
-      "question": "azure question 1?",
+      "question": "What is Microsoft Azure?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Operating system",
+        "Cloud computing platform",
+        "Programming language",
+        "Database"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Cloud computing platform",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "azure_002",
-      "question": "azure question 2?",
+      "question": "What is Azure Virtual Machine (VM)?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Virtual server",
+        "Storage",
+        "API"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Virtual server",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "azure_003",
-      "question": "azure question 3?",
+      "question": "What is Azure Blob Storage used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Structured data",
+        "Unstructured data",
+        "Code execution",
+        "UI storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Unstructured data",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "azure_004",
-      "question": "azure question 4?",
+      "question": "What is Azure App Service used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Hosting web apps",
+        "Database storage",
+        "Networking",
+        "Testing"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Hosting web apps",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "azure_005",
-      "question": "azure question 5?",
+      "question": "What are Azure Functions?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database tools",
+        "Serverless compute services",
+        "UI tools",
+        "Storage tools"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Serverless compute services",
+      "difficulty": "medium",
+      "weight": 2
     },
+
     {
       "id": "azure_006",
-      "question": "azure question 6?",
+      "question": "What is scaling in Azure?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Deleting resources",
+        "Increasing or decreasing resources",
+        "UI design",
+        "Testing"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Increasing or decreasing resources",
       "difficulty": "medium",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "azure_007",
-      "question": "azure question 7?",
+      "question": "What is Azure DevOps used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "CI/CD pipelines",
+        "Storage",
+        "Networking"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "CI/CD pipelines",
+      "difficulty": "medium",
+      "weight": 2
     },
     {
       "id": "azure_008",
-      "question": "azure question 8?",
+      "question": "What is an Azure region?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Storage type",
+        "Geographical location of data center",
+        "Code",
+        "UI"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Geographical location of data center",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "azure_009",
-      "question": "azure question 9?",
+      "question": "What is a resource group?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI component",
+        "Container for resources",
+        "Database",
+        "Tool"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Container for resources",
       "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "azure_010",
-      "question": "azure question 10?",
+      "question": "What does load balancing do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Distribute traffic",
+        "Run code",
+        "Design UI"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Distribute traffic",
+      "difficulty": "medium",
+      "weight": 2
     },
+
     {
       "id": "azure_011",
-      "question": "azure question 11?",
+      "question": "What is Azure SQL Database?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "File storage",
+        "Relational database service",
+        "UI tool",
+        "Code tool"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "azure_012",
-      "question": "azure question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "azure_013",
-      "question": "azure question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "azure_014",
-      "question": "azure question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "azure_015",
-      "question": "azure question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Relational database service",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "azure_016",
-      "question": "azure question 16?",
+      "id": "azure_012",
+      "question": "What is an Azure Storage Account?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Compute service",
+        "Data storage service",
+        "UI service",
+        "Testing tool"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Data storage service",
       "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "azure_013",
+      "question": "What does Azure networking do?",
+      "options": [
+        "Connect resources",
+        "Design UI",
+        "Store data",
+        "Run tests"
+      ],
+      "correct_answer": "Connect resources",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "azure_014",
+      "question": "What is Azure Active Directory used for?",
+      "options": [
+        "UI",
+        "Identity and access management",
+        "Storage",
+        "Testing"
+      ],
+      "correct_answer": "Identity and access management",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "azure_015",
+      "question": "What is backup in Azure?",
+      "options": [
+        "Deleting data",
+        "Copying data for recovery",
+        "UI design",
+        "Testing"
+      ],
+      "correct_answer": "Copying data for recovery",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "azure_016",
+      "question": "What is Azure Monitor?",
+      "options": [
+        "UI tool",
+        "Monitoring and analytics service",
+        "Database",
+        "Code tool"
+      ],
+      "correct_answer": "Monitoring and analytics service",
+      "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "azure_017",
-      "question": "azure question 17?",
+      "question": "What is CDN in Azure?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Content delivery network",
+        "Database",
+        "UI tool",
+        "Testing tool"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Content delivery network",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "azure_018",
-      "question": "azure question 18?",
+      "question": "What is hybrid cloud?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single cloud",
+        "Combination of on-premises and cloud",
+        "UI system",
+        "Database"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Combination of on-premises and cloud",
       "difficulty": "medium",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "azure_019",
-      "question": "azure question 19?",
+      "question": "Azure pricing is based on?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Usage",
+        "Fixed cost",
+        "UI",
+        "Code"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Usage",
+      "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "azure_020",
-      "question": "azure question 20?",
+      "question": "Main advantage of cloud computing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Manual work",
+        "Scalability",
+        "UI design",
+        "Testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "azure_021",
-      "question": "azure question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "azure_022",
-      "question": "azure question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "azure_023",
-      "question": "azure question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Scalability",
       "difficulty": "easy",
       "weight": 2
-    },
-    {
-      "id": "azure_024",
-      "question": "azure question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "azure_025",
-      "question": "azure question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "azure_026",
-      "question": "azure question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "azure_027",
-      "question": "azure question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "azure_028",
-      "question": "azure question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "azure_029",
-      "question": "azure question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "azure_030",
-      "question": "azure question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "azure_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "azure_s_001",
+      "question": "You want to deploy a scalable web app quickly. What should you use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Azure VM",
+        "Azure App Service",
+        "Azure Blob",
+        "Azure DNS"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Azure App Service",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "azure_s_002",
+      "question": "Your app needs automatic scaling based on traffic. What should you enable?",
+      "options": [
+        "Manual scaling",
+        "Auto scaling",
+        "Storage account",
+        "Virtual network"
+      ],
+      "correct_answer": "Auto scaling",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "azure_s_003",
+      "question": "You want to store large image files. Which service is best?",
+      "options": [
+        "Azure SQL",
+        "Blob Storage",
+        "Virtual Machine",
+        "Functions"
+      ],
+      "correct_answer": "Blob Storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "azure_s_004",
+      "question": "You need to run small backend tasks without managing servers. What should you use?",
+      "options": [
+        "Azure VM",
+        "Azure Functions",
+        "App Service",
+        "Storage"
+      ],
+      "correct_answer": "Azure Functions",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "azure_s_005",
+      "question": "You want to automate build and deployment pipelines. Which service is used?",
+      "options": [
+        "Azure DevOps",
+        "Azure Storage",
+        "Azure VM",
+        "Azure DNS"
+      ],
+      "correct_answer": "Azure DevOps",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "azure_s_006",
+      "question": "Your app is getting high traffic. What should you use to distribute load?",
+      "options": [
+        "Load balancer",
+        "Database",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Load balancer",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "azure_s_007",
+      "question": "You want to secure user authentication. What should you use?",
+      "options": [
+        "Azure AD",
+        "Blob",
+        "VM",
+        "CDN"
+      ],
+      "correct_answer": "Azure AD",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "azure_s_008",
+      "question": "You need backup for critical data. What should you use?",
+      "options": [
+        "Backup service",
+        "UI tool",
+        "Code tool",
+        "DNS"
+      ],
+      "correct_answer": "Backup service",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "azure_s_009",
+      "question": "You want to monitor application performance. Which service helps?",
+      "options": [
+        "Azure Monitor",
+        "Azure Blob",
+        "Azure VM",
+        "Azure DNS"
+      ],
+      "correct_answer": "Azure Monitor",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "azure_s_010",
+      "question": "You want faster global content delivery. What should you use?",
+      "options": [
+        "CDN",
+        "VM",
+        "DB",
+        "UI"
+      ],
+      "correct_answer": "CDN",
+      "difficulty": "medium",
+      "weight": 2
     }
   ]
 }

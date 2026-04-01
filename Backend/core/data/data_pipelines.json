@@ -1,411 +1,402 @@
 {
   "skill": "Data Pipelines",
+
   "mcqs": [
     {
-      "id": "data_pipelines_001",
-      "question": "data pipelines question 1?",
+      "id": "dp_001",
+      "question": "What is the main purpose of a data pipeline?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "Move and transform data between systems",
+        "Store data only",
+        "Delete data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_002",
-      "question": "data pipelines question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "data_pipelines_003",
-      "question": "data pipelines question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "data_pipelines_004",
-      "question": "data pipelines question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_005",
-      "question": "data pipelines question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "data_pipelines_006",
-      "question": "data pipelines question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "data_pipelines_007",
-      "question": "data pipelines question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_008",
-      "question": "data pipelines question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Move and transform data between systems",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "data_pipelines_009",
-      "question": "data pipelines question 9?",
+      "id": "dp_002",
+      "question": "What is ETL?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Extract, Transform, Load",
+        "Execute, Transfer, Load",
+        "Extract, Transfer, Log",
+        "Encode, Transform, Load"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_010",
-      "question": "data pipelines question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Extract, Transform, Load",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "data_pipelines_011",
-      "question": "data pipelines question 11?",
+      "id": "dp_003",
+      "question": "What is the difference between ETL and ELT?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "No difference",
+        "Transformation happens before load in ETL",
+        "ELT loads after transform",
+        "ETL loads first"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "data_pipelines_012",
-      "question": "data pipelines question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_013",
-      "question": "data pipelines question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_014",
-      "question": "data pipelines question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Transformation happens before load in ETL",
       "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_015",
-      "question": "data pipelines question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
     },
     {
-      "id": "data_pipelines_016",
-      "question": "data pipelines question 16?",
+      "id": "dp_004",
+      "question": "What is batch processing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Real-time processing",
+        "Processing data in chunks",
+        "Streaming data",
+        "Manual processing"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Processing data in chunks",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "data_pipelines_017",
-      "question": "data pipelines question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "data_pipelines_018",
-      "question": "data pipelines question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_019",
-      "question": "data pipelines question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_020",
-      "question": "data pipelines question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "data_pipelines_021",
-      "question": "data pipelines question 21?",
+      "id": "dp_005",
+      "question": "What is streaming processing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Batch processing",
+        "Real-time continuous data processing",
+        "Manual processing",
+        "Offline processing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Real-time continuous data processing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "dp_006",
+      "question": "What is data transformation?",
+      "options": [
+        "Deleting data",
+        "Converting data into usable format",
+        "Storing data",
+        "Visualizing data"
+      ],
+      "correct_answer": "Converting data into usable format",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "data_pipelines_022",
-      "question": "data pipelines question 22?",
+      "id": "dp_007",
+      "question": "Why is data validation important?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "Ensure data quality",
+        "Speed processing",
+        "Reduce storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_023",
-      "question": "data pipelines question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Ensure data quality",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_024",
-      "question": "data pipelines question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_025",
-      "question": "data pipelines question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "data_pipelines_026",
-      "question": "data pipelines question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "data_pipelines_027",
-      "question": "data pipelines question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "data_pipelines_028",
-      "question": "data pipelines question 28?",
+      "id": "dp_008",
+      "question": "What is data ingestion?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Deleting data",
+        "Collecting data from sources",
+        "Visualizing data",
+        "Cleaning data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Collecting data from sources",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "data_pipelines_029",
-      "question": "data pipelines question 29?",
+      "id": "dp_009",
+      "question": "What is a data warehouse?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Raw storage",
+        "Structured storage for analytics",
+        "Temporary storage",
+        "Cache"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Structured storage for analytics",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_010",
+      "question": "What is data lake?",
+      "options": [
+        "Structured data only",
+        "Stores raw data in any format",
+        "Temporary storage",
+        "Cache"
+      ],
+      "correct_answer": "Stores raw data in any format",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "dp_011",
+      "question": "What is pipeline orchestration?",
+      "options": [
+        "Manual execution",
+        "Managing workflow and scheduling tasks",
+        "Deleting data",
+        "Storing data"
+      ],
+      "correct_answer": "Managing workflow and scheduling tasks",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_012",
+      "question": "What is fault tolerance?",
+      "options": [
+        "Error handling",
+        "System continues despite failures",
+        "Deleting errors",
+        "Ignoring errors"
+      ],
+      "correct_answer": "System continues despite failures",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_013",
+      "question": "What is idempotency in pipelines?",
+      "options": [
+        "Run once",
+        "Safe to run multiple times without side effects",
+        "Delete data",
+        "Duplicate data"
+      ],
+      "correct_answer": "Safe to run multiple times without side effects",
       "difficulty": "hard",
       "weight": 3
     },
     {
-      "id": "data_pipelines_030",
-      "question": "data pipelines question 30?",
+      "id": "dp_014",
+      "question": "What is schema evolution?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Static schema",
+        "Changing data structure over time",
+        "Deleting schema",
+        "Fixing schema"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Changing data structure over time",
+      "difficulty": "medium",
       "weight": 3
+    },
+    {
+      "id": "dp_015",
+      "question": "What is partitioning in data pipelines?",
+      "options": [
+        "Deleting data",
+        "Dividing data for efficiency",
+        "Merging data",
+        "Sorting data"
+      ],
+      "correct_answer": "Dividing data for efficiency",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "dp_016",
+      "question": "What is latency in data pipelines?",
+      "options": [
+        "Data size",
+        "Delay in processing",
+        "Storage size",
+        "Speed"
+      ],
+      "correct_answer": "Delay in processing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dp_017",
+      "question": "What is throughput?",
+      "options": [
+        "Latency",
+        "Amount of data processed per time",
+        "Storage",
+        "Memory"
+      ],
+      "correct_answer": "Amount of data processed per time",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_018",
+      "question": "Why use message queues in pipelines?",
+      "options": [
+        "UI design",
+        "Decouple components",
+        "Store data",
+        "Delete data"
+      ],
+      "correct_answer": "Decouple components",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_019",
+      "question": "What is backpressure?",
+      "options": [
+        "High speed",
+        "System overload handling",
+        "Data deletion",
+        "UI issue"
+      ],
+      "correct_answer": "System overload handling",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "dp_020",
+      "question": "Why is monitoring important?",
+      "options": [
+        "UI design",
+        "Detect failures and performance issues",
+        "Store data",
+        "Delete data"
+      ],
+      "correct_answer": "Detect failures and performance issues",
+      "difficulty": "easy",
+      "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "data_pipelines_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "dp_s_001",
+      "question": "Pipeline fails midway. What should be ensured?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Restart system",
+        "Idempotent processing",
+        "Delete data",
+        "Ignore"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Idempotent processing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_s_002",
+      "question": "Real-time analytics required. What to use?",
+      "options": [
+        "Batch processing",
+        "Streaming pipeline",
+        "Manual process",
+        "Storage"
+      ],
+      "correct_answer": "Streaming pipeline",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "dp_s_003",
+      "question": "Large historical data needs processing. What approach?",
+      "options": [
+        "Streaming",
+        "Batch processing",
+        "Manual",
+        "Delete data"
+      ],
+      "correct_answer": "Batch processing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dp_s_004",
+      "question": "Pipeline processes duplicate data. What is needed?",
+      "options": [
+        "Delete pipeline",
+        "Deduplication logic",
+        "Ignore",
+        "Restart system"
+      ],
+      "correct_answer": "Deduplication logic",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_s_005",
+      "question": "Pipeline must handle failures gracefully. What to implement?",
+      "options": [
+        "Ignore errors",
+        "Retry and fault tolerance",
+        "Delete data",
+        "Manual fix"
+      ],
+      "correct_answer": "Retry and fault tolerance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_s_006",
+      "question": "Data arrives faster than processing speed. What issue is this?",
+      "options": [
+        "Latency",
+        "Backpressure",
+        "Throughput",
+        "Storage"
+      ],
+      "correct_answer": "Backpressure",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "dp_s_007",
+      "question": "Need to schedule pipeline runs daily. What is required?",
+      "options": [
+        "Manual run",
+        "Orchestration tool",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Orchestration tool",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dp_s_008",
+      "question": "Schema changes frequently. What should pipeline support?",
+      "options": [
+        "Static schema",
+        "Schema evolution",
+        "Delete schema",
+        "Ignore"
+      ],
+      "correct_answer": "Schema evolution",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_s_009",
+      "question": "Need faster query performance on large data. What helps?",
+      "options": [
+        "Delete data",
+        "Partitioning",
+        "Ignore",
+        "Manual process"
+      ],
+      "correct_answer": "Partitioning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dp_s_010",
+      "question": "Pipeline must scale with increasing data. What is needed?",
+      "options": [
+        "Manual scaling",
+        "Scalable architecture",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Scalable architecture",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

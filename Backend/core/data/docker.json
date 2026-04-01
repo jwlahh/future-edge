@@ -1,25 +1,402 @@
 {
-  "skill": "Docker",
-  "mcqs":[
-    {"id":"docker_001","question":"Docker is?","options":["container platform","OS","language","none"],"correct_answer":"container platform","difficulty":"easy","weight":1},
-    {"id":"docker_002","question":"Container is?","options":["lightweight VM","process","file","none"],"correct_answer":"lightweight VM","difficulty":"easy","weight":1},
-    {"id":"docker_003","question":"Image is?","options":["template","container","OS","none"],"correct_answer":"template","difficulty":"easy","weight":1},
-    {"id":"docker_004","question":"Run container?","options":["docker run","docker start","docker exec","docker go"],"correct_answer":"docker run","difficulty":"easy","weight":1},
-    {"id":"docker_005","question":"List containers?","options":["docker ps","docker ls","docker list","docker show"],"correct_answer":"docker ps","difficulty":"easy","weight":1},
+  "skill": "Digital Marketing",
 
-    {"id":"docker_006","question":"Build image?","options":["docker build","docker make","docker create","docker init"],"correct_answer":"docker build","difficulty":"medium","weight":2},
-    {"id":"docker_007","question":"Stop container?","options":["docker stop","docker kill","docker end","docker pause"],"correct_answer":"docker stop","difficulty":"medium","weight":2},
-    {"id":"docker_008","question":"Remove container?","options":["docker rm","docker delete","docker clear","docker remove"],"correct_answer":"docker rm","difficulty":"medium","weight":2},
-    {"id":"docker_009","question":"Dockerfile is?","options":["instructions file","image","container","none"],"correct_answer":"instructions file","difficulty":"medium","weight":2},
-    {"id":"docker_010","question":"Volume used for?","options":["persistent data","network","image","none"],"correct_answer":"persistent data","difficulty":"medium","weight":2},
+  "mcqs": [
+    {
+      "id": "dm_001",
+      "question": "Why is keyword intent important in SEO?",
+      "options": [
+        "Increase UI",
+        "Match user search purpose",
+        "Reduce traffic",
+        "Store data"
+      ],
+      "correct_answer": "Match user search purpose",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dm_002",
+      "question": "What does CTR measure?",
+      "options": [
+        "Revenue",
+        "Click-through rate",
+        "Bounce rate",
+        "Conversion"
+      ],
+      "correct_answer": "Click-through rate",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_003",
+      "question": "What is conversion rate?",
+      "options": [
+        "Visitors",
+        "Users completing desired action",
+        "Clicks only",
+        "Impressions"
+      ],
+      "correct_answer": "Users completing desired action",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_004",
+      "question": "Why is A/B testing important?",
+      "options": [
+        "UI design",
+        "Compare performance of variations",
+        "Store data",
+        "Delete data"
+      ],
+      "correct_answer": "Compare performance of variations",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_005",
+      "question": "What does bounce rate indicate?",
+      "options": [
+        "High engagement",
+        "Users leaving without interaction",
+        "Conversion rate",
+        "Revenue"
+      ],
+      "correct_answer": "Users leaving without interaction",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"docker_011","question":"Layer concept?","options":["image layers","network","file","none"],"correct_answer":"image layers","difficulty":"hard","weight":3},
-    {"id":"docker_012","question":"Bridge network?","options":["default network","custom","host","none"],"correct_answer":"default network","difficulty":"hard","weight":3},
-    {"id":"docker_013","question":"Docker compose?","options":["multi-container","single","none","loop"],"correct_answer":"multi-container","difficulty":"hard","weight":3},
-    {"id":"docker_014","question":"Registry stores?","options":["images","containers","files","none"],"correct_answer":"images","difficulty":"hard","weight":3},
-    {"id":"docker_015","question":"CMD vs ENTRYPOINT?","options":["run command","build","delete","none"],"correct_answer":"run command","difficulty":"hard","weight":3}
+    {
+      "id": "dm_006",
+      "question": "What is SEO primarily focused on?",
+      "options": [
+        "Paid ads",
+        "Organic traffic",
+        "Email",
+        "Social media"
+      ],
+      "correct_answer": "Organic traffic",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_007",
+      "question": "What is SEM?",
+      "options": [
+        "Organic search",
+        "Paid search marketing",
+        "Email marketing",
+        "Content marketing"
+      ],
+      "correct_answer": "Paid search marketing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_008",
+      "question": "What is CPC?",
+      "options": [
+        "Cost per click",
+        "Clicks per campaign",
+        "Conversion per click",
+        "Cost per conversion"
+      ],
+      "correct_answer": "Cost per click",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_009",
+      "question": "What is ROI in marketing?",
+      "options": [
+        "Traffic",
+        "Return on investment",
+        "Clicks",
+        "Impressions"
+      ],
+      "correct_answer": "Return on investment",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_010",
+      "question": "What is funnel in marketing?",
+      "options": [
+        "Database",
+        "Customer journey stages",
+        "UI design",
+        "Storage"
+      ],
+      "correct_answer": "Customer journey stages",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "dm_011",
+      "question": "What is remarketing?",
+      "options": [
+        "New audience",
+        "Target previous visitors",
+        "Email marketing",
+        "Content marketing"
+      ],
+      "correct_answer": "Target previous visitors",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dm_012",
+      "question": "What is engagement rate?",
+      "options": [
+        "Revenue",
+        "User interactions",
+        "Clicks only",
+        "Impressions"
+      ],
+      "correct_answer": "User interactions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_013",
+      "question": "What is organic traffic?",
+      "options": [
+        "Paid traffic",
+        "Free search traffic",
+        "Social media",
+        "Email"
+      ],
+      "correct_answer": "Free search traffic",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_014",
+      "question": "What is content marketing?",
+      "options": [
+        "Ads",
+        "Creating valuable content",
+        "Email",
+        "SEO only"
+      ],
+      "correct_answer": "Creating valuable content",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_015",
+      "question": "What is keyword stuffing?",
+      "options": [
+        "Good SEO",
+        "Overusing keywords",
+        "Content creation",
+        "Ads"
+      ],
+      "correct_answer": "Overusing keywords",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "dm_016",
+      "question": "What is backlink?",
+      "options": [
+        "Internal link",
+        "Link from another website",
+        "UI element",
+        "Ad"
+      ],
+      "correct_answer": "Link from another website",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_017",
+      "question": "What is domain authority?",
+      "options": [
+        "UI score",
+        "Website ranking strength",
+        "Traffic count",
+        "Revenue"
+      ],
+      "correct_answer": "Website ranking strength",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dm_018",
+      "question": "What is impression?",
+      "options": [
+        "Click",
+        "Ad view",
+        "Conversion",
+        "Revenue"
+      ],
+      "correct_answer": "Ad view",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_019",
+      "question": "What is landing page?",
+      "options": [
+        "Homepage",
+        "Page designed for conversion",
+        "Blog page",
+        "UI page"
+      ],
+      "correct_answer": "Page designed for conversion",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_020",
+      "question": "What is CTA?",
+      "options": [
+        "Click tracking",
+        "Call to action",
+        "Conversion tracking",
+        "Content targeting"
+      ],
+      "correct_answer": "Call to action",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ],
-  "coding_mcqs":[
-    {"id":"docker_c_001","question":"Command?","code":"docker ___ image","options":["run","push","pull","build"],"correct_answer":"run","difficulty":"easy","weight":1}
+
+  "scenario_mcqs": [
+    {
+      "id": "dm_s_001",
+      "question": "Website has high traffic but low conversions. What should be improved?",
+      "options": [
+        "Traffic",
+        "Landing page optimization",
+        "Delete ads",
+        "Ignore"
+      ],
+      "correct_answer": "Landing page optimization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dm_s_002",
+      "question": "Ad has low CTR. What should be tested?",
+      "options": [
+        "Budget",
+        "Ad copy and creatives",
+        "Delete campaign",
+        "Ignore"
+      ],
+      "correct_answer": "Ad copy and creatives",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dm_s_003",
+      "question": "Need to target users who visited site earlier. What to use?",
+      "options": [
+        "SEO",
+        "Remarketing",
+        "Email",
+        "Content"
+      ],
+      "correct_answer": "Remarketing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_s_004",
+      "question": "Ranking dropped due to keyword stuffing. What to do?",
+      "options": [
+        "Add more keywords",
+        "Improve content quality",
+        "Delete site",
+        "Ignore"
+      ],
+      "correct_answer": "Improve content quality",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dm_s_005",
+      "question": "Need long-term traffic growth. What strategy?",
+      "options": [
+        "Paid ads",
+        "SEO",
+        "Ignore",
+        "Delete content"
+      ],
+      "correct_answer": "SEO",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_s_006",
+      "question": "Campaign ROI is low. What should be analyzed?",
+      "options": [
+        "UI",
+        "Cost vs conversions",
+        "Delete campaign",
+        "Ignore"
+      ],
+      "correct_answer": "Cost vs conversions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dm_s_007",
+      "question": "High bounce rate on page. What indicates?",
+      "options": [
+        "Good UX",
+        "Poor engagement",
+        "High conversion",
+        "High ROI"
+      ],
+      "correct_answer": "Poor engagement",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_s_008",
+      "question": "Need to compare two ad versions. What to use?",
+      "options": [
+        "SEO",
+        "A/B testing",
+        "Delete ads",
+        "Ignore"
+      ],
+      "correct_answer": "A/B testing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dm_s_009",
+      "question": "Want to improve engagement on social media. What to focus on?",
+      "options": [
+        "Keywords",
+        "Content quality",
+        "Delete posts",
+        "Ignore"
+      ],
+      "correct_answer": "Content quality",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dm_s_010",
+      "question": "Need quick traffic boost. What to use?",
+      "options": [
+        "SEO",
+        "Paid ads",
+        "Content marketing",
+        "Ignore"
+      ],
+      "correct_answer": "Paid ads",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ]
 }

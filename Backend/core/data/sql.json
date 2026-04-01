@@ -1,50 +1,632 @@
 {
-    "skill": "SQL",
-    "mcqs":[
-      {"id":"sql_001","question":"SQL stands for?","options":["Structured Query Language","Simple Query","System Query","none"],"correct_answer":"Structured Query Language","difficulty":"easy","weight":1},
-      {"id":"sql_002","question":"Select statement used for?","options":["retrieve data","insert","delete","update"],"correct_answer":"retrieve data","difficulty":"easy","weight":1},
-      {"id":"sql_003","question":"Primary key is?","options":["unique identifier","duplicate","null","none"],"correct_answer":"unique identifier","difficulty":"easy","weight":1},
-      {"id":"sql_004","question":"Which removes duplicates?","options":["DISTINCT","UNIQUE","REMOVE","DELETE"],"correct_answer":"DISTINCT","difficulty":"easy","weight":1},
-      {"id":"sql_005","question":"Which adds row?","options":["INSERT","UPDATE","SELECT","DELETE"],"correct_answer":"INSERT","difficulty":"easy","weight":1},
-      {"id":"sql_006","question":"Which deletes row?","options":["DELETE","REMOVE","DROP","CLEAR"],"correct_answer":"DELETE","difficulty":"easy","weight":1},
-      {"id":"sql_007","question":"Which updates data?","options":["UPDATE","MODIFY","CHANGE","SET"],"correct_answer":"UPDATE","difficulty":"easy","weight":1},
-      {"id":"sql_008","question":"Which sorts data?","options":["ORDER BY","GROUP BY","SORT","ARRANGE"],"correct_answer":"ORDER BY","difficulty":"easy","weight":1},
-      {"id":"sql_009","question":"Which filters rows?","options":["WHERE","HAVING","FILTER","SORT"],"correct_answer":"WHERE","difficulty":"easy","weight":1},
-      {"id":"sql_010","question":"Count function?","options":["COUNT()","SUM()","AVG()","MAX()"],"correct_answer":"COUNT()","difficulty":"easy","weight":1},
-  
-      {"id":"sql_011","question":"INNER JOIN returns?","options":["matching rows","all rows","left only","right only"],"correct_answer":"matching rows","difficulty":"medium","weight":2},
-      {"id":"sql_012","question":"LEFT JOIN returns?","options":["left + match","right only","match only","none"],"correct_answer":"left + match","difficulty":"medium","weight":2},
-      {"id":"sql_013","question":"GROUP BY used for?","options":["aggregation","sorting","filtering","none"],"correct_answer":"aggregation","difficulty":"medium","weight":2},
-      {"id":"sql_014","question":"HAVING used for?","options":["filter groups","filter rows","sort","none"],"correct_answer":"filter groups","difficulty":"medium","weight":2},
-      {"id":"sql_015","question":"Index improves?","options":["performance","storage","size","none"],"correct_answer":"performance","difficulty":"medium","weight":2},
-      {"id":"sql_016","question":"Normalization reduces?","options":["redundancy","performance","size","none"],"correct_answer":"redundancy","difficulty":"medium","weight":2},
-      {"id":"sql_017","question":"Foreign key ensures?","options":["referential integrity","uniqueness","sorting","none"],"correct_answer":"referential integrity","difficulty":"medium","weight":2},
-      {"id":"sql_018","question":"Which is aggregate?","options":["SUM()","SELECT","WHERE","JOIN"],"correct_answer":"SUM()","difficulty":"medium","weight":2},
-      {"id":"sql_019","question":"LIMIT used for?","options":["restrict rows","sort","join","none"],"correct_answer":"restrict rows","difficulty":"medium","weight":2},
-      {"id":"sql_020","question":"UNION does?","options":["combine results","sort","filter","none"],"correct_answer":"combine results","difficulty":"medium","weight":2},
-  
-      {"id":"sql_021","question":"ACID stands for?","options":["Atomicity Consistency Isolation Durability","none","loop","query"],"correct_answer":"Atomicity Consistency Isolation Durability","difficulty":"hard","weight":3},
-      {"id":"sql_022","question":"Which avoids dirty reads?","options":["isolation","atomicity","consistency","none"],"correct_answer":"isolation","difficulty":"hard","weight":3},
-      {"id":"sql_023","question":"Clustered index?","options":["physical order","logical","none","loop"],"correct_answer":"physical order","difficulty":"hard","weight":3},
-      {"id":"sql_024","question":"Subquery is?","options":["query inside query","loop","function","none"],"correct_answer":"query inside query","difficulty":"hard","weight":3},
-      {"id":"sql_025","question":"Window function used for?","options":["analytics","insert","delete","none"],"correct_answer":"analytics","difficulty":"hard","weight":3},
-      {"id":"sql_026","question":"CTE stands for?","options":["Common Table Expression","none","loop","query"],"correct_answer":"Common Table Expression","difficulty":"hard","weight":3},
-      {"id":"sql_027","question":"Which join returns unmatched?","options":["FULL JOIN","INNER","none","loop"],"correct_answer":"FULL JOIN","difficulty":"hard","weight":3},
-      {"id":"sql_028","question":"Denormalization improves?","options":["read performance","write","none","loop"],"correct_answer":"read performance","difficulty":"hard","weight":3},
-      {"id":"sql_029","question":"Deadlock occurs when?","options":["resource wait","loop","none","query"],"correct_answer":"resource wait","difficulty":"hard","weight":3},
-      {"id":"sql_030","question":"Index tradeoff?","options":["fast read slow write","fast write slow read","none","loop"],"correct_answer":"fast read slow write","difficulty":"hard","weight":3}
-    ],
-  
-    "coding_mcqs":[
-      {"id":"sql_c_001","question":"Query output?","code":"SELECT COUNT(*) FROM table;","options":["row count","error","sum","none"],"correct_answer":"row count","difficulty":"easy","weight":1},
-      {"id":"sql_c_002","question":"Query output?","code":"SELECT DISTINCT col FROM table;","options":["unique values","all","error","none"],"correct_answer":"unique values","difficulty":"easy","weight":1},
-      {"id":"sql_c_003","question":"Find error","code":"SELECT FROM table;","options":["missing column","valid","none","loop"],"correct_answer":"missing column","difficulty":"easy","weight":1},
-      {"id":"sql_c_004","question":"Output?","code":"SELECT 1+1;","options":["2","1","error","0"],"correct_answer":"2","difficulty":"easy","weight":1},
-      {"id":"sql_c_005","question":"Find error","code":"INSERT table VALUES(1);","options":["missing INTO","valid","none","loop"],"correct_answer":"missing INTO","difficulty":"medium","weight":2},
-      {"id":"sql_c_006","question":"Output?","code":"SELECT MAX(col) FROM table;","options":["max value","min","error","none"],"correct_answer":"max value","difficulty":"medium","weight":2},
-      {"id":"sql_c_007","question":"Output?","code":"SELECT * FROM t WHERE col>10;","options":["filtered rows","all","none","error"],"correct_answer":"filtered rows","difficulty":"medium","weight":2},
-      {"id":"sql_c_008","question":"Output?","code":"SELECT * FROM A INNER JOIN B ON A.id=B.id;","options":["matched rows","all","none","error"],"correct_answer":"matched rows","difficulty":"hard","weight":3},
-      {"id":"sql_c_009","question":"Output?","code":"SELECT SUM(col) FROM table;","options":["sum","count","error","none"],"correct_answer":"sum","difficulty":"medium","weight":2},
-      {"id":"sql_c_010","question":"Find error","code":"SELECT col GROUP BY col;","options":["missing FROM","valid","none","loop"],"correct_answer":"missing FROM","difficulty":"hard","weight":3}
-    ]
-  }
+  "skill": "SQL",
+
+  "mcqs": [
+    {
+      "id": "sql_001",
+      "question": "What does SELECT do?",
+      "options": ["Insert data", "Retrieve data", "Delete data", "Update data"],
+      "correct_answer": "Retrieve data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_002",
+      "question": "What does WHERE clause do?",
+      "options": [
+        "Sort data",
+        "Filter rows",
+        "Join tables",
+        "Group data"
+      ],
+      "correct_answer": "Filter rows",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_003",
+      "question": "Which JOIN returns matching rows from both tables?",
+      "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"],
+      "correct_answer": "INNER JOIN",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "sql_004",
+      "question": "Which JOIN returns all rows from left table?",
+      "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+      "correct_answer": "LEFT JOIN",
+      "difficulty": "easy",
+      "weight": 3
+    },
+    {
+      "id": "sql_005",
+      "question": "What does GROUP BY do?",
+      "options": [
+        "Filter rows",
+        "Group rows for aggregation",
+        "Sort data",
+        "Join tables"
+      ],
+      "correct_answer": "Group rows for aggregation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "sql_006",
+      "question": "What is HAVING used for?",
+      "options": [
+        "Filter groups",
+        "Filter rows",
+        "Join tables",
+        "Sort data"
+      ],
+      "correct_answer": "Filter groups",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_007",
+      "question": "What does ORDER BY do?",
+      "options": [
+        "Filter",
+        "Sort results",
+        "Join tables",
+        "Delete rows"
+      ],
+      "correct_answer": "Sort results",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_008",
+      "question": "What does COUNT(*) return?",
+      "options": [
+        "Sum",
+        "Number of rows",
+        "Average",
+        "Max value"
+      ],
+      "correct_answer": "Number of rows",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_009",
+      "question": "What is primary key?",
+      "options": [
+        "Duplicate field",
+        "Unique identifier",
+        "Foreign key",
+        "Index"
+      ],
+      "correct_answer": "Unique identifier",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_010",
+      "question": "What is foreign key?",
+      "options": [
+        "Unique key",
+        "Reference to another table",
+        "Index",
+        "Constraint"
+      ],
+      "correct_answer": "Reference to another table",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sql_011",
+      "question": "What does DISTINCT do?",
+      "options": [
+        "Delete rows",
+        "Remove duplicates",
+        "Sort rows",
+        "Join tables"
+      ],
+      "correct_answer": "Remove duplicates",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_012",
+      "question": "What is subquery?",
+      "options": [
+        "Main query",
+        "Query inside another query",
+        "Join",
+        "Index"
+      ],
+      "correct_answer": "Query inside another query",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_013",
+      "question": "What is index used for?",
+      "options": [
+        "Delete data",
+        "Improve query performance",
+        "Join tables",
+        "Store data"
+      ],
+      "correct_answer": "Improve query performance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_014",
+      "question": "What is normalization?",
+      "options": [
+        "Duplicate data",
+        "Reduce redundancy",
+        "Delete data",
+        "Sort data"
+      ],
+      "correct_answer": "Reduce redundancy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_015",
+      "question": "What is UNION?",
+      "options": [
+        "Join tables",
+        "Combine result sets",
+        "Delete rows",
+        "Sort data"
+      ],
+      "correct_answer": "Combine result sets",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "sql_016",
+      "question": "What is difference between UNION and UNION ALL?",
+      "options": [
+        "None",
+        "UNION removes duplicates",
+        "UNION ALL removes duplicates",
+        "Both same"
+      ],
+      "correct_answer": "UNION removes duplicates",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_017",
+      "question": "What does LIMIT do?",
+      "options": [
+        "Delete rows",
+        "Restrict number of rows",
+        "Join tables",
+        "Sort data"
+      ],
+      "correct_answer": "Restrict number of rows",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_018",
+      "question": "What is NULL?",
+      "options": [
+        "Zero",
+        "Unknown value",
+        "Empty string",
+        "False"
+      ],
+      "correct_answer": "Unknown value",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_019",
+      "question": "What does IS NULL do?",
+      "options": [
+        "Check zero",
+        "Check null values",
+        "Delete rows",
+        "Sort data"
+      ],
+      "correct_answer": "Check null values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_020",
+      "question": "What is aggregate function?",
+      "options": [
+        "Single row",
+        "Operate on multiple rows",
+        "Delete rows",
+        "Join tables"
+      ],
+      "correct_answer": "Operate on multiple rows",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sql_021",
+      "question": "What is AVG?",
+      "options": ["Sum", "Average", "Max", "Count"],
+      "correct_answer": "Average",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_022",
+      "question": "What is JOIN condition?",
+      "options": [
+        "Filter rows",
+        "Match rows between tables",
+        "Sort rows",
+        "Delete rows"
+      ],
+      "correct_answer": "Match rows between tables",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_023",
+      "question": "What is alias?",
+      "options": [
+        "Rename column/table",
+        "Delete column",
+        "Join tables",
+        "Sort data"
+      ],
+      "correct_answer": "Rename column/table",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_024",
+      "question": "What is constraint?",
+      "options": [
+        "Delete data",
+        "Rule on data",
+        "Join tables",
+        "Sort data"
+      ],
+      "correct_answer": "Rule on data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_025",
+      "question": "What is NOT NULL?",
+      "options": [
+        "Allow null",
+        "Disallow null values",
+        "Delete null",
+        "Ignore null"
+      ],
+      "correct_answer": "Disallow null values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sql_026",
+      "question": "What is UNIQUE constraint?",
+      "options": [
+        "Allow duplicates",
+        "Ensure unique values",
+        "Delete duplicates",
+        "Sort data"
+      ],
+      "correct_answer": "Ensure unique values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_027",
+      "question": "What is DELETE?",
+      "options": [
+        "Remove rows",
+        "Remove table",
+        "Update data",
+        "Insert data"
+      ],
+      "correct_answer": "Remove rows",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_028",
+      "question": "What is DROP?",
+      "options": [
+        "Remove rows",
+        "Remove table",
+        "Update data",
+        "Insert data"
+      ],
+      "correct_answer": "Remove table",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_029",
+      "question": "What is UPDATE?",
+      "options": [
+        "Insert data",
+        "Modify existing data",
+        "Delete data",
+        "Sort data"
+      ],
+      "correct_answer": "Modify existing data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_030",
+      "question": "What is INSERT?",
+      "options": [
+        "Add new data",
+        "Delete data",
+        "Update data",
+        "Sort data"
+      ],
+      "correct_answer": "Add new data",
+      "difficulty": "easy",
+      "weight": 2
+    }
+  ],
+
+  "coding_mcqs": [
+    {
+      "id": "sql_c_001",
+      "question": "What is the output?",
+      "code": "SELECT COUNT(*) FROM table;",
+      "options": ["Rows count", "Columns count", "Sum", "Error"],
+      "correct_answer": "Rows count",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_002",
+      "question": "What is the output?",
+      "code": "SELECT 5 + 3;",
+      "options": ["8", "53", "Error", "NULL"],
+      "correct_answer": "8",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_003",
+      "question": "What is the output?",
+      "code": "SELECT DISTINCT col FROM table;",
+      "options": ["Unique values", "All values", "Error", "Sorted values"],
+      "correct_answer": "Unique values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_004",
+      "question": "What is the output?",
+      "code": "SELECT * FROM table WHERE col IS NULL;",
+      "options": [
+        "Null rows",
+        "Non-null rows",
+        "All rows",
+        "Error"
+      ],
+      "correct_answer": "Null rows",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_005",
+      "question": "What is the output?",
+      "code": "SELECT AVG(col) FROM table;",
+      "options": ["Average", "Sum", "Count", "Error"],
+      "correct_answer": "Average",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sql_c_006",
+      "question": "What is the output?",
+      "code": "SELECT col FROM table ORDER BY col DESC;",
+      "options": [
+        "Ascending",
+        "Descending",
+        "Random",
+        "Error"
+      ],
+      "correct_answer": "Descending",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_007",
+      "question": "What is the output?",
+      "code": "SELECT * FROM A INNER JOIN B ON A.id = B.id;",
+      "options": [
+        "Matching rows",
+        "All rows",
+        "Left rows",
+        "Right rows"
+      ],
+      "correct_answer": "Matching rows",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_c_008",
+      "question": "What is the output?",
+      "code": "SELECT * FROM A LEFT JOIN B ON A.id = B.id;",
+      "options": [
+        "All A + matched B",
+        "Only matches",
+        "All B",
+        "Error"
+      ],
+      "correct_answer": "All A + matched B",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_c_009",
+      "question": "What is the output?",
+      "code": "SELECT SUM(col) FROM table;",
+      "options": ["Sum", "Count", "Average", "Error"],
+      "correct_answer": "Sum",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_010",
+      "question": "What is the output?",
+      "code": "SELECT * FROM table LIMIT 5;",
+      "options": [
+        "5 rows",
+        "All rows",
+        "Error",
+        "Sorted rows"
+      ],
+      "correct_answer": "5 rows",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sql_c_011",
+      "question": "What is the output?",
+      "code": "SELECT col FROM table WHERE col > 10;",
+      "options": [
+        "Values > 10",
+        "Values < 10",
+        "All values",
+        "Error"
+      ],
+      "correct_answer": "Values > 10",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_012",
+      "question": "What is the output?",
+      "code": "SELECT COUNT(col) FROM table;",
+      "options": [
+        "Non-null count",
+        "All rows",
+        "Sum",
+        "Error"
+      ],
+      "correct_answer": "Non-null count",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_c_013",
+      "question": "What is the output?",
+      "code": "SELECT * FROM table WHERE col LIKE 'A%';",
+      "options": [
+        "Starts with A",
+        "Ends with A",
+        "Contains A",
+        "Error"
+      ],
+      "correct_answer": "Starts with A",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_c_014",
+      "question": "What is the output?",
+      "code": "SELECT MAX(col) FROM table;",
+      "options": ["Max value", "Min value", "Sum", "Error"],
+      "correct_answer": "Max value",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_015",
+      "question": "What is the output?",
+      "code": "SELECT MIN(col) FROM table;",
+      "options": ["Min value", "Max value", "Sum", "Error"],
+      "correct_answer": "Min value",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sql_c_016",
+      "question": "What is the output?",
+      "code": "SELECT * FROM table WHERE col IN (1,2,3);",
+      "options": [
+        "Values 1,2,3",
+        "All values",
+        "None",
+        "Error"
+      ],
+      "correct_answer": "Values 1,2,3",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_c_017",
+      "question": "What is the output?",
+      "code": "SELECT * FROM table WHERE col BETWEEN 1 AND 5;",
+      "options": [
+        "1 to 5",
+        "Only 1",
+        "Only 5",
+        "Error"
+      ],
+      "correct_answer": "1 to 5",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_c_018",
+      "question": "What is the output?",
+      "code": "SELECT col, COUNT(*) FROM table GROUP BY col;",
+      "options": [
+        "Grouped counts",
+        "All rows",
+        "Error",
+        "Sorted rows"
+      ],
+      "correct_answer": "Grouped counts",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sql_c_019",
+      "question": "What is the output?",
+      "code": "SELECT * FROM table WHERE col IS NOT NULL;",
+      "options": [
+        "Non-null rows",
+        "Null rows",
+        "All rows",
+        "Error"
+      ],
+      "correct_answer": "Non-null rows",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sql_c_020",
+      "question": "What is the output?",
+      "code": "SELECT col FROM table ORDER BY col ASC;",
+      "options": [
+        "Ascending",
+        "Descending",
+        "Random",
+        "Error"
+      ],
+      "correct_answer": "Ascending",
+      "difficulty": "easy",
+      "weight": 2
+    }
+  ]
+}

@@ -1,411 +1,413 @@
 {
   "skill": "Deep Learning",
+
   "mcqs": [
     {
-      "id": "deep_learning_001",
-      "question": "deep learning question 1?",
+      "id": "dl_001",
+      "question": "Why are deep neural networks effective for complex tasks?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Less data",
+        "Hierarchical feature learning",
+        "Faster UI",
+        "Simple models"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "deep_learning_002",
-      "question": "deep learning question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Hierarchical feature learning",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "deep_learning_003",
-      "question": "deep learning question 3?",
+      "id": "dl_002",
+      "question": "What problem does backpropagation solve?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Data loading",
+        "Weight update using gradients",
+        "UI design",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_004",
-      "question": "deep learning question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Weight update using gradients",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "deep_learning_005",
-      "question": "deep learning question 5?",
+      "id": "dl_003",
+      "question": "What is vanishing gradient problem?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Exploding weights",
+        "Gradients become too small",
+        "Data loss",
+        "Overfitting"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "Gradients become too small",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "deep_learning_006",
-      "question": "deep learning question 6?",
+      "id": "dl_004",
+      "question": "Why is ReLU preferred over sigmoid?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Slower",
+        "Avoids vanishing gradients",
+        "More memory",
+        "Less accuracy"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Avoids vanishing gradients",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_005",
+      "question": "What is overfitting in deep learning?",
+      "options": [
+        "Model too simple",
+        "Model memorizes training data",
+        "Model underperforms always",
+        "Model ignores data"
+      ],
+      "correct_answer": "Model memorizes training data",
       "difficulty": "easy",
       "weight": 2
     },
+
     {
-      "id": "deep_learning_007",
-      "question": "deep learning question 7?",
+      "id": "dl_006",
+      "question": "What is dropout used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Increase features",
+        "Prevent overfitting",
+        "Reduce data",
+        "Normalize"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_008",
-      "question": "deep learning question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "deep_learning_009",
-      "question": "deep learning question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_010",
-      "question": "deep learning question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_011",
-      "question": "deep learning question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Prevent overfitting",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "deep_learning_012",
-      "question": "deep learning question 12?",
+      "id": "dl_007",
+      "question": "What does optimizer do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Adjust model weights",
+        "Visualize data",
+        "Delete data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "deep_learning_013",
-      "question": "deep learning question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Adjust model weights",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "deep_learning_014",
-      "question": "deep learning question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_015",
-      "question": "deep learning question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_016",
-      "question": "deep learning question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "deep_learning_017",
-      "question": "deep learning question 17?",
+      "id": "dl_008",
+      "question": "What is learning rate?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Model size",
+        "Step size in weight updates",
+        "Loss value",
+        "Data size"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_018",
-      "question": "deep learning question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Step size in weight updates",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_019",
-      "question": "deep learning question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_020",
-      "question": "deep learning question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "deep_learning_021",
-      "question": "deep learning question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_022",
-      "question": "deep learning question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "deep_learning_023",
-      "question": "deep learning question 23?",
+      "id": "dl_009",
+      "question": "What is loss function used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Measure prediction error",
+        "Train model",
+        "Visualize"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_024",
-      "question": "deep learning question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_025",
-      "question": "deep learning question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Measure prediction error",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "deep_learning_026",
-      "question": "deep learning question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "deep_learning_027",
-      "question": "deep learning question 27?",
+      "id": "dl_010",
+      "question": "What is batch size?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Dataset size",
+        "Number of samples per update",
+        "Model size",
+        "Epoch count"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Number of samples per update",
+      "difficulty": "medium",
       "weight": 3
     },
+
     {
-      "id": "deep_learning_028",
-      "question": "deep learning question 28?",
+      "id": "dl_011",
+      "question": "What is epoch?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single data point",
+        "Full pass over dataset",
+        "Loss value",
+        "Layer"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Full pass over dataset",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
-      "id": "deep_learning_029",
-      "question": "deep learning question 29?",
+      "id": "dl_012",
+      "question": "What is gradient descent?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Loss function",
+        "Optimization algorithm",
+        "Layer",
+        "Activation"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Optimization algorithm",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "deep_learning_030",
-      "question": "deep learning question 30?",
+      "id": "dl_013",
+      "question": "What is exploding gradient?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Small gradients",
+        "Large unstable gradients",
+        "Stable training",
+        "Low loss"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Large unstable gradients",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_014",
+      "question": "What is batch normalization used for?",
+      "options": [
+        "Reduce features",
+        "Stabilize training",
+        "Store data",
+        "Delete data"
+      ],
+      "correct_answer": "Stabilize training",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_015",
+      "question": "What is activation function?",
+      "options": [
+        "Linear mapping",
+        "Introduce non-linearity",
+        "Loss function",
+        "Optimizer"
+      ],
+      "correct_answer": "Introduce non-linearity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "dl_016",
+      "question": "What is transfer learning?",
+      "options": [
+        "Train from scratch",
+        "Use pre-trained model",
+        "Delete model",
+        "Reduce data"
+      ],
+      "correct_answer": "Use pre-trained model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_017",
+      "question": "What is regularization?",
+      "options": [
+        "Increase overfitting",
+        "Reduce overfitting",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Reduce overfitting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_018",
+      "question": "What is convolution layer used for?",
+      "options": [
+        "Store data",
+        "Extract features",
+        "Delete data",
+        "Normalize"
+      ],
+      "correct_answer": "Extract features",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_019",
+      "question": "What is RNN used for?",
+      "options": [
+        "Images",
+        "Sequential data",
+        "Database",
+        "UI"
+      ],
+      "correct_answer": "Sequential data",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_020",
+      "question": "What is attention mechanism?",
+      "options": [
+        "Ignore data",
+        "Focus on important parts",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Focus on important parts",
       "difficulty": "hard",
       "weight": 3
     }
   ],
+
   "coding_mcqs": [
     {
-      "id": "deep_learning_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "dl_c_001",
+      "question": "What is this layer?",
+      "code": "Dense(64, activation='relu')",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Fully connected layer",
+        "Pooling layer",
+        "Convolution layer",
+        "Dropout"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Fully connected layer",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "dl_c_002",
+      "question": "What is this used for?",
+      "code": "Dropout(0.5)",
+      "options": [
+        "Increase data",
+        "Prevent overfitting",
+        "Reduce features",
+        "Normalize"
+      ],
+      "correct_answer": "Prevent overfitting",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dl_c_003",
+      "question": "What does this do?",
+      "code": "model.compile(optimizer='adam', loss='mse')",
+      "options": [
+        "Train model",
+        "Configure model",
+        "Predict",
+        "Evaluate"
+      ],
+      "correct_answer": "Configure model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_c_004",
+      "question": "What is happening?",
+      "code": "model.fit(X, y, epochs=10)",
+      "options": [
+        "Evaluation",
+        "Training",
+        "Prediction",
+        "Normalization"
+      ],
+      "correct_answer": "Training",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dl_c_005",
+      "question": "What does this return?",
+      "code": "model.predict(X)",
+      "options": [
+        "Predictions",
+        "Training data",
+        "Loss",
+        "Weights"
+      ],
+      "correct_answer": "Predictions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "dl_c_006",
+      "question": "What is this optimizer doing?",
+      "code": "optimizer='adam'",
+      "options": [
+        "Activation",
+        "Weight optimization",
+        "Loss calculation",
+        "Normalization"
+      ],
+      "correct_answer": "Weight optimization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_c_007",
+      "question": "What is this loss function used for?",
+      "code": "loss='categorical_crossentropy'",
+      "options": [
+        "Regression",
+        "Multi-class classification",
+        "Binary classification",
+        "Clustering"
+      ],
+      "correct_answer": "Multi-class classification",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_c_008",
+      "question": "What does this do?",
+      "code": "BatchNormalization()",
+      "options": [
+        "Normalize inputs",
+        "Reduce features",
+        "Delete data",
+        "Add layers"
+      ],
+      "correct_answer": "Normalize inputs",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_c_009",
+      "question": "What is this used for?",
+      "code": "Conv2D(32, (3,3))",
+      "options": [
+        "Feature extraction",
+        "Pooling",
+        "Normalization",
+        "Dense layer"
+      ],
+      "correct_answer": "Feature extraction",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dl_c_010",
+      "question": "What is this layer used for?",
+      "code": "Flatten()",
+      "options": [
+        "Convert 2D to 1D",
+        "Reduce size",
+        "Normalize",
+        "Delete data"
+      ],
+      "correct_answer": "Convert 2D to 1D",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

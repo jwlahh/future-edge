@@ -3,409 +3,366 @@
   "mcqs": [
     {
       "id": "agile_001",
-      "question": "agile question 1?",
+      "question": "What is the primary goal of Agile methodology?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Strict documentation",
+        "Customer satisfaction through continuous delivery",
+        "Following fixed plans",
+        "Reducing development cost only"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Customer satisfaction through continuous delivery",
       "difficulty": "hard",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "agile_002",
-      "question": "agile question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "question": "Which Agile framework is most commonly used?",
+      "options": ["Scrum", "Waterfall", "Spiral", "V-Model"],
+      "correct_answer": "Scrum",
       "difficulty": "easy",
       "weight": 3
     },
     {
       "id": "agile_003",
-      "question": "agile question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "question": "Who manages the Product Backlog?",
+      "options": ["Scrum Master", "Product Owner", "Developer", "Tester"],
+      "correct_answer": "Product Owner",
+      "difficulty": "medium",
+      "weight": 2
     },
     {
       "id": "agile_004",
-      "question": "agile question 4?",
+      "question": "What is a Sprint?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A project deadline",
+        "A fixed time iteration",
+        "A meeting",
+        "A release phase"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "A fixed time iteration",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "agile_005",
-      "question": "agile question 5?",
+      "question": "What is the role of Scrum Master?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Manage backlog",
+        "Write code",
+        "Remove blockers and facilitate team",
+        "Test software"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Remove blockers and facilitate team",
+      "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "agile_006",
-      "question": "agile question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "question": "Daily Scrum duration is typically?",
+      "options": ["15 minutes", "1 hour", "30 minutes", "2 hours"],
+      "correct_answer": "15 minutes",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "agile_007",
-      "question": "agile question 7?",
+      "question": "What is a Product Backlog?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Completed tasks",
+        "List of all project requirements",
+        "Bug list",
+        "Sprint tasks only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "List of all project requirements",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "agile_008",
-      "question": "agile question 8?",
+      "question": "What is Sprint Review used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Planning next sprint",
+        "Reviewing completed work",
+        "Fixing bugs",
+        "Writing documentation"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
+      "correct_answer": "Reviewing completed work",
+      "difficulty": "medium",
+      "weight": 2
     },
     {
       "id": "agile_009",
-      "question": "agile question 9?",
+      "question": "What is Sprint Retrospective?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Code review",
+        "Team reflection meeting",
+        "Planning session",
+        "Deployment phase"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Team reflection meeting",
+      "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "agile_010",
-      "question": "agile question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "question": "Which tool visualizes work in Kanban?",
+      "options": ["Kanban Board", "Gantt Chart", "Flowchart", "Pie Chart"],
+      "correct_answer": "Kanban Board",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "agile_011",
-      "question": "agile question 11?",
+      "question": "What does velocity measure?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Team speed in hours",
+        "Work completed per sprint",
+        "Number of developers",
+        "Bug count"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
+      "correct_answer": "Work completed per sprint",
+      "difficulty": "hard",
+      "weight": 3
     },
     {
       "id": "agile_012",
-      "question": "agile question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "agile_013",
-      "question": "agile question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "question": "User stories are written from whose perspective?",
+      "options": ["Developer", "Tester", "User", "Manager"],
+      "correct_answer": "User",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "agile_014",
-      "question": "agile question 14?",
+      "id": "agile_013",
+      "question": "What is backlog grooming?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Deleting tasks",
+        "Refining backlog items",
+        "Coding",
+        "Testing"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Refining backlog items",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "agile_014",
+      "question": "Which Agile principle focuses on adaptability?",
+      "options": [
+        "Following plan strictly",
+        "Responding to change",
+        "Ignoring feedback",
+        "Avoiding risks"
+      ],
+      "correct_answer": "Responding to change",
       "difficulty": "hard",
       "weight": 3
     },
     {
       "id": "agile_015",
-      "question": "agile question 15?",
+      "question": "What is a burndown chart?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Bug tracker",
+        "Work remaining vs time graph",
+        "Code analysis tool",
+        "Sprint backlog"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Work remaining vs time graph",
       "difficulty": "medium",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "agile_016",
-      "question": "agile question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "question": "Which role defines product vision?",
+      "options": ["Developer", "Tester", "Product Owner", "Scrum Master"],
+      "correct_answer": "Product Owner",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "agile_017",
-      "question": "agile question 17?",
+      "question": "Agile promotes which type of development?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Sequential",
+        "Iterative and incremental",
+        "Linear",
+        "Fixed"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Iterative and incremental",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "agile_018",
-      "question": "agile question 18?",
+      "question": "What is a spike in Agile?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Bug",
+        "Research task",
+        "Feature",
+        "Release"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Research task",
       "difficulty": "medium",
       "weight": 2
     },
     {
       "id": "agile_019",
-      "question": "agile question 19?",
+      "question": "Which meeting plans the sprint work?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Daily Scrum",
+        "Sprint Planning",
+        "Retrospective",
+        "Review"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Sprint Planning",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "agile_020",
-      "question": "agile question 20?",
+      "question": "What is Definition of Done?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Task completion criteria",
+        "Start of sprint",
+        "Bug list",
+        "Release date"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "agile_021",
-      "question": "agile question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "agile_022",
-      "question": "agile question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "agile_023",
-      "question": "agile question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "agile_024",
-      "question": "agile question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "agile_025",
-      "question": "agile question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "agile_026",
-      "question": "agile question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "agile_027",
-      "question": "agile question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Task completion criteria",
       "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "agile_028",
-      "question": "agile question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "agile_029",
-      "question": "agile question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "agile_030",
-      "question": "agile question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "agile_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "agile_s_001",
+      "question": "A team cannot complete all tasks in a sprint. What should they do?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Extend sprint",
+        "Move incomplete tasks to next sprint",
+        "Ignore tasks",
+        "Cancel sprint"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Move incomplete tasks to next sprint",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "agile_s_002",
+      "question": "Client changes requirements mid-sprint. What should team do?",
+      "options": [
+        "Reject changes",
+        "Accept and adjust backlog",
+        "Restart project",
+        "Stop sprint"
+      ],
+      "correct_answer": "Accept and adjust backlog",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "agile_s_003",
+      "question": "Daily standups are taking too long. What is best action?",
+      "options": [
+        "Cancel meetings",
+        "Limit to 15 minutes",
+        "Extend time",
+        "Add more members"
+      ],
+      "correct_answer": "Limit to 15 minutes",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "agile_s_004",
+      "question": "Team faces blockers during sprint. Who resolves them?",
+      "options": [
+        "Developer",
+        "Tester",
+        "Scrum Master",
+        "Client"
+      ],
+      "correct_answer": "Scrum Master",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "agile_s_005",
+      "question": "Team is unclear about requirements. What should they do?",
+      "options": [
+        "Guess and proceed",
+        "Consult Product Owner",
+        "Skip task",
+        "Delay sprint"
+      ],
+      "correct_answer": "Consult Product Owner",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "agile_s_006",
+      "question": "Sprint velocity drops suddenly. What should team do?",
+      "options": [
+        "Ignore it",
+        "Analyze issues in retrospective",
+        "Fire team members",
+        "Increase sprint length"
+      ],
+      "correct_answer": "Analyze issues in retrospective",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "agile_s_007",
+      "question": "Too many tasks are added mid-sprint. What should be done?",
+      "options": [
+        "Accept all tasks",
+        "Reject changes",
+        "Discuss with Product Owner",
+        "Cancel sprint"
+      ],
+      "correct_answer": "Discuss with Product Owner",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "agile_s_008",
+      "question": "A feature is incomplete at sprint end. What happens?",
+      "options": [
+        "Release anyway",
+        "Move to backlog",
+        "Delete it",
+        "Ignore it"
+      ],
+      "correct_answer": "Move to backlog",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "agile_s_009",
+      "question": "Team communication is poor. What is best fix?",
+      "options": [
+        "Add meetings",
+        "Improve collaboration practices",
+        "Reduce team",
+        "Ignore issue"
+      ],
+      "correct_answer": "Improve collaboration practices",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "agile_s_010",
+      "question": "Stakeholders want frequent updates. What should team do?",
+      "options": [
+        "Avoid communication",
+        "Use sprint reviews and demos",
+        "Delay updates",
+        "Send emails only"
+      ],
+      "correct_answer": "Use sprint reviews and demos",
+      "difficulty": "medium",
+      "weight": 2
     }
   ]
 }

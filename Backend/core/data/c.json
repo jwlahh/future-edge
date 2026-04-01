@@ -1,0 +1,573 @@
+{
+  "skill": "C",
+
+  "mcqs": [
+    {
+      "id": "c_001",
+      "question": "What happens if a pointer is dereferenced before initialization?",
+      "options": [
+        "Compile error",
+        "Undefined behavior",
+        "Returns 0",
+        "Memory allocated"
+      ],
+      "correct_answer": "Undefined behavior",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_002",
+      "question": "What is the main difference between array and pointer?",
+      "options": [
+        "Same",
+        "Array is fixed, pointer is variable",
+        "Pointer stores address",
+        "Array stores address"
+      ],
+      "correct_answer": "Pointer stores address",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_003",
+      "question": "What does sizeof(pointer) return?",
+      "options": [
+        "Size of data",
+        "Size of address",
+        "Size of array",
+        "Error"
+      ],
+      "correct_answer": "Size of address",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_004",
+      "question": "What is a dangling pointer?",
+      "options": [
+        "Null pointer",
+        "Pointer to freed memory",
+        "Pointer to function",
+        "Constant pointer"
+      ],
+      "correct_answer": "Pointer to freed memory",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_005",
+      "question": "Which storage class retains value between function calls?",
+      "options": ["auto", "static", "register", "extern"],
+      "correct_answer": "static",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "c_006",
+      "question": "What is recursion?",
+      "options": [
+        "Loop",
+        "Function calling itself",
+        "Pointer operation",
+        "Array traversal"
+      ],
+      "correct_answer": "Function calling itself",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_007",
+      "question": "What is segmentation fault?",
+      "options": [
+        "Compile error",
+        "Invalid memory access",
+        "Syntax error",
+        "Loop error"
+      ],
+      "correct_answer": "Invalid memory access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_008",
+      "question": "What does const keyword ensure?",
+      "options": [
+        "Variable changes",
+        "Variable cannot be modified",
+        "Faster code",
+        "Memory allocation"
+      ],
+      "correct_answer": "Variable cannot be modified",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_009",
+      "question": "What is pointer arithmetic?",
+      "options": [
+        "Math operation",
+        "Address manipulation",
+        "Loop",
+        "Function call"
+      ],
+      "correct_answer": "Address manipulation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_010",
+      "question": "Which operator is used to access value at address?",
+      "options": ["&", "*", "%", "#"],
+      "correct_answer": "*",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "c_011",
+      "question": "What is stack memory used for?",
+      "options": [
+        "Dynamic allocation",
+        "Local variables",
+        "File storage",
+        "Heap management"
+      ],
+      "correct_answer": "Local variables",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_012",
+      "question": "What is heap memory used for?",
+      "options": [
+        "Static data",
+        "Dynamic allocation",
+        "Function calls",
+        "Registers"
+      ],
+      "correct_answer": "Dynamic allocation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_013",
+      "question": "Which function allocates memory dynamically?",
+      "options": ["malloc", "printf", "scanf", "free"],
+      "correct_answer": "malloc",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_014",
+      "question": "What happens if free() is not used?",
+      "options": [
+        "Compile error",
+        "Memory leak",
+        "Crash",
+        "Auto cleanup"
+      ],
+      "correct_answer": "Memory leak",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_015",
+      "question": "What is null pointer?",
+      "options": [
+        "Pointer with address 0",
+        "Invalid pointer",
+        "Function pointer",
+        "Array pointer"
+      ],
+      "correct_answer": "Pointer with address 0",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "c_016",
+      "question": "What is function pointer?",
+      "options": [
+        "Pointer to function",
+        "Function call",
+        "Variable",
+        "Loop"
+      ],
+      "correct_answer": "Pointer to function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_017",
+      "question": "What is structure in C?",
+      "options": [
+        "Single variable",
+        "Collection of different data types",
+        "Loop",
+        "Pointer"
+      ],
+      "correct_answer": "Collection of different data types",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_018",
+      "question": "What is union?",
+      "options": [
+        "Stores all values",
+        "Shares memory for variables",
+        "Array",
+        "Pointer"
+      ],
+      "correct_answer": "Shares memory for variables",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_019",
+      "question": "What is preprocessor directive?",
+      "options": [
+        "Runtime code",
+        "Compile-time instruction",
+        "Loop",
+        "Function"
+      ],
+      "correct_answer": "Compile-time instruction",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_020",
+      "question": "What does #define do?",
+      "options": [
+        "Function",
+        "Macro substitution",
+        "Loop",
+        "Pointer"
+      ],
+      "correct_answer": "Macro substitution",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "c_021",
+      "question": "What is file handling used for?",
+      "options": [
+        "Memory",
+        "Persistent storage",
+        "Loop",
+        "Pointer"
+      ],
+      "correct_answer": "Persistent storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_022",
+      "question": "What is EOF?",
+      "options": [
+        "Error",
+        "End of file",
+        "Loop",
+        "Pointer"
+      ],
+      "correct_answer": "End of file",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_023",
+      "question": "What is volatile keyword?",
+      "options": [
+        "Constant",
+        "Value can change unexpectedly",
+        "Pointer",
+        "Function"
+      ],
+      "correct_answer": "Value can change unexpectedly",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "c_024",
+      "question": "What is typedef?",
+      "options": [
+        "Function",
+        "Alias for data type",
+        "Loop",
+        "Pointer"
+      ],
+      "correct_answer": "Alias for data type",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_025",
+      "question": "What is enum?",
+      "options": [
+        "Loop",
+        "User-defined type with constants",
+        "Pointer",
+        "Function"
+      ],
+      "correct_answer": "User-defined type with constants",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "c_026",
+      "question": "What is undefined behavior?",
+      "options": [
+        "Compile error",
+        "Unpredictable result",
+        "Runtime error always",
+        "Syntax error"
+      ],
+      "correct_answer": "Unpredictable result",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "c_027",
+      "question": "What is lvalue?",
+      "options": [
+        "Temporary value",
+        "Assignable memory location",
+        "Constant",
+        "Pointer"
+      ],
+      "correct_answer": "Assignable memory location",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "c_028",
+      "question": "What is rvalue?",
+      "options": [
+        "Assignable",
+        "Temporary value",
+        "Pointer",
+        "Function"
+      ],
+      "correct_answer": "Temporary value",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "c_029",
+      "question": "What is call by value?",
+      "options": [
+        "Pass address",
+        "Pass copy of value",
+        "Pass pointer",
+        "Pass function"
+      ],
+      "correct_answer": "Pass copy of value",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "c_030",
+      "question": "What is call by reference in C?",
+      "options": [
+        "Pass copy",
+        "Pass address using pointers",
+        "Pass value",
+        "None"
+      ],
+      "correct_answer": "Pass address using pointers",
+      "difficulty": "medium",
+      "weight": 3
+    }
+  ],
+  "coding_mcqs": [
+
+    {
+      "id": "c_c_001",
+      "question": "What is the output?",
+      "code": "int x = 5;\nprintf(\"%d\", x);",
+      "options": ["5", "0", "Error", "Garbage"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "c_c_002",
+      "question": "What is the output?",
+      "code": "int x = 5;\nprintf(\"%d\", &x);",
+      "options": ["5", "Address", "Error", "0"],
+      "correct_answer": "Address",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "c_c_003",
+      "question": "What is the output?",
+      "code": "int x = 5;\nint *p = &x;\nprintf(\"%d\", *p);",
+      "options": ["5", "Address", "Error", "0"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "c_c_004",
+      "question": "Find the error",
+      "code": "int *p;\n*p = 10;",
+      "options": ["Uninitialized pointer", "Syntax error", "Type error", "No error"],
+      "correct_answer": "Uninitialized pointer",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "c_c_005",
+      "question": "What is the output?",
+      "code": "int arr[] = {1,2,3};\nprintf(\"%d\", *(arr+1));",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "2",
+      "difficulty": "medium",
+      "weight": 2
+    },
+
+    {
+      "id": "c_c_006",
+      "question": "What is the output?",
+      "code": "int x = 10;\nint *p = &x;\np++;\nprintf(\"%d\", *p);",
+      "options": ["10", "Garbage value", "Error", "0"],
+      "correct_answer": "Garbage value",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "c_c_007",
+      "question": "What is the output?",
+      "code": "int a = 5;\nprintf(\"%d %d\", a++, ++a);",
+      "options": ["5 7", "6 6", "5 6", "Undefined behavior"],
+      "correct_answer": "Undefined behavior",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "c_c_008",
+      "question": "What is the output?",
+      "code": "int a = 5;\nint b = a++;\nprintf(\"%d %d\", a, b);",
+      "options": ["6 5", "5 5", "6 6", "Error"],
+      "correct_answer": "6 5",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "c_c_009",
+      "question": "What is the output?",
+      "code": "int a = 5;\nint b = ++a;\nprintf(\"%d %d\", a, b);",
+      "options": ["6 6", "5 6", "6 5", "Error"],
+      "correct_answer": "6 6",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "c_c_010",
+      "question": "What is the output?",
+      "code": "int arr[3] = {1,2,3};\nprintf(\"%d\", arr[2]);",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 1
+    },
+
+    {
+      "id": "c_c_011",
+      "question": "What is the output?",
+      "code": "int x = 5;\n{\n  int x = 10;\n}\nprintf(\"%d\", x);",
+      "options": ["5", "10", "Error", "0"],
+      "correct_answer": "5",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "c_c_012",
+      "question": "What is the output?",
+      "code": "int x = 5;\nprintf(\"%lu\", sizeof(x));",
+      "options": ["2", "4", "8", "Depends"],
+      "correct_answer": "4",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "c_c_013",
+      "question": "What is the output?",
+      "code": "int *p = NULL;\nprintf(\"%d\", *p);",
+      "options": ["0", "Garbage", "Error", "Undefined behavior"],
+      "correct_answer": "Undefined behavior",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "c_c_014",
+      "question": "What is the output?",
+      "code": "int x = 5;\nprintf(\"%d\", x << 1);",
+      "options": ["10", "5", "2", "Error"],
+      "correct_answer": "10",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "c_c_015",
+      "question": "What is the output?",
+      "code": "int x = 5;\nprintf(\"%d\", x >> 1);",
+      "options": ["2", "3", "5", "Error"],
+      "correct_answer": "2",
+      "difficulty": "medium",
+      "weight": 2
+    },
+
+    {
+      "id": "c_c_016",
+      "question": "What is the output?",
+      "code": "int a = 3;\nprintf(\"%d\", a == 3 ? 10 : 20);",
+      "options": ["10", "20", "3", "Error"],
+      "correct_answer": "10",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "c_c_017",
+      "question": "What is the output?",
+      "code": "char s[] = \"abc\";\nprintf(\"%c\", s[1]);",
+      "options": ["a", "b", "c", "Error"],
+      "correct_answer": "b",
+      "difficulty": "easy",
+      "weight": 1
+    },
+    {
+      "id": "c_c_018",
+      "question": "What is the output?",
+      "code": "int x = 5;\nprintf(\"%d\", ++x + x++);",
+      "options": ["12", "11", "Undefined behavior", "Error"],
+      "correct_answer": "Undefined behavior",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "c_c_019",
+      "question": "What is the output?",
+      "code": "int arr[] = {1,2,3};\nprintf(\"%lu\", sizeof(arr));",
+      "options": ["3", "12", "4", "Error"],
+      "correct_answer": "12",
+      "difficulty": "medium",
+      "weight": 2
+    },
+    {
+      "id": "c_c_020",
+      "question": "What is the output?",
+      "code": "int x = 5;\nprintf(\"%d\", x & 1);",
+      "options": ["1", "0", "5", "Error"],
+      "correct_answer": "1",
+      "difficulty": "medium",
+      "weight": 2
+    }
+
+  ]
+}

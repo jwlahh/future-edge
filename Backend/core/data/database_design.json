@@ -1,411 +1,402 @@
 {
   "skill": "Database Design",
+
   "mcqs": [
     {
-      "id": "database_design_001",
-      "question": "database design question 1?",
+      "id": "dd_001",
+      "question": "Why is normalization important in database design?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Improve UI",
+        "Reduce redundancy",
+        "Increase duplication",
+        "Speed UI"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "database_design_002",
-      "question": "database design question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "database_design_003",
-      "question": "database design question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "database_design_004",
-      "question": "database design question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "database_design_005",
-      "question": "database design question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "database_design_006",
-      "question": "database design question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "database_design_007",
-      "question": "database design question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Reduce redundancy",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "database_design_008",
-      "question": "database design question 8?",
+      "id": "dd_002",
+      "question": "What does primary key ensure?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Duplicate rows",
+        "Unique identification",
+        "Faster UI",
+        "Data deletion"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Unique identification",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "database_design_009",
-      "question": "database design question 9?",
+      "id": "dd_003",
+      "question": "What is foreign key used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Link tables",
+        "Delete data",
+        "Index data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Link tables",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "database_design_010",
-      "question": "database design question 10?",
+      "id": "dd_004",
+      "question": "What is 1NF?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Multiple values allowed",
+        "Atomic values only",
+        "Duplicate rows",
+        "No keys"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Atomic values only",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "database_design_011",
-      "question": "database design question 11?",
+      "id": "dd_005",
+      "question": "What problem does denormalization solve?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Redundancy",
+        "Performance optimization",
+        "Data integrity",
+        "Key creation"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "database_design_012",
-      "question": "database design question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "database_design_013",
-      "question": "database design question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Performance optimization",
       "difficulty": "medium",
       "weight": 3
     },
+
     {
-      "id": "database_design_014",
-      "question": "database design question 14?",
+      "id": "dd_006",
+      "question": "What is a composite key?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single column",
+        "Multiple columns as key",
+        "Foreign key",
+        "Index"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "database_design_015",
-      "question": "database design question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "database_design_016",
-      "question": "database design question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "database_design_017",
-      "question": "database design question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Multiple columns as key",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "database_design_018",
-      "question": "database design question 18?",
+      "id": "dd_007",
+      "question": "What is indexing used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Improve query performance",
+        "Delete data",
+        "Normalize data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "database_design_019",
-      "question": "database design question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "database_design_020",
-      "question": "database design question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Improve query performance",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "database_design_021",
-      "question": "database design question 21?",
+      "id": "dd_008",
+      "question": "What is a candidate key?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Non-unique key",
+        "Possible primary key",
+        "Foreign key",
+        "Index"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "database_design_022",
-      "question": "database design question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "database_design_023",
-      "question": "database design question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "database_design_024",
-      "question": "database design question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "database_design_025",
-      "question": "database design question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "database_design_026",
-      "question": "database design question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "database_design_027",
-      "question": "database design question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "database_design_028",
-      "question": "database design question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Possible primary key",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "database_design_029",
-      "question": "database design question 29?",
+      "id": "dd_009",
+      "question": "What is referential integrity?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Duplicate data",
+        "Consistency between related tables",
+        "Data deletion",
+        "UI design"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Consistency between related tables",
       "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_010",
+      "question": "What is a surrogate key?",
+      "options": [
+        "Natural key",
+        "Artificial generated key",
+        "Foreign key",
+        "Index"
+      ],
+      "correct_answer": "Artificial generated key",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "dd_011",
+      "question": "What is cardinality?",
+      "options": [
+        "Data size",
+        "Relationship type between tables",
+        "Index type",
+        "Constraint"
+      ],
+      "correct_answer": "Relationship type between tables",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_012",
+      "question": "What is one-to-many relationship?",
+      "options": [
+        "One record to many",
+        "Many to many",
+        "One to one",
+        "None"
+      ],
+      "correct_answer": "One record to many",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "database_design_030",
-      "question": "database design question 30?",
+      "id": "dd_013",
+      "question": "What is many-to-many relationship handled by?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single table",
+        "Join table",
+        "Index",
+        "Constraint"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Join table",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_014",
+      "question": "What is a constraint?",
+      "options": [
+        "Data storage",
+        "Rule on data",
+        "Index",
+        "Query"
+      ],
+      "correct_answer": "Rule on data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dd_015",
+      "question": "What is NOT NULL constraint?",
+      "options": [
+        "Allows null",
+        "Prevents null values",
+        "Deletes null",
+        "Ignores null"
+      ],
+      "correct_answer": "Prevents null values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "dd_016",
+      "question": "What is unique constraint?",
+      "options": [
+        "Allow duplicates",
+        "Ensure unique values",
+        "Delete duplicates",
+        "Index"
+      ],
+      "correct_answer": "Ensure unique values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dd_017",
+      "question": "What is normalization anomaly?",
+      "options": [
+        "UI issue",
+        "Insert/update/delete inconsistency",
+        "Index issue",
+        "Query issue"
+      ],
+      "correct_answer": "Insert/update/delete inconsistency",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_018",
+      "question": "What is 3NF?",
+      "options": [
+        "Partial dependency allowed",
+        "No transitive dependency",
+        "Duplicate data",
+        "No keys"
+      ],
+      "correct_answer": "No transitive dependency",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_019",
+      "question": "What is schema?",
+      "options": [
+        "Data",
+        "Database structure",
+        "Query",
+        "Index"
+      ],
+      "correct_answer": "Database structure",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dd_020",
+      "question": "What is indexing drawback?",
+      "options": [
+        "Faster queries",
+        "Slower writes",
+        "Better storage",
+        "No effect"
+      ],
+      "correct_answer": "Slower writes",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "database_design_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "dd_s_001",
+      "question": "Table has duplicate data. What should be applied?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Denormalization",
+        "Normalization",
+        "Indexing",
+        "Delete table"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Normalization",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "dd_s_002",
+      "question": "Frequent joins slow queries. What can help?",
+      "options": [
+        "Normalization",
+        "Denormalization",
+        "Delete tables",
+        "Ignore"
+      ],
+      "correct_answer": "Denormalization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_s_003",
+      "question": "Need faster search on large table. What to use?",
+      "options": [
+        "Constraint",
+        "Index",
+        "Normalization",
+        "Delete data"
+      ],
+      "correct_answer": "Index",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dd_s_004",
+      "question": "Two tables need relationship. What to use?",
+      "options": [
+        "Primary key",
+        "Foreign key",
+        "Index",
+        "Constraint"
+      ],
+      "correct_answer": "Foreign key",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dd_s_005",
+      "question": "Data inconsistency between tables. What is violated?",
+      "options": [
+        "Normalization",
+        "Referential integrity",
+        "Index",
+        "Schema"
+      ],
+      "correct_answer": "Referential integrity",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_s_006",
+      "question": "Many-to-many relationship needed. What design?",
+      "options": [
+        "Single table",
+        "Join table",
+        "Index",
+        "Constraint"
+      ],
+      "correct_answer": "Join table",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_s_007",
+      "question": "Need unique user emails. What to apply?",
+      "options": [
+        "NOT NULL",
+        "UNIQUE constraint",
+        "Index",
+        "Delete"
+      ],
+      "correct_answer": "UNIQUE constraint",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "dd_s_008",
+      "question": "System needs faster reads, accepts redundancy. What to do?",
+      "options": [
+        "Normalization",
+        "Denormalization",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Denormalization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_s_009",
+      "question": "Frequent updates slow due to indexes. What is trade-off?",
+      "options": [
+        "Better reads vs slower writes",
+        "Faster writes",
+        "No effect",
+        "Delete index"
+      ],
+      "correct_answer": "Better reads vs slower writes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "dd_s_010",
+      "question": "Need flexible schema for evolving data. What approach?",
+      "options": [
+        "Strict schema",
+        "Schema evolution",
+        "Delete schema",
+        "Ignore"
+      ],
+      "correct_answer": "Schema evolution",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

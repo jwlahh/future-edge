@@ -1,0 +1,413 @@
+{
+  "skill": "Computer Vision",
+
+  "mcqs": [
+    {
+      "id": "cv_001",
+      "question": "Why is image preprocessing important in computer vision?",
+      "options": [
+        "Improve UI",
+        "Enhance feature extraction and model accuracy",
+        "Reduce storage",
+        "Speed up deployment only"
+      ],
+      "correct_answer": "Enhance feature extraction and model accuracy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_002",
+      "question": "What is the purpose of edge detection?",
+      "options": [
+        "Color enhancement",
+        "Detect object boundaries",
+        "Resize image",
+        "Normalize data"
+      ],
+      "correct_answer": "Detect object boundaries",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_003",
+      "question": "Why convert an image to grayscale?",
+      "options": [
+        "Improve color",
+        "Reduce complexity while preserving structure",
+        "Increase resolution",
+        "Add features"
+      ],
+      "correct_answer": "Reduce complexity while preserving structure",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_004",
+      "question": "What is image segmentation used for?",
+      "options": [
+        "Resize image",
+        "Divide image into meaningful regions",
+        "Blur image",
+        "Normalize data"
+      ],
+      "correct_answer": "Divide image into meaningful regions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_005",
+      "question": "What does object detection output?",
+      "options": [
+        "Only labels",
+        "Bounding boxes and labels",
+        "Only image",
+        "Only features"
+      ],
+      "correct_answer": "Bounding boxes and labels",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cv_006",
+      "question": "What is the purpose of image normalization?",
+      "options": [
+        "Change size",
+        "Scale pixel values for better learning",
+        "Add noise",
+        "Remove features"
+      ],
+      "correct_answer": "Scale pixel values for better learning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_007",
+      "question": "What is feature extraction in CV?",
+      "options": [
+        "Removing pixels",
+        "Identifying important patterns",
+        "Resizing image",
+        "Encoding text"
+      ],
+      "correct_answer": "Identifying important patterns",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_008",
+      "question": "What is data augmentation used for?",
+      "options": [
+        "Reduce data",
+        "Increase dataset variability",
+        "Delete data",
+        "Normalize data"
+      ],
+      "correct_answer": "Increase dataset variability",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_009",
+      "question": "What does blur operation do?",
+      "options": [
+        "Sharpen edges",
+        "Reduce noise",
+        "Increase contrast",
+        "Add features"
+      ],
+      "correct_answer": "Reduce noise",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_010",
+      "question": "What is histogram equalization used for?",
+      "options": [
+        "Resize image",
+        "Improve contrast",
+        "Detect edges",
+        "Normalize labels"
+      ],
+      "correct_answer": "Improve contrast",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "cv_011",
+      "question": "What is IoU (Intersection over Union) used for?",
+      "options": [
+        "Classification",
+        "Evaluate object detection accuracy",
+        "Resize images",
+        "Normalize data"
+      ],
+      "correct_answer": "Evaluate object detection accuracy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_012",
+      "question": "What does a convolution filter detect in images?",
+      "options": [
+        "Random pixels",
+        "Patterns like edges or textures",
+        "Labels",
+        "Noise only"
+      ],
+      "correct_answer": "Patterns like edges or textures",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_013",
+      "question": "What is image resizing used for?",
+      "options": [
+        "Change labels",
+        "Standardize input size for models",
+        "Improve color",
+        "Add noise"
+      ],
+      "correct_answer": "Standardize input size for models",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_014",
+      "question": "What is thresholding in image processing?",
+      "options": [
+        "Blurring",
+        "Converting image to binary",
+        "Resizing",
+        "Normalization"
+      ],
+      "correct_answer": "Converting image to binary",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_015",
+      "question": "What is noise in images?",
+      "options": [
+        "Useful data",
+        "Random variations in pixel values",
+        "Labels",
+        "Edges"
+      ],
+      "correct_answer": "Random variations in pixel values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cv_016",
+      "question": "What is transfer learning in CV?",
+      "options": [
+        "Training from scratch",
+        "Using pre-trained models",
+        "Deleting layers",
+        "Reducing data"
+      ],
+      "correct_answer": "Using pre-trained models",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_017",
+      "question": "What does a bounding box represent?",
+      "options": [
+        "Whole image",
+        "Location of object",
+        "Noise",
+        "Feature map"
+      ],
+      "correct_answer": "Location of object",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_018",
+      "question": "What is semantic segmentation?",
+      "options": [
+        "Object detection",
+        "Classifying each pixel",
+        "Resizing image",
+        "Normalization"
+      ],
+      "correct_answer": "Classifying each pixel",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_019",
+      "question": "What is overfitting in CV models?",
+      "options": [
+        "Model too simple",
+        "Model memorizes training images",
+        "Model ignores data",
+        "Model too fast"
+      ],
+      "correct_answer": "Model memorizes training images",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_020",
+      "question": "Why use CNNs in computer vision?",
+      "options": [
+        "Handle text",
+        "Capture spatial hierarchies",
+        "Store data",
+        "Speed UI"
+      ],
+      "correct_answer": "Capture spatial hierarchies",
+      "difficulty": "medium",
+      "weight": 3
+    }
+  ],
+
+  "coding_mcqs": [
+    {
+      "id": "cv_c_001",
+      "question": "What is this function used for?",
+      "code": "cv2.imread('image.jpg')",
+      "options": [
+        "Read image",
+        "Write image",
+        "Resize image",
+        "Convert color"
+      ],
+      "correct_answer": "Read image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_c_002",
+      "question": "What does this do?",
+      "code": "cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)",
+      "options": [
+        "Resize image",
+        "Convert to grayscale",
+        "Blur image",
+        "Normalize"
+      ],
+      "correct_answer": "Convert to grayscale",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_c_003",
+      "question": "What is this used for?",
+      "code": "cv2.resize(img, (224,224))",
+      "options": [
+        "Resize image",
+        "Crop image",
+        "Blur image",
+        "Normalize"
+      ],
+      "correct_answer": "Resize image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_c_004",
+      "question": "What does this function do?",
+      "code": "cv2.GaussianBlur(img, (5,5), 0)",
+      "options": [
+        "Sharpen image",
+        "Blur image",
+        "Resize image",
+        "Detect edges"
+      ],
+      "correct_answer": "Blur image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_c_005",
+      "question": "What is this used for?",
+      "code": "cv2.Canny(img, 100, 200)",
+      "options": [
+        "Edge detection",
+        "Blur image",
+        "Resize image",
+        "Normalize"
+      ],
+      "correct_answer": "Edge detection",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cv_c_006",
+      "question": "What does this do?",
+      "code": "cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)",
+      "options": [
+        "Blur image",
+        "Binary conversion",
+        "Resize image",
+        "Detect edges"
+      ],
+      "correct_answer": "Binary conversion",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_c_007",
+      "question": "What is this used for?",
+      "code": "cv2.imshow('img', img)",
+      "options": [
+        "Display image",
+        "Save image",
+        "Resize image",
+        "Normalize"
+      ],
+      "correct_answer": "Display image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_c_008",
+      "question": "What does this function do?",
+      "code": "cv2.imwrite('out.jpg', img)",
+      "options": [
+        "Display image",
+        "Save image",
+        "Resize image",
+        "Convert color"
+      ],
+      "correct_answer": "Save image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_c_009",
+      "question": "What is this used for?",
+      "code": "img / 255.0",
+      "options": [
+        "Normalization",
+        "Resizing",
+        "Blurring",
+        "Encoding"
+      ],
+      "correct_answer": "Normalization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_c_010",
+      "question": "What does this return?",
+      "code": "model.predict(image)",
+      "options": [
+        "Predictions",
+        "Training data",
+        "Loss",
+        "Weights"
+      ],
+      "correct_answer": "Predictions",
+      "difficulty": "easy",
+      "weight": 2
+    }
+  ]
+}
