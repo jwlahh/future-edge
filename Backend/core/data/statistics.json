@@ -2,410 +2,396 @@
   "skill": "Statistics",
   "mcqs": [
     {
-      "id": "statistics_001",
-      "question": "statistics question 1?",
+      "id": "stats_001",
+      "question": "What does mean represent in a dataset?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Most frequent value",
+        "Middle value",
+        "Average value",
+        "Spread of values"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Average value",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_002",
+      "question": "What does median represent?",
+      "options": [
+        "Average of all values",
+        "Middle value after sorting",
+        "Most frequent value",
+        "Largest value"
+      ],
+      "correct_answer": "Middle value after sorting",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_003",
+      "question": "What is mode?",
+      "options": [
+        "Most frequent value",
+        "Middle value",
+        "Average value",
+        "Range"
+      ],
+      "correct_answer": "Most frequent value",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_004",
+      "question": "What does variance measure?",
+      "options": [
+        "Central value",
+        "Spread of data",
+        "Count of records",
+        "Type of data"
+      ],
+      "correct_answer": "Spread of data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_005",
+      "question": "What is standard deviation?",
+      "options": [
+        "Square root of variance",
+        "Square of mean",
+        "Middle value",
+        "Maximum value"
+      ],
+      "correct_answer": "Square root of variance",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_006",
+      "question": "What does range measure?",
+      "options": [
+        "Difference between maximum and minimum",
+        "Middle value",
+        "Average value",
+        "Most frequent value"
+      ],
+      "correct_answer": "Difference between maximum and minimum",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_007",
+      "question": "What is an outlier?",
+      "options": [
+        "A value close to mean",
+        "A value far from most others",
+        "The most frequent value",
+        "The median"
+      ],
+      "correct_answer": "A value far from most others",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_008",
+      "question": "What does probability measure?",
+      "options": [
+        "Certainty of a value",
+        "Likelihood of an event",
+        "Spread of data",
+        "Number of samples"
+      ],
+      "correct_answer": "Likelihood of an event",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_009",
+      "question": "What is a random variable?",
+      "options": [
+        "A fixed number",
+        "A variable representing outcomes of randomness",
+        "A constant mean",
+        "A sorted dataset"
+      ],
+      "correct_answer": "A variable representing outcomes of randomness",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "statistics_002",
-      "question": "statistics question 2?",
+      "id": "stats_010",
+      "question": "What is a normal distribution known for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Uniform bar shape",
+        "Bell-shaped symmetric curve",
+        "Only discrete values",
+        "No variance"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Bell-shaped symmetric curve",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "statistics_003",
-      "question": "statistics question 3?",
+      "id": "stats_011",
+      "question": "What does correlation measure?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Causation between variables",
+        "Strength and direction of relationship",
+        "Only difference in averages",
+        "Sample size"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Strength and direction of relationship",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "statistics_004",
-      "question": "statistics question 4?",
+      "id": "stats_012",
+      "question": "What does a correlation value near 0 suggest?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Strong positive relationship",
+        "Strong negative relationship",
+        "Little linear relationship",
+        "Perfect causation"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "statistics_005",
-      "question": "statistics question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "statistics_006",
-      "question": "statistics question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Little linear relationship",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "statistics_007",
-      "question": "statistics question 7?",
+      "id": "stats_013",
+      "question": "What is sampling?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Using the whole population",
+        "Selecting a subset from a population",
+        "Removing outliers",
+        "Sorting data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "statistics_008",
-      "question": "statistics question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Selecting a subset from a population",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "statistics_009",
-      "question": "statistics question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "statistics_010",
-      "question": "statistics question 10?",
+      "id": "stats_014",
+      "question": "What is population in statistics?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Only observed records",
+        "Entire group of interest",
+        "Small random subset",
+        "Outlier values"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "statistics_011",
-      "question": "statistics question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Entire group of interest",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "statistics_012",
-      "question": "statistics question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "statistics_013",
-      "question": "statistics question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "statistics_014",
-      "question": "statistics question 14?",
+      "id": "stats_015",
+      "question": "What is a sample mean?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Mean of the population",
+        "Mean calculated from sample data",
+        "Most frequent value",
+        "Median of all samples"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Mean calculated from sample data",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "statistics_015",
-      "question": "statistics question 15?",
+      "id": "stats_016",
+      "question": "What is hypothesis testing used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Creating new variables",
+        "Evaluating claims using sample data",
+        "Sorting distributions",
+        "Calculating range only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "statistics_016",
-      "question": "statistics question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "statistics_017",
-      "question": "statistics question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "statistics_018",
-      "question": "statistics question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "statistics_019",
-      "question": "statistics question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "statistics_020",
-      "question": "statistics question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Evaluating claims using sample data",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "statistics_021",
-      "question": "statistics question 21?",
+      "id": "stats_017",
+      "question": "What is the null hypothesis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A claim of effect or difference",
+        "Default claim of no effect or no difference",
+        "A sample statistic",
+        "An outlier check"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "statistics_022",
-      "question": "statistics question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "statistics_023",
-      "question": "statistics question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "statistics_024",
-      "question": "statistics question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "statistics_025",
-      "question": "statistics question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "statistics_026",
-      "question": "statistics question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "statistics_027",
-      "question": "statistics question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "statistics_028",
-      "question": "statistics question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Default claim of no effect or no difference",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "statistics_029",
-      "question": "statistics question 29?",
+      "id": "stats_018",
+      "question": "What does p-value help determine?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Sample size exactly",
+        "Evidence against the null hypothesis",
+        "Median only",
+        "Data type"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Evidence against the null hypothesis",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "statistics_030",
-      "question": "statistics question 30?",
+      "id": "stats_019",
+      "question": "What is confidence interval?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single fixed population value",
+        "Range of plausible values for a parameter",
+        "A sorted list of values",
+        "Probability of one event only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "Range of plausible values for a parameter",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "stats_020",
+      "question": "What is regression mainly used for?",
+      "options": [
+        "Grouping categories",
+        "Modeling relationship between variables",
+        "Finding median only",
+        "Removing null values"
+      ],
+      "correct_answer": "Modeling relationship between variables",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "statistics_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "stats_s_001",
+      "question": "A dataset has extreme outliers and you need a central value less affected by them. What measure is best?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Mean",
+        "Median",
+        "Range",
+        "Variance"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Median",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "stats_s_002",
+      "question": "You want to know how spread out customer wait times are. What metric is most useful?",
+      "options": [
+        "Standard deviation",
+        "Mode",
+        "Median only",
+        "Count"
+      ],
+      "correct_answer": "Standard deviation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_s_003",
+      "question": "A business wants to know if advertising spend and sales move together. What should be measured?",
+      "options": [
+        "Correlation",
+        "Range",
+        "Mode",
+        "Sampling error only"
+      ],
+      "correct_answer": "Correlation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_s_004",
+      "question": "You cannot survey every customer, so you pick 500 customers to analyze. What is this called?",
+      "options": [
+        "Population",
+        "Sampling",
+        "Regression",
+        "Normalization"
+      ],
+      "correct_answer": "Sampling",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_s_005",
+      "question": "You need to estimate average income for an entire city using a subset of residents. What statistical concept are you applying?",
+      "options": [
+        "Inference from sample to population",
+        "Only descriptive sorting",
+        "Only outlier removal",
+        "Deterministic computation"
+      ],
+      "correct_answer": "Inference from sample to population",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "stats_s_006",
+      "question": "A team wants to test whether a new process changes average delivery time. What method is appropriate?",
+      "options": [
+        "Hypothesis testing",
+        "Only data sorting",
+        "Range calculation only",
+        "Mode comparison only"
+      ],
+      "correct_answer": "Hypothesis testing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "stats_s_007",
+      "question": "You need a range showing plausible values for the true conversion rate, not just one estimate. What should be reported?",
+      "options": [
+        "Confidence interval",
+        "Single mode",
+        "Raw outlier count",
+        "Only variance"
+      ],
+      "correct_answer": "Confidence interval",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "stats_s_008",
+      "question": "A scatter plot suggests sales increase as footfall increases. What model can be used to quantify this relationship?",
+      "options": [
+        "Regression",
+        "Median ranking",
+        "Sorting",
+        "Histogram only"
+      ],
+      "correct_answer": "Regression",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "stats_s_009",
+      "question": "A value is far away from the rest of the observations and may distort the mean. What is it called?",
+      "options": [
+        "Median",
+        "Outlier",
+        "Sample",
+        "Parameter"
+      ],
+      "correct_answer": "Outlier",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "stats_s_010",
+      "question": "A p-value is very small in an experiment. What does that suggest?",
+      "options": [
+        "Strong evidence against the null hypothesis",
+        "No data was collected",
+        "The sample mean is always correct",
+        "Correlation must be zero"
+      ],
+      "correct_answer": "Strong evidence against the null hypothesis",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

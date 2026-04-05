@@ -2,410 +2,396 @@
   "skill": "Transformers",
   "mcqs": [
     {
-      "id": "transformers_001",
-      "question": "transformers question 1?",
+      "id": "tr_001",
+      "question": "What key limitation of RNNs did Transformers primarily address?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Lack of activation functions",
+        "Difficulty modeling long-range dependencies efficiently",
+        "Inability to process images",
+        "Need for labeled data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "transformers_002",
-      "question": "transformers question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "transformers_003",
-      "question": "transformers question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "transformers_004",
-      "question": "transformers question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "transformers_005",
-      "question": "transformers question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "transformers_006",
-      "question": "transformers question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "transformers_007",
-      "question": "transformers question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "transformers_008",
-      "question": "transformers question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "transformers_009",
-      "question": "transformers question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "transformers_010",
-      "question": "transformers question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "transformers_011",
-      "question": "transformers question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "transformers_012",
-      "question": "transformers question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "transformers_013",
-      "question": "transformers question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "transformers_014",
-      "question": "transformers question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "transformers_015",
-      "question": "transformers question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "transformers_016",
-      "question": "transformers question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "transformers_017",
-      "question": "transformers question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "transformers_018",
-      "question": "transformers question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "transformers_019",
-      "question": "transformers question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "transformers_020",
-      "question": "transformers question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "transformers_021",
-      "question": "transformers question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "transformers_022",
-      "question": "transformers question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "transformers_023",
-      "question": "transformers question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "transformers_024",
-      "question": "transformers question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "transformers_025",
-      "question": "transformers question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "transformers_026",
-      "question": "transformers question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Difficulty modeling long-range dependencies efficiently",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "transformers_027",
-      "question": "transformers question 27?",
+      "id": "tr_002",
+      "question": "What is the core mechanism that powers Transformers?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Pooling",
+        "Self-attention",
+        "Backpropagation through time",
+        "Clustering"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Self-attention",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "transformers_028",
-      "question": "transformers question 28?",
+      "id": "tr_003",
+      "question": "Why do Transformers need positional encoding?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To reduce vocabulary size",
+        "To provide token order information",
+        "To replace attention weights",
+        "To normalize gradients"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To provide token order information",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tr_004",
+      "question": "What does self-attention allow a token to do?",
+      "options": [
+        "Ignore the rest of the sequence",
+        "Attend to other tokens in the same sequence",
+        "Change vocabulary size",
+        "Skip embedding"
+      ],
+      "correct_answer": "Attend to other tokens in the same sequence",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tr_005",
+      "question": "What is the purpose of the query, key, and value vectors in attention?",
+      "options": [
+        "To store labels",
+        "To compute contextual relationships between tokens",
+        "To reduce training data",
+        "To perform clustering"
+      ],
+      "correct_answer": "To compute contextual relationships between tokens",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_006",
+      "question": "What is multi-head attention designed to do?",
+      "options": [
+        "Use multiple optimizers",
+        "Capture different types of relationships in parallel",
+        "Reduce the sequence length",
+        "Replace feed-forward layers"
+      ],
+      "correct_answer": "Capture different types of relationships in parallel",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_007",
+      "question": "What is the role of the feed-forward network inside a Transformer block?",
+      "options": [
+        "To tokenize text",
+        "To apply nonlinear transformation to each position independently",
+        "To compute sequence order",
+        "To perform evaluation only"
+      ],
+      "correct_answer": "To apply nonlinear transformation to each position independently",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_008",
+      "question": "Why are residual connections used in Transformers?",
+      "options": [
+        "To remove token embeddings",
+        "To improve gradient flow and stabilize training",
+        "To lower vocabulary size",
+        "To eliminate positional encoding"
+      ],
+      "correct_answer": "To improve gradient flow and stabilize training",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_009",
+      "question": "What is the purpose of layer normalization in Transformer blocks?",
+      "options": [
+        "Sort tokens by importance",
+        "Stabilize activations during training",
+        "Generate text faster",
+        "Store gradients"
+      ],
+      "correct_answer": "Stabilize activations during training",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_010",
+      "question": "What is masking in Transformer decoding primarily used for?",
+      "options": [
+        "To hide labels from the dataset",
+        "To prevent attending to future tokens",
+        "To remove outliers",
+        "To shorten context windows"
+      ],
+      "correct_answer": "To prevent attending to future tokens",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_011",
+      "question": "What is the main difference between an encoder and a decoder in the original Transformer architecture?",
+      "options": [
+        "Decoder has no attention layers",
+        "Decoder uses masked self-attention and cross-attention",
+        "Encoder does not use embeddings",
+        "Encoder only works on images"
+      ],
+      "correct_answer": "Decoder uses masked self-attention and cross-attention",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_012",
+      "question": "What is cross-attention used for in encoder-decoder models?",
+      "options": [
+        "To compare model outputs with labels",
+        "To let the decoder attend to encoder outputs",
+        "To replace self-attention",
+        "To freeze weights"
+      ],
+      "correct_answer": "To let the decoder attend to encoder outputs",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_013",
+      "question": "Why are Transformers highly parallelizable during training compared to RNNs?",
+      "options": [
+        "They do not use gradients",
+        "They process tokens without strict sequential recurrence",
+        "They avoid matrix multiplication",
+        "They use fewer parameters"
+      ],
+      "correct_answer": "They process tokens without strict sequential recurrence",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_014",
+      "question": "What is a major computational drawback of standard self-attention?",
+      "options": [
+        "It cannot process text",
+        "Its cost grows quadratically with sequence length",
+        "It requires no memory",
+        "It prevents transfer learning"
+      ],
+      "correct_answer": "Its cost grows quadratically with sequence length",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_015",
+      "question": "Why do token embeddings matter in a Transformer?",
+      "options": [
+        "They convert discrete tokens into dense vectors",
+        "They reduce the number of layers",
+        "They replace attention masks",
+        "They store evaluation metrics"
+      ],
+      "correct_answer": "They convert discrete tokens into dense vectors",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tr_016",
+      "question": "What is bidirectional context in Transformer-based NLP models?",
+      "options": [
+        "Using two GPUs",
+        "Using both left and right context for token representation",
+        "Generating tokens in reverse order",
+        "Combining text and images"
+      ],
+      "correct_answer": "Using both left and right context for token representation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_017",
+      "question": "Why are Transformer pretraining objectives important?",
+      "options": [
+        "They define how the model learns general language representations",
+        "They replace optimization",
+        "They remove overfitting entirely",
+        "They determine hardware requirements only"
+      ],
+      "correct_answer": "They define how the model learns general language representations",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_018",
+      "question": "What is teacher forcing in sequence generation training?",
+      "options": [
+        "Using model predictions as all future inputs",
+        "Using ground-truth previous tokens during training",
+        "Freezing decoder weights",
+        "Removing the encoder"
+      ],
+      "correct_answer": "Using ground-truth previous tokens during training",
       "difficulty": "hard",
       "weight": 3
     },
     {
-      "id": "transformers_029",
-      "question": "transformers question 29?",
+      "id": "tr_019",
+      "question": "What is one reason Transformers are effective beyond NLP?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They only work on words",
+        "Attention can model relationships in many data modalities",
+        "They do not need training",
+        "They replace all convolution layers automatically"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Attention can model relationships in many data modalities",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "transformers_030",
-      "question": "transformers question 30?",
+      "id": "tr_020",
+      "question": "What is the main purpose of attention scores before softmax?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To measure token relevance before normalization",
+        "To select the optimizer",
+        "To encode positions",
+        "To create labels"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To measure token relevance before normalization",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "transformers_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "tr_s_001",
+      "question": "You need a model to capture long-range dependencies in text better than an RNN. What architecture is most suitable?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Naive Bayes",
+        "Transformer",
+        "K-Means",
+        "Linear Regression"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Transformer",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "tr_s_002",
+      "question": "A model is producing poor results because token order information is missing. What should be added?",
+      "options": [
+        "Positional encoding",
+        "Dropout removal",
+        "Extra labels",
+        "K-fold validation"
+      ],
+      "correct_answer": "Positional encoding",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tr_s_003",
+      "question": "A decoder is incorrectly using future words during training for next-token prediction. What mechanism is needed?",
+      "options": [
+        "Padding only",
+        "Causal masking",
+        "Feature scaling",
+        "Cross-validation"
+      ],
+      "correct_answer": "Causal masking",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_s_004",
+      "question": "You want the model to attend to different semantic relationships at once, such as syntax and entity links. What component helps most?",
+      "options": [
+        "Multi-head attention",
+        "Single neuron output",
+        "One-hot encoding",
+        "Batch shuffling"
+      ],
+      "correct_answer": "Multi-head attention",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_s_005",
+      "question": "Training becomes unstable in a deep Transformer stack. Which design features help most?",
+      "options": [
+        "Residual connections and layer normalization",
+        "Removing attention",
+        "Using only unigram tokens",
+        "Deleting embeddings"
+      ],
+      "correct_answer": "Residual connections and layer normalization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_s_006",
+      "question": "A seq2seq translation system needs the decoder to use the encoded source sentence. What mechanism is required?",
+      "options": [
+        "Cross-attention",
+        "Pooling only",
+        "Token dropout",
+        "Early stopping"
+      ],
+      "correct_answer": "Cross-attention",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_s_007",
+      "question": "A project involves very long input sequences and standard attention is too expensive. What issue are you facing?",
+      "options": [
+        "Quadratic attention cost",
+        "Label leakage only",
+        "Class imbalance",
+        "Underfitting due to low epochs"
+      ],
+      "correct_answer": "Quadratic attention cost",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_s_008",
+      "question": "You need token representations that use both left and right context for understanding a sentence. What kind of Transformer behavior is needed?",
+      "options": [
+        "Bidirectional encoding",
+        "Greedy decoding",
+        "Beam pruning only",
+        "Causal generation"
+      ],
+      "correct_answer": "Bidirectional encoding",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tr_s_009",
+      "question": "A generation model performs well in training but fails during inference because it relied too much on gold previous tokens. What training issue is involved?",
+      "options": [
+        "Teacher forcing dependence",
+        "Gradient clipping",
+        "Feature hashing",
+        "Data normalization"
+      ],
+      "correct_answer": "Teacher forcing dependence",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "tr_s_010",
+      "question": "You want to apply the same architectural idea from NLP to images by modeling patch relationships. What Transformer principle are you reusing?",
+      "options": [
+        "Attention-based relationship modeling",
+        "Only recurrent state passing",
+        "Only max pooling",
+        "Only decision boundaries"
+      ],
+      "correct_answer": "Attention-based relationship modeling",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

@@ -1,43 +1,402 @@
 {
-  "skill":"Natural Language Processing",
-  "mcqs":[
+  "skill": "NLP",
 
-    {"id":"nlp_001","question":"NLP stands for?","options":["Natural Language Processing","none","loop","array"],"correct_answer":"Natural Language Processing","difficulty":"easy","weight":1},
-    {"id":"nlp_002","question":"Used for?","options":["text analysis","db","none","loop"],"correct_answer":"text analysis","difficulty":"easy","weight":1},
-    {"id":"nlp_003","question":"Tokenization?","options":["split text","join","none","loop"],"correct_answer":"split text","difficulty":"easy","weight":1},
-    {"id":"nlp_004","question":"Stopwords?","options":["common words","rare","none","loop"],"correct_answer":"common words","difficulty":"easy","weight":1},
-    {"id":"nlp_005","question":"Stemming?","options":["root word","full","none","loop"],"correct_answer":"root word","difficulty":"easy","weight":1},
-    {"id":"nlp_006","question":"Lemmatization?","options":["dictionary root","random","none","loop"],"correct_answer":"dictionary root","difficulty":"easy","weight":1},
-    {"id":"nlp_007","question":"Corpus?","options":["text dataset","code","none","loop"],"correct_answer":"text dataset","difficulty":"easy","weight":1},
-    {"id":"nlp_008","question":"Bag of words?","options":["word freq","order","none","loop"],"correct_answer":"word freq","difficulty":"easy","weight":1},
-    {"id":"nlp_009","question":"TF-IDF?","options":["weighting","loop","none","array"],"correct_answer":"weighting","difficulty":"easy","weight":1},
-    {"id":"nlp_010","question":"NER?","options":["entity extraction","loop","none","array"],"correct_answer":"entity extraction","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "nlp_001",
+      "question": "What is NLP?",
+      "options": [
+        "Image processing",
+        "Text processing and understanding",
+        "Networking",
+        "Storage"
+      ],
+      "correct_answer": "Text processing and understanding",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_002",
+      "question": "What is tokenization?",
+      "options": [
+        "Encryption",
+        "Splitting text into tokens",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Splitting text into tokens",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_003",
+      "question": "What is stemming?",
+      "options": [
+        "Keep words same",
+        "Reduce words to root form",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Reduce words to root form",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_004",
+      "question": "What is lemmatization?",
+      "options": [
+        "Random words",
+        "Convert to base form using vocabulary",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Convert to base form using vocabulary",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_005",
+      "question": "What are stop words?",
+      "options": [
+        "Important words",
+        "Common words with little meaning",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Common words with little meaning",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"nlp_011","question":"Sentiment analysis?","options":["emotion detect","loop","none","array"],"correct_answer":"emotion detect","difficulty":"medium","weight":2},
-    {"id":"nlp_012","question":"POS tagging?","options":["grammar tags","loop","none","array"],"correct_answer":"grammar tags","difficulty":"medium","weight":2},
-    {"id":"nlp_013","question":"Word embedding?","options":["vector rep","loop","none","array"],"correct_answer":"vector rep","difficulty":"medium","weight":2},
-    {"id":"nlp_014","question":"Word2Vec?","options":["embedding model","loop","none","array"],"correct_answer":"embedding model","difficulty":"medium","weight":2},
-    {"id":"nlp_015","question":"N-gram?","options":["word sequence","loop","none","array"],"correct_answer":"word sequence","difficulty":"medium","weight":2},
-    {"id":"nlp_016","question":"Text classification?","options":["label text","loop","none","array"],"correct_answer":"label text","difficulty":"medium","weight":2},
-    {"id":"nlp_017","question":"Topic modeling?","options":["discover topics","loop","none","array"],"correct_answer":"discover topics","difficulty":"medium","weight":2},
-    {"id":"nlp_018","question":"Language model?","options":["predict text","loop","none","array"],"correct_answer":"predict text","difficulty":"medium","weight":2},
-    {"id":"nlp_019","question":"Tokenizer?","options":["split text","loop","none","array"],"correct_answer":"split text","difficulty":"medium","weight":2},
-    {"id":"nlp_020","question":"Corpus cleaning?","options":["clean text","loop","none","array"],"correct_answer":"clean text","difficulty":"medium","weight":2},
+    {
+      "id": "nlp_006",
+      "question": "What is TF-IDF?",
+      "options": [
+        "Neural network",
+        "Word importance measure",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Word importance measure",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_007",
+      "question": "What is word embedding?",
+      "options": [
+        "Raw text",
+        "Vector representation of words",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Vector representation of words",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_008",
+      "question": "What is Word2Vec?",
+      "options": [
+        "Database",
+        "Word embedding model",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Word embedding model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_009",
+      "question": "What is RNN?",
+      "options": [
+        "CNN",
+        "Sequence model",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Sequence model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_010",
+      "question": "What is LSTM?",
+      "options": [
+        "Basic model",
+        "Improved RNN for long sequences",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Improved RNN for long sequences",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
-    {"id":"nlp_021","question":"Transformer?","options":["deep model","loop","none","array"],"correct_answer":"deep model","difficulty":"hard","weight":3},
-    {"id":"nlp_022","question":"Attention?","options":["focus words","loop","none","array"],"correct_answer":"focus words","difficulty":"hard","weight":3},
-    {"id":"nlp_023","question":"BERT?","options":["language model","loop","none","array"],"correct_answer":"language model","difficulty":"hard","weight":3},
-    {"id":"nlp_024","question":"GPT?","options":["text generator","loop","none","array"],"correct_answer":"text generator","difficulty":"hard","weight":3},
-    {"id":"nlp_025","question":"BLEU score?","options":["translation metric","loop","none","array"],"correct_answer":"translation metric","difficulty":"hard","weight":3},
-    {"id":"nlp_026","question":"Perplexity?","options":["model metric","loop","none","array"],"correct_answer":"model metric","difficulty":"hard","weight":3},
-    {"id":"nlp_027","question":"Seq2Seq?","options":["sequence model","loop","none","array"],"correct_answer":"sequence model","difficulty":"hard","weight":3},
-    {"id":"nlp_028","question":"Encoder-decoder?","options":["two-part model","loop","none","array"],"correct_answer":"two-part model","difficulty":"hard","weight":3},
-    {"id":"nlp_029","question":"Fine-tuning?","options":["adapt model","loop","none","array"],"correct_answer":"adapt model","difficulty":"hard","weight":3},
-    {"id":"nlp_030","question":"Chatbot uses?","options":["NLP","db","none","loop"],"correct_answer":"NLP","difficulty":"hard","weight":3}
+    {
+      "id": "nlp_011",
+      "question": "What is transformer model?",
+      "options": [
+        "CNN",
+        "Attention-based model",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Attention-based model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_012",
+      "question": "What is BERT?",
+      "options": [
+        "Database",
+        "Bidirectional transformer model",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Bidirectional transformer model",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_013",
+      "question": "What is sentiment analysis?",
+      "options": [
+        "Grammar check",
+        "Detect emotion in text",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Detect emotion in text",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_014",
+      "question": "What is named entity recognition?",
+      "options": [
+        "Grammar check",
+        "Identify entities like names",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Identify entities like names",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_015",
+      "question": "What is POS tagging?",
+      "options": [
+        "Delete words",
+        "Assign grammatical tags",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Assign grammatical tags",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
+    {
+      "id": "nlp_016",
+      "question": "What is n-gram?",
+      "options": [
+        "Single word",
+        "Sequence of words",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Sequence of words",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_017",
+      "question": "What is cosine similarity?",
+      "options": [
+        "Distance measure",
+        "Similarity between vectors",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Similarity between vectors",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_018",
+      "question": "What is language model?",
+      "options": [
+        "Database",
+        "Predict next word",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Predict next word",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_019",
+      "question": "What is corpus?",
+      "options": [
+        "Model",
+        "Collection of text data",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Collection of text data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_020",
+      "question": "What is sequence-to-sequence model?",
+      "options": [
+        "Single output",
+        "Input-output sequence mapping",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Input-output sequence mapping",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ],
 
-  "coding_mcqs":[
-    {"id":"nlp_c_001","question":"Library?","code":"import nltk","options":["NLP library","db","none","loop"],"correct_answer":"NLP library","difficulty":"easy","weight":1}
+  "scenario_mcqs": [
+    {
+      "id": "nlp_s_001",
+      "question": "Remove common words before processing. What to use?",
+      "options": [
+        "Stop word removal",
+        "Tokenization",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Stop word removal",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_s_002",
+      "question": "Convert words to root form quickly. What to use?",
+      "options": [
+        "Stemming",
+        "Lemmatization",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Stemming",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_s_003",
+      "question": "Need accurate base word forms. What to use?",
+      "options": [
+        "Stemming",
+        "Lemmatization",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Lemmatization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_s_004",
+      "question": "Convert text to numerical vectors. What to use?",
+      "options": [
+        "Embedding",
+        "Tokenization",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Embedding",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_s_005",
+      "question": "Detect user sentiment in reviews. What to use?",
+      "options": [
+        "Sentiment analysis",
+        "NER",
+        "POS",
+        "Storage"
+      ],
+      "correct_answer": "Sentiment analysis",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_s_006",
+      "question": "Identify names in text. What to use?",
+      "options": [
+        "NER",
+        "POS",
+        "Embedding",
+        "Storage"
+      ],
+      "correct_answer": "NER",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_s_007",
+      "question": "Tag grammatical roles. What to use?",
+      "options": [
+        "POS tagging",
+        "NER",
+        "Embedding",
+        "Storage"
+      ],
+      "correct_answer": "POS tagging",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "nlp_s_008",
+      "question": "Measure similarity between texts. What to use?",
+      "options": [
+        "Cosine similarity",
+        "Tokenization",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Cosine similarity",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_s_009",
+      "question": "Handle long sequences efficiently. What model?",
+      "options": [
+        "RNN",
+        "Transformer",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Transformer",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "nlp_s_010",
+      "question": "Translate text from one language to another. What model?",
+      "options": [
+        "Seq2Seq",
+        "NER",
+        "POS",
+        "Storage"
+      ],
+      "correct_answer": "Seq2Seq",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ]
 }

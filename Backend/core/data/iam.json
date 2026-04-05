@@ -1,411 +1,402 @@
 {
-  "skill": "Iam",
+  "skill": "IAM",
+
   "mcqs": [
     {
       "id": "iam_001",
-      "question": "iam question 1?",
+      "question": "What is IAM used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Data storage",
+        "Access control",
+        "Networking",
+        "Monitoring"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Access control",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "iam_002",
-      "question": "iam question 2?",
+      "question": "What is authentication?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Granting permissions",
+        "Verifying identity",
+        "Encrypting data",
+        "Logging access"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Verifying identity",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "iam_003",
-      "question": "iam question 3?",
+      "question": "What is authorization?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Verifying identity",
+        "Granting permissions",
+        "Encrypting data",
+        "Logging activity"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Granting permissions",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "iam_004",
-      "question": "iam question 4?",
+      "question": "What is least privilege principle?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Full access",
+        "Minimum required access",
+        "No access",
+        "Temporary access"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Minimum required access",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "iam_005",
-      "question": "iam question 5?",
+      "question": "What is a role in IAM?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "User",
+        "Set of permissions",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Set of permissions",
+      "difficulty": "easy",
       "weight": 2
     },
+
     {
       "id": "iam_006",
-      "question": "iam question 6?",
+      "question": "What is a policy?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "User",
+        "Rules defining access",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Rules defining access",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "iam_007",
-      "question": "iam question 7?",
+      "question": "What is a service account?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Human user",
+        "Machine identity",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "iam_008",
-      "question": "iam question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "iam_009",
-      "question": "iam question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "iam_010",
-      "question": "iam question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Machine identity",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "iam_011",
-      "question": "iam question 11?",
+      "id": "iam_008",
+      "question": "What is multi-factor authentication (MFA)?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single password",
+        "Multiple verification methods",
+        "Encryption",
+        "Authorization"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Multiple verification methods",
       "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "iam_009",
+      "question": "What is identity federation?",
+      "options": [
+        "Local login",
+        "External identity provider access",
+        "Database",
+        "Storage"
+      ],
+      "correct_answer": "External identity provider access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "iam_010",
+      "question": "What is RBAC?",
+      "options": [
+        "Network control",
+        "Role-based access control",
+        "Database control",
+        "Storage control"
+      ],
+      "correct_answer": "Role-based access control",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "iam_011",
+      "question": "What is ABAC?",
+      "options": [
+        "Role-based",
+        "Attribute-based access control",
+        "Network-based",
+        "Database-based"
+      ],
+      "correct_answer": "Attribute-based access control",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "iam_012",
-      "question": "iam question 12?",
+      "question": "What is permission inheritance?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Manual access",
+        "Access passed from parent resource",
+        "Database access",
+        "Storage control"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "iam_013",
-      "question": "iam question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Access passed from parent resource",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "iam_014",
-      "question": "iam question 14?",
+      "id": "iam_013",
+      "question": "What is audit logging?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete logs",
+        "Track access activity",
+        "Encrypt data",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "iam_015",
-      "question": "iam question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "iam_016",
-      "question": "iam question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Track access activity",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "iam_017",
-      "question": "iam question 17?",
+      "id": "iam_014",
+      "question": "What is privilege escalation?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Reduce access",
+        "Gain higher access rights",
+        "Delete access",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Gain higher access rights",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "iam_015",
+      "question": "What is access token?",
+      "options": [
+        "Password",
+        "Temporary credential",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Temporary credential",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "iam_016",
+      "question": "What is identity provider (IdP)?",
+      "options": [
+        "Database",
+        "Service that manages identities",
+        "Network",
+        "Storage"
+      ],
+      "correct_answer": "Service that manages identities",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "iam_017",
+      "question": "What is access review?",
+      "options": [
+        "Delete access",
+        "Verify permissions periodically",
+        "Store logs",
+        "Encrypt data"
+      ],
+      "correct_answer": "Verify permissions periodically",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "iam_018",
-      "question": "iam question 18?",
+      "question": "What is conditional access?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Always allow",
+        "Access based on conditions",
+        "Delete access",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Access based on conditions",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "iam_019",
-      "question": "iam question 19?",
+      "question": "What is zero trust model?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Trust all",
+        "Never trust, always verify",
+        "Ignore users",
+        "Full access"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Never trust, always verify",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "iam_020",
-      "question": "iam question 20?",
+      "question": "What is policy enforcement?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Ignore rules",
+        "Apply access rules",
+        "Delete data",
+        "Store logs"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "iam_021",
-      "question": "iam question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Apply access rules",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "iam_022",
-      "question": "iam question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "iam_023",
-      "question": "iam question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "iam_024",
-      "question": "iam question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "iam_025",
-      "question": "iam question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "iam_026",
-      "question": "iam question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "iam_027",
-      "question": "iam question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "iam_028",
-      "question": "iam question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "iam_029",
-      "question": "iam question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "iam_030",
-      "question": "iam question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "iam_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "iam_s_001",
+      "question": "User needs read-only access to storage. What to assign?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Admin role",
+        "Viewer role",
+        "Editor role",
+        "Owner role"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Viewer role",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "iam_s_002",
+      "question": "Reduce risk of compromised passwords. What to enable?",
+      "options": [
+        "Single login",
+        "MFA",
+        "Delete user",
+        "Disable logs"
+      ],
+      "correct_answer": "MFA",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "iam_s_003",
+      "question": "Service needs to access API securely. What to use?",
+      "options": [
+        "User account",
+        "Service account",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Service account",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "iam_s_004",
+      "question": "Prevent excessive permissions. What principle to apply?",
+      "options": [
+        "Full access",
+        "Least privilege",
+        "Admin access",
+        "Unlimited access"
+      ],
+      "correct_answer": "Least privilege",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "iam_s_005",
+      "question": "Track who accessed sensitive data. What to enable?",
+      "options": [
+        "Delete logs",
+        "Audit logs",
+        "Disable access",
+        "Encryption"
+      ],
+      "correct_answer": "Audit logs",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "iam_s_006",
+      "question": "Grant temporary access to contractor. What to use?",
+      "options": [
+        "Permanent role",
+        "Temporary credentials",
+        "Admin role",
+        "Delete account"
+      ],
+      "correct_answer": "Temporary credentials",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "iam_s_007",
+      "question": "Restrict access based on IP/location. What to use?",
+      "options": [
+        "Static role",
+        "Conditional access",
+        "Delete access",
+        "Full access"
+      ],
+      "correct_answer": "Conditional access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "iam_s_008",
+      "question": "Multiple systems need centralized login. What to use?",
+      "options": [
+        "Local login",
+        "Identity federation",
+        "Database",
+        "Storage"
+      ],
+      "correct_answer": "Identity federation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "iam_s_009",
+      "question": "User should only edit their own data. What model?",
+      "options": [
+        "RBAC",
+        "ABAC",
+        "Full access",
+        "Admin access"
+      ],
+      "correct_answer": "ABAC",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "iam_s_010",
+      "question": "Ensure continuous security verification. What model?",
+      "options": [
+        "Trust all",
+        "Zero trust",
+        "Full access",
+        "No access"
+      ],
+      "correct_answer": "Zero trust",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

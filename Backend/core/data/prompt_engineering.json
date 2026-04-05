@@ -1,411 +1,402 @@
 {
   "skill": "Prompt Engineering",
+
   "mcqs": [
     {
-      "id": "prompt_engineering_001",
-      "question": "prompt engineering question 1?",
+      "id": "pe_001",
+      "question": "What is prompt engineering?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Model training",
+        "Designing inputs for LLMs",
+        "Data storage",
+        "UI design"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Designing inputs for LLMs",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "prompt_engineering_002",
-      "question": "prompt engineering question 2?",
+      "id": "pe_002",
+      "question": "What is zero-shot prompting?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "With examples",
+        "Without examples",
+        "Multiple prompts",
+        "Training model"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_003",
-      "question": "prompt engineering question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_004",
-      "question": "prompt engineering question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Without examples",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "prompt_engineering_005",
-      "question": "prompt engineering question 5?",
+      "id": "pe_003",
+      "question": "What is few-shot prompting?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "No examples",
+        "Using a few examples",
+        "Training data",
+        "Clustering"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "prompt_engineering_006",
-      "question": "prompt engineering question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Using a few examples",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "prompt_engineering_007",
-      "question": "prompt engineering question 7?",
+      "id": "pe_004",
+      "question": "What is chain-of-thought prompting?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Short answers",
+        "Step-by-step reasoning",
+        "Random output",
+        "Data storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "prompt_engineering_008",
-      "question": "prompt engineering question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_009",
-      "question": "prompt engineering question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "prompt_engineering_010",
-      "question": "prompt engineering question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "prompt_engineering_011",
-      "question": "prompt engineering question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_012",
-      "question": "prompt engineering question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Step-by-step reasoning",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "prompt_engineering_013",
-      "question": "prompt engineering question 13?",
+      "id": "pe_005",
+      "question": "Why is clarity important in prompts?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI design",
+        "Reduce ambiguity",
+        "Store data",
+        "Delete data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Reduce ambiguity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "pe_006",
+      "question": "What is hallucination in LLMs?",
+      "options": [
+        "Correct output",
+        "Incorrect fabricated output",
+        "Training data",
+        "UI issue"
+      ],
+      "correct_answer": "Incorrect fabricated output",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "prompt_engineering_014",
-      "question": "prompt engineering question 14?",
+      "id": "pe_007",
+      "question": "What is role prompting?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Assign role to model",
+        "Delete role",
+        "Training",
+        "Clustering"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Assign role to model",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "prompt_engineering_015",
-      "question": "prompt engineering question 15?",
+      "id": "pe_008",
+      "question": "What is temperature parameter?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Speed",
+        "Controls randomness",
+        "Data size",
+        "Memory"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Controls randomness",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "prompt_engineering_016",
-      "question": "prompt engineering question 16?",
+      "id": "pe_009",
+      "question": "What is token limit?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Speed",
+        "Maximum input/output length",
+        "Data storage",
+        "Memory"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_017",
-      "question": "prompt engineering question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_018",
-      "question": "prompt engineering question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_019",
-      "question": "prompt engineering question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_020",
-      "question": "prompt engineering question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_021",
-      "question": "prompt engineering question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "prompt_engineering_022",
-      "question": "prompt engineering question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_023",
-      "question": "prompt engineering question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Maximum input/output length",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "prompt_engineering_024",
-      "question": "prompt engineering question 24?",
+      "id": "pe_010",
+      "question": "What is prompt template?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Random prompt",
+        "Reusable structured prompt",
+        "Training data",
+        "UI design"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_025",
-      "question": "prompt engineering question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_026",
-      "question": "prompt engineering question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Reusable structured prompt",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     },
+
     {
-      "id": "prompt_engineering_027",
-      "question": "prompt engineering question 27?",
+      "id": "pe_011",
+      "question": "What is instruction tuning?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Random training",
+        "Training model with instructions",
+        "Clustering",
+        "Sorting"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Training model with instructions",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "prompt_engineering_028",
-      "question": "prompt engineering question 28?",
+      "id": "pe_012",
+      "question": "What is context in prompt?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI",
+        "Additional information",
+        "Memory",
+        "Speed"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Additional information",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "prompt_engineering_029",
-      "question": "prompt engineering question 29?",
+      "id": "pe_013",
+      "question": "What is iterative prompting?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single prompt",
+        "Refining prompts step-by-step",
+        "Delete data",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "prompt_engineering_030",
-      "question": "prompt engineering question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Refining prompts step-by-step",
       "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_014",
+      "question": "What is output formatting in prompts?",
+      "options": [
+        "Random output",
+        "Structured response control",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Structured response control",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pe_015",
+      "question": "What is bias in LLM output?",
+      "options": [
+        "Correct output",
+        "Unfair or skewed responses",
+        "Training data",
+        "UI issue"
+      ],
+      "correct_answer": "Unfair or skewed responses",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "pe_016",
+      "question": "What is system prompt?",
+      "options": [
+        "User prompt",
+        "Defines model behavior",
+        "Output",
+        "Data"
+      ],
+      "correct_answer": "Defines model behavior",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_017",
+      "question": "What is few-shot benefit?",
+      "options": [
+        "Less accuracy",
+        "Better guidance",
+        "Random output",
+        "Slow response"
+      ],
+      "correct_answer": "Better guidance",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pe_018",
+      "question": "What is prompt chaining?",
+      "options": [
+        "Single step",
+        "Multiple prompts sequence",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Multiple prompts sequence",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_019",
+      "question": "What is response consistency issue?",
+      "options": [
+        "Stable output",
+        "Different outputs for same input",
+        "Correct output",
+        "Fast output"
+      ],
+      "correct_answer": "Different outputs for same input",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_020",
+      "question": "What is prompt optimization?",
+      "options": [
+        "Delete prompt",
+        "Improve prompt effectiveness",
+        "Store prompt",
+        "Random prompt"
+      ],
+      "correct_answer": "Improve prompt effectiveness",
+      "difficulty": "easy",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "prompt_engineering_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "pe_s_001",
+      "question": "Model gives vague answers. What to improve?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Delete prompt",
+        "Add clear instructions",
+        "Ignore",
+        "Random prompt"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Add clear instructions",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "pe_s_002",
+      "question": "Need structured JSON output. What to do?",
+      "options": [
+        "Random prompt",
+        "Specify output format",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Specify output format",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pe_s_003",
+      "question": "Model hallucinates frequently. What helps?",
+      "options": [
+        "Remove prompt",
+        "Add context and constraints",
+        "Ignore",
+        "Random prompt"
+      ],
+      "correct_answer": "Add context and constraints",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_s_004",
+      "question": "Need reasoning-based answers. What to use?",
+      "options": [
+        "Zero-shot",
+        "Chain-of-thought",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Chain-of-thought",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_s_005",
+      "question": "Model lacks accuracy. What to add?",
+      "options": [
+        "Random prompt",
+        "Few-shot examples",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Few-shot examples",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_s_006",
+      "question": "Need consistent responses. What to adjust?",
+      "options": [
+        "Increase randomness",
+        "Lower temperature",
+        "Delete prompt",
+        "Ignore"
+      ],
+      "correct_answer": "Lower temperature",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_s_007",
+      "question": "Prompt too long causing truncation. What to manage?",
+      "options": [
+        "Temperature",
+        "Token limit",
+        "Delete prompt",
+        "Ignore"
+      ],
+      "correct_answer": "Token limit",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pe_s_008",
+      "question": "Need role-based response (e.g., expert). What to use?",
+      "options": [
+        "Random prompt",
+        "Role prompting",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Role prompting",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pe_s_009",
+      "question": "Complex task needs breakdown. What to apply?",
+      "options": [
+        "Single prompt",
+        "Prompt chaining",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Prompt chaining",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pe_s_010",
+      "question": "Prompt gives inconsistent outputs. What to refine?",
+      "options": [
+        "Random prompt",
+        "Prompt clarity and constraints",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Prompt clarity and constraints",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

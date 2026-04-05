@@ -1,411 +1,402 @@
 {
-  "skill": "Opencv",
+  "skill": "OpenCV",
+
   "mcqs": [
     {
-      "id": "opencv_001",
-      "question": "opencv question 1?",
+      "id": "cv_001",
+      "question": "What is OpenCV?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Computer vision library",
+        "Network tool",
+        "UI framework"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Computer vision library",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_002",
+      "question": "What is an image in OpenCV?",
+      "options": [
+        "Text",
+        "Matrix of pixel values",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Matrix of pixel values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_003",
+      "question": "What is grayscale image?",
+      "options": [
+        "Color image",
+        "Single channel intensity image",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Single channel intensity image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_004",
+      "question": "What is RGB image?",
+      "options": [
+        "Single channel",
+        "Three color channels",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Three color channels",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_005",
+      "question": "What is thresholding?",
+      "options": [
+        "Blur",
+        "Convert image to binary",
+        "Resize",
+        "Rotate"
+      ],
+      "correct_answer": "Convert image to binary",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "cv_006",
+      "question": "What is edge detection?",
+      "options": [
+        "Blur",
+        "Find object boundaries",
+        "Resize",
+        "Rotate"
+      ],
+      "correct_answer": "Find object boundaries",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_007",
+      "question": "What is Canny edge detector?",
+      "options": [
+        "Blur",
+        "Edge detection algorithm",
+        "Resize",
+        "Rotate"
+      ],
+      "correct_answer": "Edge detection algorithm",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "opencv_002",
-      "question": "opencv question 2?",
+      "id": "cv_008",
+      "question": "What is Gaussian blur?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Sharpen",
+        "Smooth image",
+        "Resize",
+        "Rotate"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "opencv_003",
-      "question": "opencv question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Smooth image",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "opencv_004",
-      "question": "opencv question 4?",
+      "id": "cv_009",
+      "question": "What is contour?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Pixel",
+        "Object boundary curve",
+        "Resize",
+        "Rotate"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Object boundary curve",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "opencv_005",
-      "question": "opencv question 5?",
+      "id": "cv_010",
+      "question": "What is histogram?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Graph",
+        "Pixel intensity distribution",
+        "Resize",
+        "Rotate"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "opencv_006",
-      "question": "opencv question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "opencv_007",
-      "question": "opencv question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "opencv_008",
-      "question": "opencv question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Pixel intensity distribution",
       "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "opencv_009",
-      "question": "opencv question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "opencv_010",
-      "question": "opencv question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "opencv_011",
-      "question": "opencv question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "opencv_012",
-      "question": "opencv question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "opencv_013",
-      "question": "opencv question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "opencv_014",
-      "question": "opencv question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "opencv_015",
-      "question": "opencv question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "opencv_016",
-      "question": "opencv question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "opencv_017",
-      "question": "opencv question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
     },
+
     {
-      "id": "opencv_018",
-      "question": "opencv question 18?",
+      "id": "cv_011",
+      "question": "What is image resizing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Blur",
+        "Change image dimensions",
+        "Rotate",
+        "Crop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Change image dimensions",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "opencv_019",
-      "question": "opencv question 19?",
+      "id": "cv_012",
+      "question": "What is cropping?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Resize",
+        "Select region of image",
+        "Rotate",
+        "Blur"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Select region of image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_013",
+      "question": "What is rotation?",
+      "options": [
+        "Resize",
+        "Rotate image",
+        "Blur",
+        "Crop"
+      ],
+      "correct_answer": "Rotate image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_014",
+      "question": "What is feature detection?",
+      "options": [
+        "Blur",
+        "Find key points",
+        "Resize",
+        "Rotate"
+      ],
+      "correct_answer": "Find key points",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "opencv_020",
-      "question": "opencv question 20?",
+      "id": "cv_015",
+      "question": "What is object detection?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Blur",
+        "Identify objects in image",
+        "Resize",
+        "Rotate"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Identify objects in image",
+      "difficulty": "medium",
+      "weight": 3
     },
+
     {
-      "id": "opencv_021",
-      "question": "opencv question 21?",
+      "id": "cv_016",
+      "question": "What is image segmentation?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Resize",
+        "Divide image into regions",
+        "Rotate",
+        "Blur"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Divide image into regions",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "opencv_022",
-      "question": "opencv question 22?",
+      "id": "cv_017",
+      "question": "What is morphological operation?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Resize",
+        "Shape processing",
+        "Rotate",
+        "Blur"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "opencv_023",
-      "question": "opencv question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "opencv_024",
-      "question": "opencv question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Shape processing",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "opencv_025",
-      "question": "opencv question 25?",
+      "id": "cv_018",
+      "question": "What is dilation?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Shrink",
+        "Expand object",
+        "Rotate",
+        "Blur"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "opencv_026",
-      "question": "opencv question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Expand object",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "opencv_027",
-      "question": "opencv question 27?",
+      "id": "cv_019",
+      "question": "What is erosion?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Expand",
+        "Shrink object",
+        "Rotate",
+        "Blur"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Shrink object",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "opencv_028",
-      "question": "opencv question 28?",
+      "id": "cv_020",
+      "question": "What is color space conversion?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Resize",
+        "Change color representation",
+        "Rotate",
+        "Blur"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "opencv_029",
-      "question": "opencv question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "opencv_030",
-      "question": "opencv question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Change color representation",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "opencv_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "cv_s_001",
+      "question": "Convert image to black and white. What to use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Thresholding",
+        "Resize",
+        "Rotate",
+        "Blur"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Thresholding",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "cv_s_002",
+      "question": "Detect object edges. What to use?",
+      "options": [
+        "Canny",
+        "Resize",
+        "Rotate",
+        "Blur"
+      ],
+      "correct_answer": "Canny",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_s_003",
+      "question": "Remove noise from image. What to use?",
+      "options": [
+        "Gaussian blur",
+        "Resize",
+        "Rotate",
+        "Crop"
+      ],
+      "correct_answer": "Gaussian blur",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "cv_s_004",
+      "question": "Find object boundaries. What to use?",
+      "options": [
+        "Contours",
+        "Resize",
+        "Rotate",
+        "Blur"
+      ],
+      "correct_answer": "Contours",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_s_005",
+      "question": "Identify faces in image. What to use?",
+      "options": [
+        "Object detection",
+        "Resize",
+        "Rotate",
+        "Blur"
+      ],
+      "correct_answer": "Object detection",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_s_006",
+      "question": "Split image into regions. What to use?",
+      "options": [
+        "Segmentation",
+        "Resize",
+        "Rotate",
+        "Blur"
+      ],
+      "correct_answer": "Segmentation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_s_007",
+      "question": "Expand object area. What operation?",
+      "options": [
+        "Dilation",
+        "Erosion",
+        "Resize",
+        "Rotate"
+      ],
+      "correct_answer": "Dilation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_s_008",
+      "question": "Shrink object area. What operation?",
+      "options": [
+        "Erosion",
+        "Dilation",
+        "Resize",
+        "Rotate"
+      ],
+      "correct_answer": "Erosion",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_s_009",
+      "question": "Detect key points in image. What to use?",
+      "options": [
+        "Feature detection",
+        "Resize",
+        "Rotate",
+        "Blur"
+      ],
+      "correct_answer": "Feature detection",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "cv_s_010",
+      "question": "Change RGB to grayscale. What to use?",
+      "options": [
+        "Color conversion",
+        "Resize",
+        "Rotate",
+        "Blur"
+      ],
+      "correct_answer": "Color conversion",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

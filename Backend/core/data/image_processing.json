@@ -1,411 +1,413 @@
 {
   "skill": "Image Processing",
+
   "mcqs": [
     {
-      "id": "image_processing_001",
-      "question": "image processing question 1?",
+      "id": "ip_001",
+      "question": "What is image processing primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Text editing",
+        "Enhancing and analyzing images",
+        "Database storage",
+        "Networking"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "image_processing_002",
-      "question": "image processing question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Enhancing and analyzing images",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "image_processing_003",
-      "question": "image processing question 3?",
+      "id": "ip_002",
+      "question": "What is grayscale conversion?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Adding colors",
+        "Reducing image to intensity values",
+        "Resizing image",
+        "Cropping image"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_004",
-      "question": "image processing question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "image_processing_005",
-      "question": "image processing question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "image_processing_006",
-      "question": "image processing question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_007",
-      "question": "image processing question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_008",
-      "question": "image processing question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "image_processing_009",
-      "question": "image processing question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Reducing image to intensity values",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "image_processing_010",
-      "question": "image processing question 10?",
+      "id": "ip_003",
+      "question": "What is histogram in image processing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Graph of pixel intensities",
+        "Color map",
+        "Filter",
+        "Shape detection"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_011",
-      "question": "image processing question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "image_processing_012",
-      "question": "image processing question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "image_processing_013",
-      "question": "image processing question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_014",
-      "question": "image processing question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "image_processing_015",
-      "question": "image processing question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "image_processing_016",
-      "question": "image processing question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "image_processing_017",
-      "question": "image processing question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_018",
-      "question": "image processing question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_019",
-      "question": "image processing question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_020",
-      "question": "image processing question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_021",
-      "question": "image processing question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "image_processing_022",
-      "question": "image processing question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Graph of pixel intensities",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "image_processing_023",
-      "question": "image processing question 23?",
+      "id": "ip_004",
+      "question": "What is thresholding?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Color addition",
+        "Converting image to binary",
+        "Scaling image",
+        "Cropping"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "image_processing_024",
-      "question": "image processing question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "image_processing_025",
-      "question": "image processing question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "image_processing_026",
-      "question": "image processing question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Converting image to binary",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "image_processing_027",
-      "question": "image processing question 27?",
+      "id": "ip_005",
+      "question": "What is convolution used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Storage",
+        "Filtering and feature extraction",
+        "Networking",
+        "Encryption"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Filtering and feature extraction",
       "difficulty": "medium",
       "weight": 3
     },
+
     {
-      "id": "image_processing_028",
-      "question": "image processing question 28?",
+      "id": "ip_006",
+      "question": "What is edge detection?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Color change",
+        "Finding object boundaries",
+        "Resizing",
+        "Cropping"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Finding object boundaries",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "image_processing_029",
-      "question": "image processing question 29?",
+      "id": "ip_007",
+      "question": "What is Gaussian blur used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Sharpening",
+        "Noise reduction",
+        "Edge detection",
+        "Color enhancement"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Noise reduction",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
-      "id": "image_processing_030",
-      "question": "image processing question 30?",
+      "id": "ip_008",
+      "question": "What is Sobel operator?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Color filter",
+        "Edge detection filter",
+        "Scaling method",
+        "Cropping tool"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Edge detection filter",
       "difficulty": "medium",
       "weight": 3
+    },
+    {
+      "id": "ip_009",
+      "question": "What is image segmentation?",
+      "options": [
+        "Resizing",
+        "Dividing image into regions",
+        "Cropping",
+        "Color change"
+      ],
+      "correct_answer": "Dividing image into regions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_010",
+      "question": "What is RGB color model?",
+      "options": [
+        "Red, Green, Blue channels",
+        "Black and white",
+        "Grayscale",
+        "Binary"
+      ],
+      "correct_answer": "Red, Green, Blue channels",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "ip_011",
+      "question": "What is HSV color space useful for?",
+      "options": [
+        "Storage",
+        "Color-based segmentation",
+        "Networking",
+        "Encryption"
+      ],
+      "correct_answer": "Color-based segmentation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_012",
+      "question": "What is morphological operation?",
+      "options": [
+        "Color change",
+        "Shape-based processing",
+        "Scaling",
+        "Cropping"
+      ],
+      "correct_answer": "Shape-based processing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_013",
+      "question": "What is dilation?",
+      "options": [
+        "Shrink objects",
+        "Expand objects",
+        "Rotate image",
+        "Crop image"
+      ],
+      "correct_answer": "Expand objects",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_014",
+      "question": "What is erosion?",
+      "options": [
+        "Expand objects",
+        "Shrink objects",
+        "Rotate image",
+        "Crop image"
+      ],
+      "correct_answer": "Shrink objects",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_015",
+      "question": "What is interpolation in resizing?",
+      "options": [
+        "Deleting pixels",
+        "Estimating new pixel values",
+        "Cropping",
+        "Filtering"
+      ],
+      "correct_answer": "Estimating new pixel values",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "ip_016",
+      "question": "What is image normalization?",
+      "options": [
+        "Scaling pixel values",
+        "Cropping",
+        "Color removal",
+        "Filtering"
+      ],
+      "correct_answer": "Scaling pixel values",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_017",
+      "question": "What is feature extraction?",
+      "options": [
+        "Remove features",
+        "Identify important patterns",
+        "Store data",
+        "Delete pixels"
+      ],
+      "correct_answer": "Identify important patterns",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_018",
+      "question": "What is noise in images?",
+      "options": [
+        "Clear image",
+        "Unwanted variations",
+        "Color enhancement",
+        "Filtering"
+      ],
+      "correct_answer": "Unwanted variations",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ip_019",
+      "question": "What is sharpening filter used for?",
+      "options": [
+        "Blur image",
+        "Enhance edges",
+        "Resize",
+        "Crop"
+      ],
+      "correct_answer": "Enhance edges",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ip_020",
+      "question": "What is resolution in images?",
+      "options": [
+        "File size",
+        "Pixel detail level",
+        "Color type",
+        "Filter"
+      ],
+      "correct_answer": "Pixel detail level",
+      "difficulty": "easy",
+      "weight": 2
     }
   ],
+
   "coding_mcqs": [
     {
-      "id": "image_processing_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "ip_c_001",
+      "question": "What does this do?",
+      "code": "cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Resize image",
+        "Convert to grayscale",
+        "Blur image",
+        "Crop image"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Convert to grayscale",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "ip_c_002",
+      "question": "What does this do?",
+      "code": "cv2.GaussianBlur(img, (5,5), 0)",
+      "options": [
+        "Sharpen image",
+        "Blur image",
+        "Resize image",
+        "Crop image"
+      ],
+      "correct_answer": "Blur image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ip_c_003",
+      "question": "What does this do?",
+      "code": "cv2.Canny(img, 100, 200)",
+      "options": [
+        "Edge detection",
+        "Blur image",
+        "Resize image",
+        "Crop image"
+      ],
+      "correct_answer": "Edge detection",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_c_004",
+      "question": "What does this do?",
+      "code": "cv2.resize(img, (100,100))",
+      "options": [
+        "Resize image",
+        "Blur image",
+        "Crop image",
+        "Sharpen image"
+      ],
+      "correct_answer": "Resize image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ip_c_005",
+      "question": "What does this do?",
+      "code": "cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)",
+      "options": [
+        "Blur image",
+        "Binary conversion",
+        "Resize image",
+        "Crop image"
+      ],
+      "correct_answer": "Binary conversion",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "ip_c_006",
+      "question": "What does this do?",
+      "code": "cv2.dilate(img, kernel)",
+      "options": [
+        "Shrink objects",
+        "Expand objects",
+        "Blur image",
+        "Resize image"
+      ],
+      "correct_answer": "Expand objects",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_c_007",
+      "question": "What does this do?",
+      "code": "cv2.erode(img, kernel)",
+      "options": [
+        "Expand objects",
+        "Shrink objects",
+        "Blur image",
+        "Resize image"
+      ],
+      "correct_answer": "Shrink objects",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ip_c_008",
+      "question": "What does this do?",
+      "code": "img.shape",
+      "options": [
+        "Image size and channels",
+        "Pixel values",
+        "Filter",
+        "Crop"
+      ],
+      "correct_answer": "Image size and channels",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ip_c_009",
+      "question": "What does this do?",
+      "code": "cv2.flip(img, 1)",
+      "options": [
+        "Rotate",
+        "Horizontal flip",
+        "Vertical flip",
+        "Crop"
+      ],
+      "correct_answer": "Horizontal flip",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ip_c_010",
+      "question": "What does this do?",
+      "code": "cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)",
+      "options": [
+        "Rotate image",
+        "Blur image",
+        "Resize image",
+        "Crop image"
+      ],
+      "correct_answer": "Rotate image",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

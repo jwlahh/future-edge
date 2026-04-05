@@ -1,411 +1,402 @@
 {
-  "skill": "Gcp",
+  "skill": "GCP",
+
   "mcqs": [
     {
       "id": "gcp_001",
-      "question": "gcp question 1?",
+      "question": "What is Google Compute Engine used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Storage",
+        "Virtual machines",
+        "Database",
+        "Networking"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Virtual machines",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
       "id": "gcp_002",
-      "question": "gcp question 2?",
+      "question": "What is Google Kubernetes Engine (GKE)?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Managed Kubernetes service",
+        "Storage",
+        "Networking"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Managed Kubernetes service",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "gcp_003",
-      "question": "gcp question 3?",
+      "question": "What is Cloud Storage?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Compute",
+        "Object storage service",
+        "Database",
+        "Networking"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Object storage service",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "gcp_004",
-      "question": "gcp question 4?",
+      "question": "What is BigQuery?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "VM service",
+        "Data warehouse",
+        "Networking tool",
+        "Monitoring tool"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "Data warehouse",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "gcp_005",
-      "question": "gcp question 5?",
+      "question": "What is Cloud Functions?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "VM",
+        "Serverless compute",
+        "Storage",
+        "Database"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Serverless compute",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
+
     {
       "id": "gcp_006",
-      "question": "gcp question 6?",
+      "question": "What is IAM used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Storage",
+        "Access control",
+        "Compute",
+        "Networking"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Access control",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "gcp_007",
-      "question": "gcp question 7?",
+      "question": "What is VPC?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Storage",
+        "Virtual network",
+        "Database",
+        "Monitoring"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Virtual network",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "gcp_008",
-      "question": "gcp question 8?",
+      "question": "What is Cloud SQL?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "NoSQL DB",
+        "Managed relational database",
+        "Storage",
+        "Compute"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Managed relational database",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "gcp_009",
-      "question": "gcp question 9?",
+      "question": "What is Firestore?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Relational DB",
+        "NoSQL database",
+        "Storage",
+        "Compute"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "NoSQL database",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "gcp_010",
-      "question": "gcp question 10?",
+      "question": "What is Pub/Sub?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Messaging service",
+        "Storage",
+        "Compute"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Messaging service",
+      "difficulty": "medium",
+      "weight": 3
     },
+
     {
       "id": "gcp_011",
-      "question": "gcp question 11?",
+      "question": "What is Cloud Run?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "VM",
+        "Serverless container platform",
+        "Storage",
+        "Database"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Serverless container platform",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     },
     {
       "id": "gcp_012",
-      "question": "gcp question 12?",
+      "question": "What is autoscaling?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Manual scaling",
+        "Automatic resource adjustment",
+        "Delete resources",
+        "Fixed capacity"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Automatic resource adjustment",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "gcp_013",
-      "question": "gcp question 13?",
+      "question": "What is load balancing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store data",
+        "Distribute traffic",
+        "Delete resources",
+        "Encrypt data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Distribute traffic",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "gcp_014",
-      "question": "gcp question 14?",
+      "question": "What is Cloud Monitoring?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Compute",
+        "Track system performance",
+        "Storage",
+        "Database"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "gcp_015",
-      "question": "gcp question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "gcp_016",
-      "question": "gcp question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Track system performance",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "gcp_017",
-      "question": "gcp question 17?",
+      "id": "gcp_015",
+      "question": "What is Cloud Logging?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store logs",
+        "Compute",
+        "Networking",
+        "Database"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Store logs",
+      "difficulty": "easy",
+      "weight": 2
     },
+
     {
-      "id": "gcp_018",
-      "question": "gcp question 18?",
+      "id": "gcp_016",
+      "question": "What is regional vs zonal resource?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Storage types",
+        "Availability scope",
+        "Compute type",
+        "Networking type"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Availability scope",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "gcp_019",
-      "question": "gcp question 19?",
+      "id": "gcp_017",
+      "question": "What is preemptible VM?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Expensive VM",
+        "Low-cost short-lived VM",
+        "Database",
+        "Storage"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Low-cost short-lived VM",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gcp_018",
+      "question": "What is CDN?",
+      "options": [
+        "Database",
+        "Content delivery network",
+        "Storage",
+        "Compute"
+      ],
+      "correct_answer": "Content delivery network",
       "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gcp_019",
+      "question": "What is service account?",
+      "options": [
+        "User login",
+        "Machine identity",
+        "Database",
+        "Storage"
+      ],
+      "correct_answer": "Machine identity",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "gcp_020",
-      "question": "gcp question 20?",
+      "question": "What is cost optimization?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Increase cost",
+        "Efficient resource usage",
+        "Delete system",
+        "Store logs"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "gcp_021",
-      "question": "gcp question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "gcp_022",
-      "question": "gcp question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "gcp_023",
-      "question": "gcp question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "gcp_024",
-      "question": "gcp question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "gcp_025",
-      "question": "gcp question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "gcp_026",
-      "question": "gcp question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "gcp_027",
-      "question": "gcp question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "gcp_028",
-      "question": "gcp question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Efficient resource usage",
       "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "gcp_029",
-      "question": "gcp question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "gcp_030",
-      "question": "gcp question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "gcp_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "gcp_s_001",
+      "question": "Need scalable web app hosting without managing servers. What to use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Compute Engine",
+        "Cloud Run",
+        "Cloud Storage",
+        "BigQuery"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Cloud Run",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "gcp_s_002",
+      "question": "Need relational database with minimal maintenance. What to use?",
+      "options": [
+        "Firestore",
+        "Cloud SQL",
+        "BigQuery",
+        "Storage"
+      ],
+      "correct_answer": "Cloud SQL",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gcp_s_003",
+      "question": "Large-scale analytics on massive datasets. What to use?",
+      "options": [
+        "Compute Engine",
+        "BigQuery",
+        "Firestore",
+        "Cloud Run"
+      ],
+      "correct_answer": "BigQuery",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gcp_s_004",
+      "question": "Need event-driven processing. What to use?",
+      "options": [
+        "VM",
+        "Cloud Functions",
+        "Storage",
+        "Database"
+      ],
+      "correct_answer": "Cloud Functions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gcp_s_005",
+      "question": "Need message queue between services. What to use?",
+      "options": [
+        "Cloud SQL",
+        "Pub/Sub",
+        "Storage",
+        "Compute"
+      ],
+      "correct_answer": "Pub/Sub",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gcp_s_006",
+      "question": "Need container orchestration at scale. What to use?",
+      "options": [
+        "Cloud Run",
+        "GKE",
+        "Storage",
+        "BigQuery"
+      ],
+      "correct_answer": "GKE",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gcp_s_007",
+      "question": "Need secure access control across services. What to configure?",
+      "options": [
+        "VPC",
+        "IAM",
+        "Storage",
+        "Compute"
+      ],
+      "correct_answer": "IAM",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "gcp_s_008",
+      "question": "Reduce cost for fault-tolerant workloads. What to use?",
+      "options": [
+        "Standard VM",
+        "Preemptible VM",
+        "Storage",
+        "Database"
+      ],
+      "correct_answer": "Preemptible VM",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gcp_s_009",
+      "question": "Serve static assets globally with low latency. What to use?",
+      "options": [
+        "Compute Engine",
+        "Cloud CDN",
+        "Cloud SQL",
+        "Firestore"
+      ],
+      "correct_answer": "Cloud CDN",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "gcp_s_010",
+      "question": "Need system monitoring and alerts. What to use?",
+      "options": [
+        "Cloud Storage",
+        "Cloud Monitoring",
+        "Compute Engine",
+        "BigQuery"
+      ],
+      "correct_answer": "Cloud Monitoring",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

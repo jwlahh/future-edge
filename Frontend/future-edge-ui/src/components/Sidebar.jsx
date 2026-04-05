@@ -75,7 +75,7 @@ function Sidebar({ collapsed, toggleSidebar }) {
               </li>
               <li>
                 <Link to="/assessment/mock-interview">
-                  Online Assessment
+                  Aptitude & Verbal
                 </Link>
               </li>
             </ul>

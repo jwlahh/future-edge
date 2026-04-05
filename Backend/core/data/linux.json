@@ -1,411 +1,402 @@
 {
   "skill": "Linux",
+
   "mcqs": [
     {
       "id": "linux_001",
-      "question": "linux question 1?",
+      "question": "What is Linux?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Application",
+        "Operating system kernel",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Operating system kernel",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "linux_002",
-      "question": "linux question 2?",
+      "question": "What does 'ls' command do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete files",
+        "List directory contents",
+        "Move files",
+        "Copy files"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "List directory contents",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "linux_003",
-      "question": "linux question 3?",
+      "question": "What does 'cd' command do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete directory",
+        "Change directory",
+        "Copy directory",
+        "Create directory"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
+      "correct_answer": "Change directory",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "linux_004",
-      "question": "linux question 4?",
+      "question": "What does 'pwd' do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Print working directory",
+        "Delete file",
+        "Copy file",
+        "Move file"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Print working directory",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "linux_005",
-      "question": "linux question 5?",
+      "question": "What does 'rm' do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Create file",
+        "Delete file",
+        "Move file",
+        "Copy file"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Delete file",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
+
     {
       "id": "linux_006",
-      "question": "linux question 6?",
+      "question": "What is root user?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Normal user",
+        "Superuser",
+        "Guest",
+        "Database"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Superuser",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "linux_007",
-      "question": "linux question 7?",
+      "question": "What are file permissions?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "File size",
+        "Access rights",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Access rights",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "linux_008",
-      "question": "linux question 8?",
+      "question": "What does 'chmod' do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Change permissions",
+        "Move file",
+        "Delete file",
+        "Copy file"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
+      "correct_answer": "Change permissions",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "linux_009",
-      "question": "linux question 9?",
+      "question": "What does 'chown' do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Change owner",
+        "Delete file",
+        "Copy file",
+        "Move file"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Change owner",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "linux_010",
-      "question": "linux question 10?",
+      "question": "What is process?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "File",
+        "Running program",
+        "Directory",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Running program",
+      "difficulty": "easy",
+      "weight": 2
     },
+
     {
       "id": "linux_011",
-      "question": "linux question 11?",
+      "question": "What does 'ps' do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Show processes",
+        "Delete process",
+        "Copy process",
+        "Move process"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Show processes",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "linux_012",
-      "question": "linux question 12?",
+      "question": "What does 'kill' do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Start process",
+        "Terminate process",
+        "Copy process",
+        "Move process"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Terminate process",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "linux_013",
-      "question": "linux question 13?",
+      "question": "What is 'top' command?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "File command",
+        "Real-time process monitor",
+        "Network tool",
+        "Database"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Real-time process monitor",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "linux_014",
-      "question": "linux question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "linux_015",
-      "question": "linux question 15?",
+      "id": "linux_014",
+      "question": "What is pipe '|' used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete",
+        "Pass output to another command",
+        "Copy",
+        "Move"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Pass output to another command",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "linux_016",
-      "question": "linux question 16?",
+      "id": "linux_015",
+      "question": "What is grep?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Search text",
+        "Delete file",
+        "Copy file",
+        "Move file"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Search text",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "linux_016",
+      "question": "What is 'df' command?",
+      "options": [
+        "Disk usage",
+        "File copy",
+        "Network",
+        "Process"
+      ],
+      "correct_answer": "Disk usage",
       "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "linux_017",
-      "question": "linux question 17?",
+      "question": "What is 'du'?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Disk usage per file",
+        "Process",
+        "Network",
+        "Storage"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Disk usage per file",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
       "id": "linux_018",
-      "question": "linux question 18?",
+      "question": "What is SSH?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "File",
+        "Remote access protocol",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Remote access protocol",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "linux_019",
-      "question": "linux question 19?",
+      "question": "What is environment variable?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "File",
+        "System configuration variable",
+        "Network",
+        "Database"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "System configuration variable",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "linux_020",
-      "question": "linux question 20?",
+      "question": "What is cron?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Process",
+        "Task scheduler",
+        "Network",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "linux_021",
-      "question": "linux question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "linux_022",
-      "question": "linux question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "linux_023",
-      "question": "linux question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "linux_024",
-      "question": "linux question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Task scheduler",
       "difficulty": "easy",
       "weight": 2
-    },
-    {
-      "id": "linux_025",
-      "question": "linux question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "linux_026",
-      "question": "linux question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "linux_027",
-      "question": "linux question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "linux_028",
-      "question": "linux question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "linux_029",
-      "question": "linux question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "linux_030",
-      "question": "linux question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "linux_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "linux_s_001",
+      "question": "Check running processes. What command?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "ls",
+        "ps",
+        "rm",
+        "cp"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "ps",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "linux_s_002",
+      "question": "Stop a running process. What to use?",
+      "options": [
+        "ps",
+        "kill",
+        "ls",
+        "cp"
+      ],
+      "correct_answer": "kill",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "linux_s_003",
+      "question": "Check disk space usage. What command?",
+      "options": [
+        "ls",
+        "df",
+        "ps",
+        "kill"
+      ],
+      "correct_answer": "df",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "linux_s_004",
+      "question": "Search for text inside file. What to use?",
+      "options": [
+        "ls",
+        "grep",
+        "rm",
+        "cp"
+      ],
+      "correct_answer": "grep",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "linux_s_005",
+      "question": "Change file permission. What to use?",
+      "options": [
+        "chown",
+        "chmod",
+        "rm",
+        "cp"
+      ],
+      "correct_answer": "chmod",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "linux_s_006",
+      "question": "Change file ownership. What to use?",
+      "options": [
+        "chmod",
+        "chown",
+        "rm",
+        "cp"
+      ],
+      "correct_answer": "chown",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "linux_s_007",
+      "question": "Monitor system performance live. What to use?",
+      "options": [
+        "ps",
+        "top",
+        "ls",
+        "df"
+      ],
+      "correct_answer": "top",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "linux_s_008",
+      "question": "Run scheduled task daily. What to use?",
+      "options": [
+        "cron",
+        "ps",
+        "ls",
+        "df"
+      ],
+      "correct_answer": "cron",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "linux_s_009",
+      "question": "Connect to remote server. What to use?",
+      "options": [
+        "grep",
+        "ssh",
+        "df",
+        "rm"
+      ],
+      "correct_answer": "ssh",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "linux_s_010",
+      "question": "Combine commands output. What to use?",
+      "options": [
+        "grep",
+        "|",
+        "rm",
+        "cp"
+      ],
+      "correct_answer": "|",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

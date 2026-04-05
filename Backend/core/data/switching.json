@@ -2,410 +2,396 @@
   "skill": "Switching",
   "mcqs": [
     {
-      "id": "switching_001",
-      "question": "switching question 1?",
+      "id": "sw_001",
+      "question": "What is the primary purpose of a network switch?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Connect devices within a local network",
+        "Translate domain names",
+        "Provide internet access only",
+        "Encrypt network packets"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "switching_002",
-      "question": "switching question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Connect devices within a local network",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "switching_003",
-      "question": "switching question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "switching_004",
-      "question": "switching question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "switching_005",
-      "question": "switching question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "switching_006",
-      "question": "switching question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "switching_007",
-      "question": "switching question 7?",
+      "id": "sw_002",
+      "question": "At which OSI layer does a typical Ethernet switch primarily operate?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Physical layer",
+        "Data link layer",
+        "Transport layer",
+        "Application layer"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Data link layer",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "switching_008",
-      "question": "switching question 8?",
+      "id": "sw_003",
+      "question": "What address does a switch use to forward frames?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "IP address",
+        "MAC address",
+        "Port number",
+        "URL"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "MAC address",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "switching_009",
-      "question": "switching question 9?",
+      "id": "sw_004",
+      "question": "What is a MAC address table used for in switching?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Store DNS records",
+        "Map devices to switch ports",
+        "Store IP routes",
+        "Allocate bandwidth"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Map devices to switch ports",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sw_005",
+      "question": "What happens when a switch receives a frame with an unknown destination MAC address?",
+      "options": [
+        "It drops the frame immediately",
+        "It floods the frame out all relevant ports",
+        "It converts it to a broadcast packet",
+        "It sends it to a router only"
+      ],
+      "correct_answer": "It floods the frame out all relevant ports",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "switching_010",
-      "question": "switching question 10?",
+      "id": "sw_006",
+      "question": "What is frame forwarding in switching?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Converting frames into packets",
+        "Sending frames to the correct output port",
+        "Encrypting frames",
+        "Compressing frames"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "switching_011",
-      "question": "switching question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "switching_012",
-      "question": "switching question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "switching_013",
-      "question": "switching question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Sending frames to the correct output port",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "switching_014",
-      "question": "switching question 14?",
+      "id": "sw_007",
+      "question": "What is the difference between a hub and a switch?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A switch sends traffic intelligently to the correct port",
+        "A hub uses MAC learning",
+        "A switch works only on WANs",
+        "A hub prevents collisions completely"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "switching_015",
-      "question": "switching question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "A switch sends traffic intelligently to the correct port",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "switching_016",
-      "question": "switching question 16?",
+      "id": "sw_008",
+      "question": "What is collision domain behavior in a switched network?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "All ports share one collision domain",
+        "Each switch port is its own collision domain",
+        "Collisions are required for switching",
+        "Collision domains exist only in routers"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Each switch port is its own collision domain",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "switching_017",
-      "question": "switching question 17?",
+      "id": "sw_009",
+      "question": "What is broadcast domain separation typically achieved by on switches?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "MAC filtering",
+        "VLANs",
+        "ARP entries",
+        "Patch panels"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "switching_018",
-      "question": "switching question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "VLANs",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "switching_019",
-      "question": "switching question 19?",
+      "id": "sw_010",
+      "question": "What is a VLAN?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A virtual local area network",
+        "A WAN routing protocol",
+        "A wireless security key",
+        "A fiber connector type"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "switching_020",
-      "question": "switching question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "switching_021",
-      "question": "switching question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "switching_022",
-      "question": "switching question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "switching_023",
-      "question": "switching question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "A virtual local area network",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "switching_024",
-      "question": "switching question 24?",
+      "id": "sw_011",
+      "question": "Why are VLANs used in switching?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To logically segment a network",
+        "To increase monitor brightness",
+        "To replace MAC addresses",
+        "To disable switching"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "switching_025",
-      "question": "switching question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "switching_026",
-      "question": "switching question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "switching_027",
-      "question": "switching question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "To logically segment a network",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "switching_028",
-      "question": "switching question 28?",
+      "id": "sw_012",
+      "question": "What is a trunk port on a switch?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A port that carries traffic for multiple VLANs",
+        "A port used only for printers",
+        "A port that blocks all traffic",
+        "A port used only for management login"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "A port that carries traffic for multiple VLANs",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_013",
+      "question": "What is an access port?",
+      "options": [
+        "A port assigned to a single VLAN for end devices",
+        "A port that carries all VLANs",
+        "A port used only between routers",
+        "A port that disables MAC learning"
+      ],
+      "correct_answer": "A port assigned to a single VLAN for end devices",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_014",
+      "question": "What problem does Spanning Tree Protocol help prevent?",
+      "options": [
+        "Packet encryption failure",
+        "Switching loops",
+        "DNS resolution errors",
+        "IP conflicts only"
+      ],
+      "correct_answer": "Switching loops",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_015",
+      "question": "Why are switching loops dangerous?",
+      "options": [
+        "They can cause broadcast storms and instability",
+        "They reduce CPU usage",
+        "They improve redundancy safely without control",
+        "They disable VLAN tagging"
+      ],
+      "correct_answer": "They can cause broadcast storms and instability",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_016",
+      "question": "What is port security on a switch used for?",
+      "options": [
+        "Limit or control which devices can connect to a port",
+        "Assign IP addresses dynamically",
+        "Translate private IPs",
+        "Route traffic between sites"
+      ],
+      "correct_answer": "Limit or control which devices can connect to a port",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_017",
+      "question": "What is link aggregation in switching?",
+      "options": [
+        "Combining multiple links for more bandwidth and redundancy",
+        "Deleting duplicate MAC addresses",
+        "Merging VLANs automatically",
+        "Converting copper to fiber"
+      ],
+      "correct_answer": "Combining multiple links for more bandwidth and redundancy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_018",
+      "question": "What is switch stacking?",
+      "options": [
+        "Physically placing switches on top of each other only",
+        "Managing multiple switches as one logical unit",
+        "Connecting switches without cables",
+        "Turning off backup switches"
+      ],
+      "correct_answer": "Managing multiple switches as one logical unit",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_019",
+      "question": "What is PoE in switching?",
+      "options": [
+        "Power over Ethernet",
+        "Port over Encryption",
+        "Protocol of Exchange",
+        "Packet over Edge"
+      ],
+      "correct_answer": "Power over Ethernet",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "switching_029",
-      "question": "switching question 29?",
+      "id": "sw_020",
+      "question": "What is the main advantage of managed switches over unmanaged switches?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Configuration, monitoring, and control features",
+        "They do not require electricity",
+        "They remove need for cables",
+        "They always replace routers"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Configuration, monitoring, and control features",
+      "difficulty": "easy",
       "weight": 2
-    },
-    {
-      "id": "switching_030",
-      "question": "switching question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "switching_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "sw_s_001",
+      "question": "A company wants to separate HR and Finance traffic on the same physical switch infrastructure. What should be used?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "VLANs",
+        "DNS records",
+        "Only hubs",
+        "Static ARP"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "VLANs",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "sw_s_002",
+      "question": "Two switches are connected and need to carry traffic for multiple VLANs. What type of port configuration is required?",
+      "options": [
+        "Access port",
+        "Trunk port",
+        "Disabled port",
+        "Console port"
+      ],
+      "correct_answer": "Trunk port",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sw_s_003",
+      "question": "A user PC should belong to only one department VLAN on a switch. What port type should it use?",
+      "options": [
+        "Trunk port",
+        "Access port",
+        "Mirror port",
+        "Loopback port"
+      ],
+      "correct_answer": "Access port",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sw_s_004",
+      "question": "A network suffers from repeated broadcast traffic storms after redundant switch links were added. What feature should be checked first?",
+      "options": [
+        "Spanning Tree Protocol",
+        "DHCP scope",
+        "Browser cache",
+        "DNS forwarding"
+      ],
+      "correct_answer": "Spanning Tree Protocol",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_s_005",
+      "question": "A switch port should allow only a specific known device to connect. What feature is most appropriate?",
+      "options": [
+        "Port security",
+        "NAT",
+        "PAT",
+        "Subnetting"
+      ],
+      "correct_answer": "Port security",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_s_006",
+      "question": "An office needs more bandwidth between two core switches without replacing all cabling. What switching feature helps most?",
+      "options": [
+        "Link aggregation",
+        "Only access VLANs",
+        "ARP inspection",
+        "Single-port forwarding"
+      ],
+      "correct_answer": "Link aggregation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_s_007",
+      "question": "IP phones need electrical power directly through Ethernet cables from the switch. What switch capability is required?",
+      "options": [
+        "PoE",
+        "STP",
+        "NTP",
+        "ACL only"
+      ],
+      "correct_answer": "PoE",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sw_s_008",
+      "question": "An administrator wants centralized control of several switches as a single unit. What is the best approach?",
+      "options": [
+        "Switch stacking",
+        "Using hubs",
+        "Disabling VLANs",
+        "Using only unmanaged switches"
+      ],
+      "correct_answer": "Switch stacking",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_s_009",
+      "question": "Frames to a destination device are being sent out many ports because the switch has not learned the device yet. What is this behavior called?",
+      "options": [
+        "Flooding unknown unicast traffic",
+        "Static routing",
+        "Port mirroring",
+        "ARP poisoning"
+      ],
+      "correct_answer": "Flooding unknown unicast traffic",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sw_s_010",
+      "question": "A small office needs simple plug-and-play connectivity with no VLAN or monitoring requirements. Which switch type is sufficient?",
+      "options": [
+        "Managed switch",
+        "Unmanaged switch",
+        "Layer 3 core switch only",
+        "Router only"
+      ],
+      "correct_answer": "Unmanaged switch",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

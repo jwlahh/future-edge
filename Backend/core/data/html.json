@@ -1,42 +1,682 @@
 {
-  "skill":"HTML",
-  "mcqs":[
+  "skill": "HTML",
 
-    {"id":"html_001","question":"HTML stands for?","options":["HyperText Markup Language","none","loop","array"],"correct_answer":"HyperText Markup Language","difficulty":"easy","weight":1},
-    {"id":"html_002","question":"Tag for paragraph?","options":["p","div","span","none"],"correct_answer":"p","difficulty":"easy","weight":1},
-    {"id":"html_003","question":"Link tag?","options":["a","p","div","none"],"correct_answer":"a","difficulty":"easy","weight":1},
-    {"id":"html_004","question":"Image tag?","options":["img","image","pic","none"],"correct_answer":"img","difficulty":"easy","weight":1},
-    {"id":"html_005","question":"Heading tag?","options":["h1","p","div","none"],"correct_answer":"h1","difficulty":"easy","weight":1},
-    {"id":"html_006","question":"List tag?","options":["ul","li","ol","all"],"correct_answer":"all","difficulty":"easy","weight":1},
-    {"id":"html_007","question":"Table tag?","options":["table","tr","td","all"],"correct_answer":"all","difficulty":"easy","weight":1},
-    {"id":"html_008","question":"Form tag?","options":["form","input","div","none"],"correct_answer":"form","difficulty":"easy","weight":1},
-    {"id":"html_009","question":"Input type text?","options":["text","string","char","none"],"correct_answer":"text","difficulty":"easy","weight":1},
-    {"id":"html_010","question":"Button tag?","options":["button","btn","click","none"],"correct_answer":"button","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "html_001",
+      "question": "Why is semantic HTML important?",
+      "options": [
+        "Styling",
+        "Accessibility and SEO",
+        "Speed",
+        "Storage"
+      ],
+      "correct_answer": "Accessibility and SEO",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_002",
+      "question": "What is the purpose of <header>?",
+      "options": [
+        "Footer",
+        "Top section of page",
+        "Sidebar",
+        "Content"
+      ],
+      "correct_answer": "Top section of page",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_003",
+      "question": "What is <section> used for?",
+      "options": [
+        "Grouping related content",
+        "Styling",
+        "Navigation",
+        "Forms"
+      ],
+      "correct_answer": "Grouping related content",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_004",
+      "question": "What is <article> used for?",
+      "options": [
+        "Navigation",
+        "Independent content",
+        "Styling",
+        "Forms"
+      ],
+      "correct_answer": "Independent content",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_005",
+      "question": "What is <nav> used for?",
+      "options": [
+        "Footer",
+        "Navigation links",
+        "Forms",
+        "Content"
+      ],
+      "correct_answer": "Navigation links",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"html_011","question":"Block element?","options":["div","span","none","loop"],"correct_answer":"div","difficulty":"medium","weight":2},
-    {"id":"html_012","question":"Inline element?","options":["span","div","none","loop"],"correct_answer":"span","difficulty":"medium","weight":2},
-    {"id":"html_013","question":"Semantic tag?","options":["header","div","none","loop"],"correct_answer":"header","difficulty":"medium","weight":2},
-    {"id":"html_014","question":"Alt attribute?","options":["image text","link","none","loop"],"correct_answer":"image text","difficulty":"medium","weight":2},
-    {"id":"html_015","question":"Meta tag?","options":["metadata","style","script","none"],"correct_answer":"metadata","difficulty":"medium","weight":2},
-    {"id":"html_016","question":"Iframe used for?","options":["embed page","image","none","loop"],"correct_answer":"embed page","difficulty":"medium","weight":2},
-    {"id":"html_017","question":"Label tag?","options":["form label","style","none","loop"],"correct_answer":"form label","difficulty":"medium","weight":2},
-    {"id":"html_018","question":"Required attribute?","options":["mandatory input","optional","none","loop"],"correct_answer":"mandatory input","difficulty":"medium","weight":2},
-    {"id":"html_019","question":"Select tag?","options":["dropdown","input","none","loop"],"correct_answer":"dropdown","difficulty":"medium","weight":2},
-    {"id":"html_020","question":"Textarea?","options":["multi-line","single","none","loop"],"correct_answer":"multi-line","difficulty":"medium","weight":2},
+    {
+      "id": "html_006",
+      "question": "Why use <label> in forms?",
+      "options": [
+        "Styling",
+        "Accessibility",
+        "Navigation",
+        "Storage"
+      ],
+      "correct_answer": "Accessibility",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_007",
+      "question": "What does 'alt' attribute do?",
+      "options": [
+        "Styling",
+        "Image fallback text",
+        "Navigation",
+        "Script"
+      ],
+      "correct_answer": "Image fallback text",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_008",
+      "question": "What is <aside> used for?",
+      "options": [
+        "Main content",
+        "Sidebar/related content",
+        "Navigation",
+        "Forms"
+      ],
+      "correct_answer": "Sidebar/related content",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_009",
+      "question": "What is <main> used for?",
+      "options": [
+        "Navigation",
+        "Primary content",
+        "Footer",
+        "Header"
+      ],
+      "correct_answer": "Primary content",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_010",
+      "question": "What is <footer> used for?",
+      "options": [
+        "Top section",
+        "Bottom section",
+        "Forms",
+        "Navigation"
+      ],
+      "correct_answer": "Bottom section",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"html_021","question":"DOCTYPE defines?","options":["html version","style","none","loop"],"correct_answer":"html version","difficulty":"hard","weight":3},
-    {"id":"html_022","question":"DOM is?","options":["document model","style","none","loop"],"correct_answer":"document model","difficulty":"hard","weight":3},
-    {"id":"html_023","question":"Local storage?","options":["browser storage","server","none","loop"],"correct_answer":"browser storage","difficulty":"hard","weight":3},
-    {"id":"html_024","question":"Canvas used for?","options":["graphics","text","none","loop"],"correct_answer":"graphics","difficulty":"hard","weight":3},
-    {"id":"html_025","question":"SVG used for?","options":["vector graphics","text","none","loop"],"correct_answer":"vector graphics","difficulty":"hard","weight":3},
-    {"id":"html_026","question":"SEO tags?","options":["meta","style","none","loop"],"correct_answer":"meta","difficulty":"hard","weight":3},
-    {"id":"html_027","question":"Accessibility?","options":["usable for all","style","none","loop"],"correct_answer":"usable for all","difficulty":"hard","weight":3},
-    {"id":"html_028","question":"Lazy loading?","options":["load later","fast","none","loop"],"correct_answer":"load later","difficulty":"hard","weight":3},
-    {"id":"html_029","question":"Shadow DOM?","options":["encapsulation","style","none","loop"],"correct_answer":"encapsulation","difficulty":"hard","weight":3},
-    {"id":"html_030","question":"Web components?","options":["reusable UI","none","loop","array"],"correct_answer":"reusable UI","difficulty":"hard","weight":3}
+    {
+      "id": "html_011",
+      "question": "What is the purpose of <form>?",
+      "options": [
+        "Display data",
+        "Collect user input",
+        "Style content",
+        "Navigation"
+      ],
+      "correct_answer": "Collect user input",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_012",
+      "question": "What does 'required' attribute do?",
+      "options": [
+        "Optional input",
+        "Mandatory field",
+        "Styling",
+        "Navigation"
+      ],
+      "correct_answer": "Mandatory field",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_013",
+      "question": "What is <input type='email'> used for?",
+      "options": [
+        "Text input",
+        "Email validation",
+        "Number input",
+        "File upload"
+      ],
+      "correct_answer": "Email validation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_014",
+      "question": "What is <textarea> used for?",
+      "options": [
+        "Single line input",
+        "Multi-line input",
+        "File input",
+        "Button"
+      ],
+      "correct_answer": "Multi-line input",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_015",
+      "question": "What is <select> used for?",
+      "options": [
+        "Text input",
+        "Dropdown list",
+        "File upload",
+        "Button"
+      ],
+      "correct_answer": "Dropdown list",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
+    {
+      "id": "html_016",
+      "question": "What is <button> default type?",
+      "options": [
+        "submit",
+        "reset",
+        "button",
+        "none"
+      ],
+      "correct_answer": "submit",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_017",
+      "question": "What is <meta charset='UTF-8'> for?",
+      "options": [
+        "Styling",
+        "Character encoding",
+        "Navigation",
+        "Script"
+      ],
+      "correct_answer": "Character encoding",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_018",
+      "question": "What is <link> used for?",
+      "options": [
+        "JS",
+        "External resources",
+        "Images",
+        "Forms"
+      ],
+      "correct_answer": "External resources",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_019",
+      "question": "What is <script> used for?",
+      "options": [
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Images"
+      ],
+      "correct_answer": "JavaScript",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_020",
+      "question": "What is DOM?",
+      "options": [
+        "Database",
+        "Structured representation of HTML",
+        "CSS",
+        "Server"
+      ],
+      "correct_answer": "Structured representation of HTML",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "html_021",
+      "question": "Why avoid div-only layouts?",
+      "options": [
+        "Performance",
+        "Poor semantics",
+        "Storage",
+        "Speed"
+      ],
+      "correct_answer": "Poor semantics",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_022",
+      "question": "What is accessibility in HTML?",
+      "options": [
+        "Styling",
+        "Usability for all users",
+        "Storage",
+        "Speed"
+      ],
+      "correct_answer": "Usability for all users",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_023",
+      "question": "What is <figure> used for?",
+      "options": [
+        "Forms",
+        "Media with caption",
+        "Navigation",
+        "Header"
+      ],
+      "correct_answer": "Media with caption",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_024",
+      "question": "What is <figcaption>?",
+      "options": [
+        "Form label",
+        "Caption for figure",
+        "Header",
+        "Footer"
+      ],
+      "correct_answer": "Caption for figure",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_025",
+      "question": "What is lazy loading in images?",
+      "options": [
+        "Immediate load",
+        "Load on scroll",
+        "Delete images",
+        "Resize images"
+      ],
+      "correct_answer": "Load on scroll",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "html_026",
+      "question": "What is <video> tag used for?",
+      "options": [
+        "Audio",
+        "Embed video",
+        "Images",
+        "Forms"
+      ],
+      "correct_answer": "Embed video",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_027",
+      "question": "What is <audio> used for?",
+      "options": [
+        "Video",
+        "Audio playback",
+        "Images",
+        "Forms"
+      ],
+      "correct_answer": "Audio playback",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_028",
+      "question": "What is <iframe> used for?",
+      "options": [
+        "Forms",
+        "Embed external content",
+        "Images",
+        "Navigation"
+      ],
+      "correct_answer": "Embed external content",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_029",
+      "question": "What is 'id' attribute used for?",
+      "options": [
+        "Multiple elements",
+        "Unique identifier",
+        "Styling only",
+        "Forms"
+      ],
+      "correct_answer": "Unique identifier",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_030",
+      "question": "What is 'class' attribute used for?",
+      "options": [
+        "Unique",
+        "Multiple elements grouping",
+        "Script",
+        "Forms"
+      ],
+      "correct_answer": "Multiple elements grouping",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ],
-  "coding_mcqs":[
-    {"id":"html_c_001","question":"Tag?","code":"<p>","options":["paragraph","link","none","loop"],"correct_answer":"paragraph","difficulty":"easy","weight":1}
+
+  "coding_mcqs": [
+    {
+      "id": "html_c_001",
+      "question": "What will be displayed?",
+      "code": "<p>Hello</p>",
+      "options": ["Hello", "Nothing", "Error", "<p>Hello</p>"],
+      "correct_answer": "Hello",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_002",
+      "question": "What happens?",
+      "code": "<img src='x.jpg'>",
+      "options": [
+        "Image loads",
+        "No alt warning",
+        "Error",
+        "Nothing"
+      ],
+      "correct_answer": "Image loads",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_003",
+      "question": "What is missing?",
+      "code": "<img src='x.jpg'>",
+      "options": [
+        "alt attribute",
+        "class",
+        "id",
+        "style"
+      ],
+      "correct_answer": "alt attribute",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_004",
+      "question": "What will be rendered?",
+      "code": "<h1>Title</h1><p>Text</p>",
+      "options": [
+        "Heading + paragraph",
+        "Only text",
+        "Error",
+        "Nothing"
+      ],
+      "correct_answer": "Heading + paragraph",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_005",
+      "question": "What happens?",
+      "code": "<a href='google.com'>Link</a>",
+      "options": [
+        "Valid link",
+        "May not work correctly",
+        "Error",
+        "Nothing"
+      ],
+      "correct_answer": "May not work correctly",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "html_c_006",
+      "question": "What is the output?",
+      "code": "<input type='text' required>",
+      "options": [
+        "Optional input",
+        "Required input field",
+        "Error",
+        "Hidden input"
+      ],
+      "correct_answer": "Required input field",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_007",
+      "question": "What happens?",
+      "code": "<button>Click</button>",
+      "options": [
+        "Submit button",
+        "Reset button",
+        "No action button",
+        "Error"
+      ],
+      "correct_answer": "Submit button",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_c_008",
+      "question": "What happens?",
+      "code": "<ul><li>A<li>B</ul>",
+      "options": [
+        "Proper list",
+        "Auto-corrected list",
+        "Error",
+        "Nothing"
+      ],
+      "correct_answer": "Auto-corrected list",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_c_009",
+      "question": "What is rendered?",
+      "code": "<p><strong>Bold</strong></p>",
+      "options": [
+        "Bold text",
+        "Normal text",
+        "Error",
+        "Nothing"
+      ],
+      "correct_answer": "Bold text",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_010",
+      "question": "What happens?",
+      "code": "<div><p>Test</div>",
+      "options": [
+        "Error",
+        "Auto-fixed structure",
+        "Nothing",
+        "Delete content"
+      ],
+      "correct_answer": "Auto-fixed structure",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "html_c_011",
+      "question": "What is output?",
+      "code": "<input type='number'>",
+      "options": [
+        "Number input",
+        "Text input",
+        "Error",
+        "Nothing"
+      ],
+      "correct_answer": "Number input",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_012",
+      "question": "What is rendered?",
+      "code": "<textarea></textarea>",
+      "options": [
+        "Textbox",
+        "Input box",
+        "Error",
+        "Nothing"
+      ],
+      "correct_answer": "Textbox",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_013",
+      "question": "What happens?",
+      "code": "<link rel='stylesheet' href='style.css'>",
+      "options": [
+        "Load CSS",
+        "Error",
+        "Nothing",
+        "JS load"
+      ],
+      "correct_answer": "Load CSS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_014",
+      "question": "What happens?",
+      "code": "<script src='app.js'></script>",
+      "options": [
+        "Load JS",
+        "Error",
+        "Nothing",
+        "CSS load"
+      ],
+      "correct_answer": "Load JS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_015",
+      "question": "What happens?",
+      "code": "<img src='x.jpg' alt='img'>",
+      "options": [
+        "Accessible image",
+        "Error",
+        "Nothing",
+        "Text only"
+      ],
+      "correct_answer": "Accessible image",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "html_c_016",
+      "question": "What happens?",
+      "code": "<form><button>Submit</button></form>",
+      "options": [
+        "Form submits",
+        "Error",
+        "Nothing",
+        "Delete form"
+      ],
+      "correct_answer": "Form submits",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "html_c_017",
+      "question": "What happens?",
+      "code": "<input type='checkbox'>",
+      "options": [
+        "Checkbox",
+        "Radio",
+        "Text",
+        "Error"
+      ],
+      "correct_answer": "Checkbox",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_018",
+      "question": "What happens?",
+      "code": "<iframe src='https://example.com'></iframe>",
+      "options": [
+        "Embed page",
+        "Error",
+        "Nothing",
+        "Download page"
+      ],
+      "correct_answer": "Embed page",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_019",
+      "question": "What happens?",
+      "code": "<video controls></video>",
+      "options": [
+        "Video player",
+        "Error",
+        "Nothing",
+        "Audio player"
+      ],
+      "correct_answer": "Video player",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "html_c_020",
+      "question": "What happens?",
+      "code": "<audio controls></audio>",
+      "options": [
+        "Audio player",
+        "Video player",
+        "Error",
+        "Nothing"
+      ],
+      "correct_answer": "Audio player",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ]
 }

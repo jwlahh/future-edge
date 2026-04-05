@@ -1,43 +1,586 @@
 {
-  "skill":"PHP",
-  "mcqs":[
+  "skill": "PHP",
 
-    {"id":"php_001","question":"PHP stands for?","options":["Hypertext Preprocessor","none","loop","array"],"correct_answer":"Hypertext Preprocessor","difficulty":"easy","weight":1},
-    {"id":"php_002","question":"PHP is?","options":["server-side","client-side","db","none"],"correct_answer":"server-side","difficulty":"easy","weight":1},
-    {"id":"php_003","question":"Variable symbol?","options":["$","@","#","none"],"correct_answer":"$","difficulty":"easy","weight":1},
-    {"id":"php_004","question":"Echo used for?","options":["print","input","none","loop"],"correct_answer":"print","difficulty":"easy","weight":1},
-    {"id":"php_005","question":"File extension?","options":[".php",".html",".js",".none"],"correct_answer":".php","difficulty":"easy","weight":1},
-    {"id":"php_006","question":"Superglobal example?","options":["$_POST","post()","none","loop"],"correct_answer":"$_POST","difficulty":"easy","weight":1},
-    {"id":"php_007","question":"Include file?","options":["include","import","none","loop"],"correct_answer":"include","difficulty":"easy","weight":1},
-    {"id":"php_008","question":"Session used for?","options":["store user data","db","none","loop"],"correct_answer":"store user data","difficulty":"easy","weight":1},
-    {"id":"php_009","question":"Cookie used for?","options":["store client data","server","none","loop"],"correct_answer":"store client data","difficulty":"easy","weight":1},
-    {"id":"php_010","question":"Array type?","options":["indexed","string","none","loop"],"correct_answer":"indexed","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "php_001",
+      "question": "What is PHP primarily used for?",
+      "options": [
+        "Frontend UI",
+        "Server-side scripting",
+        "Database",
+        "Networking"
+      ],
+      "correct_answer": "Server-side scripting",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_002",
+      "question": "Where does PHP execute?",
+      "options": [
+        "Browser",
+        "Server",
+        "Database",
+        "Client"
+      ],
+      "correct_answer": "Server",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_003",
+      "question": "What is $_GET?",
+      "options": [
+        "Session",
+        "Retrieve URL data",
+        "Database",
+        "File"
+      ],
+      "correct_answer": "Retrieve URL data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_004",
+      "question": "What is $_POST?",
+      "options": [
+        "Session",
+        "Retrieve form data",
+        "Database",
+        "File"
+      ],
+      "correct_answer": "Retrieve form data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_005",
+      "question": "What is session?",
+      "options": [
+        "Database",
+        "Server-side user data",
+        "Client storage",
+        "Network"
+      ],
+      "correct_answer": "Server-side user data",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"php_011","question":"Associative array?","options":["key-value","list","none","loop"],"correct_answer":"key-value","difficulty":"medium","weight":2},
-    {"id":"php_012","question":"Function keyword?","options":["function","def","none","loop"],"correct_answer":"function","difficulty":"medium","weight":2},
-    {"id":"php_013","question":"mysqli used for?","options":["database","file","none","loop"],"correct_answer":"database","difficulty":"medium","weight":2},
-    {"id":"php_014","question":"PDO stands for?","options":["PHP Data Objects","none","loop","array"],"correct_answer":"PHP Data Objects","difficulty":"medium","weight":2},
-    {"id":"php_015","question":"Error handling?","options":["try catch","loop","none","array"],"correct_answer":"try catch","difficulty":"medium","weight":2},
-    {"id":"php_016","question":"Form method?","options":["GET/POST","PUT","none","loop"],"correct_answer":"GET/POST","difficulty":"medium","weight":2},
-    {"id":"php_017","question":"isset()?","options":["check var","delete","none","loop"],"correct_answer":"check var","difficulty":"medium","weight":2},
-    {"id":"php_018","question":"empty()?","options":["check empty","delete","none","loop"],"correct_answer":"check empty","difficulty":"medium","weight":2},
-    {"id":"php_019","question":"Header() used for?","options":["redirect","db","none","loop"],"correct_answer":"redirect","difficulty":"medium","weight":2},
-    {"id":"php_020","question":"explode()?","options":["split string","join","none","loop"],"correct_answer":"split string","difficulty":"medium","weight":2},
+    {
+      "id": "php_006",
+      "question": "What is cookie?",
+      "options": [
+        "Server storage",
+        "Client-side storage",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Client-side storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_007",
+      "question": "What is include?",
+      "options": [
+        "Delete file",
+        "Insert file content",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Insert file content",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_008",
+      "question": "What is require?",
+      "options": [
+        "Optional include",
+        "Mandatory include",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Mandatory include",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "php_009",
+      "question": "What is array?",
+      "options": [
+        "Single value",
+        "Collection of values",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Collection of values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_010",
+      "question": "What is associative array?",
+      "options": [
+        "Index based",
+        "Key-value pairs",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Key-value pairs",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"php_021","question":"OOP in PHP?","options":["supported","not","none","loop"],"correct_answer":"supported","difficulty":"hard","weight":3},
-    {"id":"php_022","question":"Magic methods?","options":["__construct","loop","none","array"],"correct_answer":"__construct","difficulty":"hard","weight":3},
-    {"id":"php_023","question":"Namespace?","options":["avoid conflict","loop","none","array"],"correct_answer":"avoid conflict","difficulty":"hard","weight":3},
-    {"id":"php_024","question":"Composer?","options":["dependency manager","loop","none","array"],"correct_answer":"dependency manager","difficulty":"hard","weight":3},
-    {"id":"php_025","question":"Laravel is?","options":["framework","db","none","loop"],"correct_answer":"framework","difficulty":"hard","weight":3},
-    {"id":"php_026","question":"Security best practice?","options":["sanitize input","none","loop","array"],"correct_answer":"sanitize input","difficulty":"hard","weight":3},
-    {"id":"php_027","question":"CSRF attack?","options":["forged request","safe","none","loop"],"correct_answer":"forged request","difficulty":"hard","weight":3},
-    {"id":"php_028","question":"XSS prevention?","options":["escape output","none","loop","array"],"correct_answer":"escape output","difficulty":"hard","weight":3},
-    {"id":"php_029","question":"MVC pattern?","options":["design pattern","loop","none","array"],"correct_answer":"design pattern","difficulty":"hard","weight":3},
-    {"id":"php_030","question":"Session hijacking?","options":["steal session","safe","none","loop"],"correct_answer":"steal session","difficulty":"hard","weight":3}
+    {
+      "id": "php_011",
+      "question": "What is function?",
+      "options": [
+        "Loop",
+        "Reusable block of code",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Reusable block of code",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_012",
+      "question": "What is echo?",
+      "options": [
+        "Input",
+        "Output statement",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Output statement",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_013",
+      "question": "What is variable?",
+      "options": [
+        "Constant",
+        "Store value",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Store value",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_014",
+      "question": "What is global variable?",
+      "options": [
+        "Local",
+        "Accessible everywhere",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Accessible everywhere",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "php_015",
+      "question": "What is isset()?",
+      "options": [
+        "Delete variable",
+        "Check if variable exists",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Check if variable exists",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
+    {
+      "id": "php_016",
+      "question": "What is empty()?",
+      "options": [
+        "Check if empty",
+        "Delete variable",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Check if empty",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_017",
+      "question": "What is string?",
+      "options": [
+        "Number",
+        "Text data",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Text data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_018",
+      "question": "What is concatenation?",
+      "options": [
+        "Split",
+        "Join strings",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Join strings",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_019",
+      "question": "What is error handling?",
+      "options": [
+        "Ignore errors",
+        "Handle runtime errors",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Handle runtime errors",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_020",
+      "question": "What is exception?",
+      "options": [
+        "Normal flow",
+        "Error event",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Error event",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "php_021",
+      "question": "What is file handling?",
+      "options": [
+        "Database",
+        "Read/write files",
+        "Network",
+        "Storage"
+      ],
+      "correct_answer": "Read/write files",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_022",
+      "question": "What is fopen()?",
+      "options": [
+        "Close file",
+        "Open file",
+        "Delete file",
+        "Read file"
+      ],
+      "correct_answer": "Open file",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_023",
+      "question": "What is fclose()?",
+      "options": [
+        "Open file",
+        "Close file",
+        "Delete file",
+        "Read file"
+      ],
+      "correct_answer": "Close file",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_024",
+      "question": "What is mysqli?",
+      "options": [
+        "Frontend",
+        "Database connection",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Database connection",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "php_025",
+      "question": "What is PDO?",
+      "options": [
+        "Frontend",
+        "Database abstraction",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Database abstraction",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "php_026",
+      "question": "What is form handling?",
+      "options": [
+        "UI",
+        "Process user input",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Process user input",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_027",
+      "question": "What is validation?",
+      "options": [
+        "Ignore input",
+        "Check input correctness",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Check input correctness",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_028",
+      "question": "What is sanitization?",
+      "options": [
+        "Delete input",
+        "Clean input",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Clean input",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "php_029",
+      "question": "What is XSS?",
+      "options": [
+        "Database",
+        "Script injection attack",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Script injection attack",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "php_030",
+      "question": "What is CSRF?",
+      "options": [
+        "Database",
+        "Request forgery attack",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Request forgery attack",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ],
 
-  "coding_mcqs":[
-    {"id":"php_c_001","question":"Output?","code":"echo 5+5;","options":["10","55","error","none"],"correct_answer":"10","difficulty":"easy","weight":1}
+  "coding_mcqs": [
+    {
+      "id": "php_c_001",
+      "question": "What is the output?",
+      "code": "echo 2 + '3';",
+      "options": ["5", "23", "Error", "0"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_c_002",
+      "question": "What is the output?",
+      "code": "echo '2' . '3';",
+      "options": ["5", "23", "Error", "0"],
+      "correct_answer": "23",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "php_c_003",
+      "question": "What is the output?",
+      "code": "echo isset($a);",
+      "options": ["1", "0", "Error", "null"],
+      "correct_answer": "0",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "php_c_004",
+      "question": "What is the output?",
+      "code": "$a = null; echo isset($a);",
+      "options": ["1", "0", "Error", "null"],
+      "correct_answer": "0",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "php_c_005",
+      "question": "What is the output?",
+      "code": "echo empty('');",
+      "options": ["1", "0", "Error", "null"],
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+     {
+  "id": "php_c_006",
+  "question": "What is the output?",
+  "code": "echo true;",
+  "options": ["1", "true", "0", "error"],
+  "correct_answer": "1",
+  "difficulty": "easy",
+  "weight": 2
+},
+{
+  "id": "php_c_007",
+  "question": "What is the output?",
+  "code": "echo false;",
+  "options": ["0", "", "false", "error"],
+  "correct_answer": "",
+  "difficulty": "medium",
+  "weight": 3
+},
+{
+  "id": "php_c_008",
+  "question": "What is the output?",
+  "code": "$a = 5; $b = &$a; $b = 10; echo $a;",
+  "options": ["5", "10", "error", "null"],
+  "correct_answer": "10",
+  "difficulty": "hard",
+  "weight": 3
+},
+{
+  "id": "php_c_009",
+  "question": "What is the output?",
+  "code": "$a = 5; $b = $a; $b = 10; echo $a;",
+  "options": ["5", "10", "error", "null"],
+  "correct_answer": "5",
+  "difficulty": "medium",
+  "weight": 2
+},
+{
+  "id": "php_c_010",
+  "question": "What is the output?",
+  "code": "echo strlen('hello');",
+  "options": ["4", "5", "6", "error"],
+  "correct_answer": "5",
+  "difficulty": "easy",
+  "weight": 2
+},
+
+{
+  "id": "php_c_011",
+  "question": "What is the output?",
+  "code": "echo str_replace('l','x','hello');",
+  "options": ["hexxo", "hello", "hexlo", "error"],
+  "correct_answer": "hexxo",
+  "difficulty": "medium",
+  "weight": 2
+},
+{
+  "id": "php_c_012",
+  "question": "What is the output?",
+  "code": "echo (5 == '5');",
+  "options": ["1", "0", "true", "false"],
+  "correct_answer": "1",
+  "difficulty": "medium",
+  "weight": 2
+},
+{
+  "id": "php_c_013",
+  "question": "What is the output?",
+  "code": "echo (5 === '5');",
+  "options": ["1", "0", "true", "false"],
+  "correct_answer": "0",
+  "difficulty": "medium",
+  "weight": 3
+},
+{
+  "id": "php_c_014",
+  "question": "What is the output?",
+  "code": "$arr = [1,2,3]; echo count($arr);",
+  "options": ["2", "3", "4", "error"],
+  "correct_answer": "3",
+  "difficulty": "easy",
+  "weight": 2
+},
+{
+  "id": "php_c_015",
+  "question": "What is the output?",
+  "code": "echo strpos('hello','e');",
+  "options": ["0", "1", "2", "false"],
+  "correct_answer": "1",
+  "difficulty": "medium",
+  "weight": 2
+},
+
+{
+  "id": "php_c_016",
+  "question": "What is the output?",
+  "code": "echo is_numeric('123');",
+  "options": ["1", "0", "true", "false"],
+  "correct_answer": "1",
+  "difficulty": "easy",
+  "weight": 2
+},
+{
+  "id": "php_c_017",
+  "question": "What is the output?",
+  "code": "echo gettype(10);",
+  "options": ["integer", "int", "number", "error"],
+  "correct_answer": "integer",
+  "difficulty": "medium",
+  "weight": 2
+},
+{
+  "id": "php_c_018",
+  "question": "What is the output?",
+  "code": "echo (int)'10abc';",
+  "options": ["10", "0", "error", "abc"],
+  "correct_answer": "10",
+  "difficulty": "hard",
+  "weight": 3
+},
+{
+  "id": "php_c_019",
+  "question": "What is the output?",
+  "code": "echo (bool)0;",
+  "options": ["1", "0", "true", "false"],
+  "correct_answer": "false",
+  "difficulty": "medium",
+  "weight": 3
+},
+{
+  "id": "php_c_020",
+  "question": "What is the output?",
+  "code": "echo implode('-', [1,2,3]);",
+  "options": ["123", "1-2-3", "1,2,3", "error"],
+  "correct_answer": "1-2-3",
+  "difficulty": "easy",
+  "weight": 2
+}
   ]
 }

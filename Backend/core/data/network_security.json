@@ -1,43 +1,402 @@
 {
-  "skill":"Network Security",
-  "mcqs":[
+  "skill": "Network Security",
 
-    {"id":"ns_001","question":"Firewall does?","options":["block traffic","store data","run code","none"],"correct_answer":"block traffic","difficulty":"easy","weight":1},
-    {"id":"ns_002","question":"Encryption means?","options":["secure data","delete","store","none"],"correct_answer":"secure data","difficulty":"easy","weight":1},
-    {"id":"ns_003","question":"HTTPS uses?","options":["SSL/TLS","HTTP","none","loop"],"correct_answer":"SSL/TLS","difficulty":"easy","weight":1},
-    {"id":"ns_004","question":"VPN is?","options":["secure network","fast net","none","loop"],"correct_answer":"secure network","difficulty":"easy","weight":1},
-    {"id":"ns_005","question":"Antivirus does?","options":["detect malware","store","none","loop"],"correct_answer":"detect malware","difficulty":"easy","weight":1},
-    {"id":"ns_006","question":"Malware is?","options":["harmful software","safe","none","loop"],"correct_answer":"harmful software","difficulty":"easy","weight":1},
-    {"id":"ns_007","question":"Password best practice?","options":["strong password","weak","none","loop"],"correct_answer":"strong password","difficulty":"easy","weight":1},
-    {"id":"ns_008","question":"Phishing is?","options":["fake attack","real","none","loop"],"correct_answer":"fake attack","difficulty":"easy","weight":1},
-    {"id":"ns_009","question":"Two factor auth?","options":["extra security","none","loop","array"],"correct_answer":"extra security","difficulty":"easy","weight":1},
-    {"id":"ns_010","question":"Spyware?","options":["tracks user","protect","none","loop"],"correct_answer":"tracks user","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "ns_001",
+      "question": "What is network security?",
+      "options": [
+        "Data storage",
+        "Protecting network systems",
+        "Database",
+        "UI design"
+      ],
+      "correct_answer": "Protecting network systems",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_002",
+      "question": "What is a firewall?",
+      "options": [
+        "Database",
+        "Network traffic filter",
+        "UI",
+        "Storage"
+      ],
+      "correct_answer": "Network traffic filter",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_003",
+      "question": "What is encryption?",
+      "options": [
+        "Delete data",
+        "Convert data to secure form",
+        "Store data",
+        "Network"
+      ],
+      "correct_answer": "Convert data to secure form",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_004",
+      "question": "What is decryption?",
+      "options": [
+        "Encrypt",
+        "Convert secure data back",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Convert secure data back",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_005",
+      "question": "What is VPN?",
+      "options": [
+        "Database",
+        "Secure network tunnel",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Secure network tunnel",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"ns_011","question":"IDS stands for?","options":["intrusion detection","none","loop","array"],"correct_answer":"intrusion detection","difficulty":"medium","weight":2},
-    {"id":"ns_012","question":"IPS stands for?","options":["intrusion prevention","none","loop","array"],"correct_answer":"intrusion prevention","difficulty":"medium","weight":2},
-    {"id":"ns_013","question":"Hashing used for?","options":["data integrity","encrypt","none","loop"],"correct_answer":"data integrity","difficulty":"medium","weight":2},
-    {"id":"ns_014","question":"Symmetric key?","options":["same key","diff","none","loop"],"correct_answer":"same key","difficulty":"medium","weight":2},
-    {"id":"ns_015","question":"Asymmetric key?","options":["public private","same","none","loop"],"correct_answer":"public private","difficulty":"medium","weight":2},
-    {"id":"ns_016","question":"DDoS attack?","options":["flood traffic","secure","none","loop"],"correct_answer":"flood traffic","difficulty":"medium","weight":2},
-    {"id":"ns_017","question":"Port scanning?","options":["find ports","close","none","loop"],"correct_answer":"find ports","difficulty":"medium","weight":2},
-    {"id":"ns_018","question":"SSL handshake?","options":["secure connection","none","loop","array"],"correct_answer":"secure connection","difficulty":"medium","weight":2},
-    {"id":"ns_019","question":"Digital signature?","options":["verify","store","none","loop"],"correct_answer":"verify","difficulty":"medium","weight":2},
-    {"id":"ns_020","question":"Access control?","options":["restrict access","allow all","none","loop"],"correct_answer":"restrict access","difficulty":"medium","weight":2},
+    {
+      "id": "ns_006",
+      "question": "What is HTTPS?",
+      "options": [
+        "Unsecured protocol",
+        "Secure HTTP",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Secure HTTP",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_007",
+      "question": "What is authentication?",
+      "options": [
+        "Authorization",
+        "Verify identity",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Verify identity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_008",
+      "question": "What is authorization?",
+      "options": [
+        "Verify identity",
+        "Grant access rights",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Grant access rights",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_009",
+      "question": "What is IDS?",
+      "options": [
+        "Database",
+        "Intrusion detection system",
+        "UI",
+        "Storage"
+      ],
+      "correct_answer": "Intrusion detection system",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ns_010",
+      "question": "What is IPS?",
+      "options": [
+        "Database",
+        "Intrusion prevention system",
+        "UI",
+        "Storage"
+      ],
+      "correct_answer": "Intrusion prevention system",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
-    {"id":"ns_021","question":"Zero trust?","options":["verify always","trust all","none","loop"],"correct_answer":"verify always","difficulty":"hard","weight":3},
-    {"id":"ns_022","question":"MITM attack?","options":["intercept","secure","none","loop"],"correct_answer":"intercept","difficulty":"hard","weight":3},
-    {"id":"ns_023","question":"SQL injection?","options":["attack DB","secure","none","loop"],"correct_answer":"attack DB","difficulty":"hard","weight":3},
-    {"id":"ns_024","question":"XSS attack?","options":["script injection","secure","none","loop"],"correct_answer":"script injection","difficulty":"hard","weight":3},
-    {"id":"ns_025","question":"Brute force?","options":["guess password","secure","none","loop"],"correct_answer":"guess password","difficulty":"hard","weight":3},
-    {"id":"ns_026","question":"Tokenization?","options":["replace data","encrypt","none","loop"],"correct_answer":"replace data","difficulty":"hard","weight":3},
-    {"id":"ns_027","question":"PKI?","options":["key infra","db","none","loop"],"correct_answer":"key infra","difficulty":"hard","weight":3},
-    {"id":"ns_028","question":"SOC?","options":["security ops","db","none","loop"],"correct_answer":"security ops","difficulty":"hard","weight":3},
-    {"id":"ns_029","question":"Pen testing?","options":["test security","attack","none","loop"],"correct_answer":"test security","difficulty":"hard","weight":3},
-    {"id":"ns_030","question":"Zero day?","options":["unknown exploit","known","none","loop"],"correct_answer":"unknown exploit","difficulty":"hard","weight":3}
+    {
+      "id": "ns_011",
+      "question": "What is phishing?",
+      "options": [
+        "Network attack",
+        "Fake communication to steal data",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Fake communication to steal data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_012",
+      "question": "What is DoS attack?",
+      "options": [
+        "Data theft",
+        "Overload system",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Overload system",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_013",
+      "question": "What is DDoS?",
+      "options": [
+        "Single attack",
+        "Multiple source attack",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Multiple source attack",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ns_014",
+      "question": "What is MITM attack?",
+      "options": [
+        "Storage",
+        "Intercept communication",
+        "UI",
+        "Database"
+      ],
+      "correct_answer": "Intercept communication",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ns_015",
+      "question": "What is malware?",
+      "options": [
+        "Good software",
+        "Malicious software",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Malicious software",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
+    {
+      "id": "ns_016",
+      "question": "What is antivirus?",
+      "options": [
+        "Attack",
+        "Malware detection tool",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Malware detection tool",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_017",
+      "question": "What is encryption key?",
+      "options": [
+        "Password",
+        "Used for encrypt/decrypt",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Used for encrypt/decrypt",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ns_018",
+      "question": "What is port scanning?",
+      "options": [
+        "Secure action",
+        "Find open ports",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Find open ports",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ns_019",
+      "question": "What is zero-day attack?",
+      "options": [
+        "Known bug",
+        "Unknown vulnerability exploit",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Unknown vulnerability exploit",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "ns_020",
+      "question": "What is security policy?",
+      "options": [
+        "Code",
+        "Rules for security",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Rules for security",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ],
 
-  "coding_mcqs":[
-    {"id":"ns_c_001","question":"Protocol?","code":"https","options":["secure","not","none","loop"],"correct_answer":"secure","difficulty":"easy","weight":1}
+  "scenario_mcqs": [
+    {
+      "id": "ns_s_001",
+      "question": "Secure web communication. What to use?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correct_answer": "HTTPS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_s_002",
+      "question": "Protect internal network traffic. What to use?",
+      "options": [
+        "VPN",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "correct_answer": "VPN",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_s_003",
+      "question": "Block malicious traffic. What to use?",
+      "options": [
+        "Firewall",
+        "Database",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "Firewall",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_s_004",
+      "question": "Detect intrusion attempts. What to use?",
+      "options": [
+        "IDS",
+        "Database",
+        "Storage",
+        "UI"
+      ],
+      "correct_answer": "IDS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_s_005",
+      "question": "Prevent intrusion attacks. What to use?",
+      "options": [
+        "IDS",
+        "IPS",
+        "Database",
+        "Storage"
+      ],
+      "correct_answer": "IPS",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ns_s_006",
+      "question": "User receives fake email asking credentials. What attack?",
+      "options": [
+        "Phishing",
+        "DoS",
+        "MITM",
+        "Malware"
+      ],
+      "correct_answer": "Phishing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_s_007",
+      "question": "Server overwhelmed with traffic. What attack?",
+      "options": [
+        "DoS",
+        "Phishing",
+        "MITM",
+        "Malware"
+      ],
+      "correct_answer": "DoS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_s_008",
+      "question": "Attacker intercepts communication. What attack?",
+      "options": [
+        "MITM",
+        "DoS",
+        "Phishing",
+        "Malware"
+      ],
+      "correct_answer": "MITM",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ns_s_009",
+      "question": "Scan system for viruses. What tool?",
+      "options": [
+        "Antivirus",
+        "Firewall",
+        "VPN",
+        "HTTPS"
+      ],
+      "correct_answer": "Antivirus",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ns_s_010",
+      "question": "Protect system from unknown vulnerabilities. What approach?",
+      "options": [
+        "Ignore",
+        "Security updates & monitoring",
+        "Delete data",
+        "Storage"
+      ],
+      "correct_answer": "Security updates & monitoring",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ]
 }

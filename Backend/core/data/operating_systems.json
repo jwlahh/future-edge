@@ -1,411 +1,402 @@
 {
   "skill": "Operating Systems",
+
   "mcqs": [
     {
-      "id": "operating_systems_001",
-      "question": "operating systems question 1?",
+      "id": "os_001",
+      "question": "What is an operating system?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Application software",
+        "System software managing hardware",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_002",
-      "question": "operating systems question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_003",
-      "question": "operating systems question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "operating_systems_004",
-      "question": "operating systems question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_005",
-      "question": "operating systems question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_006",
-      "question": "operating systems question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_007",
-      "question": "operating systems question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_008",
-      "question": "operating systems question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_009",
-      "question": "operating systems question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_010",
-      "question": "operating systems question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "operating_systems_011",
-      "question": "operating systems question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_012",
-      "question": "operating systems question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_013",
-      "question": "operating systems question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_014",
-      "question": "operating systems question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "operating_systems_015",
-      "question": "operating systems question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_016",
-      "question": "operating systems question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_017",
-      "question": "operating systems question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "operating_systems_018",
-      "question": "operating systems question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_019",
-      "question": "operating systems question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_020",
-      "question": "operating systems question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_021",
-      "question": "operating systems question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "operating_systems_022",
-      "question": "operating systems question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_023",
-      "question": "operating systems question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "operating_systems_024",
-      "question": "operating systems question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_025",
-      "question": "operating systems question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "operating_systems_026",
-      "question": "operating systems question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "operating_systems_027",
-      "question": "operating systems question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_028",
-      "question": "operating systems question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "operating_systems_029",
-      "question": "operating systems question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "System software managing hardware",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "operating_systems_030",
-      "question": "operating systems question 30?",
+      "id": "os_002",
+      "question": "What is a process?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Program in disk",
+        "Program in execution",
+        "Thread",
+        "File"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Program in execution",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "os_003",
+      "question": "What is a thread?",
+      "options": [
+        "Process",
+        "Lightweight process",
+        "File",
+        "Memory"
+      ],
+      "correct_answer": "Lightweight process",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "os_004",
+      "question": "What is context switching?",
+      "options": [
+        "Memory change",
+        "Switch CPU between processes",
+        "File switch",
+        "Network switch"
+      ],
+      "correct_answer": "Switch CPU between processes",
+      "difficulty": "medium",
       "weight": 3
+    },
+    {
+      "id": "os_005",
+      "question": "What is scheduling?",
+      "options": [
+        "Memory allocation",
+        "Process execution order",
+        "File management",
+        "Networking"
+      ],
+      "correct_answer": "Process execution order",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "os_006",
+      "question": "What is FCFS?",
+      "options": [
+        "Shortest job",
+        "First come first serve",
+        "Priority",
+        "Round robin"
+      ],
+      "correct_answer": "First come first serve",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "os_007",
+      "question": "What is Round Robin?",
+      "options": [
+        "Priority",
+        "Time-sharing scheduling",
+        "Shortest job",
+        "Memory"
+      ],
+      "correct_answer": "Time-sharing scheduling",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_008",
+      "question": "What is priority scheduling?",
+      "options": [
+        "Random",
+        "Based on priority",
+        "Shortest job",
+        "Memory"
+      ],
+      "correct_answer": "Based on priority",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "os_009",
+      "question": "What is deadlock?",
+      "options": [
+        "Execution",
+        "Processes waiting forever",
+        "Memory",
+        "File"
+      ],
+      "correct_answer": "Processes waiting forever",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_010",
+      "question": "What is starvation?",
+      "options": [
+        "Deadlock",
+        "Process never gets CPU",
+        "Memory",
+        "File"
+      ],
+      "correct_answer": "Process never gets CPU",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "os_011",
+      "question": "What is memory management?",
+      "options": [
+        "File",
+        "Manage RAM usage",
+        "Network",
+        "Database"
+      ],
+      "correct_answer": "Manage RAM usage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "os_012",
+      "question": "What is virtual memory?",
+      "options": [
+        "RAM",
+        "Disk used as RAM",
+        "Cache",
+        "CPU"
+      ],
+      "correct_answer": "Disk used as RAM",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_013",
+      "question": "What is paging?",
+      "options": [
+        "Segmentation",
+        "Divide memory into pages",
+        "Cache",
+        "CPU"
+      ],
+      "correct_answer": "Divide memory into pages",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_014",
+      "question": "What is segmentation?",
+      "options": [
+        "Paging",
+        "Divide memory into segments",
+        "Cache",
+        "CPU"
+      ],
+      "correct_answer": "Divide memory into segments",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_015",
+      "question": "What is semaphore?",
+      "options": [
+        "Memory",
+        "Synchronization tool",
+        "File",
+        "CPU"
+      ],
+      "correct_answer": "Synchronization tool",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "os_016",
+      "question": "What is mutex?",
+      "options": [
+        "Memory",
+        "Mutual exclusion lock",
+        "File",
+        "CPU"
+      ],
+      "correct_answer": "Mutual exclusion lock",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_017",
+      "question": "What is critical section?",
+      "options": [
+        "Memory",
+        "Shared resource access code",
+        "File",
+        "CPU"
+      ],
+      "correct_answer": "Shared resource access code",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_018",
+      "question": "What is file system?",
+      "options": [
+        "Memory",
+        "Manage files",
+        "CPU",
+        "Network"
+      ],
+      "correct_answer": "Manage files",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "os_019",
+      "question": "What is I/O system?",
+      "options": [
+        "Memory",
+        "Input/output management",
+        "CPU",
+        "Network"
+      ],
+      "correct_answer": "Input/output management",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "os_020",
+      "question": "What is multitasking?",
+      "options": [
+        "Single task",
+        "Multiple tasks at once",
+        "Memory",
+        "CPU"
+      ],
+      "correct_answer": "Multiple tasks at once",
+      "difficulty": "easy",
+      "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "operating_systems_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "os_s_001",
+      "question": "Execute processes in arrival order. Which scheduling?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "FCFS",
+        "Round Robin",
+        "Priority",
+        "SJF"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "FCFS",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "os_s_002",
+      "question": "Ensure fair CPU time sharing. Which scheduling?",
+      "options": [
+        "FCFS",
+        "Round Robin",
+        "Priority",
+        "SJF"
+      ],
+      "correct_answer": "Round Robin",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "os_s_003",
+      "question": "Process stuck waiting forever. What issue?",
+      "options": [
+        "Deadlock",
+        "Starvation",
+        "Memory",
+        "CPU"
+      ],
+      "correct_answer": "Starvation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_s_004",
+      "question": "Processes waiting on each other. What issue?",
+      "options": [
+        "Starvation",
+        "Deadlock",
+        "Memory",
+        "CPU"
+      ],
+      "correct_answer": "Deadlock",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_s_005",
+      "question": "Prevent race condition. What to use?",
+      "options": [
+        "Semaphore",
+        "File",
+        "CPU",
+        "Memory"
+      ],
+      "correct_answer": "Semaphore",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_s_006",
+      "question": "Ensure only one process accesses resource. What to use?",
+      "options": [
+        "Mutex",
+        "File",
+        "CPU",
+        "Memory"
+      ],
+      "correct_answer": "Mutex",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_s_007",
+      "question": "Handle large programs with limited RAM. What to use?",
+      "options": [
+        "Virtual memory",
+        "File",
+        "CPU",
+        "Network"
+      ],
+      "correct_answer": "Virtual memory",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_s_008",
+      "question": "Divide memory into equal blocks. What technique?",
+      "options": [
+        "Paging",
+        "Segmentation",
+        "File",
+        "CPU"
+      ],
+      "correct_answer": "Paging",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_s_009",
+      "question": "Divide memory logically. What technique?",
+      "options": [
+        "Segmentation",
+        "Paging",
+        "File",
+        "CPU"
+      ],
+      "correct_answer": "Segmentation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "os_s_010",
+      "question": "Run multiple applications simultaneously. What feature?",
+      "options": [
+        "Multitasking",
+        "Single task",
+        "File",
+        "CPU"
+      ],
+      "correct_answer": "Multitasking",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

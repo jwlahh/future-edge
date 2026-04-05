@@ -1,411 +1,402 @@
 {
-  "skill": "It Strategy",
+  "skill": "IT Strategy",
+
   "mcqs": [
     {
-      "id": "it_strategy_001",
-      "question": "it strategy question 1?",
+      "id": "its_001",
+      "question": "What is the primary goal of IT strategy?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Reduce coding effort",
+        "Align IT with business goals",
+        "Increase hardware usage",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "it_strategy_002",
-      "question": "it strategy question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "it_strategy_003",
-      "question": "it strategy question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Align IT with business goals",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "it_strategy_004",
-      "question": "it strategy question 4?",
+      "id": "its_002",
+      "question": "What is digital transformation?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Hardware upgrade",
+        "Using technology to improve business processes",
+        "Data storage",
+        "Network setup"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "it_strategy_005",
-      "question": "it strategy question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "it_strategy_006",
-      "question": "it strategy question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Using technology to improve business processes",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "it_strategy_007",
-      "question": "it strategy question 7?",
+      "id": "its_003",
+      "question": "What is IT governance?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Coding rules",
+        "Framework for managing IT decisions",
+        "Database",
+        "Networking"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "it_strategy_008",
-      "question": "it strategy question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "it_strategy_009",
-      "question": "it strategy question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "it_strategy_010",
-      "question": "it strategy question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "it_strategy_011",
-      "question": "it strategy question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "it_strategy_012",
-      "question": "it strategy question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Framework for managing IT decisions",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "it_strategy_013",
-      "question": "it strategy question 13?",
+      "id": "its_004",
+      "question": "What is ROI in IT strategy?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Return on investment",
+        "Rate of integration",
+        "Resource optimization index",
+        "Risk operation indicator"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "it_strategy_014",
-      "question": "it strategy question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "it_strategy_015",
-      "question": "it strategy question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "it_strategy_016",
-      "question": "it strategy question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "it_strategy_017",
-      "question": "it strategy question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Return on investment",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "it_strategy_018",
-      "question": "it strategy question 18?",
+      "id": "its_005",
+      "question": "What is cost optimization?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Increase cost",
+        "Efficient spending",
+        "Delete resources",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "it_strategy_019",
-      "question": "it strategy question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "it_strategy_020",
-      "question": "it strategy question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Efficient spending",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "it_strategy_021",
-      "question": "it strategy question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
+
     {
-      "id": "it_strategy_022",
-      "question": "it strategy question 22?",
+      "id": "its_006",
+      "question": "What is IT roadmap?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Coding guide",
+        "Plan for IT initiatives",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "it_strategy_023",
-      "question": "it strategy question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "it_strategy_024",
-      "question": "it strategy question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Plan for IT initiatives",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
-      "id": "it_strategy_025",
-      "question": "it strategy question 25?",
+      "id": "its_007",
+      "question": "What is business-IT alignment?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Separate goals",
+        "IT supports business strategy",
+        "Independent systems",
+        "Data storage"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "IT supports business strategy",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "it_strategy_026",
-      "question": "it strategy question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "it_strategy_027",
-      "question": "it strategy question 27?",
+      "id": "its_008",
+      "question": "What is risk management in IT?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Ignore risks",
+        "Identify and mitigate risks",
+        "Delete systems",
+        "Store logs"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "it_strategy_028",
-      "question": "it strategy question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Identify and mitigate risks",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "it_strategy_029",
-      "question": "it strategy question 29?",
+      "id": "its_009",
+      "question": "What is cloud adoption strategy?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Avoid cloud",
+        "Plan migration to cloud",
+        "Delete data",
+        "Store logs"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Plan migration to cloud",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "it_strategy_030",
-      "question": "it strategy question 30?",
+      "id": "its_010",
+      "question": "What is scalability in IT strategy?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Fixed capacity",
+        "Ability to grow with demand",
+        "Delete resources",
+        "Store data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Ability to grow with demand",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "its_011",
+      "question": "What is vendor management?",
+      "options": [
+        "Ignore vendors",
+        "Manage external providers",
+        "Delete vendors",
+        "Store data"
+      ],
+      "correct_answer": "Manage external providers",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_012",
+      "question": "What is SLA?",
+      "options": [
+        "Service level agreement",
+        "System log analysis",
+        "Storage limit allocation",
+        "Security log audit"
+      ],
+      "correct_answer": "Service level agreement",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_013",
+      "question": "What is KPI in IT strategy?",
+      "options": [
+        "Key performance indicator",
+        "Knowledge process integration",
+        "Kernel process index",
+        "Key programming interface"
+      ],
+      "correct_answer": "Key performance indicator",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_014",
+      "question": "What is enterprise architecture?",
+      "options": [
+        "Coding structure",
+        "Blueprint of IT systems",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Blueprint of IT systems",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "its_015",
+      "question": "What is innovation in IT strategy?",
+      "options": [
+        "Avoid change",
+        "Adopt new technologies",
+        "Delete systems",
+        "Store data"
+      ],
+      "correct_answer": "Adopt new technologies",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "its_016",
+      "question": "What is technical debt?",
+      "options": [
+        "Financial debt",
+        "Cost of outdated systems",
+        "Storage issue",
+        "Network issue"
+      ],
+      "correct_answer": "Cost of outdated systems",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "its_017",
+      "question": "What is change management?",
+      "options": [
+        "Ignore change",
+        "Manage system changes",
+        "Delete systems",
+        "Store data"
+      ],
+      "correct_answer": "Manage system changes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_018",
+      "question": "What is data-driven decision making?",
+      "options": [
+        "Guessing",
+        "Using data for decisions",
+        "Deleting data",
+        "Storing data"
+      ],
+      "correct_answer": "Using data for decisions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_019",
+      "question": "What is cybersecurity strategy?",
+      "options": [
+        "Ignore threats",
+        "Protect systems and data",
+        "Delete data",
+        "Store logs"
+      ],
+      "correct_answer": "Protect systems and data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_020",
+      "question": "What is IT budgeting?",
+      "options": [
+        "Ignore cost",
+        "Plan IT spending",
+        "Delete resources",
+        "Store logs"
+      ],
+      "correct_answer": "Plan IT spending",
       "difficulty": "easy",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "it_strategy_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "its_s_001",
+      "question": "Company wants IT to support business growth. What to focus on?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Separate IT",
+        "Business-IT alignment",
+        "Delete systems",
+        "Ignore strategy"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Business-IT alignment",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "its_s_002",
+      "question": "Company migrating to cloud. What is needed?",
+      "options": [
+        "Ignore planning",
+        "Cloud adoption strategy",
+        "Delete systems",
+        "Store data"
+      ],
+      "correct_answer": "Cloud adoption strategy",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_s_003",
+      "question": "Need to reduce IT cost while maintaining performance. What to do?",
+      "options": [
+        "Increase cost",
+        "Cost optimization",
+        "Delete systems",
+        "Ignore performance"
+      ],
+      "correct_answer": "Cost optimization",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_s_004",
+      "question": "System outdated and hard to maintain. What issue?",
+      "options": [
+        "Scalability",
+        "Technical debt",
+        "Security",
+        "Storage"
+      ],
+      "correct_answer": "Technical debt",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "its_s_005",
+      "question": "Need to measure IT success. What to use?",
+      "options": [
+        "Random metrics",
+        "KPIs",
+        "Logs",
+        "Storage"
+      ],
+      "correct_answer": "KPIs",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_s_006",
+      "question": "External vendor providing services. What to manage?",
+      "options": [
+        "Ignore vendor",
+        "Vendor management",
+        "Delete vendor",
+        "Store data"
+      ],
+      "correct_answer": "Vendor management",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_s_007",
+      "question": "Need guaranteed service uptime. What to define?",
+      "options": [
+        "Policy",
+        "SLA",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "SLA",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_s_008",
+      "question": "Need structured IT architecture planning. What to use?",
+      "options": [
+        "Random design",
+        "Enterprise architecture",
+        "Delete systems",
+        "Storage"
+      ],
+      "correct_answer": "Enterprise architecture",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "its_s_009",
+      "question": "Need to manage risks in IT projects. What to apply?",
+      "options": [
+        "Ignore risks",
+        "Risk management",
+        "Delete systems",
+        "Store logs"
+      ],
+      "correct_answer": "Risk management",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "its_s_010",
+      "question": "Need continuous innovation in company. What to adopt?",
+      "options": [
+        "Avoid change",
+        "New technologies",
+        "Delete systems",
+        "Store data"
+      ],
+      "correct_answer": "New technologies",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

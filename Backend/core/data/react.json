@@ -1,43 +1,593 @@
 {
-  "skill":"React",
-  "mcqs":[
+  "skill": "React",
 
-    {"id":"react_001","question":"React is?","options":["JS library","framework","language","none"],"correct_answer":"JS library","difficulty":"easy","weight":1},
-    {"id":"react_002","question":"Used for?","options":["UI","DB","OS","none"],"correct_answer":"UI","difficulty":"easy","weight":1},
-    {"id":"react_003","question":"Component is?","options":["reusable UI","function","loop","none"],"correct_answer":"reusable UI","difficulty":"easy","weight":1},
-    {"id":"react_004","question":"JSX is?","options":["syntax","language","db","none"],"correct_answer":"syntax","difficulty":"easy","weight":1},
-    {"id":"react_005","question":"State is?","options":["data","UI","loop","none"],"correct_answer":"data","difficulty":"easy","weight":1},
-    {"id":"react_006","question":"Props are?","options":["inputs","outputs","loops","none"],"correct_answer":"inputs","difficulty":"easy","weight":1},
-    {"id":"react_007","question":"Hook example?","options":["useState","state()","hook()","none"],"correct_answer":"useState","difficulty":"easy","weight":1},
-    {"id":"react_008","question":"Virtual DOM?","options":["memory DOM","real DOM","none","loop"],"correct_answer":"memory DOM","difficulty":"easy","weight":1},
-    {"id":"react_009","question":"Event handling?","options":["onClick","click","event","none"],"correct_answer":"onClick","difficulty":"easy","weight":1},
-    {"id":"react_010","question":"Render method?","options":["render()","show()","display()","none"],"correct_answer":"render()","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "react_001",
+      "question": "What is React primarily used for?",
+      "options": [
+        "Backend",
+        "Building UI components",
+        "Database",
+        "Testing"
+      ],
+      "correct_answer": "Building UI components",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_002",
+      "question": "What is JSX?",
+      "options": [
+        "Java",
+        "Syntax extension for JS",
+        "Database",
+        "CSS"
+      ],
+      "correct_answer": "Syntax extension for JS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_003",
+      "question": "What is component?",
+      "options": [
+        "Function/UI block",
+        "Database",
+        "Loop",
+        "API"
+      ],
+      "correct_answer": "Function/UI block",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_004",
+      "question": "What is state?",
+      "options": [
+        "Static data",
+        "Dynamic data",
+        "CSS",
+        "API"
+      ],
+      "correct_answer": "Dynamic data",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_005",
+      "question": "What are props?",
+      "options": [
+        "Internal state",
+        "Inputs to component",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Inputs to component",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"react_011","question":"useEffect used for?","options":["side effects","state","loop","none"],"correct_answer":"side effects","difficulty":"medium","weight":2},
-    {"id":"react_012","question":"Key prop?","options":["identify list","style","loop","none"],"correct_answer":"identify list","difficulty":"medium","weight":2},
-    {"id":"react_013","question":"Controlled component?","options":["state controlled","uncontrolled","none","loop"],"correct_answer":"state controlled","difficulty":"medium","weight":2},
-    {"id":"react_014","question":"Uncontrolled component?","options":["DOM controlled","state","none","loop"],"correct_answer":"DOM controlled","difficulty":"medium","weight":2},
-    {"id":"react_015","question":"Context API?","options":["global state","local","none","loop"],"correct_answer":"global state","difficulty":"medium","weight":2},
-    {"id":"react_016","question":"Fragment?","options":["no extra div","div","none","loop"],"correct_answer":"no extra div","difficulty":"medium","weight":2},
-    {"id":"react_017","question":"Lazy loading?","options":["load later","instant","none","loop"],"correct_answer":"load later","difficulty":"medium","weight":2},
-    {"id":"react_018","question":"Memo?","options":["optimize render","loop","none","array"],"correct_answer":"optimize render","difficulty":"medium","weight":2},
-    {"id":"react_019","question":"Redux used for?","options":["state mgmt","UI","none","loop"],"correct_answer":"state mgmt","difficulty":"medium","weight":2},
-    {"id":"react_020","question":"Router?","options":["navigation","DB","none","loop"],"correct_answer":"navigation","difficulty":"medium","weight":2},
+    {
+      "id": "react_006",
+      "question": "What does useState do?",
+      "options": [
+        "Handle routing",
+        "Manage state",
+        "Fetch data",
+        "Style UI"
+      ],
+      "correct_answer": "Manage state",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_007",
+      "question": "What does useEffect do?",
+      "options": [
+        "State",
+        "Side effects",
+        "Styling",
+        "Routing"
+      ],
+      "correct_answer": "Side effects",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_008",
+      "question": "When does useEffect run?",
+      "options": [
+        "Never",
+        "After render",
+        "Before render",
+        "Only once"
+      ],
+      "correct_answer": "After render",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_009",
+      "question": "What is virtual DOM?",
+      "options": [
+        "Real DOM",
+        "Lightweight copy of DOM",
+        "Database",
+        "CSS"
+      ],
+      "correct_answer": "Lightweight copy of DOM",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_010",
+      "question": "Why virtual DOM?",
+      "options": [
+        "Slow rendering",
+        "Efficient updates",
+        "Storage",
+        "Styling"
+      ],
+      "correct_answer": "Efficient updates",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
-    {"id":"react_021","question":"Reconciliation?","options":["diff algo","loop","none","array"],"correct_answer":"diff algo","difficulty":"hard","weight":3},
-    {"id":"react_022","question":"Fiber?","options":["render engine","loop","none","array"],"correct_answer":"render engine","difficulty":"hard","weight":3},
-    {"id":"react_023","question":"useRef?","options":["persist value","state","none","loop"],"correct_answer":"persist value","difficulty":"hard","weight":3},
-    {"id":"react_024","question":"Pure component?","options":["no re-render","loop","none","array"],"correct_answer":"no re-render","difficulty":"hard","weight":3},
-    {"id":"react_025","question":"Error boundary?","options":["catch errors","loop","none","array"],"correct_answer":"catch errors","difficulty":"hard","weight":3},
-    {"id":"react_026","question":"Suspense?","options":["loading UI","loop","none","array"],"correct_answer":"loading UI","difficulty":"hard","weight":3},
-    {"id":"react_027","question":"Higher order comp?","options":["wrap component","loop","none","array"],"correct_answer":"wrap component","difficulty":"hard","weight":3},
-    {"id":"react_028","question":"SSR?","options":["server render","client","none","loop"],"correct_answer":"server render","difficulty":"hard","weight":3},
-    {"id":"react_029","question":"Hydration?","options":["attach events","loop","none","array"],"correct_answer":"attach events","difficulty":"hard","weight":3},
-    {"id":"react_030","question":"Concurrent mode?","options":["async rendering","sync","none","loop"],"correct_answer":"async rendering","difficulty":"hard","weight":3}
+    {
+      "id": "react_011",
+      "question": "What is key in React list?",
+      "options": [
+        "Style",
+        "Unique identifier",
+        "Function",
+        "Loop"
+      ],
+      "correct_answer": "Unique identifier",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_012",
+      "question": "What is lifting state up?",
+      "options": [
+        "Delete state",
+        "Move state to parent",
+        "Store state",
+        "Clone state"
+      ],
+      "correct_answer": "Move state to parent",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_013",
+      "question": "What is controlled component?",
+      "options": [
+        "DOM controlled",
+        "State controlled",
+        "CSS controlled",
+        "API controlled"
+      ],
+      "correct_answer": "State controlled",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_014",
+      "question": "What is uncontrolled component?",
+      "options": [
+        "State controlled",
+        "DOM controlled",
+        "API",
+        "CSS"
+      ],
+      "correct_answer": "DOM controlled",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_015",
+      "question": "What is context API?",
+      "options": [
+        "Routing",
+        "Global state sharing",
+        "CSS",
+        "Database"
+      ],
+      "correct_answer": "Global state sharing",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
+    {
+      "id": "react_016",
+      "question": "What is memo?",
+      "options": [
+        "Cache component",
+        "Delete component",
+        "Style component",
+        "Loop"
+      ],
+      "correct_answer": "Cache component",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_017",
+      "question": "What is useMemo?",
+      "options": [
+        "Cache value",
+        "State",
+        "Effect",
+        "Routing"
+      ],
+      "correct_answer": "Cache value",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_018",
+      "question": "What is useCallback?",
+      "options": [
+        "Cache function",
+        "State",
+        "Effect",
+        "Routing"
+      ],
+      "correct_answer": "Cache function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_019",
+      "question": "What is prop drilling?",
+      "options": [
+        "Direct state",
+        "Passing props deeply",
+        "CSS",
+        "API"
+      ],
+      "correct_answer": "Passing props deeply",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_020",
+      "question": "What is fragment?",
+      "options": [
+        "Wrapper without DOM node",
+        "Div",
+        "Span",
+        "API"
+      ],
+      "correct_answer": "Wrapper without DOM node",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "react_021",
+      "question": "What is reconciliation?",
+      "options": [
+        "State update",
+        "Diff algorithm",
+        "CSS",
+        "API"
+      ],
+      "correct_answer": "Diff algorithm",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_022",
+      "question": "What is event handling?",
+      "options": [
+        "Database",
+        "User interactions",
+        "CSS",
+        "API"
+      ],
+      "correct_answer": "User interactions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_023",
+      "question": "What is conditional rendering?",
+      "options": [
+        "Always render",
+        "Render based on condition",
+        "Delete render",
+        "Loop"
+      ],
+      "correct_answer": "Render based on condition",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_024",
+      "question": "What is lazy loading?",
+      "options": [
+        "Load all",
+        "Load on demand",
+        "Delete load",
+        "API"
+      ],
+      "correct_answer": "Load on demand",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_025",
+      "question": "What is suspense?",
+      "options": [
+        "Delay rendering",
+        "Delete render",
+        "Loop",
+        "API"
+      ],
+      "correct_answer": "Delay rendering",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "react_026",
+      "question": "What is useRef?",
+      "options": [
+        "State",
+        "Reference DOM/value",
+        "Effect",
+        "Routing"
+      ],
+      "correct_answer": "Reference DOM/value",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_027",
+      "question": "What is default props?",
+      "options": [
+        "Mandatory props",
+        "Fallback values",
+        "CSS",
+        "API"
+      ],
+      "correct_answer": "Fallback values",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_028",
+      "question": "What is children prop?",
+      "options": [
+        "State",
+        "Nested components",
+        "CSS",
+        "API"
+      ],
+      "correct_answer": "Nested components",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_029",
+      "question": "What is strict mode?",
+      "options": [
+        "Production",
+        "Highlight issues",
+        "CSS",
+        "API"
+      ],
+      "correct_answer": "Highlight issues",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_030",
+      "question": "What is hook rule?",
+      "options": [
+        "Use anywhere",
+        "Use at top level only",
+        "Loop",
+        "API"
+      ],
+      "correct_answer": "Use at top level only",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ],
+  "coding_mcqs": [
 
-  "coding_mcqs":[
-    {"id":"react_c_001","question":"Hook?","code":"const [x,setX]=useState(0);","options":["state hook","error","none","loop"],"correct_answer":"state hook","difficulty":"easy","weight":1}
+    {
+      "id": "react_c_001",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  return <button onClick={()=>setCount(count+1)}>{count}</button>\n}",
+      "options": ["Increments on click", "Error", "Always 0", "Always 1"],
+      "correct_answer": "Increments on click",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_c_002",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  React.useEffect(()=>{\n    setCount(count+1);\n  },[]);\n  return <div>{count}</div>\n}",
+      "options": ["0", "1", "Infinite loop", "Error"],
+      "correct_answer": "1",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_c_003",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  React.useEffect(()=>{\n    setCount(count+1);\n  });\n  return <div>{count}</div>\n}",
+      "options": ["0", "1", "Infinite loop", "Error"],
+      "correct_answer": "Infinite loop",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_c_004",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  const handle=()=>{\n    setCount(count+1);\n    setCount(count+1);\n  };\n  return <button onClick={handle}>{count}</button>\n}",
+      "options": ["+1", "+2", "0", "Error"],
+      "correct_answer": "+1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "react_c_005",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  const handle=()=>{\n    setCount(c=>c+1);\n    setCount(c=>c+1);\n  };\n  return <button onClick={handle}>{count}</button>\n}",
+      "options": ["+1", "+2", "0", "Error"],
+      "correct_answer": "+2",
+      "difficulty": "hard",
+      "weight": 3
+    },
+
+    {
+      "id": "react_c_006",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [value,setValue]=React.useState('A');\n  return <input value={value} onChange={e=>setValue(e.target.value)} />\n}",
+      "options": ["Controlled input", "Uncontrolled input", "Error", "Static input"],
+      "correct_answer": "Controlled input",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_c_007",
+      "question": "What is the output?",
+      "code": "function App(){\n  const ref=React.useRef(0);\n  ref.current++;\n  return <div>{ref.current}</div>\n}",
+      "options": ["Always 1", "Increments every render", "0", "Error"],
+      "correct_answer": "Increments every render",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_c_008",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  React.useEffect(()=>{\n    console.log(count);\n  },[count]);\n  return <button onClick={()=>setCount(count+1)}>Click</button>\n}",
+      "options": ["Logs updated count", "Logs 0 always", "Error", "No log"],
+      "correct_answer": "Logs updated count",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_c_009",
+      "question": "What is the output?",
+      "code": "function Child(){\n  console.log('render');\n  return <div>Hi</div>\n}\nfunction App(){\n  return <Child />\n}",
+      "options": ["Logs once", "Logs multiple times", "Error", "No log"],
+      "correct_answer": "Logs once",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_c_010",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  return <>\n    <p>{count}</p>\n    <button onClick={()=>setCount(count)}>Click</button>\n  </>\n}",
+      "options": ["Re-render", "No change", "Error", "Reset"],
+      "correct_answer": "No change",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "react_c_011",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  React.useEffect(()=>{\n    setTimeout(()=>setCount(count+1),1000);\n  },[]);\n  return <div>{count}</div>\n}",
+      "options": ["0 always", "1 after delay", "Infinite", "Error"],
+      "correct_answer": "1 after delay",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_c_012",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  return <button onClick={()=>{\n    setCount(count+1);\n    console.log(count);\n  }}>{count}</button>\n}",
+      "options": ["Logs updated", "Logs old value", "Error", "No log"],
+      "correct_answer": "Logs old value",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "react_c_013",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  return <button onClick={()=>setCount(count+1)}>{count}</button>\n}",
+      "options": ["Re-render on click", "No render", "Error", "Static"],
+      "correct_answer": "Re-render on click",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_c_014",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [state,setState]=React.useState({a:1});\n  return <button onClick={()=>setState({a:2})}>{state.a}</button>\n}",
+      "options": ["1→2", "Always 1", "Error", "Reset"],
+      "correct_answer": "1→2",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_c_015",
+      "question": "What is the output?",
+      "code": "function App(){\n  const [arr,setArr]=React.useState([1]);\n  return <button onClick={()=>{\n    arr.push(2);\n    setArr(arr);\n  }}>{arr.length}</button>\n}",
+      "options": ["2", "1", "Error", "3"],
+      "correct_answer": "1",
+      "difficulty": "hard",
+      "weight": 3
+    },
+
+    {
+      "id": "react_c_016",
+      "question": "What is the output?",
+      "code": "function App(){\n  return <div>{[1,2,3].map(i=>i)}</div>\n}",
+      "options": ["123", "[1,2,3]", "Error", "Array"],
+      "correct_answer": "123",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_c_017",
+      "question": "What is the output?",
+      "code": "function App(){\n  return <>\n    <div>A</div>\n    <div>B</div>\n  </>\n}",
+      "options": ["Valid render", "Error", "Only A", "Only B"],
+      "correct_answer": "Valid render",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "react_c_018",
+      "question": "What is the output?",
+      "code": "function App(){\n  const value = null;\n  return <div>{value}</div>\n}",
+      "options": ["Empty", "null", "Error", "undefined"],
+      "correct_answer": "Empty",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_c_019",
+      "question": "What is the output?",
+      "code": "function App(){\n  const value = false;\n  return <div>{value}</div>\n}",
+      "options": ["false", "Empty", "Error", "undefined"],
+      "correct_answer": "Empty",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "react_c_020",
+      "question": "Find the issue",
+      "code": "function App(){\n  const [count,setCount]=React.useState(0);\n  if(count>0){\n    React.useEffect(()=>{},[]);\n  }\n  return <div>{count}</div>\n}",
+      "options": [
+        "Hook inside condition",
+        "State issue",
+        "Render issue",
+        "No issue"
+      ],
+      "correct_answer": "Hook inside condition",
+      "difficulty": "hard",
+      "weight": 3
+    }
+
   ]
 }

@@ -1,48 +1,413 @@
 {
   "skill": "Git",
-  "mcqs":[
 
-    {"id":"git_001","question":"Git is?","options":["version control","database","language","none"],"correct_answer":"version control","difficulty":"easy","weight":1},
-    {"id":"git_002","question":"Command to initialize repo?","options":["git init","git start","git create","git new"],"correct_answer":"git init","difficulty":"easy","weight":1},
-    {"id":"git_003","question":"Add files?","options":["git add","git push","git commit","git stage"],"correct_answer":"git add","difficulty":"easy","weight":1},
-    {"id":"git_004","question":"Save changes?","options":["git commit","git save","git push","git store"],"correct_answer":"git commit","difficulty":"easy","weight":1},
-    {"id":"git_005","question":"Upload to remote?","options":["git push","git pull","git add","git clone"],"correct_answer":"git push","difficulty":"easy","weight":1},
-    {"id":"git_006","question":"Download repo?","options":["git clone","git push","git commit","git add"],"correct_answer":"git clone","difficulty":"easy","weight":1},
-    {"id":"git_007","question":"Check status?","options":["git status","git log","git show","git state"],"correct_answer":"git status","difficulty":"easy","weight":1},
-    {"id":"git_008","question":"View history?","options":["git log","git status","git add","git init"],"correct_answer":"git log","difficulty":"easy","weight":1},
-    {"id":"git_009","question":"Undo staged file?","options":["git reset","git undo","git remove","git cancel"],"correct_answer":"git reset","difficulty":"easy","weight":1},
-    {"id":"git_010","question":"Remove file?","options":["git rm","git delete","git clear","git pop"],"correct_answer":"git rm","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "git_001",
+      "question": "What is the staging area in Git?",
+      "options": [
+        "Final commit storage",
+        "Temporary area before commit",
+        "Remote repository",
+        "Branch"
+      ],
+      "correct_answer": "Temporary area before commit",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_002",
+      "question": "What does a commit represent?",
+      "options": [
+        "Single file",
+        "Snapshot of changes",
+        "Branch",
+        "Repository"
+      ],
+      "correct_answer": "Snapshot of changes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_003",
+      "question": "What is a branch?",
+      "options": [
+        "Commit",
+        "Parallel development line",
+        "File",
+        "Folder"
+      ],
+      "correct_answer": "Parallel development line",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_004",
+      "question": "What is merge in Git?",
+      "options": [
+        "Delete branch",
+        "Combine changes from branches",
+        "Create branch",
+        "Commit changes"
+      ],
+      "correct_answer": "Combine changes from branches",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_005",
+      "question": "What is a merge conflict?",
+      "options": [
+        "Successful merge",
+        "Conflicting changes in same area",
+        "Branch deletion",
+        "Commit error"
+      ],
+      "correct_answer": "Conflicting changes in same area",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
-    {"id":"git_011","question":"Create branch?","options":["git branch","git new","git fork","git make"],"correct_answer":"git branch","difficulty":"medium","weight":2},
-    {"id":"git_012","question":"Switch branch?","options":["git checkout","git switch","git move","both"],"correct_answer":"both","difficulty":"medium","weight":2},
-    {"id":"git_013","question":"Merge branches?","options":["git merge","git join","git combine","git add"],"correct_answer":"git merge","difficulty":"medium","weight":2},
-    {"id":"git_014","question":"Pull means?","options":["fetch+merge","push","delete","none"],"correct_answer":"fetch+merge","difficulty":"medium","weight":2},
-    {"id":"git_015","question":"Fetch does?","options":["download changes","upload","delete","none"],"correct_answer":"download changes","difficulty":"medium","weight":2},
-    {"id":"git_016","question":"Stash used for?","options":["temporary save","delete","commit","merge"],"correct_answer":"temporary save","difficulty":"medium","weight":2},
-    {"id":"git_017","question":"Remote repo command?","options":["git remote","git repo","git server","git connect"],"correct_answer":"git remote","difficulty":"medium","weight":2},
-    {"id":"git_018","question":"Conflict occurs when?","options":["same lines edited","push","clone","none"],"correct_answer":"same lines edited","difficulty":"medium","weight":2},
-    {"id":"git_019","question":"Commit id is?","options":["hash","number","name","none"],"correct_answer":"hash","difficulty":"medium","weight":2},
-    {"id":"git_020","question":"HEAD refers to?","options":["latest commit","first commit","branch","none"],"correct_answer":"latest commit","difficulty":"medium","weight":2},
+    {
+      "id": "git_006",
+      "question": "What is HEAD in Git?",
+      "options": [
+        "First commit",
+        "Current commit pointer",
+        "Branch name",
+        "Remote repo"
+      ],
+      "correct_answer": "Current commit pointer",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "git_007",
+      "question": "What is origin in Git?",
+      "options": [
+        "Local branch",
+        "Default remote repository",
+        "Commit",
+        "File"
+      ],
+      "correct_answer": "Default remote repository",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_008",
+      "question": "What does git pull do?",
+      "options": [
+        "Push changes",
+        "Fetch + merge",
+        "Delete branch",
+        "Commit changes"
+      ],
+      "correct_answer": "Fetch + merge",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "git_009",
+      "question": "What does git fetch do?",
+      "options": [
+        "Merge changes",
+        "Download changes without merging",
+        "Push changes",
+        "Delete repo"
+      ],
+      "correct_answer": "Download changes without merging",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "git_010",
+      "question": "What is rebase?",
+      "options": [
+        "Delete branch",
+        "Replay commits on new base",
+        "Merge branches",
+        "Commit changes"
+      ],
+      "correct_answer": "Replay commits on new base",
+      "difficulty": "hard",
+      "weight": 3
+    },
 
-    {"id":"git_021","question":"Rebase means?","options":["rewrite history","delete repo","push","none"],"correct_answer":"rewrite history","difficulty":"hard","weight":3},
-    {"id":"git_022","question":"Detached HEAD?","options":["not on branch","on branch","error","none"],"correct_answer":"not on branch","difficulty":"hard","weight":3},
-    {"id":"git_023","question":"Cherry pick?","options":["specific commit","all commits","branch","none"],"correct_answer":"specific commit","difficulty":"hard","weight":3},
-    {"id":"git_024","question":"Reset --hard?","options":["delete changes","save","merge","none"],"correct_answer":"delete changes","difficulty":"hard","weight":3},
-    {"id":"git_025","question":"Fork means?","options":["copy repo","merge","delete","none"],"correct_answer":"copy repo","difficulty":"hard","weight":3},
-    {"id":"git_026","question":"Upstream repo?","options":["original repo","local","branch","none"],"correct_answer":"original repo","difficulty":"hard","weight":3},
-    {"id":"git_027","question":"Squash commits?","options":["combine commits","delete","push","none"],"correct_answer":"combine commits","difficulty":"hard","weight":3},
-    {"id":"git_028","question":"Tag used for?","options":["mark version","branch","delete","none"],"correct_answer":"mark version","difficulty":"hard","weight":3},
-    {"id":"git_029","question":"Bisect used for?","options":["find bug commit","merge","push","none"],"correct_answer":"find bug commit","difficulty":"hard","weight":3},
-    {"id":"git_030","question":"Submodule is?","options":["repo inside repo","branch","file","none"],"correct_answer":"repo inside repo","difficulty":"hard","weight":3}
+    {
+      "id": "git_011",
+      "question": "What is git clone used for?",
+      "options": [
+        "Create repo",
+        "Copy remote repo locally",
+        "Delete repo",
+        "Merge branch"
+      ],
+      "correct_answer": "Copy remote repo locally",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_012",
+      "question": "What is git push?",
+      "options": [
+        "Download changes",
+        "Upload commits to remote",
+        "Delete branch",
+        "Merge changes"
+      ],
+      "correct_answer": "Upload commits to remote",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_013",
+      "question": "What is git stash used for?",
+      "options": [
+        "Delete files",
+        "Temporarily save changes",
+        "Commit changes",
+        "Merge branches"
+      ],
+      "correct_answer": "Temporarily save changes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "git_014",
+      "question": "What is detached HEAD?",
+      "options": [
+        "Normal state",
+        "HEAD not pointing to branch",
+        "Deleted branch",
+        "Merge conflict"
+      ],
+      "correct_answer": "HEAD not pointing to branch",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "git_015",
+      "question": "What is fast-forward merge?",
+      "options": [
+        "New commit",
+        "Move pointer forward",
+        "Delete branch",
+        "Conflict"
+      ],
+      "correct_answer": "Move pointer forward",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
+    {
+      "id": "git_016",
+      "question": "What is git log?",
+      "options": [
+        "Delete history",
+        "View commit history",
+        "Merge branch",
+        "Push changes"
+      ],
+      "correct_answer": "View commit history",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_017",
+      "question": "What is git diff?",
+      "options": [
+        "Commit changes",
+        "Show differences",
+        "Merge branches",
+        "Delete repo"
+      ],
+      "correct_answer": "Show differences",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_018",
+      "question": "What is git reset?",
+      "options": [
+        "Delete repo",
+        "Undo commits",
+        "Push changes",
+        "Merge branch"
+      ],
+      "correct_answer": "Undo commits",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "git_019",
+      "question": "What is git revert?",
+      "options": [
+        "Delete commit history",
+        "Create new commit to undo changes",
+        "Reset repo",
+        "Merge branch"
+      ],
+      "correct_answer": "Create new commit to undo changes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "git_020",
+      "question": "What is .gitignore used for?",
+      "options": [
+        "Delete files",
+        "Ignore files from tracking",
+        "Commit files",
+        "Merge branch"
+      ],
+      "correct_answer": "Ignore files from tracking",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ],
 
-  "coding_mcqs":[
+  "coding_mcqs": [
+    {
+      "id": "git_c_001",
+      "question": "What does this command do?",
+      "code": "git add .",
+      "options": [
+        "Commit changes",
+        "Stage all changes",
+        "Push changes",
+        "Delete files"
+      ],
+      "correct_answer": "Stage all changes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_c_002",
+      "question": "What does this command do?",
+      "code": "git commit -m \"msg\"",
+      "options": [
+        "Stage files",
+        "Save snapshot",
+        "Push changes",
+        "Delete repo"
+      ],
+      "correct_answer": "Save snapshot",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_c_003",
+      "question": "What does this command do?",
+      "code": "git checkout -b feature",
+      "options": [
+        "Delete branch",
+        "Create and switch branch",
+        "Merge branch",
+        "Push branch"
+      ],
+      "correct_answer": "Create and switch branch",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_c_004",
+      "question": "What does this command do?",
+      "code": "git merge feature",
+      "options": [
+        "Delete branch",
+        "Merge feature into current branch",
+        "Create branch",
+        "Commit changes"
+      ],
+      "correct_answer": "Merge feature into current branch",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_c_005",
+      "question": "What does this command do?",
+      "code": "git push origin main",
+      "options": [
+        "Download changes",
+        "Upload main branch",
+        "Delete branch",
+        "Merge changes"
+      ],
+      "correct_answer": "Upload main branch",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"git_c_001","question":"Command output?","code":"git status","options":["repo state","error","push","none"],"correct_answer":"repo state","difficulty":"easy","weight":1},
-    {"id":"git_c_002","question":"Fill command","code":"git ___ repo_url","options":["clone","push","add","init"],"correct_answer":"clone","difficulty":"easy","weight":1},
-    {"id":"git_c_003","question":"Find error","code":"git commit -m","options":["missing message","valid","none","loop"],"correct_answer":"missing message","difficulty":"easy","weight":1},
-    {"id":"git_c_004","question":"Output?","code":"git log","options":["history","status","error","none"],"correct_answer":"history","difficulty":"medium","weight":2}
-
+    {
+      "id": "git_c_006",
+      "question": "What does this command do?",
+      "code": "git pull origin main",
+      "options": [
+        "Push changes",
+        "Fetch + merge main",
+        "Delete repo",
+        "Reset repo"
+      ],
+      "correct_answer": "Fetch + merge main",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "git_c_007",
+      "question": "What does this command do?",
+      "code": "git stash",
+      "options": [
+        "Commit changes",
+        "Save changes temporarily",
+        "Delete branch",
+        "Push changes"
+      ],
+      "correct_answer": "Save changes temporarily",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "git_c_008",
+      "question": "What does this command do?",
+      "code": "git reset --hard HEAD~1",
+      "options": [
+        "Undo last commit permanently",
+        "Merge branch",
+        "Push changes",
+        "Delete repo"
+      ],
+      "correct_answer": "Undo last commit permanently",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "git_c_009",
+      "question": "What does this command do?",
+      "code": "git log --oneline",
+      "options": [
+        "Delete history",
+        "Short commit history",
+        "Merge branch",
+        "Push changes"
+      ],
+      "correct_answer": "Short commit history",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "git_c_010",
+      "question": "What does this command do?",
+      "code": "git diff",
+      "options": [
+        "Commit changes",
+        "Show file differences",
+        "Delete repo",
+        "Merge branch"
+      ],
+      "correct_answer": "Show file differences",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ]
 }

@@ -1,43 +1,402 @@
 {
-  "skill":"Responsive Design",
-  "mcqs":[
+  "skill": "Responsive Design",
 
-    {"id":"rd_001","question":"Responsive design means?","options":["adapt screen","fixed layout","none","loop"],"correct_answer":"adapt screen","difficulty":"easy","weight":1},
-    {"id":"rd_002","question":"Media query used for?","options":["screen size","color","none","loop"],"correct_answer":"screen size","difficulty":"easy","weight":1},
-    {"id":"rd_003","question":"Viewport is?","options":["visible area","code","none","loop"],"correct_answer":"visible area","difficulty":"easy","weight":1},
-    {"id":"rd_004","question":"Mobile-first means?","options":["design mobile first","desktop first","none","loop"],"correct_answer":"design mobile first","difficulty":"easy","weight":1},
-    {"id":"rd_005","question":"Flexible grid?","options":["fluid layout","fixed","none","loop"],"correct_answer":"fluid layout","difficulty":"easy","weight":1},
-    {"id":"rd_006","question":"Percent width?","options":["responsive","fixed","none","loop"],"correct_answer":"responsive","difficulty":"easy","weight":1},
-    {"id":"rd_007","question":"Max-width?","options":["limit size","increase","none","loop"],"correct_answer":"limit size","difficulty":"easy","weight":1},
-    {"id":"rd_008","question":"CSS unit rem?","options":["relative root","fixed","none","loop"],"correct_answer":"relative root","difficulty":"easy","weight":1},
-    {"id":"rd_009","question":"CSS unit em?","options":["relative parent","fixed","none","loop"],"correct_answer":"relative parent","difficulty":"easy","weight":1},
-    {"id":"rd_010","question":"Flexbox helps?","options":["layout","color","none","loop"],"correct_answer":"layout","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "rd_001",
+      "question": "What is responsive design?",
+      "options": [
+        "Static layout",
+        "Adapting UI to different screen sizes",
+        "Backend logic",
+        "Database design"
+      ],
+      "correct_answer": "Adapting UI to different screen sizes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_002",
+      "question": "What are media queries used for?",
+      "options": [
+        "JS logic",
+        "Apply styles based on screen size",
+        "Database queries",
+        "Animations"
+      ],
+      "correct_answer": "Apply styles based on screen size",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_003",
+      "question": "What is mobile-first design?",
+      "options": [
+        "Desktop first",
+        "Design for small screens first",
+        "Tablet only",
+        "Backend design"
+      ],
+      "correct_answer": "Design for small screens first",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_004",
+      "question": "What is viewport?",
+      "options": [
+        "Database",
+        "Visible area of web page",
+        "CSS property",
+        "API"
+      ],
+      "correct_answer": "Visible area of web page",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_005",
+      "question": "What is breakpoint?",
+      "options": [
+        "Error",
+        "Screen width threshold",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Screen width threshold",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"rd_011","question":"Grid system?","options":["layout structure","color","none","loop"],"correct_answer":"layout structure","difficulty":"medium","weight":2},
-    {"id":"rd_012","question":"Breakpoint?","options":["screen width","color","none","loop"],"correct_answer":"screen width","difficulty":"medium","weight":2},
-    {"id":"rd_013","question":"Orientation?","options":["portrait/landscape","color","none","loop"],"correct_answer":"portrait/landscape","difficulty":"medium","weight":2},
-    {"id":"rd_014","question":"Responsive image?","options":["adapt size","fixed","none","loop"],"correct_answer":"adapt size","difficulty":"medium","weight":2},
-    {"id":"rd_015","question":"CSS clamp()?","options":["responsive sizing","fixed","none","loop"],"correct_answer":"responsive sizing","difficulty":"medium","weight":2},
-    {"id":"rd_016","question":"vw unit?","options":["viewport width","height","none","loop"],"correct_answer":"viewport width","difficulty":"medium","weight":2},
-    {"id":"rd_017","question":"vh unit?","options":["viewport height","width","none","loop"],"correct_answer":"viewport height","difficulty":"medium","weight":2},
-    {"id":"rd_018","question":"Overflow issue?","options":["content spill","fit","none","loop"],"correct_answer":"content spill","difficulty":"medium","weight":2},
-    {"id":"rd_019","question":"Responsive typography?","options":["fluid text","fixed","none","loop"],"correct_answer":"fluid text","difficulty":"medium","weight":2},
-    {"id":"rd_020","question":"Device pixel ratio?","options":["screen density","size","none","loop"],"correct_answer":"screen density","difficulty":"medium","weight":2},
+    {
+      "id": "rd_006",
+      "question": "What is Flexbox used for?",
+      "options": [
+        "Database",
+        "Layout alignment",
+        "Animations",
+        "Backend"
+      ],
+      "correct_answer": "Layout alignment",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_007",
+      "question": "What is CSS Grid used for?",
+      "options": [
+        "Single dimension layout",
+        "Two-dimensional layout",
+        "Database",
+        "Backend"
+      ],
+      "correct_answer": "Two-dimensional layout",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_008",
+      "question": "What is fluid layout?",
+      "options": [
+        "Fixed width",
+        "Percentage-based layout",
+        "Static layout",
+        "Backend"
+      ],
+      "correct_answer": "Percentage-based layout",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "rd_009",
+      "question": "What is responsive image?",
+      "options": [
+        "Static image",
+        "Adapts to screen size",
+        "Database",
+        "Backend"
+      ],
+      "correct_answer": "Adapts to screen size",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_010",
+      "question": "What is max-width used for?",
+      "options": [
+        "Minimum size",
+        "Limit maximum width",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Limit maximum width",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"rd_021","question":"Min-width vs max-width?","options":["responsive breakpoints","same","none","loop"],"correct_answer":"responsive breakpoints","difficulty":"hard","weight":3},
-    {"id":"rd_022","question":"Container queries?","options":["element-based","screen","none","loop"],"correct_answer":"element-based","difficulty":"hard","weight":3},
-    {"id":"rd_023","question":"Lazy loading images?","options":["load later","instant","none","loop"],"correct_answer":"load later","difficulty":"hard","weight":3},
-    {"id":"rd_024","question":"Aspect ratio?","options":["width/height","color","none","loop"],"correct_answer":"width/height","difficulty":"hard","weight":3},
-    {"id":"rd_025","question":"Retina display?","options":["high density","low","none","loop"],"correct_answer":"high density","difficulty":"hard","weight":3},
-    {"id":"rd_026","question":"Mobile breakpoint?","options":["<768px",">1200px","none","loop"],"correct_answer":"<768px","difficulty":"hard","weight":3},
-    {"id":"rd_027","question":"Tablet breakpoint?","options":["768-1024px","<500px","none","loop"],"correct_answer":"768-1024px","difficulty":"hard","weight":3},
-    {"id":"rd_028","question":"Desktop breakpoint?","options":[">1024px","<600px","none","loop"],"correct_answer":">1024px","difficulty":"hard","weight":3},
-    {"id":"rd_029","question":"Fluid image CSS?","options":["max-width:100%","fixed","none","loop"],"correct_answer":"max-width:100%","difficulty":"hard","weight":3},
-    {"id":"rd_030","question":"Best practice?","options":["mobile first","desktop","none","loop"],"correct_answer":"mobile first","difficulty":"hard","weight":3}
+    {
+      "id": "rd_011",
+      "question": "What is rem unit?",
+      "options": [
+        "Relative to root font size",
+        "Fixed size",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Relative to root font size",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "rd_012",
+      "question": "What is em unit?",
+      "options": [
+        "Relative to parent",
+        "Fixed size",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Relative to parent",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "rd_013",
+      "question": "What is vh unit?",
+      "options": [
+        "Width",
+        "Viewport height",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Viewport height",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_014",
+      "question": "What is vw unit?",
+      "options": [
+        "Height",
+        "Viewport width",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Viewport width",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_015",
+      "question": "What is overflow handling?",
+      "options": [
+        "Ignore content",
+        "Manage excess content",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Manage excess content",
+      "difficulty": "medium",
+      "weight": 3
+    },
 
+    {
+      "id": "rd_016",
+      "question": "What is flex-wrap?",
+      "options": [
+        "No wrap",
+        "Allow items to wrap",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Allow items to wrap",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_017",
+      "question": "What is grid-template-columns?",
+      "options": [
+        "Rows",
+        "Define columns",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Define columns",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_018",
+      "question": "What is min-width?",
+      "options": [
+        "Maximum",
+        "Minimum width constraint",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Minimum width constraint",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_019",
+      "question": "What is responsive typography?",
+      "options": [
+        "Fixed text",
+        "Adaptive font size",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Adaptive font size",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "rd_020",
+      "question": "What is container-based layout?",
+      "options": [
+        "Viewport only",
+        "Layout based on parent container",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Layout based on parent container",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ],
 
-  "coding_mcqs":[
-    {"id":"rd_c_001","question":"CSS?","code":"@media (max-width:768px){}","options":["responsive rule","error","none","loop"],"correct_answer":"responsive rule","difficulty":"easy","weight":1}
+  "scenario_mcqs": [
+    {
+      "id": "rd_s_001",
+      "question": "UI breaks on mobile. What to apply?",
+      "options": [
+        "Delete UI",
+        "Media queries",
+        "Ignore",
+        "Backend fix"
+      ],
+      "correct_answer": "Media queries",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_s_002",
+      "question": "Layout not flexible. What to use?",
+      "options": [
+        "Fixed width",
+        "Flexbox/Grid",
+        "Delete layout",
+        "Ignore"
+      ],
+      "correct_answer": "Flexbox/Grid",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_s_003",
+      "question": "Need better mobile experience. Approach?",
+      "options": [
+        "Desktop-first",
+        "Mobile-first",
+        "Ignore",
+        "Delete UI"
+      ],
+      "correct_answer": "Mobile-first",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_s_004",
+      "question": "Images overflow container. What to use?",
+      "options": [
+        "Fixed size",
+        "max-width: 100%",
+        "Delete image",
+        "Ignore"
+      ],
+      "correct_answer": "max-width: 100%",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_s_005",
+      "question": "Content overlaps on small screens. Fix?",
+      "options": [
+        "Ignore",
+        "Flex-wrap",
+        "Delete content",
+        "Backend fix"
+      ],
+      "correct_answer": "Flex-wrap",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "rd_s_006",
+      "question": "Need scalable font sizes. What to use?",
+      "options": [
+        "px",
+        "rem/em",
+        "Delete text",
+        "Ignore"
+      ],
+      "correct_answer": "rem/em",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "rd_s_007",
+      "question": "Different layouts for tablet and mobile. What to define?",
+      "options": [
+        "API",
+        "Breakpoints",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Breakpoints",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_s_008",
+      "question": "Layout not adapting to parent container. Fix?",
+      "options": [
+        "Viewport only",
+        "Container-based layout",
+        "Delete layout",
+        "Ignore"
+      ],
+      "correct_answer": "Container-based layout",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "rd_s_009",
+      "question": "Need equal column layout. What to use?",
+      "options": [
+        "Float",
+        "Grid",
+        "Delete layout",
+        "Ignore"
+      ],
+      "correct_answer": "Grid",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "rd_s_010",
+      "question": "UI should scale with screen size. What layout?",
+      "options": [
+        "Fixed",
+        "Fluid layout",
+        "Delete UI",
+        "Ignore"
+      ],
+      "correct_answer": "Fluid layout",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ]
 }

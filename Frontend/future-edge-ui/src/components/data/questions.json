@@ -22,7 +22,7 @@
 
 {
 "id": "di_1",
-"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. What is the percentage increase in sales from 2020 to 2023?",
+"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. \nWhat is the percentage increase in sales from 2020 to 2023?",
 "options": ["100%", "120%", "150%", "200%"],
 "answer": "150%",
 "type": "aptitude",
@@ -30,7 +30,7 @@
 },
 {
 "id": "di_2",
-"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. What is the average sales over the four years?",
+"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. \nWhat is the average sales over the four years?",
 "options": ["150", "175", "200", "180"],
 "answer": "175",
 "type": "aptitude",
@@ -38,7 +38,7 @@
 },
 {
 "id": "di_3",
-"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. Which year shows the highest growth compared to the previous year?",
+"question": "Data: Sales (in lakhs) for four years are as follows — 2020: 100, 2021: 150, 2022: 200, 2023: 250. \nWhich year shows the highest growth compared to the previous year?",
 "options": ["2020–21", "2021–22", "2022–23", "All show equal growth"],
 "answer": "All show equal growth",
 "type": "aptitude",
@@ -87,7 +87,7 @@
 
 {
 "id": "rc_1_q1",
-"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development. What is the main idea of the passage?",
+"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development. \nWhat is the main idea of the passage?",
 "options": ["Technology is harmful", "Technology has both benefits and drawbacks", "Technology only improves communication", "Face-to-face interaction is unnecessary"],
 "answer": "Technology has both benefits and drawbacks",
 "type": "verbal",
@@ -95,7 +95,7 @@
 },
 {
 "id": "rc_1_q2",
-"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development.Which of the following is mentioned as a drawback?",
+"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development.\nWhich of the following is mentioned as a drawback?",
 "options": ["Faster communication", "Global connectivity", "Decline in interpersonal skills", "Business expansion"],
 "answer": "Decline in interpersonal skills",
 "type": "verbal",
@@ -103,7 +103,7 @@
 },
 {
 "id": "rc_1_q3",
-"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development. What tone does the author use?",
+"question": "Passage: In recent years, technology has significantly transformed the way people communicate and interact with one another. The widespread use of smartphones, social media platforms, and instant messaging applications has made it possible for individuals to stay connected regardless of geographical distance. Businesses have also benefited from these advancements by improving efficiency, enabling remote work, and expanding their reach globally. However, this rapid technological growth has also led to certain drawbacks. One of the most notable concerns is the decline in face-to-face communication, which has affected interpersonal skills and emotional connections among individuals. Moreover, excessive dependence on digital devices has raised issues such as reduced attention span, social isolation, and mental health challenges. While technology offers numerous advantages, it is essential to maintain a balance between digital interaction and real-world communication to ensure healthy social development. \nWhat tone does the author use?",
 "options": ["Completely positive", "Completely negative", "Balanced", "Critical"],
 "answer": "Balanced",
 "type": "verbal",

@@ -1,44 +1,397 @@
 {
-  "skill":"System Design",
-  "mcqs":[
-
-    {"id":"sd_001","question":"Scalability means?","options":["handle load","store data","delete","none"],"correct_answer":"handle load","difficulty":"easy","weight":1},
-    {"id":"sd_002","question":"Load balancer does?","options":["distribute traffic","store","compute","none"],"correct_answer":"distribute traffic","difficulty":"easy","weight":1},
-    {"id":"sd_003","question":"Database is?","options":["data store","server","network","none"],"correct_answer":"data store","difficulty":"easy","weight":1},
-    {"id":"sd_004","question":"Cache used for?","options":["fast access","store","delete","none"],"correct_answer":"fast access","difficulty":"easy","weight":1},
-    {"id":"sd_005","question":"API is?","options":["interface","database","OS","none"],"correct_answer":"interface","difficulty":"easy","weight":1},
-    {"id":"sd_006","question":"Latency means?","options":["delay","speed","size","none"],"correct_answer":"delay","difficulty":"easy","weight":1},
-    {"id":"sd_007","question":"Throughput means?","options":["requests per sec","delay","error","none"],"correct_answer":"requests per sec","difficulty":"easy","weight":1},
-    {"id":"sd_008","question":"Vertical scaling?","options":["increase power","add servers","delete","none"],"correct_answer":"increase power","difficulty":"easy","weight":1},
-    {"id":"sd_009","question":"Horizontal scaling?","options":["add servers","increase RAM","delete","none"],"correct_answer":"add servers","difficulty":"easy","weight":1},
-    {"id":"sd_010","question":"Monolith app?","options":["single unit","microservices","none","loop"],"correct_answer":"single unit","difficulty":"easy","weight":1},
-
-    {"id":"sd_011","question":"Microservices?","options":["small services","single app","none","loop"],"correct_answer":"small services","difficulty":"medium","weight":2},
-    {"id":"sd_012","question":"Sharding?","options":["split database","merge","delete","none"],"correct_answer":"split database","difficulty":"medium","weight":2},
-    {"id":"sd_013","question":"Replication?","options":["copy data","delete","merge","none"],"correct_answer":"copy data","difficulty":"medium","weight":2},
-    {"id":"sd_014","question":"CDN used for?","options":["fast delivery","storage","compute","none"],"correct_answer":"fast delivery","difficulty":"medium","weight":2},
-    {"id":"sd_015","question":"Queue used for?","options":["async processing","store","delete","none"],"correct_answer":"async processing","difficulty":"medium","weight":2},
-    {"id":"sd_016","question":"Consistency means?","options":["same data","fast","secure","none"],"correct_answer":"same data","difficulty":"medium","weight":2},
-    {"id":"sd_017","question":"Availability means?","options":["always accessible","secure","fast","none"],"correct_answer":"always accessible","difficulty":"medium","weight":2},
-    {"id":"sd_018","question":"Partition tolerance?","options":["network failure handling","fast","none","loop"],"correct_answer":"network failure handling","difficulty":"medium","weight":2},
-    {"id":"sd_019","question":"Index improves?","options":["search speed","size","delete","none"],"correct_answer":"search speed","difficulty":"medium","weight":2},
-    {"id":"sd_020","question":"API gateway?","options":["entry point","db","none","loop"],"correct_answer":"entry point","difficulty":"medium","weight":2},
-
-    {"id":"sd_021","question":"CAP theorem?","options":["consistency availability partition","none","loop","array"],"correct_answer":"consistency availability partition","difficulty":"hard","weight":3},
-    {"id":"sd_022","question":"Eventual consistency?","options":["eventually same data","instant","none","loop"],"correct_answer":"eventually same data","difficulty":"hard","weight":3},
-    {"id":"sd_023","question":"Leader election?","options":["select node","delete","none","loop"],"correct_answer":"select node","difficulty":"hard","weight":3},
-    {"id":"sd_024","question":"Rate limiting?","options":["limit requests","delete","none","loop"],"correct_answer":"limit requests","difficulty":"hard","weight":3},
-    {"id":"sd_025","question":"Circuit breaker?","options":["prevent failure","store","none","loop"],"correct_answer":"prevent failure","difficulty":"hard","weight":3},
-    {"id":"sd_026","question":"Idempotent API?","options":["same result","different","none","loop"],"correct_answer":"same result","difficulty":"hard","weight":3},
-    {"id":"sd_027","question":"Load shedding?","options":["drop traffic","store","none","loop"],"correct_answer":"drop traffic","difficulty":"hard","weight":3},
-    {"id":"sd_028","question":"Hotspot issue?","options":["uneven load","equal","none","loop"],"correct_answer":"uneven load","difficulty":"hard","weight":3},
-    {"id":"sd_029","question":"Consistency vs availability?","options":["tradeoff","same","none","loop"],"correct_answer":"tradeoff","difficulty":"hard","weight":3},
-    {"id":"sd_030","question":"Distributed system?","options":["multiple nodes","single","none","loop"],"correct_answer":"multiple nodes","difficulty":"hard","weight":3}
-
+  "skill": "System Design",
+  "mcqs": [
+    {
+      "id": "sd_001",
+      "question": "What is the main goal of system design?",
+      "options": [
+        "Write UI code only",
+        "Design scalable and reliable software architecture",
+        "Manage payroll",
+        "Create logos"
+      ],
+      "correct_answer": "Design scalable and reliable software architecture",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_002",
+      "question": "What does scalability mean in system design?",
+      "options": [
+        "Reducing source code lines",
+        "Handling increased load effectively",
+        "Using only one server",
+        "Avoiding databases"
+      ],
+      "correct_answer": "Handling increased load effectively",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_003",
+      "question": "What is availability in distributed systems?",
+      "options": [
+        "How colorful the UI is",
+        "How often the system remains accessible and operational",
+        "How many developers are online",
+        "How quickly code compiles"
+      ],
+      "correct_answer": "How often the system remains accessible and operational",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_004",
+      "question": "What is latency?",
+      "options": [
+        "Total storage size",
+        "Time taken to respond to a request",
+        "Number of servers",
+        "Type of database"
+      ],
+      "correct_answer": "Time taken to respond to a request",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_005",
+      "question": "What is throughput?",
+      "options": [
+        "Amount of work handled in a given time",
+        "Database schema size",
+        "UI rendering speed only",
+        "Memory leak rate"
+      ],
+      "correct_answer": "Amount of work handled in a given time",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_006",
+      "question": "What is load balancing used for?",
+      "options": [
+        "Encrypting traffic",
+        "Distributing traffic across multiple servers",
+        "Creating indexes",
+        "Compressing files"
+      ],
+      "correct_answer": "Distributing traffic across multiple servers",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_007",
+      "question": "What is horizontal scaling?",
+      "options": [
+        "Adding more machines",
+        "Increasing CPU of one machine",
+        "Changing CSS layout",
+        "Reducing database size"
+      ],
+      "correct_answer": "Adding more machines",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_008",
+      "question": "What is vertical scaling?",
+      "options": [
+        "Adding more machines",
+        "Increasing resources of one machine",
+        "Splitting one database into many",
+        "Adding more frontend pages"
+      ],
+      "correct_answer": "Increasing resources of one machine",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_009",
+      "question": "Why is caching used in system design?",
+      "options": [
+        "To slow down responses",
+        "To reduce repeated computation or database access",
+        "To replace authentication",
+        "To remove APIs"
+      ],
+      "correct_answer": "To reduce repeated computation or database access",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_010",
+      "question": "What is database replication primarily used for?",
+      "options": [
+        "Increasing read availability and redundancy",
+        "Deleting duplicates permanently",
+        "Changing SQL syntax",
+        "Reducing frontend load only"
+      ],
+      "correct_answer": "Increasing read availability and redundancy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_011",
+      "question": "What is sharding?",
+      "options": [
+        "Combining all data into one table",
+        "Splitting data across multiple databases or partitions",
+        "Encrypting user passwords",
+        "Serving static assets only"
+      ],
+      "correct_answer": "Splitting data across multiple databases or partitions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_012",
+      "question": "What is eventual consistency?",
+      "options": [
+        "All nodes are always instantly identical",
+        "Data becomes consistent over time",
+        "Data is never synchronized",
+        "Only one node stores data"
+      ],
+      "correct_answer": "Data becomes consistent over time",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_013",
+      "question": "What is the CAP theorem mainly about?",
+      "options": [
+        "Choosing between consistency, availability, and partition tolerance",
+        "Choosing between frontend libraries",
+        "Optimizing CSS rendering",
+        "Comparing SQL and NoSQL syntax"
+      ],
+      "correct_answer": "Choosing between consistency, availability, and partition tolerance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_014",
+      "question": "What is a message queue used for?",
+      "options": [
+        "Direct synchronous communication only",
+        "Asynchronous communication between services",
+        "Replacing databases fully",
+        "Rendering HTML templates"
+      ],
+      "correct_answer": "Asynchronous communication between services",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_015",
+      "question": "What is a microservices architecture?",
+      "options": [
+        "One tightly coupled codebase only",
+        "An application split into small independent services",
+        "A frontend-only architecture",
+        "A database-only architecture"
+      ],
+      "correct_answer": "An application split into small independent services",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_016",
+      "question": "What is a monolith in system design?",
+      "options": [
+        "A single unified application",
+        "A cluster of independent services",
+        "A load balancer",
+        "A distributed cache"
+      ],
+      "correct_answer": "A single unified application",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_017",
+      "question": "What is rate limiting used for?",
+      "options": [
+        "Increasing request spam",
+        "Restricting the number of requests in a time period",
+        "Sorting database rows",
+        "Compressing responses"
+      ],
+      "correct_answer": "Restricting the number of requests in a time period",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_018",
+      "question": "What is CDN primarily used for?",
+      "options": [
+        "Serving content from locations closer to users",
+        "Writing SQL queries",
+        "Managing backend threads",
+        "Creating user sessions"
+      ],
+      "correct_answer": "Serving content from locations closer to users",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_019",
+      "question": "Why is idempotency important in distributed systems?",
+      "options": [
+        "It helps repeated requests produce safe predictable outcomes",
+        "It increases UI size",
+        "It prevents all downtime automatically",
+        "It replaces transactions"
+      ],
+      "correct_answer": "It helps repeated requests produce safe predictable outcomes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_020",
+      "question": "What is fault tolerance?",
+      "options": [
+        "Ability of a system to continue operating despite failures",
+        "Ability to avoid all bugs",
+        "Ability to remove all logging",
+        "Ability to use only one server"
+      ],
+      "correct_answer": "Ability of a system to continue operating despite failures",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ],
-
-  "coding_mcqs":[
-    {"id":"sd_c_001","question":"Example cache?","code":"Redis","options":["cache","db","none","loop"],"correct_answer":"cache","difficulty":"easy","weight":1},
-    {"id":"sd_c_002","question":"Load balancer example?","code":"NGINX","options":["balancer","db","none","loop"],"correct_answer":"balancer","difficulty":"easy","weight":1}
+  "scenario_mcqs": [
+    {
+      "id": "sd_s_001",
+      "question": "A web application gets sudden heavy traffic and one server cannot handle it. What is the best first design improvement?",
+      "options": [
+        "Load balancing with multiple servers",
+        "Increase font size",
+        "Remove authentication",
+        "Delete logs"
+      ],
+      "correct_answer": "Load balancing with multiple servers",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_s_002",
+      "question": "Users frequently request the same product data and database load is high. What should be added?",
+      "options": [
+        "Caching layer",
+        "More CSS files",
+        "More login forms",
+        "Hardcoded HTML pages only"
+      ],
+      "correct_answer": "Caching layer",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_s_003",
+      "question": "A database is too large for one server and write load is increasing. What is a common solution?",
+      "options": [
+        "Sharding",
+        "Only vertical scaling forever",
+        "Removing indexes",
+        "Disabling APIs"
+      ],
+      "correct_answer": "Sharding",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_s_004",
+      "question": "An image-heavy application needs fast global content delivery. What should be used?",
+      "options": [
+        "CDN",
+        "Local JSON file only",
+        "One regional server only",
+        "Browser alerts"
+      ],
+      "correct_answer": "CDN",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_s_005",
+      "question": "A system should process emails after user signup without slowing the response. What is the best design choice?",
+      "options": [
+        "Use a message queue and background worker",
+        "Send emails synchronously in request path only",
+        "Disable signup validation",
+        "Move email logic to CSS"
+      ],
+      "correct_answer": "Use a message queue and background worker",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_s_006",
+      "question": "A service must survive one server failure without complete outage. What design quality is required?",
+      "options": [
+        "Fault tolerance",
+        "Hardcoded routing",
+        "Single point of failure",
+        "Manual deployment only"
+      ],
+      "correct_answer": "Fault tolerance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_s_007",
+      "question": "API abuse is causing too many requests from a few clients. What should be implemented?",
+      "options": [
+        "Rate limiting",
+        "Database truncation",
+        "Disable monitoring",
+        "Remove headers"
+      ],
+      "correct_answer": "Rate limiting",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sd_s_008",
+      "question": "A company wants independently deployable services for payments, users, and notifications. Which architecture fits best?",
+      "options": [
+        "Microservices",
+        "Single monolithic static site",
+        "Spreadsheet-based system",
+        "CSS-only architecture"
+      ],
+      "correct_answer": "Microservices",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_s_009",
+      "question": "A retry from a payment client should not charge the customer twice. What system property is important?",
+      "options": [
+        "Idempotency",
+        "Low screen brightness",
+        "Cache eviction",
+        "File compression"
+      ],
+      "correct_answer": "Idempotency",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sd_s_010",
+      "question": "A team prefers simpler deployment and one codebase, even if future scaling is harder. Which architecture are they choosing?",
+      "options": [
+        "Monolith",
+        "Microservices",
+        "Peer-to-peer only",
+        "Event streaming only"
+      ],
+      "correct_answer": "Monolith",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ]
 }

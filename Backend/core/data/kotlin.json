@@ -1,411 +1,607 @@
 {
   "skill": "Kotlin",
+
   "mcqs": [
     {
-      "id": "kotlin_001",
-      "question": "kotlin question 1?",
+      "id": "kt_001",
+      "question": "What is Kotlin primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Android & backend development",
+        "Networking",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_002",
-      "question": "kotlin question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_003",
-      "question": "kotlin question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_004",
-      "question": "kotlin question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_005",
-      "question": "kotlin question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "kotlin_006",
-      "question": "kotlin question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_007",
-      "question": "kotlin question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_008",
-      "question": "kotlin question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_009",
-      "question": "kotlin question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_010",
-      "question": "kotlin question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_011",
-      "question": "kotlin question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_012",
-      "question": "kotlin question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "kotlin_013",
-      "question": "kotlin question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_014",
-      "question": "kotlin question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_015",
-      "question": "kotlin question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_016",
-      "question": "kotlin question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_017",
-      "question": "kotlin question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_018",
-      "question": "kotlin question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_019",
-      "question": "kotlin question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "kotlin_020",
-      "question": "kotlin question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_021",
-      "question": "kotlin question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Android & backend development",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "kotlin_022",
-      "question": "kotlin question 22?",
+      "id": "kt_002",
+      "question": "What is null safety in Kotlin?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Allow null",
+        "Prevent null pointer exceptions",
+        "Ignore null",
+        "Delete null"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_023",
-      "question": "kotlin question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_024",
-      "question": "kotlin question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Prevent null pointer exceptions",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "kotlin_025",
-      "question": "kotlin question 25?",
+      "id": "kt_003",
+      "question": "What does '?' mean in Kotlin?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Operator",
+        "Nullable type",
+        "Loop",
+        "Object"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_026",
-      "question": "kotlin question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "kotlin_027",
-      "question": "kotlin question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Nullable type",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_028",
-      "question": "kotlin question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "kotlin_029",
-      "question": "kotlin question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "kotlin_030",
-      "question": "kotlin question 30?",
+      "id": "kt_004",
+      "question": "What does '!!' operator do?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Safe call",
+        "Force unwrap",
+        "Loop",
+        "Object"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Force unwrap",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_005",
+      "question": "What is data class?",
+      "options": [
+        "Normal class",
+        "Class for storing data with auto methods",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Class for storing data with auto methods",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "kt_006",
+      "question": "What is extension function?",
+      "options": [
+        "Add functionality to existing class",
+        "Loop",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Add functionality to existing class",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_007",
+      "question": "What is val vs var?",
+      "options": [
+        "Same",
+        "Immutable vs mutable",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Immutable vs mutable",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_008",
+      "question": "What is lambda in Kotlin?",
+      "options": [
+        "Class",
+        "Anonymous function",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Anonymous function",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_009",
+      "question": "What is higher-order function?",
+      "options": [
+        "Loop",
+        "Function taking function",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Function taking function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_010",
+      "question": "What is 'when' in Kotlin?",
+      "options": [
+        "Loop",
+        "Switch replacement",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Switch replacement",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "kt_011",
+      "question": "What is smart casting?",
+      "options": [
+        "Manual casting",
+        "Automatic type casting",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Automatic type casting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_012",
+      "question": "What is sealed class?",
+      "options": [
+        "Open class",
+        "Restricted class hierarchy",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Restricted class hierarchy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_013",
+      "question": "What is companion object?",
+      "options": [
+        "Instance object",
+        "Static-like object",
+        "Loop",
+        "Variable"
+      ],
+      "correct_answer": "Static-like object",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_014",
+      "question": "What is inline function?",
+      "options": [
+        "Normal function",
+        "Optimized function",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Optimized function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_015",
+      "question": "What is coroutine?",
+      "options": [
+        "Thread",
+        "Lightweight async task",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Lightweight async task",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "kt_016",
+      "question": "What is suspend function?",
+      "options": [
+        "Normal function",
+        "Function used with coroutines",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Function used with coroutines",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_017",
+      "question": "What is collection in Kotlin?",
+      "options": [
+        "Loop",
+        "Group of elements",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Group of elements",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_018",
+      "question": "What is map() in Kotlin?",
+      "options": [
+        "Loop",
+        "Transform collection",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Transform collection",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_019",
+      "question": "What is filter()?",
+      "options": [
+        "Loop",
+        "Filter elements",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Filter elements",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_020",
+      "question": "What is let{}?",
+      "options": [
+        "Loop",
+        "Scope function",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Scope function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "kt_021",
+      "question": "What is apply{}?",
+      "options": [
+        "Loop",
+        "Scope function for configuration",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Scope function for configuration",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_022",
+      "question": "What is also{}?",
+      "options": [
+        "Loop",
+        "Scope function returning object",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Scope function returning object",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_023",
+      "question": "What is run{}?",
+      "options": [
+        "Loop",
+        "Execute block and return result",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Execute block and return result",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_024",
+      "question": "What is lateinit?",
+      "options": [
+        "Initialize early",
+        "Late initialization",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Late initialization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_025",
+      "question": "What is lazy?",
+      "options": [
+        "Immediate init",
+        "Initialize on first use",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Initialize on first use",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "kt_026",
+      "question": "What is object keyword?",
+      "options": [
+        "Class",
+        "Singleton",
+        "Loop",
+        "Variable"
+      ],
+      "correct_answer": "Singleton",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_027",
+      "question": "What is type inference?",
+      "options": [
+        "Manual type",
+        "Auto detect type",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Auto detect type",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_028",
+      "question": "What is interoperability?",
+      "options": [
+        "Kotlin only",
+        "Works with Java",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Works with Java",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_029",
+      "question": "What is immutability?",
+      "options": [
+        "Changeable",
+        "Cannot change state",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Cannot change state",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_030",
+      "question": "What is functional programming?",
+      "options": [
+        "OOP only",
+        "Use functions as first-class citizens",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Use functions as first-class citizens",
+      "difficulty": "medium",
       "weight": 3
     }
   ],
+
   "coding_mcqs": [
     {
-      "id": "kotlin_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
-      "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
-      ],
-      "correct_answer": "valid",
+      "id": "kt_c_001",
+      "question": "What is the output?",
+      "code": "println(5 + \"5\")",
+      "options": ["10", "55", "Error", "5"],
+      "correct_answer": "55",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "kt_c_002",
+      "question": "What is the output?",
+      "code": "val x:Int?=null\nprintln(x)",
+      "options": ["null", "0", "Error", "undefined"],
+      "correct_answer": "null",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_003",
+      "question": "What is the output?",
+      "code": "val x:Int?=null\nprintln(x?:10)",
+      "options": ["null", "10", "Error", "0"],
+      "correct_answer": "10",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_c_004",
+      "question": "What happens?",
+      "code": "val x:Int?=null\nprintln(x!!)",
+      "options": [
+        "null",
+        "Error",
+        "0",
+        "10"
+      ],
+      "correct_answer": "Error",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_c_005",
+      "question": "What is the output?",
+      "code": "val list=listOf(1,2,3)\nprintln(list.map{it*2})",
+      "options": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "Error",
+        "null"
+      ],
+      "correct_answer": "[2,4,6]",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "kt_c_006",
+      "question": "What is the output?",
+      "code": "println(\"Hello\".length)",
+      "options": ["4", "5", "Error", "0"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_007",
+      "question": "What is the output?",
+      "code": "println(10/3)",
+      "options": ["3", "3.33", "Error", "0"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_008",
+      "question": "What is the output?",
+      "code": "println(10/3.0)",
+      "options": ["3", "3.33", "Error", "0"],
+      "correct_answer": "3.33",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_c_009",
+      "question": "What is the output?",
+      "code": "val a=5\nval b=10\nprintln(a<b)",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "true",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_010",
+      "question": "What is the output?",
+      "code": "println(listOf(1,2)+listOf(3,4))",
+      "options": [
+        "[1,2,3,4]",
+        "Error",
+        "[3,4]",
+        "null"
+      ],
+      "correct_answer": "[1,2,3,4]",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "kt_c_011",
+      "question": "What is the output?",
+      "code": "println(1 in listOf(1,2,3))",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "true",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_012",
+      "question": "What is the output?",
+      "code": "println(\"abc\".uppercase())",
+      "options": ["ABC", "abc", "Error", "null"],
+      "correct_answer": "ABC",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_013",
+      "question": "What is the output?",
+      "code": "println(listOf(1,2,3).filter{it>1})",
+      "options": [
+        "[1]",
+        "[2,3]",
+        "Error",
+        "null"
+      ],
+      "correct_answer": "[2,3]",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_014",
+      "question": "What is the output?",
+      "code": "println((1..3).sum())",
+      "options": ["3", "6", "Error", "0"],
+      "correct_answer": "6",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_015",
+      "question": "What is the output?",
+      "code": "println(5==5.0)",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "false",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "kt_c_016",
+      "question": "What is the output?",
+      "code": "println(true && false)",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "false",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_017",
+      "question": "What is the output?",
+      "code": "println('A'+1)",
+      "options": ["A1", "66", "Error", "null"],
+      "correct_answer": "66",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "kt_c_018",
+      "question": "What is the output?",
+      "code": "println(1 shl 2)",
+      "options": ["2", "4", "8", "Error"],
+      "correct_answer": "4",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "kt_c_019",
+      "question": "What is the output?",
+      "code": "println(listOf(1,2,3).first())",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "kt_c_020",
+      "question": "What is the output?",
+      "code": "println(listOf(1,2,3).last())",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

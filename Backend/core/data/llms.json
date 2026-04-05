@@ -1,411 +1,402 @@
 {
-  "skill": "Llms",
+  "skill": "LLMs",
+
   "mcqs": [
     {
-      "id": "llms_001",
-      "question": "llms question 1?",
+      "id": "llm_001",
+      "question": "What are LLMs primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Image processing",
+        "Natural language understanding and generation",
+        "Networking",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "llms_002",
-      "question": "llms question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Natural language understanding and generation",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "llms_003",
-      "question": "llms question 3?",
+      "id": "llm_002",
+      "question": "What architecture do most LLMs use?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "CNN",
+        "Transformer",
+        "RNN",
+        "SVM"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "llms_004",
-      "question": "llms question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "llms_005",
-      "question": "llms question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "llms_006",
-      "question": "llms question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "llms_007",
-      "question": "llms question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "llms_008",
-      "question": "llms question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "llms_009",
-      "question": "llms question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "llms_010",
-      "question": "llms question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "llms_011",
-      "question": "llms question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "llms_012",
-      "question": "llms question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "llms_013",
-      "question": "llms question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "llms_014",
-      "question": "llms question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "llms_015",
-      "question": "llms question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "llms_016",
-      "question": "llms question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "llms_017",
-      "question": "llms question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "llms_018",
-      "question": "llms question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "llms_019",
-      "question": "llms question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "llms_020",
-      "question": "llms question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "llms_021",
-      "question": "llms question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "llms_022",
-      "question": "llms question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "llms_023",
-      "question": "llms question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "llms_024",
-      "question": "llms question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Transformer",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "llms_025",
-      "question": "llms question 25?",
+      "id": "llm_003",
+      "question": "What is tokenization?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Encryption",
+        "Splitting text into tokens",
+        "Training model",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Splitting text into tokens",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "llms_026",
-      "question": "llms question 26?",
+      "id": "llm_004",
+      "question": "What are embeddings?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Raw text",
+        "Vector representation of text",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Vector representation of text",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "llms_027",
-      "question": "llms question 27?",
+      "id": "llm_005",
+      "question": "What is attention mechanism?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Ignore data",
+        "Focus on relevant tokens",
+        "Delete tokens",
+        "Store tokens"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Focus on relevant tokens",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "llm_006",
+      "question": "What is self-attention?",
+      "options": [
+        "Cross model",
+        "Token interaction within sequence",
+        "Delete tokens",
+        "Store tokens"
+      ],
+      "correct_answer": "Token interaction within sequence",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "llms_028",
-      "question": "llms question 28?",
+      "id": "llm_007",
+      "question": "What is pretraining?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "After training",
+        "Initial large-scale training",
+        "Testing",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Initial large-scale training",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "llms_029",
-      "question": "llms question 29?",
+      "id": "llm_008",
+      "question": "What is fine-tuning?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete model",
+        "Adapt model to specific task",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Adapt model to specific task",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "llms_030",
-      "question": "llms question 30?",
+      "id": "llm_009",
+      "question": "What is prompt engineering?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Model training",
+        "Designing inputs to guide outputs",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Designing inputs to guide outputs",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "llm_010",
+      "question": "What is hallucination in LLMs?",
+      "options": [
+        "Accurate output",
+        "Incorrect generated information",
+        "Training",
+        "Storage"
+      ],
+      "correct_answer": "Incorrect generated information",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "llm_011",
+      "question": "What is temperature parameter?",
+      "options": [
+        "Model size",
+        "Controls randomness",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Controls randomness",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_012",
+      "question": "What is top-k sampling?",
+      "options": [
+        "Model training",
+        "Select top probable tokens",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Select top probable tokens",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_013",
+      "question": "What is top-p sampling?",
+      "options": [
+        "Training",
+        "Cumulative probability selection",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Cumulative probability selection",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_014",
+      "question": "What is context window?",
+      "options": [
+        "Storage",
+        "Max input size",
+        "Network",
+        "Database"
+      ],
+      "correct_answer": "Max input size",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_015",
+      "question": "What is few-shot learning?",
+      "options": [
+        "No examples",
+        "Few examples for guidance",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Few examples for guidance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "llm_016",
+      "question": "What is zero-shot learning?",
+      "options": [
+        "Many examples",
+        "No examples",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "No examples",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_017",
+      "question": "What is RAG?",
+      "options": [
+        "Training",
+        "Retrieval augmented generation",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Retrieval augmented generation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_018",
+      "question": "What is fine-tuning vs prompting?",
+      "options": [
+        "Same",
+        "Model update vs input guidance",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Model update vs input guidance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_019",
+      "question": "What is inference?",
+      "options": [
+        "Training",
+        "Model prediction phase",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Model prediction phase",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "llm_020",
+      "question": "What is alignment?",
+      "options": [
+        "Storage",
+        "Ensuring safe outputs",
+        "Network",
+        "Database"
+      ],
+      "correct_answer": "Ensuring safe outputs",
       "difficulty": "medium",
       "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "llms_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "llm_s_001",
+      "question": "Improve answer quality without retraining model. What to use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Fine-tuning",
+        "Prompt engineering",
+        "Delete model",
+        "Storage"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Prompt engineering",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "llm_s_002",
+      "question": "Adapt model for specific domain data. What to use?",
+      "options": [
+        "Prompt",
+        "Fine-tuning",
+        "Delete model",
+        "Storage"
+      ],
+      "correct_answer": "Fine-tuning",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "llm_s_003",
+      "question": "Reduce hallucinations with external data. What to use?",
+      "options": [
+        "Prompt",
+        "RAG",
+        "Delete model",
+        "Storage"
+      ],
+      "correct_answer": "RAG",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_s_004",
+      "question": "Make output more creative. What to adjust?",
+      "options": [
+        "Temperature",
+        "Storage",
+        "Network",
+        "Delete model"
+      ],
+      "correct_answer": "Temperature",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "llm_s_005",
+      "question": "Need deterministic output. What to set?",
+      "options": [
+        "High temperature",
+        "Low temperature",
+        "Delete model",
+        "Storage"
+      ],
+      "correct_answer": "Low temperature",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "llm_s_006",
+      "question": "Limit token randomness selection. What to use?",
+      "options": [
+        "Top-k",
+        "Storage",
+        "Network",
+        "Delete model"
+      ],
+      "correct_answer": "Top-k",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_s_007",
+      "question": "Limit cumulative probability. What to use?",
+      "options": [
+        "Top-p",
+        "Storage",
+        "Network",
+        "Delete model"
+      ],
+      "correct_answer": "Top-p",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_s_008",
+      "question": "Handle long documents efficiently. What matters?",
+      "options": [
+        "Temperature",
+        "Context window",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Context window",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "llm_s_009",
+      "question": "Provide examples in prompt for better output. What approach?",
+      "options": [
+        "Zero-shot",
+        "Few-shot",
+        "Delete model",
+        "Storage"
+      ],
+      "correct_answer": "Few-shot",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "llm_s_010",
+      "question": "Ensure model avoids harmful responses. What to apply?",
+      "options": [
+        "Storage",
+        "Alignment",
+        "Network",
+        "Delete model"
+      ],
+      "correct_answer": "Alignment",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

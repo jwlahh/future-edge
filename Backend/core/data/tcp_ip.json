@@ -1,411 +1,397 @@
 {
-  "skill": "Tcp Ip",
+  "skill": "TCP/IP",
   "mcqs": [
     {
-      "id": "tcp_ip_001",
-      "question": "tcp ip question 1?",
+      "id": "tcpip_001",
+      "question": "What is TCP/IP primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database management",
+        "Network communication over interconnected systems",
+        "UI styling",
+        "Image processing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "tcp_ip_002",
-      "question": "tcp ip question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "tcp_ip_003",
-      "question": "tcp ip question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "tcp_ip_004",
-      "question": "tcp ip question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "tcp_ip_005",
-      "question": "tcp ip question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Network communication over interconnected systems",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "tcp_ip_006",
-      "question": "tcp ip question 6?",
+      "id": "tcpip_002",
+      "question": "What does TCP stand for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Transfer Control Protocol",
+        "Transmission Control Protocol",
+        "Transport Connection Process",
+        "Terminal Communication Protocol"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "tcp_ip_007",
-      "question": "tcp ip question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "tcp_ip_008",
-      "question": "tcp ip question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "tcp_ip_009",
-      "question": "tcp ip question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "tcp_ip_010",
-      "question": "tcp ip question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Transmission Control Protocol",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "tcp_ip_011",
-      "question": "tcp ip question 11?",
+      "id": "tcpip_003",
+      "question": "What does IP stand for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Internet Protocol",
+        "Internal Process",
+        "Interconnected Port",
+        "Internet Process"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Internet Protocol",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "tcp_ip_012",
-      "question": "tcp ip question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "tcp_ip_013",
-      "question": "tcp ip question 13?",
+      "id": "tcpip_004",
+      "question": "What is the main role of IP?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Reliable delivery with acknowledgments",
+        "Addressing and routing packets",
+        "Encrypting traffic",
+        "Compressing files"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Addressing and routing packets",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "tcp_ip_014",
-      "question": "tcp ip question 14?",
+      "id": "tcpip_005",
+      "question": "What is the main role of TCP?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Unreliable fast delivery",
+        "Reliable ordered delivery",
+        "IP addressing only",
+        "DNS resolution"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "tcp_ip_015",
-      "question": "tcp ip question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Reliable ordered delivery",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "tcp_ip_016",
-      "question": "tcp ip question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "tcp_ip_017",
-      "question": "tcp ip question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "tcp_ip_018",
-      "question": "tcp ip question 18?",
+      "id": "tcpip_006",
+      "question": "Which protocol is connection-oriented?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UDP",
+        "TCP",
+        "IP",
+        "ARP"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "tcp_ip_019",
-      "question": "tcp ip question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "tcp_ip_020",
-      "question": "tcp ip question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "TCP",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
-      "id": "tcp_ip_021",
-      "question": "tcp ip question 21?",
+      "id": "tcpip_007",
+      "question": "Which protocol is connectionless?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "TCP",
+        "UDP",
+        "ARP",
+        "ICMP only"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "UDP",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_008",
+      "question": "What is a port number used for?",
+      "options": [
+        "Identify a device physically",
+        "Identify a specific service or application",
+        "Replace IP address",
+        "Encrypt data"
+      ],
+      "correct_answer": "Identify a specific service or application",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_009",
+      "question": "What is an IP address used for?",
+      "options": [
+        "Identifying a host on a network",
+        "Identifying a CSS file",
+        "Storing passwords",
+        "Tracking CPU speed"
+      ],
+      "correct_answer": "Identifying a host on a network",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_010",
+      "question": "What is the purpose of subnetting?",
+      "options": [
+        "To physically enlarge switches",
+        "To divide networks into smaller logical segments",
+        "To replace routing",
+        "To remove MAC addresses"
+      ],
+      "correct_answer": "To divide networks into smaller logical segments",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "tcp_ip_022",
-      "question": "tcp ip question 22?",
+      "id": "tcpip_011",
+      "question": "What is a subnet mask used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To hide DNS names",
+        "To distinguish network and host portions of an IP address",
+        "To encrypt IP packets",
+        "To assign MAC addresses"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To distinguish network and host portions of an IP address",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "tcp_ip_023",
-      "question": "tcp ip question 23?",
+      "id": "tcpip_012",
+      "question": "What is a default gateway?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "The first switch in a rack",
+        "The router used to reach other networks",
+        "A DNS backup server",
+        "A physical firewall port"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "The router used to reach other networks",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_013",
+      "question": "What is DNS used for?",
+      "options": [
+        "Converting domain names to IP addresses",
+        "Encrypting TCP sessions",
+        "Routing Ethernet frames",
+        "Managing switch ports"
+      ],
+      "correct_answer": "Converting domain names to IP addresses",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_014",
+      "question": "What is DHCP used for?",
+      "options": [
+        "Assigning IP configuration automatically",
+        "Resolving domain names",
+        "Blocking firewalls",
+        "Forwarding MAC frames"
+      ],
+      "correct_answer": "Assigning IP configuration automatically",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_015",
+      "question": "What is ARP used for in IPv4 networks?",
+      "options": [
+        "Map IP addresses to MAC addresses",
+        "Assign dynamic IP addresses",
+        "Resolve hostnames",
+        "Create TCP sessions"
+      ],
+      "correct_answer": "Map IP addresses to MAC addresses",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "tcp_ip_024",
-      "question": "tcp ip question 24?",
+      "id": "tcpip_016",
+      "question": "What is ICMP commonly used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Email transmission",
+        "Network diagnostics and error reporting",
+        "File compression",
+        "Port forwarding"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Network diagnostics and error reporting",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "tcp_ip_025",
-      "question": "tcp ip question 25?",
+      "id": "tcpip_017",
+      "question": "What is the TCP three-way handshake used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Closing a connection",
+        "Establishing a TCP connection",
+        "Resolving an IP address",
+        "Requesting a web page"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Establishing a TCP connection",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "tcp_ip_026",
-      "question": "tcp ip question 26?",
+      "id": "tcpip_018",
+      "question": "Why does TCP use sequence numbers?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To assign MAC addresses",
+        "To ensure ordered delivery and reassembly",
+        "To increase DNS speed",
+        "To encrypt traffic"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "To ensure ordered delivery and reassembly",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "tcp_ip_027",
-      "question": "tcp ip question 27?",
+      "id": "tcpip_019",
+      "question": "What is packet fragmentation?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Splitting a packet into smaller pieces for transmission",
+        "Encrypting parts of a packet",
+        "Deleting duplicate packets",
+        "Mapping ports to hosts"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "Splitting a packet into smaller pieces for transmission",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "tcp_ip_028",
-      "question": "tcp ip question 28?",
+      "id": "tcpip_020",
+      "question": "Why is UDP often chosen for streaming or gaming?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Because it guarantees delivery",
+        "Because it has lower overhead and lower latency",
+        "Because it replaces IP",
+        "Because it always uses encryption"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "tcp_ip_029",
-      "question": "tcp ip question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "tcp_ip_030",
-      "question": "tcp ip question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "Because it has lower overhead and lower latency",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "tcp_ip_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "tcpip_s_001",
+      "question": "A browser cannot open a website by name, but it works with the IP address. Which service is most likely failing?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "DHCP",
+        "DNS",
+        "ARP",
+        "TCP handshake"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "DNS",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "tcpip_s_002",
+      "question": "A new laptop connects to Wi-Fi and automatically gets an IP address, gateway, and DNS server. Which protocol provided this?",
+      "options": [
+        "ARP",
+        "DHCP",
+        "TCP",
+        "ICMP"
+      ],
+      "correct_answer": "DHCP",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_s_003",
+      "question": "A host needs to send data to another device on the same local network but only knows its IP address. Which protocol helps find the destination MAC address?",
+      "options": [
+        "DNS",
+        "ARP",
+        "TCP",
+        "HTTP"
+      ],
+      "correct_answer": "ARP",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_s_004",
+      "question": "An application needs reliable, ordered delivery of data between client and server. Which transport protocol should be used?",
+      "options": [
+        "UDP",
+        "TCP",
+        "ICMP",
+        "ARP"
+      ],
+      "correct_answer": "TCP",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_s_005",
+      "question": "A live voice call needs low latency and can tolerate some packet loss. Which protocol is more appropriate?",
+      "options": [
+        "TCP",
+        "UDP",
+        "ARP",
+        "DNS"
+      ],
+      "correct_answer": "UDP",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tcpip_s_006",
+      "question": "A computer can reach devices on its own subnet but cannot access external networks. Which setting should be checked first?",
+      "options": [
+        "Default gateway",
+        "MAC address vendor",
+        "Browser cookies",
+        "CPU usage"
+      ],
+      "correct_answer": "Default gateway",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tcpip_s_007",
+      "question": "A network engineer wants to divide one large network into smaller logical sections for management and security. What should be implemented?",
+      "options": [
+        "Subnetting",
+        "ARP flooding",
+        "Only DNS caching",
+        "Packet duplication"
+      ],
+      "correct_answer": "Subnetting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tcpip_s_008",
+      "question": "A system administrator uses ping to test whether another host is reachable. Which protocol is primarily involved?",
+      "options": [
+        "ICMP",
+        "DHCP",
+        "ARP",
+        "FTP"
+      ],
+      "correct_answer": "ICMP",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tcpip_s_009",
+      "question": "A server receives multiple packets out of order and still reconstructs the original data correctly. Which TCP feature enables this?",
+      "options": [
+        "Sequence numbers",
+        "DNS records",
+        "Subnet masks",
+        "MAC learning"
+      ],
+      "correct_answer": "Sequence numbers",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tcpip_s_010",
+      "question": "A client and server must establish a reliable session before transmitting application data. What process occurs first?",
+      "options": [
+        "TCP three-way handshake",
+        "DNS zone transfer",
+        "ICMP echo reply",
+        "ARP cache flush"
+      ],
+      "correct_answer": "TCP three-way handshake",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

@@ -1,411 +1,402 @@
 {
   "skill": "Manual Testing",
+
   "mcqs": [
     {
-      "id": "manual_testing_001",
-      "question": "manual testing question 1?",
+      "id": "mt_001",
+      "question": "What is manual testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Automated testing",
+        "Testing without automation tools",
+        "Coding",
+        "Deployment"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Testing without automation tools",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
-      "id": "manual_testing_002",
-      "question": "manual testing question 2?",
+      "id": "mt_002",
+      "question": "What is a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Bug",
+        "Set of steps to validate functionality",
+        "Code",
+        "Deployment"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Set of steps to validate functionality",
       "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_003",
+      "question": "What is a bug?",
+      "options": [
+        "Feature",
+        "Defect in software",
+        "Test case",
+        "Deployment"
+      ],
+      "correct_answer": "Defect in software",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_004",
+      "question": "What is regression testing?",
+      "options": [
+        "New feature testing",
+        "Testing after changes",
+        "Performance testing",
+        "Security testing"
+      ],
+      "correct_answer": "Testing after changes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_005",
+      "question": "What is smoke testing?",
+      "options": [
+        "Deep testing",
+        "Basic functionality check",
+        "Security testing",
+        "Performance testing"
+      ],
+      "correct_answer": "Basic functionality check",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "mt_006",
+      "question": "What is sanity testing?",
+      "options": [
+        "Full testing",
+        "Quick validation of fixes",
+        "Security testing",
+        "Performance testing"
+      ],
+      "correct_answer": "Quick validation of fixes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_007",
+      "question": "What is functional testing?",
+      "options": [
+        "UI testing",
+        "Testing system functionality",
+        "Security testing",
+        "Performance testing"
+      ],
+      "correct_answer": "Testing system functionality",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_008",
+      "question": "What is non-functional testing?",
+      "options": [
+        "Feature testing",
+        "Performance, usability testing",
+        "UI testing",
+        "Functional testing"
+      ],
+      "correct_answer": "Performance, usability testing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_009",
+      "question": "What is test plan?",
+      "options": [
+        "Bug",
+        "Testing strategy document",
+        "Code",
+        "Deployment"
+      ],
+      "correct_answer": "Testing strategy document",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "manual_testing_003",
-      "question": "manual testing question 3?",
+      "id": "mt_010",
+      "question": "What is test suite?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single test case",
+        "Collection of test cases",
+        "Bug",
+        "Deployment"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Collection of test cases",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "mt_011",
+      "question": "What is test scenario?",
+      "options": [
+        "Detailed steps",
+        "High-level testing condition",
+        "Bug",
+        "Deployment"
+      ],
+      "correct_answer": "High-level testing condition",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "manual_testing_004",
-      "question": "manual testing question 4?",
+      "id": "mt_012",
+      "question": "What is bug lifecycle?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Test plan",
+        "Bug status flow",
+        "Deployment",
+        "Code"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Bug status flow",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "manual_testing_005",
-      "question": "manual testing question 5?",
+      "id": "mt_013",
+      "question": "What is severity?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Priority",
+        "Impact of bug",
+        "Bug status",
+        "Test case"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Impact of bug",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "manual_testing_006",
-      "question": "manual testing question 6?",
+      "id": "mt_014",
+      "question": "What is priority?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Impact",
+        "Order of fixing bug",
+        "Bug status",
+        "Test case"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Order of fixing bug",
       "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_015",
+      "question": "What is exploratory testing?",
+      "options": [
+        "Scripted testing",
+        "Unscripted testing",
+        "Automation",
+        "Performance"
+      ],
+      "correct_answer": "Unscripted testing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "mt_016",
+      "question": "What is boundary value analysis?",
+      "options": [
+        "Middle values",
+        "Edge values testing",
+        "Random testing",
+        "Performance testing"
+      ],
+      "correct_answer": "Edge values testing",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "manual_testing_007",
-      "question": "manual testing question 7?",
+      "id": "mt_017",
+      "question": "What is equivalence partitioning?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Random testing",
+        "Grouping input data",
+        "Edge testing",
+        "Performance testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Grouping input data",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "manual_testing_008",
-      "question": "manual testing question 8?",
+      "id": "mt_018",
+      "question": "What is usability testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Code testing",
+        "User experience testing",
+        "Performance testing",
+        "Security testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_009",
-      "question": "manual testing question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "User experience testing",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "manual_testing_010",
-      "question": "manual testing question 10?",
+      "id": "mt_019",
+      "question": "What is UAT?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "User acceptance testing",
+        "Unit testing",
+        "System testing",
+        "Integration testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_011",
-      "question": "manual testing question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "User acceptance testing",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "manual_testing_012",
-      "question": "manual testing question 12?",
+      "id": "mt_020",
+      "question": "What is defect report?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Test case",
+        "Bug documentation",
+        "Code",
+        "Deployment"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_013",
-      "question": "manual testing question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_014",
-      "question": "manual testing question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "manual_testing_015",
-      "question": "manual testing question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "manual_testing_016",
-      "question": "manual testing question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "manual_testing_017",
-      "question": "manual testing question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "manual_testing_018",
-      "question": "manual testing question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_019",
-      "question": "manual testing question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "manual_testing_020",
-      "question": "manual testing question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Bug documentation",
       "difficulty": "easy",
       "weight": 2
-    },
-    {
-      "id": "manual_testing_021",
-      "question": "manual testing question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "manual_testing_022",
-      "question": "manual testing question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_023",
-      "question": "manual testing question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_024",
-      "question": "manual testing question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "manual_testing_025",
-      "question": "manual testing question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "manual_testing_026",
-      "question": "manual testing question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_027",
-      "question": "manual testing question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "manual_testing_028",
-      "question": "manual testing question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "manual_testing_029",
-      "question": "manual testing question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "manual_testing_030",
-      "question": "manual testing question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "manual_testing_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "mt_s_001",
+      "question": "Verify login feature works after update. What testing?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Regression",
+        "Performance",
+        "Security",
+        "Usability"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Regression",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "mt_s_002",
+      "question": "Quickly check build stability. What testing?",
+      "options": [
+        "Smoke",
+        "Regression",
+        "Security",
+        "Performance"
+      ],
+      "correct_answer": "Smoke",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_s_003",
+      "question": "Test fix of specific bug. What testing?",
+      "options": [
+        "Sanity",
+        "Regression",
+        "Security",
+        "Performance"
+      ],
+      "correct_answer": "Sanity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_s_004",
+      "question": "Check system meets user expectations. What testing?",
+      "options": [
+        "UAT",
+        "Unit",
+        "Integration",
+        "Regression"
+      ],
+      "correct_answer": "UAT",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_s_005",
+      "question": "Test application under heavy load. What testing?",
+      "options": [
+        "Functional",
+        "Performance",
+        "Regression",
+        "Smoke"
+      ],
+      "correct_answer": "Performance",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_s_006",
+      "question": "Test user interface friendliness. What testing?",
+      "options": [
+        "Usability",
+        "Regression",
+        "Performance",
+        "Security"
+      ],
+      "correct_answer": "Usability",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mt_s_007",
+      "question": "Test without predefined cases. What testing?",
+      "options": [
+        "Exploratory",
+        "Regression",
+        "Performance",
+        "Security"
+      ],
+      "correct_answer": "Exploratory",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "mt_s_008",
+      "question": "Test edge input values. What technique?",
+      "options": [
+        "Boundary value",
+        "Regression",
+        "Performance",
+        "Security"
+      ],
+      "correct_answer": "Boundary value",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "mt_s_009",
+      "question": "Group similar inputs for testing. What technique?",
+      "options": [
+        "Equivalence partitioning",
+        "Regression",
+        "Performance",
+        "Security"
+      ],
+      "correct_answer": "Equivalence partitioning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "mt_s_010",
+      "question": "High impact bug needs immediate fix. What matters?",
+      "options": [
+        "Severity",
+        "Priority",
+        "Test case",
+        "Plan"
+      ],
+      "correct_answer": "Priority",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

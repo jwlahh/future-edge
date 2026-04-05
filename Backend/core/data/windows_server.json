@@ -1,411 +1,397 @@
 {
-  "skill": "Windows Server",
+  "skill": "Web Development",
   "mcqs": [
     {
-      "id": "windows_server_001",
-      "question": "windows server question 1?",
+      "id": "wd_001",
+      "question": "What is the main purpose of web development?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Building applications and websites for the web",
+        "Managing hardware devices only",
+        "Designing operating systems",
+        "Creating database backups only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_002",
-      "question": "windows server question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "windows_server_003",
-      "question": "windows server question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "windows_server_004",
-      "question": "windows server question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_005",
-      "question": "windows server question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Building applications and websites for the web",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "windows_server_006",
-      "question": "windows server question 6?",
+      "id": "wd_002",
+      "question": "What is frontend development primarily concerned with?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Server configuration",
+        "User-facing interface and interaction",
+        "Database indexing",
+        "Network switching"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "windows_server_007",
-      "question": "windows server question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_008",
-      "question": "windows server question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_009",
-      "question": "windows server question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "windows_server_010",
-      "question": "windows server question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "User-facing interface and interaction",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "windows_server_011",
-      "question": "windows server question 11?",
+      "id": "wd_003",
+      "question": "What is backend development primarily concerned with?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Styling web pages only",
+        "Server logic, APIs, and data handling",
+        "Image editing",
+        "Typography only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "windows_server_012",
-      "question": "windows server question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "windows_server_013",
-      "question": "windows server question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "windows_server_014",
-      "question": "windows server question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "windows_server_015",
-      "question": "windows server question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_016",
-      "question": "windows server question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_017",
-      "question": "windows server question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "windows_server_018",
-      "question": "windows server question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "windows_server_019",
-      "question": "windows server question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Server logic, APIs, and data handling",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "windows_server_020",
-      "question": "windows server question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_021",
-      "question": "windows server question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_022",
-      "question": "windows server question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_023",
-      "question": "windows server question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "windows_server_024",
-      "question": "windows server question 24?",
+      "id": "wd_004",
+      "question": "What role does HTML play in web development?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Defines page structure and content",
+        "Handles server requests",
+        "Stores relational data",
+        "Compiles JavaScript"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "windows_server_025",
-      "question": "windows server question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Defines page structure and content",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "windows_server_026",
-      "question": "windows server question 26?",
+      "id": "wd_005",
+      "question": "What role does CSS play in web development?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Adds styling and layout rules",
+        "Creates database schemas",
+        "Handles authentication tokens",
+        "Routes server traffic"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Adds styling and layout rules",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_006",
+      "question": "What role does JavaScript play in web development?",
+      "options": [
+        "Adds interactivity and dynamic behavior",
+        "Replaces HTML structure",
+        "Stores data permanently",
+        "Configures network hardware"
+      ],
+      "correct_answer": "Adds interactivity and dynamic behavior",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_007",
+      "question": "What is a responsive website?",
+      "options": [
+        "A site that only works on mobile",
+        "A site that adapts to different screen sizes",
+        "A site that uses only JavaScript",
+        "A site without backend logic"
+      ],
+      "correct_answer": "A site that adapts to different screen sizes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_008",
+      "question": "What is the purpose of an API in web development?",
+      "options": [
+        "To allow communication between systems or components",
+        "To replace CSS",
+        "To design logos",
+        "To store images in the browser"
+      ],
+      "correct_answer": "To allow communication between systems or components",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_009",
+      "question": "What is client-side rendering?",
+      "options": [
+        "Rendering performed in the browser",
+        "Rendering only in the database",
+        "Rendering by a network switch",
+        "Rendering static files without HTML"
+      ],
+      "correct_answer": "Rendering performed in the browser",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "windows_server_027",
-      "question": "windows server question 27?",
+      "id": "wd_010",
+      "question": "What is server-side rendering?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Rendering HTML on the server before sending it to the client",
+        "Rendering CSS in a browser extension",
+        "Rendering database queries visually",
+        "Rendering only images"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Rendering HTML on the server before sending it to the client",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "windows_server_028",
-      "question": "windows server question 28?",
+      "id": "wd_011",
+      "question": "What is the purpose of a database in a web application?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To persist and retrieve application data",
+        "To style the UI",
+        "To replace routing",
+        "To run browser events"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "To persist and retrieve application data",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "windows_server_029",
-      "question": "windows server question 29?",
+      "id": "wd_012",
+      "question": "What is authentication in web applications?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Verifying who the user is",
+        "Granting screen colors",
+        "Sorting API results",
+        "Compressing images"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Verifying who the user is",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "windows_server_030",
-      "question": "windows server question 30?",
+      "id": "wd_013",
+      "question": "What is authorization in web applications?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Determining what an authenticated user is allowed to access",
+        "Checking internet speed",
+        "Creating frontend components",
+        "Parsing HTML tags"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Determining what an authenticated user is allowed to access",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_014",
+      "question": "Why is form validation important?",
+      "options": [
+        "To ensure user input is correct and safe",
+        "To create animations",
+        "To replace backend logic",
+        "To remove accessibility concerns"
+      ],
+      "correct_answer": "To ensure user input is correct and safe",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_015",
+      "question": "What is routing in web applications?",
+      "options": [
+        "Mapping URLs to pages or handlers",
+        "Styling responsive layouts",
+        "Encrypting passwords",
+        "Caching only images"
+      ],
+      "correct_answer": "Mapping URLs to pages or handlers",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_016",
+      "question": "What is a session commonly used for?",
+      "options": [
+        "Maintaining user state across requests",
+        "Compiling CSS",
+        "Building static images",
+        "Creating database indexes"
+      ],
+      "correct_answer": "Maintaining user state across requests",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
+    },
+    {
+      "id": "wd_017",
+      "question": "What is caching in web development?",
+      "options": [
+        "Storing reusable data for faster access",
+        "Deleting old files automatically",
+        "Replacing authentication",
+        "Creating SQL joins"
+      ],
+      "correct_answer": "Storing reusable data for faster access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wd_018",
+      "question": "Why is accessibility important in web development?",
+      "options": [
+        "It makes websites usable by more people, including users with disabilities",
+        "It removes the need for testing",
+        "It replaces responsive design",
+        "It increases server RAM"
+      ],
+      "correct_answer": "It makes websites usable by more people, including users with disabilities",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_019",
+      "question": "What is deployment in web development?",
+      "options": [
+        "Making the application available in a target environment",
+        "Writing HTML tags",
+        "Designing wireframes",
+        "Reducing font size"
+      ],
+      "correct_answer": "Making the application available in a target environment",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_020",
+      "question": "What is version control used for in web development?",
+      "options": [
+        "Tracking changes in code over time",
+        "Replacing testing tools",
+        "Hosting websites only",
+        "Managing DNS records"
+      ],
+      "correct_answer": "Tracking changes in code over time",
+      "difficulty": "easy",
+      "weight": 2
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "windows_server_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "wd_s_001",
+      "question": "A website looks broken on mobile screens but fine on desktop. What area needs improvement?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Responsive design",
+        "Database normalization",
+        "DNS configuration",
+        "Password hashing"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Responsive design",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "wd_s_002",
+      "question": "A user logs in successfully but loses login state on every new request. What mechanism is most relevant?",
+      "options": [
+        "Session management",
+        "Typography scaling",
+        "Image compression",
+        "CSS specificity"
+      ],
+      "correct_answer": "Session management",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wd_s_003",
+      "question": "A signup form accepts invalid email addresses and empty passwords. What should be added first?",
+      "options": [
+        "Form validation",
+        "More animations",
+        "More database tables",
+        "A new domain name"
+      ],
+      "correct_answer": "Form validation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_s_004",
+      "question": "A product page is slow because the same data is fetched repeatedly. What can reduce this repeated work?",
+      "options": [
+        "Caching",
+        "Removing HTML",
+        "Disabling routing",
+        "Turning off validation"
+      ],
+      "correct_answer": "Caching",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wd_s_005",
+      "question": "A frontend app needs to fetch order data from a backend service. What should connect them?",
+      "options": [
+        "API",
+        "Only CSS",
+        "Static HTML comments",
+        "A wireframe"
+      ],
+      "correct_answer": "API",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_s_006",
+      "question": "An admin page should be visible only to privileged users after login. What is needed beyond authentication?",
+      "options": [
+        "Authorization",
+        "Color contrast",
+        "Image lazy loading",
+        "Code minification"
+      ],
+      "correct_answer": "Authorization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wd_s_007",
+      "question": "A web app must remember user profile data even after the server restarts. Where should the data be stored?",
+      "options": [
+        "Database",
+        "Temporary variable only",
+        "CSS file",
+        "Browser tab title"
+      ],
+      "correct_answer": "Database",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_s_008",
+      "question": "A company wants the first page load to be SEO-friendly and quickly visible to search engines. What rendering approach is often helpful?",
+      "options": [
+        "Server-side rendering",
+        "Only local storage",
+        "Only client-side alerts",
+        "Only inline styles"
+      ],
+      "correct_answer": "Server-side rendering",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wd_s_009",
+      "question": "A development team needs to collaborate on code safely and track changes across releases. What tool category is essential?",
+      "options": [
+        "Version control",
+        "Only screenshot software",
+        "Only browser extensions",
+        "Only spreadsheet tools"
+      ],
+      "correct_answer": "Version control",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wd_s_010",
+      "question": "A website works visually but is difficult for screen-reader users to navigate. What area needs focus?",
+      "options": [
+        "Accessibility",
+        "Subnetting",
+        "Packet routing",
+        "Container orchestration"
+      ],
+      "correct_answer": "Accessibility",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

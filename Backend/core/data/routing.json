@@ -1,411 +1,402 @@
 {
   "skill": "Routing",
+
   "mcqs": [
     {
-      "id": "routing_001",
-      "question": "routing question 1?",
+      "id": "route_001",
+      "question": "What is routing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Navigation between pages",
+        "Loop",
+        "API"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "routing_002",
-      "question": "routing question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "routing_003",
-      "question": "routing question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "routing_004",
-      "question": "routing question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "routing_005",
-      "question": "routing question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "routing_006",
-      "question": "routing question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Navigation between pages",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "routing_007",
-      "question": "routing question 7?",
+      "id": "route_002",
+      "question": "What is client-side routing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Server navigation",
+        "Browser-based navigation without reload",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "routing_008",
-      "question": "routing question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "routing_009",
-      "question": "routing question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "routing_010",
-      "question": "routing question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "routing_011",
-      "question": "routing question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "routing_012",
-      "question": "routing question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "routing_013",
-      "question": "routing question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "routing_014",
-      "question": "routing question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "routing_015",
-      "question": "routing question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "routing_016",
-      "question": "routing question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "routing_017",
-      "question": "routing question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "routing_018",
-      "question": "routing question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Browser-based navigation without reload",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "routing_019",
-      "question": "routing question 19?",
+      "id": "route_003",
+      "question": "What is React Router used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Navigation in React apps",
+        "Loop",
+        "API"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Navigation in React apps",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "routing_020",
-      "question": "routing question 20?",
+      "id": "route_004",
+      "question": "What is a route?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Path mapped to component",
+        "Loop",
+        "API"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Path mapped to component",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "routing_021",
-      "question": "routing question 21?",
+      "id": "route_005",
+      "question": "What is URL parameter?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Static path",
+        "Dynamic value in URL",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Dynamic value in URL",
+      "difficulty": "easy",
       "weight": 2
     },
+
     {
-      "id": "routing_022",
-      "question": "routing question 22?",
+      "id": "route_006",
+      "question": "What is nested routing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single route",
+        "Routes inside routes",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "routing_023",
-      "question": "routing question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Routes inside routes",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "routing_024",
-      "question": "routing question 24?",
+      "id": "route_007",
+      "question": "What is Link component?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Reload page",
+        "Navigate without reload",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "routing_025",
-      "question": "routing question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "routing_026",
-      "question": "routing question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "routing_027",
-      "question": "routing question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Navigate without reload",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "routing_028",
-      "question": "routing question 28?",
+      "id": "route_008",
+      "question": "What is useParams?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Get state",
+        "Access URL params",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "routing_029",
-      "question": "routing question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Access URL params",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "routing_030",
-      "question": "routing question 30?",
+      "id": "route_009",
+      "question": "What is useNavigate?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Get params",
+        "Programmatic navigation",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Programmatic navigation",
+      "difficulty": "medium",
       "weight": 3
+    },
+    {
+      "id": "route_010",
+      "question": "What is route guard?",
+      "options": [
+        "Delete route",
+        "Protect routes",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Protect routes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "route_011",
+      "question": "What is redirect?",
+      "options": [
+        "Stay same page",
+        "Navigate to another route",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Navigate to another route",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "route_012",
+      "question": "What is 404 route?",
+      "options": [
+        "Success page",
+        "Not found page",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Not found page",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "route_013",
+      "question": "What is dynamic routing?",
+      "options": [
+        "Static route",
+        "Route changes based on data",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Route changes based on data",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_014",
+      "question": "What is path parameter?",
+      "options": [
+        "Static value",
+        "Variable in URL path",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Variable in URL path",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "route_015",
+      "question": "What is query parameter?",
+      "options": [
+        "Path only",
+        "Key-value in URL",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Key-value in URL",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "route_016",
+      "question": "What is lazy loading routes?",
+      "options": [
+        "Load all",
+        "Load on demand",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Load on demand",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_017",
+      "question": "What is history stack?",
+      "options": [
+        "Database",
+        "Browser navigation history",
+        "Loop",
+        "API"
+      ],
+      "correct_answer": "Browser navigation history",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_018",
+      "question": "What is push navigation?",
+      "options": [
+        "Replace route",
+        "Add new entry to history",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Add new entry to history",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_019",
+      "question": "What is replace navigation?",
+      "options": [
+        "Add history",
+        "Replace current route",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Replace current route",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_020",
+      "question": "What is route matching?",
+      "options": [
+        "Database",
+        "Match URL to route",
+        "Loop",
+        "API"
+      ],
+      "correct_answer": "Match URL to route",
+      "difficulty": "easy",
+      "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "routing_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "route_s_001",
+      "question": "Need navigation without page reload. What to use?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Anchor tag",
+        "Client-side routing",
+        "Reload",
+        "API"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Client-side routing",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "route_s_002",
+      "question": "Need to pass ID in URL. What to use?",
+      "options": [
+        "Static route",
+        "Path parameter",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "Path parameter",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "route_s_003",
+      "question": "Need protected dashboard route. What to use?",
+      "options": [
+        "Open route",
+        "Route guard",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "Route guard",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_s_004",
+      "question": "Need fallback page for unknown routes. What to use?",
+      "options": [
+        "Home",
+        "404 route",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "404 route",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "route_s_005",
+      "question": "Need programmatic navigation after login. What to use?",
+      "options": [
+        "Link",
+        "useNavigate",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "useNavigate",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_s_006",
+      "question": "Need to load routes only when needed. What to use?",
+      "options": [
+        "Load all",
+        "Lazy loading",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "Lazy loading",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_s_007",
+      "question": "Need nested dashboard routes. What to use?",
+      "options": [
+        "Single route",
+        "Nested routing",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "Nested routing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_s_008",
+      "question": "Need to pass filters in URL. What to use?",
+      "options": [
+        "Path param",
+        "Query parameters",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "Query parameters",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "route_s_009",
+      "question": "Need to navigate but replace history. What to use?",
+      "options": [
+        "Push",
+        "Replace navigation",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "Replace navigation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "route_s_010",
+      "question": "Need dynamic pages based on ID. What to use?",
+      "options": [
+        "Static routes",
+        "Dynamic routing",
+        "Delete route",
+        "Loop"
+      ],
+      "correct_answer": "Dynamic routing",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

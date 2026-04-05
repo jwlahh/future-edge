@@ -1,344 +1,587 @@
 {
-    "skill": "JavaScript",
-    "mcqs": [
+  "skill": "JavaScript",
 
-      {
-        "id": "js_001",
-        "question": "Which keyword declares a variable?",
-        "options": ["var", "int", "float", "define"],
-        "correct_answer": "var",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_002",
-        "question": "Which is a JavaScript data type?",
-        "options": ["Number", "Integer", "Float", "Character"],
-        "correct_answer": "Number",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_003",
-        "question": "Which symbol is used for comments?",
-        "options": ["//", "#", "<!--", "**"],
-        "correct_answer": "//",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_004",
-        "question": "What is typeof null?",
-        "options": ["object", "null", "undefined", "string"],
-        "correct_answer": "object",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_005",
-        "question": "Which is not a primitive type?",
-        "options": ["object", "string", "number", "boolean"],
-        "correct_answer": "object",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_006",
-        "question": "Which keyword is block scoped?",
-        "options": ["let", "var", "function", "const var"],
-        "correct_answer": "let",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_007",
-        "question": "Which method converts JSON to object?",
-        "options": ["JSON.parse()", "JSON.stringify()", "parseJSON()", "toJSON()"],
-        "correct_answer": "JSON.parse()",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_008",
-        "question": "Which symbol is strict equality?",
-        "options": ["===", "==", "=", "!==="],
-        "correct_answer": "===",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_009",
-        "question": "Which function prints output?",
-        "options": ["console.log()", "print()", "echo()", "log()"],
-        "correct_answer": "console.log()",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_010",
-        "question": "What is NaN?",
-        "options": ["Not a Number", "Null value", "String", "Boolean"],
-        "correct_answer": "Not a Number",
-        "difficulty": "easy",
-        "weight": 1
-      },
-  
-      {
-        "id": "js_011",
-        "question": "What is closure?",
-        "options": ["function with access to outer scope", "loop", "object", "array"],
-        "correct_answer": "function with access to outer scope",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_012",
-        "question": "What is hoisting?",
-        "options": ["moving declarations to top", "looping", "scoping", "none"],
-        "correct_answer": "moving declarations to top",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_013",
-        "question": "What does 'this' refer to?",
-        "options": ["current object", "window always", "function", "none"],
-        "correct_answer": "current object",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_014",
-        "question": "What is a promise?",
-        "options": ["async result", "loop", "variable", "object only"],
-        "correct_answer": "async result",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_015",
-        "question": "Which handles async errors?",
-        "options": ["catch()", "try()", "error()", "handle()"],
-        "correct_answer": "catch()",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_016",
-        "question": "What is event loop?",
-        "options": ["handles async tasks", "loop", "function", "none"],
-        "correct_answer": "handles async tasks",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_017",
-        "question": "Which creates a copy of array?",
-        "options": ["spread", "push", "pop", "shift"],
-        "correct_answer": "spread",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_018",
-        "question": "Difference between let & const?",
-        "options": ["const immutable", "same", "let immutable", "none"],
-        "correct_answer": "const immutable",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_019",
-        "question": "Which is arrow function?",
-        "options": ["()=>{}", "function()", "def()", "lambda()"],
-        "correct_answer": "()=>{}",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_020",
-        "question": "Which method adds element?",
-        "options": ["push()", "pop()", "shift()", "slice()"],
-        "correct_answer": "push()",
-        "difficulty": "medium",
-        "weight": 2
-      },
-  
-      {
-        "id": "js_021",
-        "question": "What is temporal dead zone?",
-        "options": ["access before init", "loop", "scope", "none"],
-        "correct_answer": "access before init",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_022",
-        "question": "Difference between == and ===?",
-        "options": ["strict vs loose", "same", "none", "reverse"],
-        "correct_answer": "strict vs loose",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_023",
-        "question": "What is debouncing?",
-        "options": ["limit function calls", "loop", "delay forever", "none"],
-        "correct_answer": "limit function calls",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_024",
-        "question": "What is throttling?",
-        "options": ["limit rate", "loop", "delay", "none"],
-        "correct_answer": "limit rate",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_025",
-        "question": "Which is shallow copy?",
-        "options": ["spread", "JSON.parse", "deep clone", "none"],
-        "correct_answer": "spread",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_026",
-        "question": "What is currying?",
-        "options": ["function returns function", "loop", "object", "none"],
-        "correct_answer": "function returns function",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_027",
-        "question": "What is prototype?",
-        "options": ["object inheritance", "function", "loop", "none"],
-        "correct_answer": "object inheritance",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_028",
-        "question": "What is async/await?",
-        "options": ["handle promises", "loop", "function", "none"],
-        "correct_answer": "handle promises",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_029",
-        "question": "Which is microtask?",
-        "options": ["promise", "setTimeout", "event", "none"],
-        "correct_answer": "promise",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_030",
-        "question": "Which is macrotask?",
-        "options": ["setTimeout", "promise", "await", "none"],
-        "correct_answer": "setTimeout",
-        "difficulty": "hard",
-        "weight": 3
-      }
-  
-    ],
-  
-    "coding_mcqs": [
-  
-      {
-        "id": "js_c_001",
-        "question": "What is the output?",
-        "code": "console.log(2 + '2');",
-        "options": ["22", "4", "NaN", "Error"],
-        "correct_answer": "22",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_c_002",
-        "question": "What is the output?",
-        "code": "console.log(typeof null);",
-        "options": ["object", "null", "undefined", "string"],
-        "correct_answer": "object",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_c_003",
-        "question": "What is the output?",
-        "code": "let a;\nconsole.log(a);",
-        "options": ["undefined", "null", "error", "0"],
-        "correct_answer": "undefined",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "js_c_004",
-        "question": "What is the output?",
-        "code": "console.log(0 == false);",
-        "options": ["true", "false", "error", "none"],
-        "correct_answer": "true",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_c_005",
-        "question": "What is the output?",
-        "code": "console.log(0 === false);",
-        "options": ["false", "true", "error", "none"],
-        "correct_answer": "false",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_c_006",
-        "question": "What is the output?",
-        "code": "setTimeout(()=>console.log('A'),0);\nconsole.log('B');",
-        "options": ["B A", "A B", "error", "none"],
-        "correct_answer": "B A",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_c_007",
-        "question": "What is the output?",
-        "code": "Promise.resolve().then(()=>console.log('A'));\nconsole.log('B');",
-        "options": ["B A", "A B", "error", "none"],
-        "correct_answer": "B A",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_c_008",
-        "question": "What is the output?",
-        "code": "let x = 1;\nfunction test(){\n console.log(x);\n let x = 2;\n}\ntest();",
-        "options": ["error", "1", "2", "undefined"],
-        "correct_answer": "error",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "js_c_009",
-        "question": "Find the output",
-        "code": "const arr=[1,2,3];\narr.push(4);\nconsole.log(arr.length);",
-        "options": ["4", "3", "error", "none"],
-        "correct_answer": "4",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "js_c_010",
-        "question": "Find the output",
-        "code": "console.log([] + []);",
-        "options": ["''", "[]", "error", "0"],
-        "correct_answer": "''",
-        "difficulty": "hard",
-        "weight": 3
-      }
-  
-    ]
-  }
+  "mcqs": [
+    {
+      "id": "js_001",
+      "question": "What is JavaScript execution model?",
+      "options": [
+        "Multi-threaded",
+        "Single-threaded with event loop",
+        "Parallel",
+        "Distributed"
+      ],
+      "correct_answer": "Single-threaded with event loop",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_002",
+      "question": "What is closure?",
+      "options": [
+        "Function without return",
+        "Function with access to outer scope",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Function with access to outer scope",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_003",
+      "question": "What is hoisting?",
+      "options": [
+        "Execution delay",
+        "Moving declarations to top",
+        "Async call",
+        "Object creation"
+      ],
+      "correct_answer": "Moving declarations to top",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_004",
+      "question": "What is 'this' keyword?",
+      "options": [
+        "Global object",
+        "Context of execution",
+        "Function",
+        "Loop"
+      ],
+      "correct_answer": "Context of execution",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_005",
+      "question": "What is prototype?",
+      "options": [
+        "Variable",
+        "Object inheritance mechanism",
+        "Loop",
+        "Array"
+      ],
+      "correct_answer": "Object inheritance mechanism",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "js_006",
+      "question": "What is event loop?",
+      "options": [
+        "Loop",
+        "Handles async tasks",
+        "Function",
+        "Variable"
+      ],
+      "correct_answer": "Handles async tasks",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_007",
+      "question": "What is promise?",
+      "options": [
+        "Loop",
+        "Async result placeholder",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Async result placeholder",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_008",
+      "question": "What is async/await?",
+      "options": [
+        "Loop",
+        "Simplified async handling",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Simplified async handling",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_009",
+      "question": "What is callback?",
+      "options": [
+        "Return value",
+        "Function passed as argument",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Function passed as argument",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_010",
+      "question": "What is arrow function difference?",
+      "options": [
+        "New syntax",
+        "No own 'this'",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "No own 'this'",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "js_011",
+      "question": "What is var vs let?",
+      "options": [
+        "Same",
+        "Scope difference",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Scope difference",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_012",
+      "question": "What is const?",
+      "options": [
+        "Mutable",
+        "Immutable reference",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Immutable reference",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_013",
+      "question": "What is destructuring?",
+      "options": [
+        "Loop",
+        "Extract values from objects/arrays",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Extract values from objects/arrays",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_014",
+      "question": "What is spread operator?",
+      "options": [
+        "Loop",
+        "Expand iterable",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Expand iterable",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_015",
+      "question": "What is rest operator?",
+      "options": [
+        "Expand",
+        "Collect remaining elements",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Collect remaining elements",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "js_016",
+      "question": "What is JSON?",
+      "options": [
+        "Language",
+        "Data format",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Data format",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_017",
+      "question": "What is DOM?",
+      "options": [
+        "Database",
+        "HTML structure representation",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "HTML structure representation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_018",
+      "question": "What is event delegation?",
+      "options": [
+        "Loop",
+        "Handle events at parent",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Handle events at parent",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_019",
+      "question": "What is debouncing?",
+      "options": [
+        "Loop",
+        "Delay function execution",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Delay function execution",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_020",
+      "question": "What is throttling?",
+      "options": [
+        "Loop",
+        "Limit function calls",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Limit function calls",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "js_021",
+      "question": "What is NaN?",
+      "options": [
+        "Number",
+        "Invalid number",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Invalid number",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_022",
+      "question": "What is type coercion?",
+      "options": [
+        "Manual conversion",
+        "Automatic type conversion",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Automatic type conversion",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_023",
+      "question": "What is strict mode?",
+      "options": [
+        "Loose rules",
+        "Safer JS execution",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Safer JS execution",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_024",
+      "question": "What is module system?",
+      "options": [
+        "Loop",
+        "Code organization",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Code organization",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_025",
+      "question": "What is fetch API?",
+      "options": [
+        "Loop",
+        "HTTP request",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "HTTP request",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "js_026",
+      "question": "What is localStorage?",
+      "options": [
+        "Session storage",
+        "Persistent browser storage",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Persistent browser storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_027",
+      "question": "What is sessionStorage?",
+      "options": [
+        "Persistent",
+        "Temporary storage",
+        "Loop",
+        "Object"
+      ],
+      "correct_answer": "Temporary storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_028",
+      "question": "What is map()?",
+      "options": [
+        "Loop",
+        "Transform array",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Transform array",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_029",
+      "question": "What is filter()?",
+      "options": [
+        "Loop",
+        "Filter array",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Filter array",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_030",
+      "question": "What is reduce()?",
+      "options": [
+        "Loop",
+        "Reduce array to single value",
+        "Object",
+        "Variable"
+      ],
+      "correct_answer": "Reduce array to single value",
+      "difficulty": "medium",
+      "weight": 3
+    }
+  ],
+
+  "coding_mcqs": [
+    {
+      "id": "js_c_001",
+      "question": "What is the output?",
+      "code": "console.log(typeof null)",
+      "options": ["null", "object", "undefined", "error"],
+      "correct_answer": "object",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_c_002",
+      "question": "What is the output?",
+      "code": "console.log(1 + '1')",
+      "options": ["2", "11", "error", "NaN"],
+      "correct_answer": "11",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_003",
+      "question": "What is the output?",
+      "code": "console.log('5' - 2)",
+      "options": ["3", "52", "error", "NaN"],
+      "correct_answer": "3",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_c_004",
+      "question": "What is the output?",
+      "code": "console.log([] + [])",
+      "options": ["[]", "", "0", "error"],
+      "correct_answer": "",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "js_c_005",
+      "question": "What is the output?",
+      "code": "console.log([] == false)",
+      "options": ["true", "false", "error", "null"],
+      "correct_answer": "true",
+      "difficulty": "hard",
+      "weight": 3
+    },
+
+    {
+      "id": "js_c_006",
+      "question": "What is the output?",
+      "code": "console.log(0 == false)",
+      "options": ["true", "false", "error", "null"],
+      "correct_answer": "true",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_007",
+      "question": "What is the output?",
+      "code": "console.log(0 === false)",
+      "options": ["true", "false", "error", "null"],
+      "correct_answer": "false",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_008",
+      "question": "What is the output?",
+      "code": "console.log(typeof undefined)",
+      "options": ["undefined", "object", "null", "error"],
+      "correct_answer": "undefined",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_009",
+      "question": "What is the output?",
+      "code": "console.log(NaN === NaN)",
+      "options": ["true", "false", "error", "null"],
+      "correct_answer": "false",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_c_010",
+      "question": "What is the output?",
+      "code": "console.log(!!'hello')",
+      "options": ["true", "false", "error", "null"],
+      "correct_answer": "true",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "js_c_011",
+      "question": "What is the output?",
+      "code": "let x; console.log(x)",
+      "options": ["undefined", "null", "error", "0"],
+      "correct_answer": "undefined",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_012",
+      "question": "What is the output?",
+      "code": "console.log(typeof [])",
+      "options": ["array", "object", "list", "error"],
+      "correct_answer": "object",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_c_013",
+      "question": "What is the output?",
+      "code": "console.log([] instanceof Array)",
+      "options": ["true", "false", "error", "null"],
+      "correct_answer": "true",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_014",
+      "question": "What is the output?",
+      "code": "console.log(2 ** 3)",
+      "options": ["6", "8", "9", "error"],
+      "correct_answer": "8",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_015",
+      "question": "What is the output?",
+      "code": "console.log('a' + + 'b')",
+      "options": ["ab", "aNaN", "error", "NaN"],
+      "correct_answer": "aNaN",
+      "difficulty": "hard",
+      "weight": 3
+    },
+
+    {
+      "id": "js_c_016",
+      "question": "What is the output?",
+      "code": "console.log(true + true)",
+      "options": ["true", "2", "1", "error"],
+      "correct_answer": "2",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_c_017",
+      "question": "What is the output?",
+      "code": "console.log('5' * 2)",
+      "options": ["10", "52", "error", "NaN"],
+      "correct_answer": "10",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_018",
+      "question": "What is the output?",
+      "code": "console.log(null == undefined)",
+      "options": ["true", "false", "error", "null"],
+      "correct_answer": "true",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "js_c_019",
+      "question": "What is the output?",
+      "code": "console.log(null === undefined)",
+      "options": ["true", "false", "error", "null"],
+      "correct_answer": "false",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "js_c_020",
+      "question": "What is the output?",
+      "code": "console.log([1,2] + [3,4])",
+      "options": ["[1,2,3,4]", "1,23,4", "error", "NaN"],
+      "correct_answer": "1,23,4",
+      "difficulty": "hard",
+      "weight": 3
+    }
+  ]
+}

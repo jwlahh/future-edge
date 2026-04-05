@@ -1,411 +1,363 @@
 {
   "skill": "Solidity",
+
   "mcqs": [
     {
-      "id": "solidity_001",
-      "question": "solidity question 1?",
+      "id": "sol_001",
+      "question": "What is Solidity primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Frontend UI",
+        "Smart contract development",
+        "Database design",
+        "Testing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Smart contract development",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "solidity_002",
-      "question": "solidity question 2?",
+      "id": "sol_002",
+      "question": "Where are Solidity contracts deployed?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Browser",
+        "Blockchain",
+        "Database",
+        "Server"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Blockchain",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "solidity_003",
-      "question": "solidity question 3?",
+      "id": "sol_003",
+      "question": "What is a smart contract?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "UI component",
+        "Self-executing code on blockchain",
+        "Database",
+        "API"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Self-executing code on blockchain",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "solidity_004",
-      "question": "solidity question 4?",
+      "id": "sol_004",
+      "question": "What is gas in Solidity?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Storage",
+        "Execution cost",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Execution cost",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_005",
+      "question": "What is address type?",
+      "options": [
+        "String",
+        "Stores Ethereum address",
+        "Integer",
+        "Boolean"
+      ],
+      "correct_answer": "Stores Ethereum address",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sol_006",
+      "question": "What is mapping?",
+      "options": [
+        "Array",
+        "Key-value storage",
+        "Loop",
+        "Function"
+      ],
+      "correct_answer": "Key-value storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_007",
+      "question": "What is require() used for?",
+      "options": [
+        "Loop",
+        "Validate condition",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Validate condition",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_008",
+      "question": "What is revert?",
+      "options": [
+        "Continue execution",
+        "Undo transaction",
+        "Delete contract",
+        "Store data"
+      ],
+      "correct_answer": "Undo transaction",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sol_009",
+      "question": "What is msg.sender?",
+      "options": [
+        "Contract",
+        "Caller address",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Caller address",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_010",
+      "question": "What is msg.value?",
+      "options": [
+        "Gas",
+        "Ether sent",
+        "Loop",
+        "Storage"
+      ],
+      "correct_answer": "Ether sent",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sol_011",
+      "question": "What is payable function?",
+      "options": [
+        "Rejects Ether",
+        "Accepts Ether",
+        "Deletes data",
+        "Stores data"
+      ],
+      "correct_answer": "Accepts Ether",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_012",
+      "question": "What is fallback function?",
+      "options": [
+        "Main function",
+        "Triggered when no function matches",
+        "Loop",
+        "Database"
+      ],
+      "correct_answer": "Triggered when no function matches",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sol_013",
+      "question": "What is event in Solidity?",
+      "options": [
+        "Loop",
+        "Logging mechanism",
+        "Database",
+        "Function"
+      ],
+      "correct_answer": "Logging mechanism",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sol_014",
+      "question": "What is modifier?",
+      "options": [
+        "Variable",
+        "Reusable condition logic",
+        "Loop",
+        "Database"
+      ],
+      "correct_answer": "Reusable condition logic",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sol_015",
+      "question": "What is constructor?",
+      "options": [
+        "Loop",
+        "Initialize contract",
+        "Delete contract",
+        "Store data"
+      ],
+      "correct_answer": "Initialize contract",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sol_016",
+      "question": "What is view function?",
+      "options": [
+        "Modify state",
+        "Read-only function",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Read-only function",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_017",
+      "question": "What is pure function?",
+      "options": [
+        "Access state",
+        "No state access",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "No state access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sol_018",
+      "question": "What is reentrancy attack?",
+      "options": [
+        "Safe call",
+        "Repeated call exploit",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Repeated call exploit",
       "difficulty": "hard",
       "weight": 3
     },
     {
-      "id": "solidity_005",
-      "question": "solidity question 5?",
+      "id": "sol_019",
+      "question": "What is overflow?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Small value",
+        "Exceed max limit",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Exceed max limit",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "solidity_006",
-      "question": "solidity question 6?",
+      "id": "sol_020",
+      "question": "What is immutable variable?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Changeable",
+        "Set once only",
+        "Loop",
+        "Database"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Set once only",
       "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "solidity_007",
-      "question": "solidity question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "solidity_008",
-      "question": "solidity question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "solidity_009",
-      "question": "solidity question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "solidity_010",
-      "question": "solidity question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "solidity_011",
-      "question": "solidity question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "solidity_012",
-      "question": "solidity question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
-    },
-    {
-      "id": "solidity_013",
-      "question": "solidity question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "solidity_014",
-      "question": "solidity question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "solidity_015",
-      "question": "solidity question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "solidity_016",
-      "question": "solidity question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "solidity_017",
-      "question": "solidity question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "solidity_018",
-      "question": "solidity question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "solidity_019",
-      "question": "solidity question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "solidity_020",
-      "question": "solidity question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "solidity_021",
-      "question": "solidity question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "solidity_022",
-      "question": "solidity question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "solidity_023",
-      "question": "solidity question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "solidity_024",
-      "question": "solidity question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "solidity_025",
-      "question": "solidity question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "solidity_026",
-      "question": "solidity question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "solidity_027",
-      "question": "solidity question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "solidity_028",
-      "question": "solidity question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "solidity_029",
-      "question": "solidity question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "solidity_030",
-      "question": "solidity question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
     }
   ],
+
   "coding_mcqs": [
     {
-      "id": "solidity_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
-      "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
-      ],
-      "correct_answer": "valid",
+      "id": "sol_c_001",
+      "question": "What is the output?",
+      "code": "uint x = 5;\nx += 2;",
+      "options": ["5", "7", "2", "Error"],
+      "correct_answer": "7",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "sol_c_002",
+      "question": "What is the output?",
+      "code": "uint x = 10;\nx -= 3;",
+      "options": ["7", "10", "3", "Error"],
+      "correct_answer": "7",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_c_003",
+      "question": "What is the output?",
+      "code": "mapping(address => uint) balances;",
+      "options": ["Array", "Key-value storage", "Loop", "Error"],
+      "correct_answer": "Key-value storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_c_004",
+      "question": "What is the output?",
+      "code": "require(1 == 1);",
+      "options": ["Pass", "Fail", "Error", "Revert"],
+      "correct_answer": "Pass",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_c_005",
+      "question": "What is the output?",
+      "code": "require(1 == 2);",
+      "options": ["Pass", "Fail", "Error", "Continue"],
+      "correct_answer": "Fail",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sol_c_006",
+      "question": "What is the output?",
+      "code": "msg.value",
+      "options": ["Gas", "Ether sent", "Loop", "Error"],
+      "correct_answer": "Ether sent",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_c_007",
+      "question": "What is the output?",
+      "code": "msg.sender",
+      "options": ["Caller address", "Contract", "Loop", "Error"],
+      "correct_answer": "Caller address",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_c_008",
+      "question": "What is the output?",
+      "code": "function test() public view returns(uint){ return 1; }",
+      "options": ["Modify state", "Read-only", "Delete", "Error"],
+      "correct_answer": "Read-only",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_c_009",
+      "question": "What is the output?",
+      "code": "function test() public pure returns(uint){ return 1; }",
+      "options": ["Access state", "No state access", "Delete", "Error"],
+      "correct_answer": "No state access",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sol_c_010",
+      "question": "What is the output?",
+      "code": "uint x;\nprint(x);",
+      "options": ["0", "Undefined", "Error", "1"],
+      "correct_answer": "0",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

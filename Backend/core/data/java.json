@@ -1,345 +1,592 @@
 {
-    "skill": "Java",
-    "mcqs": [
-  
-      
-      {
-        "id": "java_001",
-        "question": "Which keyword is used to define a class in Java?",
-        "options": ["class", "define", "struct", "object"],
-        "correct_answer": "class",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_002",
-        "question": "Which method is the entry point of a Java program?",
-        "options": ["start()", "main()", "run()", "init()"],
-        "correct_answer": "main()",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_003",
-        "question": "Which data type stores whole numbers?",
-        "options": ["float", "int", "char", "boolean"],
-        "correct_answer": "int",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_004",
-        "question": "Which symbol is used for single-line comments?",
-        "options": ["//", "#", "/* */", "--"],
-        "correct_answer": "//",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_005",
-        "question": "Which keyword is used to inherit a class?",
-        "options": ["extends", "implements", "inherits", "super"],
-        "correct_answer": "extends",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_006",
-        "question": "Which keyword creates an object?",
-        "options": ["create", "new", "object", "init"],
-        "correct_answer": "new",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_007",
-        "question": "Which is not a primitive type?",
-        "options": ["int", "float", "String", "boolean"],
-        "correct_answer": "String",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_008",
-        "question": "Which loop is guaranteed to run at least once?",
-        "options": ["for", "while", "do-while", "foreach"],
-        "correct_answer": "do-while",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_009",
-        "question": "Which keyword is used to exit a loop?",
-        "options": ["stop", "exit", "break", "return"],
-        "correct_answer": "break",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_010",
-        "question": "Which operator is used for comparison?",
-        "options": ["=", "==", "!=", "Both == and !="],
-        "correct_answer": "Both == and !=",
-        "difficulty": "easy",
-        "weight": 1
-      },
-  
-      {
-        "id": "java_011",
-        "question": "What is method overloading?",
-        "options": ["same method different params", "same method same params", "different method same params", "none"],
-        "correct_answer": "same method different params",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_012",
-        "question": "What does JVM stand for?",
-        "options": ["Java Variable Machine", "Java Virtual Machine", "Java Verified Machine", "None"],
-        "correct_answer": "Java Virtual Machine",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_013",
-        "question": "Which keyword is used for exception handling?",
-        "options": ["try", "catch", "throw", "All of these"],
-        "correct_answer": "All of these",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_014",
-        "question": "Which collection allows duplicates?",
-        "options": ["Set", "List", "Map", "None"],
-        "correct_answer": "List",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_015",
-        "question": "What is encapsulation?",
-        "options": ["binding data and methods", "inheritance", "polymorphism", "abstraction"],
-        "correct_answer": "binding data and methods",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_016",
-        "question": "Which keyword prevents inheritance?",
-        "options": ["static", "final", "const", "private"],
-        "correct_answer": "final",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_017",
-        "question": "What is an interface?",
-        "options": ["class", "blueprint of class", "method", "object"],
-        "correct_answer": "blueprint of class",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_018",
-        "question": "Which method converts string to int?",
-        "options": ["parseInt()", "toInt()", "convert()", "intValue()"],
-        "correct_answer": "parseInt()",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_019",
-        "question": "What is abstraction?",
-        "options": ["hide details", "show details", "inheritance", "binding"],
-        "correct_answer": "hide details",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_020",
-        "question": "Which collection stores key-value?",
-        "options": ["List", "Set", "Map", "Array"],
-        "correct_answer": "Map",
-        "difficulty": "medium",
-        "weight": 2
-      },
-  
-      {
-        "id": "java_021",
-        "question": "What is polymorphism?",
-        "options": ["many forms", "single form", "inheritance", "encapsulation"],
-        "correct_answer": "many forms",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_022",
-        "question": "What is time complexity of ArrayList get()?",
-        "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
-        "correct_answer": "O(1)",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_023",
-        "question": "Which keyword refers parent class?",
-        "options": ["this", "super", "parent", "base"],
-        "correct_answer": "super",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_024",
-        "question": "Difference between == and equals()?",
-        "options": ["reference vs value", "value vs reference", "same", "none"],
-        "correct_answer": "reference vs value",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_025",
-        "question": "Which is thread-safe?",
-        "options": ["ArrayList", "Vector", "HashMap", "HashSet"],
-        "correct_answer": "Vector",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_026",
-        "question": "What is garbage collection?",
-        "options": ["memory cleanup", "data deletion", "threading", "compilation"],
-        "correct_answer": "memory cleanup",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_027",
-        "question": "Which is not OOP principle?",
-        "options": ["Encapsulation", "Polymorphism", "Compilation", "Abstraction"],
-        "correct_answer": "Compilation",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_028",
-        "question": "What is HashMap lookup complexity?",
-        "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
-        "correct_answer": "O(1)",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_029",
-        "question": "Which keyword is used to throw exception?",
-        "options": ["throw", "throws", "catch", "try"],
-        "correct_answer": "throw",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_030",
-        "question": "Which feature supports runtime polymorphism?",
-        "options": ["overloading", "overriding", "inheritance", "encapsulation"],
-        "correct_answer": "overriding",
-        "difficulty": "hard",
-        "weight": 3
-      }
-  
-    ],
-  
-    "coding_mcqs": [
-  
-      {
-        "id": "java_c_001",
-        "question": "What is the output?",
-        "code": "System.out.println(5 + \"5\");",
-        "options": ["10", "55", "Error", "None"],
-        "correct_answer": "55",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_c_002",
-        "question": "What is the output?",
-        "code": "int x = 5;\nSystem.out.println(x++);",
-        "options": ["5", "6", "Error", "0"],
-        "correct_answer": "5",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_c_003",
-        "question": "Find the error",
-        "code": "int x;\nSystem.out.println(x);",
-        "options": ["uninitialized variable", "syntax error", "runtime error", "no error"],
-        "correct_answer": "uninitialized variable",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_c_004",
-        "question": "What is the output?",
-        "code": "System.out.println(10/3);",
-        "options": ["3", "3.33", "Error", "0"],
-        "correct_answer": "3",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_c_005",
-        "question": "What is the output?",
-        "code": "String s = \"Java\";\nSystem.out.println(s.charAt(1));",
-        "options": ["J", "a", "v", "Error"],
-        "correct_answer": "a",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_c_006",
-        "question": "Find the error",
-        "code": "for(int i=0;i<5;i++)\nSystem.out.println(i);",
-        "options": ["missing braces", "syntax error", "no error", "logic error"],
-        "correct_answer": "no error",
-        "difficulty": "medium",
-        "weight": 2
-      },
-      {
-        "id": "java_c_007",
-        "question": "What is the output?",
-        "code": "int[] arr = {1,2,3};\nSystem.out.println(arr.length);",
-        "options": ["2", "3", "Error", "0"],
-        "correct_answer": "3",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_c_008",
-        "question": "What is the output?",
-        "code": "System.out.println(true && false);",
-        "options": ["true", "false", "Error", "None"],
-        "correct_answer": "false",
-        "difficulty": "easy",
-        "weight": 1
-      },
-      {
-        "id": "java_c_009",
-        "question": "What is the output?",
-        "code": "String s1=\"abc\";\nString s2=\"abc\";\nSystem.out.println(s1==s2);",
-        "options": ["true", "false", "error", "none"],
-        "correct_answer": "true",
-        "difficulty": "hard",
-        "weight": 3
-      },
-      {
-        "id": "java_c_010",
-        "question": "What is the output?",
-        "code": "int x=10;\nif(x=5)\nSystem.out.println(\"Hi\");",
-        "options": ["Hi", "Error", "Nothing", "5"],
-        "correct_answer": "Error",
-        "difficulty": "hard",
-        "weight": 3
-      }
-  
-    ]
-  }
+  "skill": "Java",
+
+  "mcqs": [
+    {
+      "id": "java_001",
+      "question": "Why is Java platform-independent?",
+      "options": [
+        "Compiled to native code",
+        "Runs on JVM",
+        "Uses C++",
+        "No compiler"
+      ],
+      "correct_answer": "Runs on JVM",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_002",
+      "question": "What is JVM responsible for?",
+      "options": [
+        "Compilation only",
+        "Execution of bytecode",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Execution of bytecode",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_003",
+      "question": "What is method overloading?",
+      "options": [
+        "Same method name different params",
+        "Same method name same params",
+        "Different method names",
+        "Inheritance"
+      ],
+      "correct_answer": "Same method name different params",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_004",
+      "question": "What is method overriding?",
+      "options": [
+        "Static method",
+        "Redefining parent method",
+        "Different class",
+        "No inheritance"
+      ],
+      "correct_answer": "Redefining parent method",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_005",
+      "question": "What is encapsulation?",
+      "options": [
+        "Inheritance",
+        "Data hiding",
+        "Polymorphism",
+        "Abstraction"
+      ],
+      "correct_answer": "Data hiding",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "java_006",
+      "question": "What is abstraction?",
+      "options": [
+        "Show details",
+        "Hide implementation",
+        "Inheritance",
+        "Encapsulation"
+      ],
+      "correct_answer": "Hide implementation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_007",
+      "question": "What is polymorphism?",
+      "options": [
+        "Single behavior",
+        "Multiple forms",
+        "Inheritance",
+        "Encapsulation"
+      ],
+      "correct_answer": "Multiple forms",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_008",
+      "question": "What is interface?",
+      "options": [
+        "Class with implementation",
+        "Contract of methods",
+        "Variable",
+        "Loop"
+      ],
+      "correct_answer": "Contract of methods",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_009",
+      "question": "What is abstract class?",
+      "options": [
+        "Fully implemented",
+        "Partial abstraction",
+        "Interface",
+        "Variable"
+      ],
+      "correct_answer": "Partial abstraction",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_010",
+      "question": "What is final keyword?",
+      "options": [
+        "Extendable",
+        "Non-modifiable",
+        "Variable",
+        "Loop"
+      ],
+      "correct_answer": "Non-modifiable",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "java_011",
+      "question": "What is garbage collection?",
+      "options": [
+        "Manual memory",
+        "Automatic memory cleanup",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Automatic memory cleanup",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_012",
+      "question": "What is String immutability?",
+      "options": [
+        "Changeable",
+        "Cannot be changed",
+        "Variable",
+        "Loop"
+      ],
+      "correct_answer": "Cannot be changed",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_013",
+      "question": "What is equals() vs ==?",
+      "options": [
+        "Same",
+        "equals compares value",
+        "== compares value",
+        "None"
+      ],
+      "correct_answer": "equals compares value",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_014",
+      "question": "What is exception handling?",
+      "options": [
+        "Ignore errors",
+        "Handle runtime errors",
+        "Delete errors",
+        "Store data"
+      ],
+      "correct_answer": "Handle runtime errors",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_015",
+      "question": "What is checked exception?",
+      "options": [
+        "Compile-time checked",
+        "Runtime",
+        "Ignore",
+        "None"
+      ],
+      "correct_answer": "Compile-time checked",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "java_016",
+      "question": "What is ArrayList?",
+      "options": [
+        "Array",
+        "Resizable array",
+        "Stack",
+        "Queue"
+      ],
+      "correct_answer": "Resizable array",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_017",
+      "question": "What is HashMap?",
+      "options": [
+        "List",
+        "Key-value storage",
+        "Stack",
+        "Queue"
+      ],
+      "correct_answer": "Key-value storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_018",
+      "question": "What is thread?",
+      "options": [
+        "Process",
+        "Lightweight process",
+        "Memory",
+        "Storage"
+      ],
+      "correct_answer": "Lightweight process",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_019",
+      "question": "What is synchronization?",
+      "options": [
+        "Parallel execution",
+        "Controlled thread access",
+        "Memory",
+        "Storage"
+      ],
+      "correct_answer": "Controlled thread access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_020",
+      "question": "What is lambda expression?",
+      "options": [
+        "Class",
+        "Anonymous function",
+        "Variable",
+        "Loop"
+      ],
+      "correct_answer": "Anonymous function",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "java_021",
+      "question": "What is stream API?",
+      "options": [
+        "IO only",
+        "Functional operations on collections",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Functional operations on collections",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_022",
+      "question": "What is functional interface?",
+      "options": [
+        "Multiple methods",
+        "Single abstract method",
+        "No method",
+        "Variable"
+      ],
+      "correct_answer": "Single abstract method",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_023",
+      "question": "What is Optional?",
+      "options": [
+        "Null replacement",
+        "Wrapper to avoid null",
+        "Loop",
+        "Variable"
+      ],
+      "correct_answer": "Wrapper to avoid null",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_024",
+      "question": "What is serialization?",
+      "options": [
+        "Store objects",
+        "Convert object to byte stream",
+        "Delete data",
+        "Memory"
+      ],
+      "correct_answer": "Convert object to byte stream",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_025",
+      "question": "What is deserialization?",
+      "options": [
+        "Delete object",
+        "Byte stream to object",
+        "Storage",
+        "Memory"
+      ],
+      "correct_answer": "Byte stream to object",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "java_026",
+      "question": "What is comparator?",
+      "options": [
+        "Sorting interface",
+        "Variable",
+        "Loop",
+        "Storage"
+      ],
+      "correct_answer": "Sorting interface",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_027",
+      "question": "What is comparable?",
+      "options": [
+        "External sorting",
+        "Internal sorting",
+        "Variable",
+        "Loop"
+      ],
+      "correct_answer": "Internal sorting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_028",
+      "question": "What is class loader?",
+      "options": [
+        "Load classes into JVM",
+        "Delete classes",
+        "Store classes",
+        "Compile classes"
+      ],
+      "correct_answer": "Load classes into JVM",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_029",
+      "question": "What is JIT compiler?",
+      "options": [
+        "Compile at runtime",
+        "Delete code",
+        "Store code",
+        "Memory"
+      ],
+      "correct_answer": "Compile at runtime",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_030",
+      "question": "What is heap memory?",
+      "options": [
+        "Stack",
+        "Object storage",
+        "Code",
+        "Loop"
+      ],
+      "correct_answer": "Object storage",
+      "difficulty": "medium",
+      "weight": 3
+    }
+  ],
+
+  "coding_mcqs": [
+    {
+      "id": "java_c_001",
+      "question": "What is the output?",
+      "code": "System.out.println(5 + \"5\");",
+      "options": ["10", "55", "Error", "5"],
+      "correct_answer": "55",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_002",
+      "question": "What is the output?",
+      "code": "System.out.println(5 + 5 + \"5\");",
+      "options": ["105", "55", "Error", "15"],
+      "correct_answer": "105",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_c_003",
+      "question": "What is the output?",
+      "code": "int x=10; System.out.println(x++);",
+      "options": ["10", "11", "Error", "9"],
+      "correct_answer": "10",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_004",
+      "question": "What is the output?",
+      "code": "int x=10; System.out.println(++x);",
+      "options": ["10", "11", "Error", "9"],
+      "correct_answer": "11",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_005",
+      "question": "What is the output?",
+      "code": "String s=\"abc\"; s.concat(\"d\"); System.out.println(s);",
+      "options": ["abcd", "abc", "Error", "null"],
+      "correct_answer": "abc",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "java_c_006",
+      "question": "What is the output?",
+      "code": "System.out.println(true && false);",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "false",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_007",
+      "question": "What is the output?",
+      "code": "System.out.println(10/0);",
+      "options": ["0", "Infinity", "Error", "10"],
+      "correct_answer": "Error",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_c_008",
+      "question": "What is the output?",
+      "code": "System.out.println(\"A\"==\"A\");",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "true",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "java_c_009",
+      "question": "What is the output?",
+      "code": "System.out.println(new String(\"A\")==\"A\");",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "false",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "java_c_010",
+      "question": "What is the output?",
+      "code": "System.out.println(3>2?\"Yes\":\"No\");",
+      "options": ["Yes", "No", "Error", "null"],
+      "correct_answer": "Yes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "java_c_011",
+      "question": "Find the error",
+      "code": "class A{ void show(){ System.out.println(\"Hi\") } }",
+      "options": [
+        "Missing semicolon",
+        "Syntax error",
+        "No error",
+        "Wrong class"
+      ],
+      "correct_answer": "Missing semicolon",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_012",
+      "question": "What is the output?",
+      "code": "int[] a={1,2,3}; System.out.println(a.length);",
+      "options": ["2", "3", "Error", "0"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_013",
+      "question": "What is the output?",
+      "code": "System.out.println(Math.max(5,10));",
+      "options": ["5", "10", "Error", "15"],
+      "correct_answer": "10",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_014",
+      "question": "What is the output?",
+      "code": "System.out.println(\"abc\".length());",
+      "options": ["2", "3", "Error", "0"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_015",
+      "question": "What is the output?",
+      "code": "System.out.println(5==5.0);",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "true",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "java_c_016",
+      "question": "What is the output?",
+      "code": "Integer a=127,b=127; System.out.println(a==b);",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "true",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "java_c_017",
+      "question": "What is the output?",
+      "code": "Integer a=128,b=128; System.out.println(a==b);",
+      "options": ["true", "false", "Error", "null"],
+      "correct_answer": "false",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "java_c_018",
+      "question": "What is the output?",
+      "code": "System.out.println(\"Hello\".charAt(1));",
+      "options": ["H", "e", "l", "Error"],
+      "correct_answer": "e",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_019",
+      "question": "What is the output?",
+      "code": "System.out.println(10%3);",
+      "options": ["3", "1", "0", "Error"],
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "java_c_020",
+      "question": "What is the output?",
+      "code": "System.out.println(1<<2);",
+      "options": ["2", "4", "8", "Error"],
+      "correct_answer": "4",
+      "difficulty": "medium",
+      "weight": 3
+    }
+  ]
+}

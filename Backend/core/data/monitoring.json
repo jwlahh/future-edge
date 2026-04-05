@@ -1,411 +1,402 @@
 {
   "skill": "Monitoring",
+
   "mcqs": [
     {
-      "id": "monitoring_001",
-      "question": "monitoring question 1?",
+      "id": "mon_001",
+      "question": "What is monitoring?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Deploy system",
+        "Track system performance",
+        "Delete data",
+        "Store logs"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Track system performance",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
-      "id": "monitoring_002",
-      "question": "monitoring question 2?",
+      "id": "mon_002",
+      "question": "What are metrics?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Logs",
+        "Numerical data about system",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "monitoring_003",
-      "question": "monitoring question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Numerical data about system",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_004",
-      "question": "monitoring question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "monitoring_005",
-      "question": "monitoring question 5?",
+      "id": "mon_003",
+      "question": "What are logs?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Metrics",
+        "Recorded events",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "monitoring_006",
-      "question": "monitoring question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Recorded events",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_007",
-      "question": "monitoring question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 2
     },
     {
-      "id": "monitoring_008",
-      "question": "monitoring question 8?",
+      "id": "mon_004",
+      "question": "What is tracing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Logs",
+        "Track request flow",
+        "Metrics",
+        "Database"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "monitoring_009",
-      "question": "monitoring question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_010",
-      "question": "monitoring question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "monitoring_011",
-      "question": "monitoring question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_012",
-      "question": "monitoring question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_013",
-      "question": "monitoring question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "monitoring_014",
-      "question": "monitoring question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_015",
-      "question": "monitoring question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_016",
-      "question": "monitoring question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_017",
-      "question": "monitoring question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "monitoring_018",
-      "question": "monitoring question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Track request flow",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "monitoring_019",
-      "question": "monitoring question 19?",
+      "id": "mon_005",
+      "question": "What are the golden signals?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "CPU only",
+        "Latency, traffic, errors, saturation",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_020",
-      "question": "monitoring question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Latency, traffic, errors, saturation",
+      "difficulty": "medium",
       "weight": 3
     },
+
     {
-      "id": "monitoring_021",
-      "question": "monitoring question 21?",
+      "id": "mon_006",
+      "question": "What is latency?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Speed",
+        "Response time",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Response time",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_007",
+      "question": "What is uptime?",
+      "options": [
+        "Downtime",
+        "System availability",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "System availability",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_008",
+      "question": "What is alerting?",
+      "options": [
+        "Ignore issues",
+        "Notify on issues",
+        "Delete logs",
+        "Store data"
+      ],
+      "correct_answer": "Notify on issues",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_009",
+      "question": "What is dashboard?",
+      "options": [
+        "Database",
+        "Visual monitoring interface",
+        "Network",
+        "Storage"
+      ],
+      "correct_answer": "Visual monitoring interface",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_010",
+      "question": "What is SLA?",
+      "options": [
+        "Storage",
+        "Service level agreement",
+        "Network",
+        "Database"
+      ],
+      "correct_answer": "Service level agreement",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "mon_011",
+      "question": "What is SLO?",
+      "options": [
+        "Objective target",
+        "Storage",
+        "Network",
+        "Database"
+      ],
+      "correct_answer": "Objective target",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "monitoring_022",
-      "question": "monitoring question 22?",
+      "id": "mon_012",
+      "question": "What is SLI?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Indicator metric",
+        "Storage",
+        "Network",
+        "Database"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "monitoring_023",
-      "question": "monitoring question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "monitoring_024",
-      "question": "monitoring question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "monitoring_025",
-      "question": "monitoring question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "monitoring_026",
-      "question": "monitoring question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Indicator metric",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "monitoring_027",
-      "question": "monitoring question 27?",
+      "id": "mon_013",
+      "question": "What is incident?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Normal event",
+        "System failure event",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "System failure event",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "monitoring_028",
-      "question": "monitoring question 28?",
+      "id": "mon_014",
+      "question": "What is root cause analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Ignore issue",
+        "Find cause of issue",
+        "Delete logs",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Find cause of issue",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
-      "id": "monitoring_029",
-      "question": "monitoring question 29?",
+      "id": "mon_015",
+      "question": "What is anomaly detection?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Normal behavior",
+        "Detect unusual patterns",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Detect unusual patterns",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "mon_016",
+      "question": "What is Prometheus?",
+      "options": [
+        "Database",
+        "Monitoring tool",
+        "Network",
+        "Storage"
+      ],
+      "correct_answer": "Monitoring tool",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "monitoring_030",
-      "question": "monitoring question 30?",
+      "id": "mon_017",
+      "question": "What is Grafana?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Visualization tool",
+        "Network",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Visualization tool",
+      "difficulty": "easy",
       "weight": 2
+    },
+    {
+      "id": "mon_018",
+      "question": "What is log aggregation?",
+      "options": [
+        "Delete logs",
+        "Centralize logs",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Centralize logs",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "mon_019",
+      "question": "What is alert fatigue?",
+      "options": [
+        "No alerts",
+        "Too many alerts",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Too many alerts",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "mon_020",
+      "question": "What is observability?",
+      "options": [
+        "Monitoring only",
+        "Understand system behavior",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Understand system behavior",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "monitoring_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "mon_s_001",
+      "question": "Track API response time. What metric?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Latency",
+        "Storage",
+        "Network",
+        "CPU"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Latency",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "mon_s_002",
+      "question": "Detect sudden traffic spike. What to monitor?",
+      "options": [
+        "Traffic",
+        "Storage",
+        "Network",
+        "CPU"
+      ],
+      "correct_answer": "Traffic",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_s_003",
+      "question": "Track error rates. What metric?",
+      "options": [
+        "Errors",
+        "Storage",
+        "Network",
+        "CPU"
+      ],
+      "correct_answer": "Errors",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_s_004",
+      "question": "Investigate request path across services. What to use?",
+      "options": [
+        "Logs",
+        "Tracing",
+        "Metrics",
+        "Storage"
+      ],
+      "correct_answer": "Tracing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "mon_s_005",
+      "question": "Visualize system metrics. What to use?",
+      "options": [
+        "Prometheus",
+        "Grafana",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Grafana",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_s_006",
+      "question": "Collect metrics data. What to use?",
+      "options": [
+        "Grafana",
+        "Prometheus",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Prometheus",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_s_007",
+      "question": "Reduce too many alerts. What issue?",
+      "options": [
+        "No alerts",
+        "Alert fatigue",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Alert fatigue",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "mon_s_008",
+      "question": "Find root cause of failure. What to do?",
+      "options": [
+        "Ignore",
+        "Root cause analysis",
+        "Delete logs",
+        "Storage"
+      ],
+      "correct_answer": "Root cause analysis",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "mon_s_009",
+      "question": "Detect abnormal behavior automatically. What to use?",
+      "options": [
+        "Logs",
+        "Anomaly detection",
+        "Metrics",
+        "Storage"
+      ],
+      "correct_answer": "Anomaly detection",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "mon_s_010",
+      "question": "Centralize logs from multiple services. What to use?",
+      "options": [
+        "Aggregation",
+        "Delete logs",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Aggregation",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

@@ -1,43 +1,347 @@
 {
-  "skill":"REST API",
-  "mcqs":[
+  "skill": "REST API",
 
-    {"id":"api_001","question":"REST stands for?","options":["Representational State Transfer","none","loop","array"],"correct_answer":"Representational State Transfer","difficulty":"easy","weight":1},
-    {"id":"api_002","question":"GET method?","options":["retrieve","insert","delete","none"],"correct_answer":"retrieve","difficulty":"easy","weight":1},
-    {"id":"api_003","question":"POST used for?","options":["create","read","none","loop"],"correct_answer":"create","difficulty":"easy","weight":1},
-    {"id":"api_004","question":"PUT used for?","options":["update","read","none","loop"],"correct_answer":"update","difficulty":"easy","weight":1},
-    {"id":"api_005","question":"DELETE method?","options":["remove data","get","none","loop"],"correct_answer":"remove data","difficulty":"easy","weight":1},
-    {"id":"api_006","question":"Status 200?","options":["OK","error","none","loop"],"correct_answer":"OK","difficulty":"easy","weight":1},
-    {"id":"api_007","question":"Status 404?","options":["not found","ok","none","loop"],"correct_answer":"not found","difficulty":"easy","weight":1},
-    {"id":"api_008","question":"JSON is?","options":["data format","language","none","loop"],"correct_answer":"data format","difficulty":"easy","weight":1},
-    {"id":"api_009","question":"Endpoint is?","options":["URL","server","db","none"],"correct_answer":"URL","difficulty":"easy","weight":1},
-    {"id":"api_010","question":"Header used for?","options":["metadata","data","none","loop"],"correct_answer":"metadata","difficulty":"easy","weight":1},
+  "mcqs": [
+    {
+      "id": "api_001",
+      "question": "What does REST stand for?",
+      "options": [
+        "Remote Execution",
+        "Representational State Transfer",
+        "Random Service",
+        "Real-time System"
+      ],
+      "correct_answer": "Representational State Transfer",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_002",
+      "question": "Which HTTP method is used to retrieve data?",
+      "options": ["POST", "GET", "PUT", "DELETE"],
+      "correct_answer": "GET",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_003",
+      "question": "Which method is used to create resource?",
+      "options": ["GET", "POST", "PUT", "DELETE"],
+      "correct_answer": "POST",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_004",
+      "question": "Which method updates resource?",
+      "options": ["GET", "POST", "PUT", "DELETE"],
+      "correct_answer": "PUT",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_005",
+      "question": "Which method deletes resource?",
+      "options": ["GET", "POST", "PUT", "DELETE"],
+      "correct_answer": "DELETE",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"api_011","question":"Stateless?","options":["no memory","stores state","none","loop"],"correct_answer":"no memory","difficulty":"medium","weight":2},
-    {"id":"api_012","question":"Idempotent?","options":["same result","diff result","none","loop"],"correct_answer":"same result","difficulty":"medium","weight":2},
-    {"id":"api_013","question":"Auth token?","options":["security","data","none","loop"],"correct_answer":"security","difficulty":"medium","weight":2},
-    {"id":"api_014","question":"Pagination?","options":["limit data","delete","none","loop"],"correct_answer":"limit data","difficulty":"medium","weight":2},
-    {"id":"api_015","question":"Rate limit?","options":["limit requests","delete","none","loop"],"correct_answer":"limit requests","difficulty":"medium","weight":2},
-    {"id":"api_016","question":"Middleware?","options":["interceptor","db","none","loop"],"correct_answer":"interceptor","difficulty":"medium","weight":2},
-    {"id":"api_017","question":"CORS?","options":["cross origin","same","none","loop"],"correct_answer":"cross origin","difficulty":"medium","weight":2},
-    {"id":"api_018","question":"Bearer token?","options":["auth header","data","none","loop"],"correct_answer":"auth header","difficulty":"medium","weight":2},
-    {"id":"api_019","question":"HTTP protocol?","options":["communication","storage","none","loop"],"correct_answer":"communication","difficulty":"medium","weight":2},
-    {"id":"api_020","question":"API versioning?","options":["manage changes","delete","none","loop"],"correct_answer":"manage changes","difficulty":"medium","weight":2},
+    {
+      "id": "api_006",
+      "question": "What is stateless API?",
+      "options": [
+        "Stores session",
+        "No client state stored",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "No client state stored",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "api_007",
+      "question": "What is JSON?",
+      "options": [
+        "Database",
+        "Data format",
+        "Loop",
+        "Protocol"
+      ],
+      "correct_answer": "Data format",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_008",
+      "question": "What is HTTP status 200?",
+      "options": [
+        "Error",
+        "Success",
+        "Redirect",
+        "Unauthorized"
+      ],
+      "correct_answer": "Success",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_009",
+      "question": "What is 404?",
+      "options": [
+        "Success",
+        "Not found",
+        "Unauthorized",
+        "Server error"
+      ],
+      "correct_answer": "Not found",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_010",
+      "question": "What is 500?",
+      "options": [
+        "Client error",
+        "Server error",
+        "Success",
+        "Redirect"
+      ],
+      "correct_answer": "Server error",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"api_021","question":"HATEOAS?","options":["hypermedia","db","none","loop"],"correct_answer":"hypermedia","difficulty":"hard","weight":3},
-    {"id":"api_022","question":"OAuth?","options":["authorization","db","none","loop"],"correct_answer":"authorization","difficulty":"hard","weight":3},
-    {"id":"api_023","question":"JWT?","options":["token","db","none","loop"],"correct_answer":"token","difficulty":"hard","weight":3},
-    {"id":"api_024","question":"GraphQL vs REST?","options":["query flexible","same","none","loop"],"correct_answer":"query flexible","difficulty":"hard","weight":3},
-    {"id":"api_025","question":"Webhooks?","options":["event based","loop","none","array"],"correct_answer":"event based","difficulty":"hard","weight":3},
-    {"id":"api_026","question":"Caching API?","options":["improve speed","delete","none","loop"],"correct_answer":"improve speed","difficulty":"hard","weight":3},
-    {"id":"api_027","question":"Throttling?","options":["limit rate","loop","none","array"],"correct_answer":"limit rate","difficulty":"hard","weight":3},
-    {"id":"api_028","question":"API gateway?","options":["entry point","db","none","loop"],"correct_answer":"entry point","difficulty":"hard","weight":3},
-    {"id":"api_029","question":"OpenAPI?","options":["api spec","db","none","loop"],"correct_answer":"api spec","difficulty":"hard","weight":3},
-    {"id":"api_030","question":"Status 500?","options":["server error","ok","none","loop"],"correct_answer":"server error","difficulty":"hard","weight":3}
+    {
+      "id": "api_011",
+      "question": "What is endpoint?",
+      "options": [
+        "Database",
+        "API URL",
+        "Loop",
+        "Class"
+      ],
+      "correct_answer": "API URL",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_012",
+      "question": "What is REST resource?",
+      "options": [
+        "UI",
+        "Entity accessible via API",
+        "Loop",
+        "Class"
+      ],
+      "correct_answer": "Entity accessible via API",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_013",
+      "question": "What is idempotent method?",
+      "options": [
+        "Changes every time",
+        "Same result on repeated calls",
+        "Deletes data",
+        "Loop"
+      ],
+      "correct_answer": "Same result on repeated calls",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "api_014",
+      "question": "Which method is idempotent?",
+      "options": ["POST", "PUT", "PATCH", "NONE"],
+      "correct_answer": "PUT",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "api_015",
+      "question": "What is authentication?",
+      "options": [
+        "Check permission",
+        "Verify identity",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Verify identity",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
+    {
+      "id": "api_016",
+      "question": "What is authorization?",
+      "options": [
+        "Verify identity",
+        "Check access rights",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Check access rights",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_017",
+      "question": "What is token-based auth?",
+      "options": [
+        "Session",
+        "Use token for access",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Use token for access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "api_018",
+      "question": "What is pagination?",
+      "options": [
+        "Delete data",
+        "Split results into pages",
+        "Store data",
+        "Loop"
+      ],
+      "correct_answer": "Split results into pages",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_019",
+      "question": "What is rate limiting?",
+      "options": [
+        "Unlimited requests",
+        "Limit API requests",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Limit API requests",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "api_020",
+      "question": "What is versioning in API?",
+      "options": [
+        "Delete API",
+        "Manage API changes",
+        "Store data",
+        "Loop"
+      ],
+      "correct_answer": "Manage API changes",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ],
 
-  "coding_mcqs":[
-    {"id":"api_c_001","question":"Method?","code":"GET /users","options":["fetch users","delete","none","loop"],"correct_answer":"fetch users","difficulty":"easy","weight":1}
+  "scenario_mcqs": [
+    {
+      "id": "api_s_001",
+      "question": "Need to fetch data from server. Which method?",
+      "options": ["POST", "GET", "PUT", "DELETE"],
+      "correct_answer": "GET",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_s_002",
+      "question": "Need to create new user. Which method?",
+      "options": ["GET", "POST", "PUT", "DELETE"],
+      "correct_answer": "POST",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_s_003",
+      "question": "Update existing data safely. Which method?",
+      "options": ["POST", "PUT", "GET", "DELETE"],
+      "correct_answer": "PUT",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_s_004",
+      "question": "API returning too much data. What to use?",
+      "options": [
+        "Delete API",
+        "Pagination",
+        "Ignore",
+        "Loop"
+      ],
+      "correct_answer": "Pagination",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_s_005",
+      "question": "API abused by users. What to implement?",
+      "options": [
+        "Delete API",
+        "Rate limiting",
+        "Ignore",
+        "Loop"
+      ],
+      "correct_answer": "Rate limiting",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "api_s_006",
+      "question": "Need secure API access. What to use?",
+      "options": [
+        "Plain text",
+        "Token authentication",
+        "Ignore",
+        "Loop"
+      ],
+      "correct_answer": "Token authentication",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "api_s_007",
+      "question": "API should support backward compatibility. What to use?",
+      "options": [
+        "Delete API",
+        "Versioning",
+        "Ignore",
+        "Loop"
+      ],
+      "correct_answer": "Versioning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "api_s_008",
+      "question": "Client not authorized. Which status?",
+      "options": ["200", "404", "401", "500"],
+      "correct_answer": "401",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_s_009",
+      "question": "Server crashes. Which status?",
+      "options": ["200", "404", "401", "500"],
+      "correct_answer": "500",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "api_s_010",
+      "question": "Resource not found. Which status?",
+      "options": ["200", "404", "401", "500"],
+      "correct_answer": "404",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ]
 }

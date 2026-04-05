@@ -1,25 +1,402 @@
 {
   "skill": "Kubernetes",
-  "mcqs":[
-    {"id":"k8s_001","question":"Kubernetes is?","options":["container orchestration","OS","DB","none"],"correct_answer":"container orchestration","difficulty":"easy","weight":1},
-    {"id":"k8s_002","question":"Pod is?","options":["smallest unit","cluster","node","none"],"correct_answer":"smallest unit","difficulty":"easy","weight":1},
-    {"id":"k8s_003","question":"Cluster contains?","options":["nodes","pods","apps","none"],"correct_answer":"nodes","difficulty":"easy","weight":1},
-    {"id":"k8s_004","question":"Service used for?","options":["expose pods","store","compute","none"],"correct_answer":"expose pods","difficulty":"easy","weight":1},
-    {"id":"k8s_005","question":"kubectl is?","options":["CLI tool","API","DB","none"],"correct_answer":"CLI tool","difficulty":"easy","weight":1},
 
-    {"id":"k8s_006","question":"Deployment does?","options":["manage pods","delete","store","none"],"correct_answer":"manage pods","difficulty":"medium","weight":2},
-    {"id":"k8s_007","question":"ReplicaSet?","options":["maintain pods","delete","none","loop"],"correct_answer":"maintain pods","difficulty":"medium","weight":2},
-    {"id":"k8s_008","question":"Namespace used for?","options":["isolation","merge","delete","none"],"correct_answer":"isolation","difficulty":"medium","weight":2},
-    {"id":"k8s_009","question":"ConfigMap?","options":["store config","store data","network","none"],"correct_answer":"store config","difficulty":"medium","weight":2},
-    {"id":"k8s_010","question":"Secret?","options":["secure data","config","logs","none"],"correct_answer":"secure data","difficulty":"medium","weight":2},
+  "mcqs": [
+    {
+      "id": "k8s_001",
+      "question": "What is Kubernetes used for?",
+      "options": [
+        "Database",
+        "Container orchestration",
+        "Storage",
+        "Networking"
+      ],
+      "correct_answer": "Container orchestration",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_002",
+      "question": "What is a Pod?",
+      "options": [
+        "VM",
+        "Smallest deployable unit",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Smallest deployable unit",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_003",
+      "question": "What is a Deployment?",
+      "options": [
+        "Storage",
+        "Manages pod lifecycle",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Manages pod lifecycle",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_004",
+      "question": "What is a Service?",
+      "options": [
+        "Storage",
+        "Expose pods",
+        "Database",
+        "VM"
+      ],
+      "correct_answer": "Expose pods",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_005",
+      "question": "What is a Node?",
+      "options": [
+        "Cluster",
+        "Worker machine",
+        "Pod",
+        "Service"
+      ],
+      "correct_answer": "Worker machine",
+      "difficulty": "easy",
+      "weight": 2
+    },
 
-    {"id":"k8s_011","question":"Ingress?","options":["routing","storage","compute","none"],"correct_answer":"routing","difficulty":"hard","weight":3},
-    {"id":"k8s_012","question":"NodePort?","options":["expose service","store","none","loop"],"correct_answer":"expose service","difficulty":"hard","weight":3},
-    {"id":"k8s_013","question":"DaemonSet?","options":["run on all nodes","one node","none","loop"],"correct_answer":"run on all nodes","difficulty":"hard","weight":3},
-    {"id":"k8s_014","question":"StatefulSet?","options":["stateful apps","stateless","none","loop"],"correct_answer":"stateful apps","difficulty":"hard","weight":3},
-    {"id":"k8s_015","question":"Autoscaling?","options":["scale pods","delete","none","loop"],"correct_answer":"scale pods","difficulty":"hard","weight":3}
+    {
+      "id": "k8s_006",
+      "question": "What is a Cluster?",
+      "options": [
+        "Single node",
+        "Group of nodes",
+        "Pod",
+        "Service"
+      ],
+      "correct_answer": "Group of nodes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_007",
+      "question": "What is kubelet?",
+      "options": [
+        "API server",
+        "Agent on node",
+        "Storage",
+        "Database"
+      ],
+      "correct_answer": "Agent on node",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_008",
+      "question": "What is API server?",
+      "options": [
+        "Storage",
+        "Control plane component",
+        "Pod",
+        "Node"
+      ],
+      "correct_answer": "Control plane component",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_009",
+      "question": "What is etcd?",
+      "options": [
+        "Database",
+        "Key-value store for cluster state",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Key-value store for cluster state",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_010",
+      "question": "What is scheduler?",
+      "options": [
+        "Storage",
+        "Assign pods to nodes",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Assign pods to nodes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "k8s_011",
+      "question": "What is autoscaling?",
+      "options": [
+        "Manual scaling",
+        "Automatic scaling",
+        "Delete pods",
+        "Store data"
+      ],
+      "correct_answer": "Automatic scaling",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_012",
+      "question": "What is HPA?",
+      "options": [
+        "Storage",
+        "Horizontal Pod Autoscaler",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Horizontal Pod Autoscaler",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_013",
+      "question": "What is rolling update?",
+      "options": [
+        "Delete all pods",
+        "Gradual update",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Gradual update",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_014",
+      "question": "What is ConfigMap?",
+      "options": [
+        "Secrets",
+        "Configuration storage",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Configuration storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_015",
+      "question": "What is Secret?",
+      "options": [
+        "Config",
+        "Sensitive data storage",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Sensitive data storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "k8s_016",
+      "question": "What is Ingress?",
+      "options": [
+        "Storage",
+        "Manage external access",
+        "Database",
+        "Pod"
+      ],
+      "correct_answer": "Manage external access",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_017",
+      "question": "What is volume?",
+      "options": [
+        "Compute",
+        "Persistent storage",
+        "Network",
+        "Database"
+      ],
+      "correct_answer": "Persistent storage",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_018",
+      "question": "What is StatefulSet?",
+      "options": [
+        "Stateless",
+        "Stateful apps management",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Stateful apps management",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_019",
+      "question": "What is DaemonSet?",
+      "options": [
+        "Run on one node",
+        "Run on all nodes",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Run on all nodes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_020",
+      "question": "What is namespace?",
+      "options": [
+        "Storage",
+        "Logical cluster partition",
+        "Database",
+        "Network"
+      ],
+      "correct_answer": "Logical cluster partition",
+      "difficulty": "easy",
+      "weight": 2
+    }
   ],
-  "coding_mcqs":[
-    {"id":"k8s_c_001","question":"Command?","code":"kubectl ___ pods","options":["get","run","push","none"],"correct_answer":"get","difficulty":"easy","weight":1}
+
+  "scenario_mcqs": [
+    {
+      "id": "k8s_s_001",
+      "question": "Need to expose app externally. What to use?",
+      "options": [
+        "Pod",
+        "Service/Ingress",
+        "Node",
+        "Volume"
+      ],
+      "correct_answer": "Service/Ingress",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_s_002",
+      "question": "Need auto scaling based on load. What to use?",
+      "options": [
+        "Manual scaling",
+        "HPA",
+        "Delete pods",
+        "Storage"
+      ],
+      "correct_answer": "HPA",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_s_003",
+      "question": "Need zero downtime deployment. What to use?",
+      "options": [
+        "Delete pods",
+        "Rolling update",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Rolling update",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_s_004",
+      "question": "Need to store configuration. What to use?",
+      "options": [
+        "Secret",
+        "ConfigMap",
+        "Pod",
+        "Node"
+      ],
+      "correct_answer": "ConfigMap",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_s_005",
+      "question": "Store sensitive credentials securely. What to use?",
+      "options": [
+        "ConfigMap",
+        "Secret",
+        "Pod",
+        "Node"
+      ],
+      "correct_answer": "Secret",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_s_006",
+      "question": "Need persistent storage for DB. What to use?",
+      "options": [
+        "Pod",
+        "Volume",
+        "Service",
+        "Node"
+      ],
+      "correct_answer": "Volume",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_s_007",
+      "question": "Need each node to run monitoring agent. What to use?",
+      "options": [
+        "Deployment",
+        "DaemonSet",
+        "Pod",
+        "Service"
+      ],
+      "correct_answer": "DaemonSet",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_s_008",
+      "question": "Need stable identity for pods. What to use?",
+      "options": [
+        "Deployment",
+        "StatefulSet",
+        "Pod",
+        "Service"
+      ],
+      "correct_answer": "StatefulSet",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "k8s_s_009",
+      "question": "Separate environments in cluster. What to use?",
+      "options": [
+        "Pod",
+        "Namespace",
+        "Service",
+        "Node"
+      ],
+      "correct_answer": "Namespace",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "k8s_s_010",
+      "question": "Route external HTTP traffic. What to use?",
+      "options": [
+        "Pod",
+        "Ingress",
+        "Node",
+        "Volume"
+      ],
+      "correct_answer": "Ingress",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ]
 }

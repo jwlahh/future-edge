@@ -2,410 +2,396 @@
   "skill": "System Analysis",
   "mcqs": [
     {
-      "id": "system_analysis_001",
-      "question": "system analysis question 1?",
+      "id": "sa_001",
+      "question": "What is the main purpose of system analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To write production code directly",
+        "To study system requirements and improve solutions",
+        "To design only the user interface",
+        "To manage payroll"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To study system requirements and improve solutions",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "system_analysis_002",
-      "question": "system analysis question 2?",
+      "id": "sa_002",
+      "question": "What is a requirement in system analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A random feature idea",
+        "A documented need the system must satisfy",
+        "A database backup",
+        "A deployment script"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "A documented need the system must satisfy",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_003",
+      "question": "What is the difference between functional and non-functional requirements?",
+      "options": [
+        "Functional requirements define what the system does, non-functional define quality attributes",
+        "Functional requirements are optional, non-functional are mandatory",
+        "Functional requirements are for UI only",
+        "There is no difference"
+      ],
+      "correct_answer": "Functional requirements define what the system does, non-functional define quality attributes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_004",
+      "question": "What is feasibility analysis used for?",
+      "options": [
+        "To check whether a proposed system is practical and viable",
+        "To create CSS layouts",
+        "To delete unnecessary records",
+        "To automate testing only"
+      ],
+      "correct_answer": "To check whether a proposed system is practical and viable",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_005",
+      "question": "Which of the following is a common type of feasibility study?",
+      "options": [
+        "Technical feasibility",
+        "Color feasibility",
+        "Animation feasibility",
+        "Template feasibility"
+      ],
+      "correct_answer": "Technical feasibility",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_006",
+      "question": "What is technical feasibility concerned with?",
+      "options": [
+        "Whether the solution can be built with available technology and skills",
+        "Whether employees like the logo",
+        "Whether users prefer dark mode",
+        "Whether the office is open"
+      ],
+      "correct_answer": "Whether the solution can be built with available technology and skills",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_007",
+      "question": "What is economic feasibility concerned with?",
+      "options": [
+        "Cost-benefit evaluation of the system",
+        "Only hardware brand selection",
+        "Only UI redesign cost",
+        "Only database normalization"
+      ],
+      "correct_answer": "Cost-benefit evaluation of the system",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_008",
+      "question": "What is operational feasibility concerned with?",
+      "options": [
+        "Whether the organization can adopt and use the system effectively",
+        "Only coding standards",
+        "Only cloud migration",
+        "Only server speed"
+      ],
+      "correct_answer": "Whether the organization can adopt and use the system effectively",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "system_analysis_003",
-      "question": "system analysis question 3?",
+      "id": "sa_009",
+      "question": "What is requirement elicitation?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Collecting requirements from stakeholders",
+        "Deleting old requirements",
+        "Compiling source code",
+        "Running system benchmarks"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Collecting requirements from stakeholders",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "system_analysis_004",
-      "question": "system analysis question 4?",
+      "id": "sa_010",
+      "question": "Which technique is commonly used to gather requirements?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Stakeholder interviews",
+        "Only code execution",
+        "Only penetration testing",
+        "Only file compression"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_005",
-      "question": "system analysis question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "system_analysis_006",
-      "question": "system analysis question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Stakeholder interviews",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "system_analysis_007",
-      "question": "system analysis question 7?",
+      "id": "sa_011",
+      "question": "What is a stakeholder in system analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Anyone affected by or interested in the system",
+        "Only the programmer",
+        "Only the database admin",
+        "Only the end customer who pays"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "Anyone affected by or interested in the system",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "system_analysis_008",
-      "question": "system analysis question 8?",
+      "id": "sa_012",
+      "question": "What is a use case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A description of how a user interacts with the system to achieve a goal",
+        "A server log file",
+        "A physical device case",
+        "A table schema"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "A description of how a user interacts with the system to achieve a goal",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_013",
+      "question": "Why are use case diagrams useful?",
+      "options": [
+        "They help visualize actors and system interactions",
+        "They replace all documentation",
+        "They are used only for database indexing",
+        "They are only for UI colors"
+      ],
+      "correct_answer": "They help visualize actors and system interactions",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "system_analysis_009",
-      "question": "system analysis question 9?",
+      "id": "sa_014",
+      "question": "What is process modeling in system analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Representing how information and tasks flow through a system",
+        "Training an AI model",
+        "Choosing a CPU architecture",
+        "Deploying containers"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_010",
-      "question": "system analysis question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "system_analysis_011",
-      "question": "system analysis question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_012",
-      "question": "system analysis question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "system_analysis_013",
-      "question": "system analysis question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Representing how information and tasks flow through a system",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "system_analysis_014",
-      "question": "system analysis question 14?",
+      "id": "sa_015",
+      "question": "What is a data flow diagram mainly used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Showing movement of data between processes, stores, and entities",
+        "Showing only UI wireframes",
+        "Showing only hardware inventory",
+        "Showing financial statements"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_015",
-      "question": "system analysis question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Showing movement of data between processes, stores, and entities",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "system_analysis_016",
-      "question": "system analysis question 16?",
+      "id": "sa_016",
+      "question": "What is gap analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Comparing current state and desired state",
+        "Measuring network delay only",
+        "Deleting redundant code",
+        "Converting files between formats"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Comparing current state and desired state",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "system_analysis_017",
-      "question": "system analysis question 17?",
+      "id": "sa_017",
+      "question": "What is system scope?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "The defined boundaries of what the system will and will not cover",
+        "The zoom level of a diagram",
+        "Only the hardware size",
+        "Only the number of users"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "The defined boundaries of what the system will and will not cover",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "system_analysis_018",
-      "question": "system analysis question 18?",
+      "id": "sa_018",
+      "question": "Why is requirement prioritization important?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "It helps focus on the most valuable or critical needs first",
+        "It removes the need for stakeholders",
+        "It automatically generates code",
+        "It replaces feasibility analysis"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "It helps focus on the most valuable or critical needs first",
       "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_019",
-      "question": "system analysis question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_020",
-      "question": "system analysis question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "system_analysis_021",
-      "question": "system analysis question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
     },
     {
-      "id": "system_analysis_022",
-      "question": "system analysis question 22?",
+      "id": "sa_019",
+      "question": "What is a constraint in system analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A limitation the solution must work within",
+        "A finished test case",
+        "A kind of CSS layout",
+        "A user persona only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_023",
-      "question": "system analysis question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "A limitation the solution must work within",
       "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "system_analysis_024",
-      "question": "system analysis question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_025",
-      "question": "system analysis question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "system_analysis_026",
-      "question": "system analysis question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_027",
-      "question": "system analysis question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "system_analysis_028",
-      "question": "system analysis question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
     },
     {
-      "id": "system_analysis_029",
-      "question": "system analysis question 29?",
+      "id": "sa_020",
+      "question": "What is the role of documentation in system analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To clearly communicate requirements, assumptions, and decisions",
+        "To slow down development",
+        "To replace stakeholder communication",
+        "To avoid testing"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To clearly communicate requirements, assumptions, and decisions",
       "difficulty": "easy",
       "weight": 2
-    },
-    {
-      "id": "system_analysis_030",
-      "question": "system analysis question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "system_analysis_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "sa_s_001",
+      "question": "A company wants to replace a manual attendance process with software. What should be done first?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Start coding immediately",
+        "Gather requirements from stakeholders",
+        "Choose colors for the dashboard",
+        "Buy more servers"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Gather requirements from stakeholders",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "sa_s_002",
+      "question": "A proposed solution is powerful but too expensive for the organization. Which analysis identifies this issue?",
+      "options": [
+        "Economic feasibility",
+        "Syntax analysis",
+        "UI testing",
+        "Version control"
+      ],
+      "correct_answer": "Economic feasibility",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_s_003",
+      "question": "Users keep requesting features outside the original project boundaries. What needs to be clarified?",
+      "options": [
+        "System scope",
+        "Font size",
+        "Server RAM",
+        "Coding style"
+      ],
+      "correct_answer": "System scope",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sa_s_004",
+      "question": "A team needs to understand how invoice data moves from customer input to approval and storage. What model is most helpful?",
+      "options": [
+        "Data flow diagram",
+        "Pie chart",
+        "Color palette",
+        "Firewall rule"
+      ],
+      "correct_answer": "Data flow diagram",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sa_s_005",
+      "question": "Management wants to know whether staff can realistically adopt a new enterprise system. What should be evaluated?",
+      "options": [
+        "Operational feasibility",
+        "Only database indexing",
+        "Only network topology",
+        "Only screen resolution"
+      ],
+      "correct_answer": "Operational feasibility",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sa_s_006",
+      "question": "A project has too many requested features and limited time. What should the analyst do?",
+      "options": [
+        "Prioritize requirements",
+        "Ignore stakeholders",
+        "Remove documentation",
+        "Delay analysis indefinitely"
+      ],
+      "correct_answer": "Prioritize requirements",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sa_s_007",
+      "question": "A team wants to compare the current paper-based workflow with the target digital workflow. What technique is best?",
+      "options": [
+        "Gap analysis",
+        "Code minification",
+        "Packet sniffing",
+        "Cache invalidation"
+      ],
+      "correct_answer": "Gap analysis",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sa_s_008",
+      "question": "An analyst needs to understand how a cashier and inventory manager interact with a retail system. What artifact is most useful?",
+      "options": [
+        "Use case diagram",
+        "Memory dump",
+        "Network ping result",
+        "Encryption key list"
+      ],
+      "correct_answer": "Use case diagram",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sa_s_009",
+      "question": "A solution idea depends on a technology the current team does not know how to maintain. Which issue is this?",
+      "options": [
+        "Technical feasibility concern",
+        "Typography issue",
+        "Color contrast issue",
+        "File naming issue"
+      ],
+      "correct_answer": "Technical feasibility concern",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sa_s_010",
+      "question": "Different departments describe the same requirement in conflicting ways. What should the analyst do next?",
+      "options": [
+        "Clarify and validate requirements with stakeholders",
+        "Pick one version without discussion",
+        "Ignore the conflict",
+        "Move directly to deployment"
+      ],
+      "correct_answer": "Clarify and validate requirements with stakeholders",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

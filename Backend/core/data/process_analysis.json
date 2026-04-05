@@ -1,411 +1,402 @@
 {
   "skill": "Process Analysis",
+
   "mcqs": [
     {
-      "id": "process_analysis_001",
-      "question": "process analysis question 1?",
+      "id": "pa_001",
+      "question": "What is process analysis?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Create process",
+        "Evaluate process performance",
+        "Delete process",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_002",
-      "question": "process analysis question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Evaluate process performance",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "process_analysis_003",
-      "question": "process analysis question 3?",
+      "id": "pa_002",
+      "question": "What is a process?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Program",
+        "Sequence of steps",
+        "Database",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_004",
-      "question": "process analysis question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_005",
-      "question": "process analysis question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_006",
-      "question": "process analysis question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_007",
-      "question": "process analysis question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_008",
-      "question": "process analysis question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_009",
-      "question": "process analysis question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "process_analysis_010",
-      "question": "process analysis question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_011",
-      "question": "process analysis question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "process_analysis_012",
-      "question": "process analysis question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_013",
-      "question": "process analysis question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_014",
-      "question": "process analysis question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_015",
-      "question": "process analysis question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "process_analysis_016",
-      "question": "process analysis question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_017",
-      "question": "process analysis question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_018",
-      "question": "process analysis question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Sequence of steps",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "process_analysis_019",
-      "question": "process analysis question 19?",
+      "id": "pa_003",
+      "question": "What is workflow?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Flow of tasks",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_020",
-      "question": "process analysis question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_021",
-      "question": "process analysis question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Flow of tasks",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_022",
-      "question": "process analysis question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_023",
-      "question": "process analysis question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_024",
-      "question": "process analysis question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "process_analysis_025",
-      "question": "process analysis question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "process_analysis_026",
-      "question": "process analysis question 26?",
+      "id": "pa_004",
+      "question": "What is efficiency?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Waste",
+        "Output vs input ratio",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "process_analysis_027",
-      "question": "process analysis question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Output vs input ratio",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "process_analysis_028",
-      "question": "process analysis question 28?",
+      "id": "pa_005",
+      "question": "What is bottleneck?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Fast stage",
+        "Slow limiting stage",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Slow limiting stage",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
+    },
+
+    {
+      "id": "pa_006",
+      "question": "What is throughput?",
+      "options": [
+        "Latency",
+        "Tasks completed per time",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Tasks completed per time",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "process_analysis_029",
-      "question": "process analysis question 29?",
+      "id": "pa_007",
+      "question": "What is cycle time?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Start to finish time",
+        "Storage",
+        "Network",
+        "CPU"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Start to finish time",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "process_analysis_030",
-      "question": "process analysis question 30?",
+      "id": "pa_008",
+      "question": "What is lead time?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Execution time",
+        "Total time from request to delivery",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Total time from request to delivery",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_009",
+      "question": "What is process mapping?",
+      "options": [
+        "Delete process",
+        "Visualize workflow",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Visualize workflow",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_010",
+      "question": "What is KPI?",
+      "options": [
+        "Storage",
+        "Performance metric",
+        "Network",
+        "Database"
+      ],
+      "correct_answer": "Performance metric",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "pa_011",
+      "question": "What is process optimization?",
+      "options": [
+        "Ignore process",
+        "Improve efficiency",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Improve efficiency",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_012",
+      "question": "What is automation?",
+      "options": [
+        "Manual work",
+        "Automatic execution",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Automatic execution",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_013",
+      "question": "What is redundancy?",
+      "options": [
+        "Necessary step",
+        "Unnecessary repetition",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Unnecessary repetition",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_014",
+      "question": "What is reengineering?",
+      "options": [
+        "Minor change",
+        "Major redesign",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Major redesign",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_015",
+      "question": "What is SLA?",
+      "options": [
+        "Storage",
+        "Service level agreement",
+        "Network",
+        "Database"
+      ],
+      "correct_answer": "Service level agreement",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "pa_016",
+      "question": "What is root cause analysis?",
+      "options": [
+        "Ignore issue",
+        "Identify problem cause",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Identify problem cause",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_017",
+      "question": "What is process monitoring?",
+      "options": [
+        "Ignore process",
+        "Track performance",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Track performance",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_018",
+      "question": "What is variance?",
+      "options": [
+        "No change",
+        "Difference from expected",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Difference from expected",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_019",
+      "question": "What is benchmarking?",
+      "options": [
+        "Ignore performance",
+        "Compare with standard",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Compare with standard",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_020",
+      "question": "What is continuous improvement?",
+      "options": [
+        "Stop changes",
+        "Ongoing optimization",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Ongoing optimization",
+      "difficulty": "easy",
+      "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "process_analysis_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "pa_s_001",
+      "question": "Identify slow step in process. What to find?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Bottleneck",
+        "Storage",
+        "Network",
+        "CPU"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Bottleneck",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "pa_s_002",
+      "question": "Improve process efficiency. What to do?",
+      "options": [
+        "Optimization",
+        "Ignore",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Optimization",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_s_003",
+      "question": "Reduce manual work. What to use?",
+      "options": [
+        "Automation",
+        "Ignore",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Automation",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_s_004",
+      "question": "Visualize workflow. What to use?",
+      "options": [
+        "Process mapping",
+        "Ignore",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Process mapping",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_s_005",
+      "question": "Measure performance. What to use?",
+      "options": [
+        "KPI",
+        "Ignore",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "KPI",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_s_006",
+      "question": "Remove repeated steps. What issue?",
+      "options": [
+        "Redundancy",
+        "Storage",
+        "Network",
+        "CPU"
+      ],
+      "correct_answer": "Redundancy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_s_007",
+      "question": "Fix root issue of failure. What to do?",
+      "options": [
+        "Root cause analysis",
+        "Ignore",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Root cause analysis",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_s_008",
+      "question": "Compare with industry standard. What to use?",
+      "options": [
+        "Benchmarking",
+        "Ignore",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Benchmarking",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pa_s_009",
+      "question": "Improve process continuously. What approach?",
+      "options": [
+        "Continuous improvement",
+        "Ignore",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Continuous improvement",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pa_s_010",
+      "question": "Redesign entire process for improvement. What to do?",
+      "options": [
+        "Reengineering",
+        "Ignore",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Reengineering",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

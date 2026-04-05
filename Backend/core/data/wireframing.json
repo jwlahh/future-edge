@@ -2,410 +2,396 @@
   "skill": "Wireframing",
   "mcqs": [
     {
-      "id": "wireframing_001",
-      "question": "wireframing question 1?",
+      "id": "wf_001",
+      "question": "What is the primary purpose of a wireframe?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To define server architecture",
+        "To represent the layout and structure of an interface",
+        "To write frontend code",
+        "To test database queries"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_002",
-      "question": "wireframing question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "To represent the layout and structure of an interface",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "wireframing_003",
-      "question": "wireframing question 3?",
+      "id": "wf_002",
+      "question": "What level of detail is usually expected in a low-fidelity wireframe?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Pixel-perfect visuals",
+        "Basic structure and content placement",
+        "Production-ready branding",
+        "Full animation behavior"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_004",
-      "question": "wireframing question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_005",
-      "question": "wireframing question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_006",
-      "question": "wireframing question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "wireframing_007",
-      "question": "wireframing question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "wireframing_008",
-      "question": "wireframing question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "wireframing_009",
-      "question": "wireframing question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_010",
-      "question": "wireframing question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "wireframing_011",
-      "question": "wireframing question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "wireframing_012",
-      "question": "wireframing question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "wireframing_013",
-      "question": "wireframing question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "wireframing_014",
-      "question": "wireframing question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_015",
-      "question": "wireframing question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Basic structure and content placement",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "wireframing_016",
-      "question": "wireframing question 16?",
+      "id": "wf_003",
+      "question": "Why are wireframes created early in the design process?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To finalize backend APIs",
+        "To explore layout ideas before detailed visual design",
+        "To replace usability testing",
+        "To create deployment plans"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "To explore layout ideas before detailed visual design",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "wireframing_017",
-      "question": "wireframing question 17?",
+      "id": "wf_004",
+      "question": "What is the main difference between a wireframe and a prototype?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A wireframe focuses on layout, while a prototype often demonstrates interaction",
+        "A prototype is always lower fidelity than a wireframe",
+        "A wireframe contains database schemas",
+        "There is no difference"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "A wireframe focuses on layout, while a prototype often demonstrates interaction",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wf_005",
+      "question": "What is the main difference between a wireframe and a mockup?",
+      "options": [
+        "A wireframe focuses more on structure, while a mockup includes visual styling",
+        "A mockup is always interactive",
+        "A wireframe is always coded",
+        "A mockup is used only for backend systems"
+      ],
+      "correct_answer": "A wireframe focuses more on structure, while a mockup includes visual styling",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wf_006",
+      "question": "Why is visual simplicity important in wireframes?",
+      "options": [
+        "It keeps attention on layout and functionality instead of visual polish",
+        "It removes the need for UX thinking",
+        "It increases database speed",
+        "It avoids user feedback"
+      ],
+      "correct_answer": "It keeps attention on layout and functionality instead of visual polish",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wf_007",
+      "question": "What is typically represented by gray boxes or placeholders in a wireframe?",
+      "options": [
+        "Database errors",
+        "Content areas such as images or cards",
+        "Completed frontend components",
+        "Hidden API calls"
+      ],
+      "correct_answer": "Content areas such as images or cards",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wf_008",
+      "question": "What is a key benefit of wireframing for stakeholder communication?",
+      "options": [
+        "It helps align expectations around structure and flow early",
+        "It replaces user research completely",
+        "It prevents any future design changes",
+        "It guarantees development speed"
+      ],
+      "correct_answer": "It helps align expectations around structure and flow early",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "wireframing_018",
-      "question": "wireframing question 18?",
+      "id": "wf_009",
+      "question": "What aspect of a product is most directly explored through wireframing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Server uptime",
+        "Information layout and user flow",
+        "Compiler optimization",
+        "Cloud billing"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_019",
-      "question": "wireframing question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Information layout and user flow",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "wireframing_020",
-      "question": "wireframing question 20?",
+      "id": "wf_010",
+      "question": "Why is content hierarchy important in wireframing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "It determines what users notice first and how they scan the screen",
+        "It controls database indexing",
+        "It selects programming language",
+        "It replaces typography choices"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "It determines what users notice first and how they scan the screen",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "wireframing_021",
-      "question": "wireframing question 21?",
+      "id": "wf_011",
+      "question": "What is the role of navigation in a wireframe?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To show how users move between screens or sections",
+        "To define SQL joins",
+        "To create API authentication",
+        "To optimize image compression"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To show how users move between screens or sections",
       "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wf_012",
+      "question": "Why should wireframes consider user goals?",
+      "options": [
+        "Because layouts should support task completion effectively",
+        "Because visuals matter more than usability",
+        "Because all users behave the same way",
+        "Because wireframes are only decorative"
+      ],
+      "correct_answer": "Because layouts should support task completion effectively",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "wireframing_022",
-      "question": "wireframing question 22?",
+      "id": "wf_013",
+      "question": "What does consistency in wireframes help achieve?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Predictable layout patterns and easier usability evaluation",
+        "Automatic coding of the interface",
+        "Elimination of testing",
+        "Stronger encryption"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "wireframing_023",
-      "question": "wireframing question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Predictable layout patterns and easier usability evaluation",
       "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_024",
-      "question": "wireframing question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "wireframing_025",
-      "question": "wireframing question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "wireframing_026",
-      "question": "wireframing question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
     },
     {
-      "id": "wireframing_027",
-      "question": "wireframing question 27?",
+      "id": "wf_014",
+      "question": "What is annotation in wireframing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Adding notes to explain behaviors, logic, or content",
+        "Applying final color palettes",
+        "Writing unit tests",
+        "Creating database constraints"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Adding notes to explain behaviors, logic, or content",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "wireframing_028",
-      "question": "wireframing question 28?",
+      "id": "wf_015",
+      "question": "Why are multiple wireframe iterations useful?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They help refine structure based on feedback and testing",
+        "They make user feedback unnecessary",
+        "They delay all design progress",
+        "They replace prototypes"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "They help refine structure based on feedback and testing",
       "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "wireframing_029",
-      "question": "wireframing question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "wireframing_030",
-      "question": "wireframing question 30?",
+      "id": "wf_016",
+      "question": "What is a common purpose of mobile wireframes?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To ensure layout and priority work within small screens",
+        "To design server clusters",
+        "To replace responsive design",
+        "To control hardware drivers"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To ensure layout and priority work within small screens",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "wf_017",
+      "question": "How do wireframes support usability testing?",
+      "options": [
+        "They allow early evaluation of flow and screen structure",
+        "They remove the need for real users",
+        "They guarantee accessibility compliance automatically",
+        "They only test colors"
+      ],
+      "correct_answer": "They allow early evaluation of flow and screen structure",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_018",
+      "question": "What is one risk of adding too much visual detail to early wireframes?",
+      "options": [
+        "Stakeholders may focus on aesthetics instead of layout decisions",
+        "It improves feedback quality automatically",
+        "It removes ambiguity completely",
+        "It speeds backend implementation"
+      ],
+      "correct_answer": "Stakeholders may focus on aesthetics instead of layout decisions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_019",
+      "question": "What is a screen flow in the context of wireframing?",
+      "options": [
+        "A map of how screens connect through user actions",
+        "A gradient style guide",
+        "A list of database tables",
+        "A deployment sequence"
+      ],
+      "correct_answer": "A map of how screens connect through user actions",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_020",
+      "question": "What is the strongest reason to create wireframes before development?",
+      "options": [
+        "To validate structure and flow before implementation cost increases",
+        "To avoid speaking with stakeholders",
+        "To replace frontend frameworks",
+        "To eliminate project planning"
+      ],
+      "correct_answer": "To validate structure and flow before implementation cost increases",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "wireframing_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "wf_s_001",
+      "question": "A team wants to decide where the search bar, filters, and product list should appear before styling begins. What should they create first?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Wireframe",
+        "Database schema",
+        "Deployment pipeline",
+        "Security policy"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Wireframe",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "wf_s_002",
+      "question": "Stakeholders keep discussing colors instead of page structure in an early review. What would have helped avoid this?",
+      "options": [
+        "Using low-fidelity wireframes",
+        "Adding more gradients",
+        "Skipping layout planning",
+        "Using final brand assets immediately"
+      ],
+      "correct_answer": "Using low-fidelity wireframes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_s_003",
+      "question": "A checkout process feels confusing because users do not know what happens after clicking Continue. What should the wireframe better represent?",
+      "options": [
+        "User flow between screens",
+        "Server memory allocation",
+        "CSS specificity",
+        "Cloud region settings"
+      ],
+      "correct_answer": "User flow between screens",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_s_004",
+      "question": "A designer wants to explain that a placeholder box will eventually become a product carousel with horizontal scrolling. What should be added to the wireframe?",
+      "options": [
+        "Annotation",
+        "Database trigger",
+        "Code minification",
+        "A firewall rule"
+      ],
+      "correct_answer": "Annotation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_s_005",
+      "question": "A mobile app screen feels crowded because too many elements compete for attention. What wireframing principle should be improved?",
+      "options": [
+        "Content hierarchy",
+        "Database indexing",
+        "Version control",
+        "Server replication"
+      ],
+      "correct_answer": "Content hierarchy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_s_006",
+      "question": "Users testing an early design cannot easily find the primary action on a page. What should be revisited in the wireframe?",
+      "options": [
+        "Layout emphasis and hierarchy",
+        "Programming language choice",
+        "DNS settings",
+        "Container orchestration"
+      ],
+      "correct_answer": "Layout emphasis and hierarchy",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_s_007",
+      "question": "A product team wants to compare two different dashboard layouts before detailed UI design. What is the best low-cost artifact to produce?",
+      "options": [
+        "Alternative wireframes",
+        "Final coded screens",
+        "Full penetration test",
+        "Production database migration"
+      ],
+      "correct_answer": "Alternative wireframes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "wf_s_008",
+      "question": "A website’s desktop wireframe works well, but the mobile version hides important content below the fold. What should be reconsidered?",
+      "options": [
+        "Priority and placement for small screens",
+        "SQL joins",
+        "Server certificates",
+        "Logging retention"
+      ],
+      "correct_answer": "Priority and placement for small screens",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_s_009",
+      "question": "A team receives feedback that similar pages feel inconsistent, with navigation and actions changing position. What should be standardized in the wireframes?",
+      "options": [
+        "Common layout patterns",
+        "Hardware procurement",
+        "API response format",
+        "Password policy"
+      ],
+      "correct_answer": "Common layout patterns",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "wf_s_010",
+      "question": "A company wants to validate the structure of a new booking flow before investing in high-fidelity designs. What should be done?",
+      "options": [
+        "Test wireframes with users early",
+        "Skip directly to development",
+        "Finalize branding first",
+        "Delay all feedback until launch"
+      ],
+      "correct_answer": "Test wireframes with users early",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

@@ -1,43 +1,397 @@
 {
-  "skill":"UI/UX Design",
-  "mcqs":[
-
-    {"id":"uiux_001","question":"UI stands for?","options":["User Interface","User Input","Universal Interface","none"],"correct_answer":"User Interface","difficulty":"easy","weight":1},
-    {"id":"uiux_002","question":"UX stands for?","options":["User Experience","User Example","Universal Experience","none"],"correct_answer":"User Experience","difficulty":"easy","weight":1},
-    {"id":"uiux_003","question":"Wireframe is?","options":["layout sketch","final design","code","none"],"correct_answer":"layout sketch","difficulty":"easy","weight":1},
-    {"id":"uiux_004","question":"Prototype means?","options":["interactive model","final app","code","none"],"correct_answer":"interactive model","difficulty":"easy","weight":1},
-    {"id":"uiux_005","question":"Usability means?","options":["ease of use","color","speed","none"],"correct_answer":"ease of use","difficulty":"easy","weight":1},
-    {"id":"uiux_006","question":"Figma is?","options":["design tool","language","db","none"],"correct_answer":"design tool","difficulty":"easy","weight":1},
-    {"id":"uiux_007","question":"Color palette?","options":["set of colors","layout","code","none"],"correct_answer":"set of colors","difficulty":"easy","weight":1},
-    {"id":"uiux_008","question":"Typography?","options":["font style","layout","code","none"],"correct_answer":"font style","difficulty":"easy","weight":1},
-    {"id":"uiux_009","question":"Layout grid?","options":["structure design","color","none","loop"],"correct_answer":"structure design","difficulty":"easy","weight":1},
-    {"id":"uiux_010","question":"User flow?","options":["path user takes","code","db","none"],"correct_answer":"path user takes","difficulty":"easy","weight":1},
-
-    {"id":"uiux_011","question":"Accessibility means?","options":["usable by all","fast","secure","none"],"correct_answer":"usable by all","difficulty":"medium","weight":2},
-    {"id":"uiux_012","question":"Responsive design?","options":["adapt screen","fixed","none","loop"],"correct_answer":"adapt screen","difficulty":"medium","weight":2},
-    {"id":"uiux_013","question":"Heuristic evaluation?","options":["usability test","code","none","loop"],"correct_answer":"usability test","difficulty":"medium","weight":2},
-    {"id":"uiux_014","question":"A/B testing?","options":["compare designs","delete","none","loop"],"correct_answer":"compare designs","difficulty":"medium","weight":2},
-    {"id":"uiux_015","question":"Persona?","options":["user profile","code","none","loop"],"correct_answer":"user profile","difficulty":"medium","weight":2},
-    {"id":"uiux_016","question":"Information architecture?","options":["structure content","code","none","loop"],"correct_answer":"structure content","difficulty":"medium","weight":2},
-    {"id":"uiux_017","question":"Low fidelity design?","options":["basic sketch","final","none","loop"],"correct_answer":"basic sketch","difficulty":"medium","weight":2},
-    {"id":"uiux_018","question":"High fidelity design?","options":["detailed design","basic","none","loop"],"correct_answer":"detailed design","difficulty":"medium","weight":2},
-    {"id":"uiux_019","question":"User research?","options":["study users","code","none","loop"],"correct_answer":"study users","difficulty":"medium","weight":2},
-    {"id":"uiux_020","question":"Design thinking?","options":["problem solving","code","none","loop"],"correct_answer":"problem solving","difficulty":"medium","weight":2},
-
-    {"id":"uiux_021","question":"Consistency principle?","options":["same design","random","none","loop"],"correct_answer":"same design","difficulty":"hard","weight":3},
-    {"id":"uiux_022","question":"Affordance?","options":["visual cue","code","none","loop"],"correct_answer":"visual cue","difficulty":"hard","weight":3},
-    {"id":"uiux_023","question":"Cognitive load?","options":["mental effort","speed","none","loop"],"correct_answer":"mental effort","difficulty":"hard","weight":3},
-    {"id":"uiux_024","question":"Fitts Law?","options":["target size/time","color","none","loop"],"correct_answer":"target size/time","difficulty":"hard","weight":3},
-    {"id":"uiux_025","question":"Jakob’s Law?","options":["users expect familiar","random","none","loop"],"correct_answer":"users expect familiar","difficulty":"hard","weight":3},
-    {"id":"uiux_026","question":"Design system?","options":["reusable components","code","none","loop"],"correct_answer":"reusable components","difficulty":"hard","weight":3},
-    {"id":"uiux_027","question":"Microinteractions?","options":["small animations","code","none","loop"],"correct_answer":"small animations","difficulty":"hard","weight":3},
-    {"id":"uiux_028","question":"Dark pattern?","options":["misleading design","good design","none","loop"],"correct_answer":"misleading design","difficulty":"hard","weight":3},
-    {"id":"uiux_029","question":"Visual hierarchy?","options":["importance order","code","none","loop"],"correct_answer":"importance order","difficulty":"hard","weight":3},
-    {"id":"uiux_030","question":"White space?","options":["empty space","color","none","loop"],"correct_answer":"empty space","difficulty":"hard","weight":3}
-
+  "skill": "UI/UX",
+  "mcqs": [
+    {
+      "id": "uiux_001",
+      "question": "What is the primary goal of UI design?",
+      "options": [
+        "Manage backend servers",
+        "Create visually clear and interactive interfaces",
+        "Store user data",
+        "Write database queries"
+      ],
+      "correct_answer": "Create visually clear and interactive interfaces",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_002",
+      "question": "What is the primary goal of UX design?",
+      "options": [
+        "Improve user experience and usability",
+        "Set up cloud infrastructure",
+        "Optimize SQL queries",
+        "Create APIs"
+      ],
+      "correct_answer": "Improve user experience and usability",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_003",
+      "question": "What is the difference between UI and UX?",
+      "options": [
+        "UI focuses on visuals, UX focuses on overall experience",
+        "UI is backend, UX is frontend",
+        "UI and UX are identical",
+        "UI only means testing"
+      ],
+      "correct_answer": "UI focuses on visuals, UX focuses on overall experience",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_004",
+      "question": "What is usability in UI/UX?",
+      "options": [
+        "How secure a database is",
+        "How easy and efficient a product is to use",
+        "How many features are present",
+        "How fast code compiles"
+      ],
+      "correct_answer": "How easy and efficient a product is to use",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_005",
+      "question": "Why is consistency important in interface design?",
+      "options": [
+        "It reduces user confusion",
+        "It increases backend speed",
+        "It replaces testing",
+        "It removes accessibility needs"
+      ],
+      "correct_answer": "It reduces user confusion",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_006",
+      "question": "What is visual hierarchy?",
+      "options": [
+        "The order of database execution",
+        "Arrangement of elements to show importance",
+        "The number of screens in an app",
+        "The folder structure of a project"
+      ],
+      "correct_answer": "Arrangement of elements to show importance",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_007",
+      "question": "What is a wireframe?",
+      "options": [
+        "A final coded product",
+        "A low-fidelity layout of a screen",
+        "A bug report",
+        "A database schema"
+      ],
+      "correct_answer": "A low-fidelity layout of a screen",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_008",
+      "question": "What is a prototype in UI/UX?",
+      "options": [
+        "A server log",
+        "An interactive representation of a design",
+        "A CSS framework",
+        "A test database"
+      ],
+      "correct_answer": "An interactive representation of a design",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_009",
+      "question": "Why is user research important in UX design?",
+      "options": [
+        "It helps understand user needs and behavior",
+        "It replaces visual design",
+        "It removes the need for testing",
+        "It speeds up deployment"
+      ],
+      "correct_answer": "It helps understand user needs and behavior",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_010",
+      "question": "What is a user persona?",
+      "options": [
+        "A fictional representation of a target user",
+        "A frontend framework",
+        "A software license",
+        "A database user role"
+      ],
+      "correct_answer": "A fictional representation of a target user",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "uiux_011",
+      "question": "What is a user journey map?",
+      "options": [
+        "A backend routing table",
+        "A visualization of user steps and experience",
+        "A CSS color guide",
+        "A network diagram"
+      ],
+      "correct_answer": "A visualization of user steps and experience",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "uiux_012",
+      "question": "What is accessibility in UI/UX?",
+      "options": [
+        "Making products usable for all users, including disabilities",
+        "Increasing font size only",
+        "Removing all animations",
+        "Using more colors"
+      ],
+      "correct_answer": "Making products usable for all users, including disabilities",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_013",
+      "question": "Why is color contrast important?",
+      "options": [
+        "It improves readability and accessibility",
+        "It makes APIs faster",
+        "It reduces server cost",
+        "It replaces typography"
+      ],
+      "correct_answer": "It improves readability and accessibility",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_014",
+      "question": "What is whitespace in design?",
+      "options": [
+        "Unused space that improves clarity",
+        "A syntax error",
+        "Database padding",
+        "A hidden button"
+      ],
+      "correct_answer": "Unused space that improves clarity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_015",
+      "question": "Why is feedback important in interfaces?",
+      "options": [
+        "It informs users about system actions and status",
+        "It replaces navigation",
+        "It reduces coding effort only",
+        "It removes forms"
+      ],
+      "correct_answer": "It informs users about system actions and status",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_016",
+      "question": "What is affordance in UI design?",
+      "options": [
+        "A clue about how an element can be used",
+        "A backend permission",
+        "A testing framework",
+        "A deployment option"
+      ],
+      "correct_answer": "A clue about how an element can be used",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "uiux_017",
+      "question": "What does responsive design ensure?",
+      "options": [
+        "The interface adapts to different screen sizes",
+        "The system handles more database rows",
+        "The backend scales automatically",
+        "The app only works on mobile"
+      ],
+      "correct_answer": "The interface adapts to different screen sizes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_018",
+      "question": "What is information architecture?",
+      "options": [
+        "Organizing content and navigation logically",
+        "Building server clusters",
+        "Writing CSS animations",
+        "Testing APIs"
+      ],
+      "correct_answer": "Organizing content and navigation logically",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "uiux_019",
+      "question": "What is a design system?",
+      "options": [
+        "A collection of reusable components and design rules",
+        "A bug tracking tool",
+        "A SQL optimization guide",
+        "A deployment server"
+      ],
+      "correct_answer": "A collection of reusable components and design rules",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "uiux_020",
+      "question": "Why is usability testing valuable?",
+      "options": [
+        "It reveals how real users interact with the design",
+        "It replaces development",
+        "It only checks color palettes",
+        "It guarantees zero bugs"
+      ],
+      "correct_answer": "It reveals how real users interact with the design",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ],
-
-  "coding_mcqs":[
-    {"id":"uiux_c_001","question":"Tool?","code":"Figma","options":["design tool","db","none","loop"],"correct_answer":"design tool","difficulty":"easy","weight":1}
+  "scenario_mcqs": [
+    {
+      "id": "uiux_s_001",
+      "question": "Users cannot easily find the checkout button because it blends into the page. What should be improved?",
+      "options": [
+        "Visual hierarchy",
+        "Database indexing",
+        "API rate limiting",
+        "File compression"
+      ],
+      "correct_answer": "Visual hierarchy",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_s_002",
+      "question": "A form has very small text and low contrast, making it difficult to read. What area needs attention?",
+      "options": [
+        "Accessibility",
+        "Cloud scaling",
+        "Caching",
+        "Encryption"
+      ],
+      "correct_answer": "Accessibility",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_s_003",
+      "question": "A team wants to test layout ideas before final visuals are created. What should they make first?",
+      "options": [
+        "Wireframes",
+        "Database schema",
+        "Deployment pipeline",
+        "Source maps"
+      ],
+      "correct_answer": "Wireframes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_s_004",
+      "question": "Stakeholders want to click through the flow before development starts. What should be prepared?",
+      "options": [
+        "Prototype",
+        "Backup script",
+        "Firewall rule",
+        "Load balancer"
+      ],
+      "correct_answer": "Prototype",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_s_005",
+      "question": "An app looks different on every screen and controls move unpredictably. What principle is missing?",
+      "options": [
+        "Consistency",
+        "Authentication",
+        "Normalization",
+        "Versioning"
+      ],
+      "correct_answer": "Consistency",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_s_006",
+      "question": "A product team wants to understand target users' motivations and frustrations before redesigning a flow. What should they create?",
+      "options": [
+        "Personas",
+        "Indexes",
+        "Docker images",
+        "Cron jobs"
+      ],
+      "correct_answer": "Personas",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "uiux_s_007",
+      "question": "Users complete a task, but the interface gives no sign that the action succeeded. What is missing?",
+      "options": [
+        "Feedback",
+        "Pagination",
+        "Encryption",
+        "Caching"
+      ],
+      "correct_answer": "Feedback",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_s_008",
+      "question": "A website works on desktop but breaks on phones and tablets. What design approach is needed?",
+      "options": [
+        "Responsive design",
+        "Database sharding",
+        "Session replication",
+        "Network switching"
+      ],
+      "correct_answer": "Responsive design",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "uiux_s_009",
+      "question": "Navigation labels and content grouping confuse users because pages are organized poorly. What should be improved?",
+      "options": [
+        "Information architecture",
+        "Cloud monitoring",
+        "Packet routing",
+        "Thread scheduling"
+      ],
+      "correct_answer": "Information architecture",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "uiux_s_010",
+      "question": "A company wants consistent buttons, spacing, typography, and reusable patterns across products. What should be implemented?",
+      "options": [
+        "Design system",
+        "Data warehouse",
+        "Reverse proxy",
+        "Unit testing only"
+      ],
+      "correct_answer": "Design system",
+      "difficulty": "medium",
+      "weight": 3
+    }
   ]
 }

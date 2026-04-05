@@ -2,410 +2,396 @@
   "skill": "Troubleshooting",
   "mcqs": [
     {
-      "id": "troubleshooting_001",
-      "question": "troubleshooting question 1?",
+      "id": "ts_001",
+      "question": "What is the main goal of troubleshooting?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Add new features immediately",
+        "Identify and resolve the root cause of a problem",
+        "Redesign the full system",
+        "Avoid documentation"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_002",
-      "question": "troubleshooting question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Identify and resolve the root cause of a problem",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "troubleshooting_003",
-      "question": "troubleshooting question 3?",
+      "id": "ts_002",
+      "question": "What is the first useful step in most troubleshooting situations?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Restart random services",
+        "Clearly define and reproduce the problem",
+        "Delete logs",
+        "Change architecture"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_004",
-      "question": "troubleshooting question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_005",
-      "question": "troubleshooting question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_006",
-      "question": "troubleshooting question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_007",
-      "question": "troubleshooting question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_008",
-      "question": "troubleshooting question 8?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Clearly define and reproduce the problem",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "troubleshooting_009",
-      "question": "troubleshooting question 9?",
+      "id": "ts_003",
+      "question": "Why is reproducing an issue important?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "It guarantees the issue is security-related",
+        "It helps verify the problem and test fixes reliably",
+        "It removes the need for logs",
+        "It prevents user communication"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_010",
-      "question": "troubleshooting question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_011",
-      "question": "troubleshooting question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_012",
-      "question": "troubleshooting question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_013",
-      "question": "troubleshooting question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "troubleshooting_014",
-      "question": "troubleshooting question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_015",
-      "question": "troubleshooting question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "troubleshooting_016",
-      "question": "troubleshooting question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_017",
-      "question": "troubleshooting question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_018",
-      "question": "troubleshooting question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_019",
-      "question": "troubleshooting question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "troubleshooting_020",
-      "question": "troubleshooting question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_021",
-      "question": "troubleshooting question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "troubleshooting_022",
-      "question": "troubleshooting question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_023",
-      "question": "troubleshooting question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_024",
-      "question": "troubleshooting question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "troubleshooting_025",
-      "question": "troubleshooting question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_026",
-      "question": "troubleshooting question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "It helps verify the problem and test fixes reliably",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "troubleshooting_027",
-      "question": "troubleshooting question 27?",
+      "id": "ts_004",
+      "question": "What is a root cause?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "The first visible symptom",
+        "The underlying reason the issue occurred",
+        "The final user complaint",
+        "A temporary workaround"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_028",
-      "question": "troubleshooting question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "troubleshooting_029",
-      "question": "troubleshooting question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "The underlying reason the issue occurred",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "troubleshooting_030",
-      "question": "troubleshooting question 30?",
+      "id": "ts_005",
+      "question": "What is the difference between a symptom and a root cause?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They are always the same",
+        "A symptom is the visible effect, root cause is the underlying reason",
+        "A root cause is always a UI issue",
+        "A symptom is always a network error"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "A symptom is the visible effect, root cause is the underlying reason",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_006",
+      "question": "Why are logs important in troubleshooting?",
+      "options": [
+        "They replace testing completely",
+        "They provide evidence about system behavior and failures",
+        "They only matter in frontend issues",
+        "They automatically fix bugs"
+      ],
+      "correct_answer": "They provide evidence about system behavior and failures",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_007",
+      "question": "What does isolating the problem mean?",
+      "options": [
+        "Ignoring unrelated symptoms",
+        "Narrowing down the failing component or condition",
+        "Removing users from the system",
+        "Disabling all services permanently"
+      ],
+      "correct_answer": "Narrowing down the failing component or condition",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_008",
+      "question": "Why is changing one variable at a time a good troubleshooting practice?",
+      "options": [
+        "It makes issues more complex",
+        "It helps identify what actually caused the change in behavior",
+        "It avoids documentation",
+        "It removes the need for testing"
+      ],
+      "correct_answer": "It helps identify what actually caused the change in behavior",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_009",
+      "question": "What is a workaround?",
+      "options": [
+        "A permanent root-cause fix",
+        "A temporary way to reduce impact without fully solving the issue",
+        "A log file",
+        "A monitoring dashboard"
+      ],
+      "correct_answer": "A temporary way to reduce impact without fully solving the issue",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_010",
+      "question": "Why should a workaround not be confused with a final fix?",
+      "options": [
+        "Because it may not eliminate the underlying cause",
+        "Because it always creates security issues",
+        "Because it deletes production data",
+        "Because it is never documented"
+      ],
+      "correct_answer": "Because it may not eliminate the underlying cause",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_011",
+      "question": "What is meant by rollback in troubleshooting?",
+      "options": [
+        "Deleting all project history",
+        "Reverting to a previously working state",
+        "Increasing system load",
+        "Adding more features"
+      ],
+      "correct_answer": "Reverting to a previously working state",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_012",
+      "question": "Why is recent change analysis useful?",
+      "options": [
+        "Many incidents are triggered by recent deployments or configuration changes",
+        "It only helps with hardware problems",
+        "It replaces root cause analysis",
+        "It is useful only for databases"
+      ],
+      "correct_answer": "Many incidents are triggered by recent deployments or configuration changes",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_013",
+      "question": "What is a common purpose of monitoring in troubleshooting?",
+      "options": [
+        "To style dashboards",
+        "To detect abnormal behavior through metrics and alerts",
+        "To replace all logs",
+        "To remove users"
+      ],
+      "correct_answer": "To detect abnormal behavior through metrics and alerts",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_014",
+      "question": "What does high CPU usage during an incident usually indicate?",
+      "options": [
+        "Nothing relevant ever",
+        "Possible resource saturation or inefficient processing",
+        "Guaranteed network failure",
+        "Guaranteed disk corruption"
+      ],
+      "correct_answer": "Possible resource saturation or inefficient processing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_015",
+      "question": "What does dependency troubleshooting involve?",
+      "options": [
+        "Checking whether connected services or components are causing the issue",
+        "Styling imported libraries",
+        "Deleting all integrations",
+        "Skipping API validation"
+      ],
+      "correct_answer": "Checking whether connected services or components are causing the issue",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_016",
+      "question": "What is root cause analysis after an incident intended to produce?",
+      "options": [
+        "Only blame assignment",
+        "A clear explanation of why the issue happened and how to prevent recurrence",
+        "Only a bug title",
+        "Only a restart script"
+      ],
+      "correct_answer": "A clear explanation of why the issue happened and how to prevent recurrence",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_017",
+      "question": "Why is documenting troubleshooting steps valuable?",
+      "options": [
+        "It helps repeat successful diagnosis and supports team learning",
+        "It slows response intentionally",
+        "It replaces alerts",
+        "It makes monitoring unnecessary"
+      ],
+      "correct_answer": "It helps repeat successful diagnosis and supports team learning",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_018",
+      "question": "What is an escalation in troubleshooting?",
+      "options": [
+        "Passing the issue to a more appropriate or specialized team/person",
+        "Closing the incident without action",
+        "Increasing server memory automatically",
+        "Ignoring severity"
+      ],
+      "correct_answer": "Passing the issue to a more appropriate or specialized team/person",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_019",
+      "question": "Why is impact assessment important during troubleshooting?",
+      "options": [
+        "It helps prioritize response based on severity and affected users",
+        "It only matters after the incident ends",
+        "It replaces debugging",
+        "It is useful only for UI issues"
+      ],
+      "correct_answer": "It helps prioritize response based on severity and affected users",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_020",
+      "question": "What is the best indicator that a fix has worked?",
+      "options": [
+        "A guess from the team",
+        "The issue no longer reproduces and expected behavior is restored",
+        "The logs are deleted",
+        "The alert is muted"
+      ],
+      "correct_answer": "The issue no longer reproduces and expected behavior is restored",
       "difficulty": "easy",
       "weight": 2
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "troubleshooting_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "ts_s_001",
+      "question": "A web app suddenly becomes slow after a deployment. What should be checked first?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Recent changes and deployment differences",
+        "Office seating plan",
+        "Only CSS colors",
+        "Printer drivers"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Recent changes and deployment differences",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "ts_s_002",
+      "question": "Users report an API error, but the team cannot investigate because the issue is inconsistent. What is the most useful next step?",
+      "options": [
+        "Try to reproduce the failure under known conditions",
+        "Delete the API",
+        "Ignore intermittent issues",
+        "Change all microservices at once"
+      ],
+      "correct_answer": "Try to reproduce the failure under known conditions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_s_003",
+      "question": "A service depends on a database and a cache. Errors start only when the cache is enabled. What troubleshooting method is being applied?",
+      "options": [
+        "Problem isolation",
+        "Random patching",
+        "UI redesign",
+        "Data deletion"
+      ],
+      "correct_answer": "Problem isolation",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_s_004",
+      "question": "After a config change, production starts failing. The fastest safe restoration path is to return to the last working version. What action is this?",
+      "options": [
+        "Rollback",
+        "Sharding",
+        "Scaling",
+        "Normalization"
+      ],
+      "correct_answer": "Rollback",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_s_005",
+      "question": "A team adds three fixes at once and the issue disappears, but they cannot tell which change helped. What troubleshooting principle was violated?",
+      "options": [
+        "Change one variable at a time",
+        "Use more dashboards",
+        "Always scale vertically",
+        "Avoid logs"
+      ],
+      "correct_answer": "Change one variable at a time",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_s_006",
+      "question": "An incident causes partial outage for premium customers only. What should be assessed immediately?",
+      "options": [
+        "Impact and severity",
+        "Only developer preferences",
+        "Only code formatting",
+        "Only icon sizes"
+      ],
+      "correct_answer": "Impact and severity",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_s_007",
+      "question": "Logs show repeated timeout errors from a third-party payment provider. What area should be investigated next?",
+      "options": [
+        "Dependency or external service behavior",
+        "Button colors",
+        "Local image folder",
+        "Spreadsheet formatting"
+      ],
+      "correct_answer": "Dependency or external service behavior",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "ts_s_008",
+      "question": "A support engineer finds a temporary configuration that restores service, but the actual bug is still unknown. What is this temporary solution called?",
+      "options": [
+        "Workaround",
+        "Permanent fix",
+        "Root cause",
+        "Regression suite"
+      ],
+      "correct_answer": "Workaround",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_s_009",
+      "question": "A junior engineer has exhausted available logs and metrics, and the issue appears to involve infrastructure outside their access scope. What is the best next step?",
+      "options": [
+        "Escalate to the appropriate specialized team",
+        "Keep guessing silently",
+        "Delete the monitoring alerts",
+        "Close the incident immediately"
+      ],
+      "correct_answer": "Escalate to the appropriate specialized team",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "ts_s_010",
+      "question": "After resolving an issue, the team writes down symptoms, root cause, fix, and prevention actions. What practice is this?",
+      "options": [
+        "Documentation and post-incident learning",
+        "Random cleanup",
+        "Load balancing",
+        "UI prototyping"
+      ],
+      "correct_answer": "Documentation and post-incident learning",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

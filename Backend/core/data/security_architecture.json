@@ -1,411 +1,402 @@
 {
   "skill": "Security Architecture",
+
   "mcqs": [
     {
-      "id": "security_architecture_001",
-      "question": "security architecture question 1?",
+      "id": "sec_001",
+      "question": "What are the three core principles of security?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Speed, Storage, UI",
+        "Confidentiality, Integrity, Availability",
+        "Frontend, Backend, DB",
+        "API, UI, DB"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "security_architecture_002",
-      "question": "security architecture question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "security_architecture_003",
-      "question": "security architecture question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "security_architecture_004",
-      "question": "security architecture question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Confidentiality, Integrity, Availability",
       "difficulty": "easy",
       "weight": 3
     },
     {
-      "id": "security_architecture_005",
-      "question": "security architecture question 5?",
+      "id": "sec_002",
+      "question": "What is confidentiality?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Data modification",
+        "Restrict access to data",
+        "Data availability",
+        "Data storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "security_architecture_006",
-      "question": "security architecture question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Restrict access to data",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "security_architecture_007",
-      "question": "security architecture question 7?",
+      "id": "sec_003",
+      "question": "What is integrity?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Data access",
+        "Data accuracy and consistency",
+        "Data storage",
+        "Data speed"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Data accuracy and consistency",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
-      "id": "security_architecture_008",
-      "question": "security architecture question 8?",
+      "id": "sec_004",
+      "question": "What is availability?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Data hidden",
+        "Data accessible when needed",
+        "Data deleted",
+        "Data encrypted"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Data accessible when needed",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sec_005",
+      "question": "What is authentication?",
+      "options": [
+        "Access control",
+        "Verify identity",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Verify identity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sec_006",
+      "question": "What is authorization?",
+      "options": [
+        "Verify identity",
+        "Grant permissions",
+        "Delete data",
+        "Store data"
+      ],
+      "correct_answer": "Grant permissions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sec_007",
+      "question": "What is Zero Trust model?",
+      "options": [
+        "Trust all",
+        "Trust no one by default",
+        "Public access",
+        "Open system"
+      ],
+      "correct_answer": "Trust no one by default",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "security_architecture_009",
-      "question": "security architecture question 9?",
+      "id": "sec_008",
+      "question": "What is defense in depth?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single layer",
+        "Multiple security layers",
+        "No security",
+        "Fast access"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Multiple security layers",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "security_architecture_010",
-      "question": "security architecture question 10?",
+      "id": "sec_009",
+      "question": "What is encryption?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete data",
+        "Convert data to secure format",
+        "Store data",
+        "Sort data"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Convert data to secure format",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "security_architecture_011",
-      "question": "security architecture question 11?",
+      "id": "sec_010",
+      "question": "What is firewall?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Network traffic filter",
+        "Loop",
+        "API"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Network traffic filter",
       "difficulty": "easy",
       "weight": 2
     },
+
     {
-      "id": "security_architecture_012",
-      "question": "security architecture question 12?",
+      "id": "sec_011",
+      "question": "What is intrusion detection system?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Prevent attack",
+        "Detect suspicious activity",
+        "Delete data",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "security_architecture_013",
-      "question": "security architecture question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "security_architecture_014",
-      "question": "security architecture question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Detect suspicious activity",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "security_architecture_015",
-      "question": "security architecture question 15?",
+      "id": "sec_012",
+      "question": "What is least privilege principle?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Full access",
+        "Minimum required access",
+        "Delete access",
+        "Public access"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "security_architecture_016",
-      "question": "security architecture question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "security_architecture_017",
-      "question": "security architecture question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "security_architecture_018",
-      "question": "security architecture question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "security_architecture_019",
-      "question": "security architecture question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "security_architecture_020",
-      "question": "security architecture question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Minimum required access",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "security_architecture_021",
-      "question": "security architecture question 21?",
+      "id": "sec_013",
+      "question": "What is multi-factor authentication?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single login",
+        "Multiple verification methods",
+        "Delete data",
+        "Store data"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "Multiple verification methods",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "security_architecture_022",
-      "question": "security architecture question 22?",
+      "id": "sec_014",
+      "question": "What is vulnerability?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Strength",
+        "Weakness in system",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Weakness in system",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sec_015",
+      "question": "What is threat?",
+      "options": [
+        "Protection",
+        "Potential attack",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Potential attack",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "sec_016",
+      "question": "What is risk?",
+      "options": [
+        "No issue",
+        "Impact of threat exploiting vulnerability",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "Impact of threat exploiting vulnerability",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     },
     {
-      "id": "security_architecture_023",
-      "question": "security architecture question 23?",
+      "id": "sec_017",
+      "question": "What is HTTPS?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "HTTP only",
+        "Secure HTTP",
+        "Database",
+        "Loop"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Secure HTTP",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "security_architecture_024",
-      "question": "security architecture question 24?",
+      "id": "sec_018",
+      "question": "What is SSL/TLS?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database",
+        "Encryption protocol",
+        "Loop",
+        "API"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Encryption protocol",
       "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sec_019",
+      "question": "What is access control?",
+      "options": [
+        "Delete data",
+        "Manage permissions",
+        "Store data",
+        "Loop"
+      ],
+      "correct_answer": "Manage permissions",
+      "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "security_architecture_025",
-      "question": "security architecture question 25?",
+      "id": "sec_020",
+      "question": "What is audit logging?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete logs",
+        "Track system activity",
+        "Store data",
+        "Loop"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "security_architecture_026",
-      "question": "security architecture question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "security_architecture_027",
-      "question": "security architecture question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "security_architecture_028",
-      "question": "security architecture question 28?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "security_architecture_029",
-      "question": "security architecture question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "security_architecture_030",
-      "question": "security architecture question 30?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Track system activity",
+      "difficulty": "medium",
       "weight": 3
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "security_architecture_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "sec_s_001",
+      "question": "Need to restrict access to sensitive data. What principle?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Availability",
+        "Confidentiality",
+        "Integrity",
+        "Performance"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Confidentiality",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "sec_s_002",
+      "question": "Need to ensure data is not altered. What principle?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Speed"
+      ],
+      "correct_answer": "Integrity",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sec_s_003",
+      "question": "Need multiple layers of security. What approach?",
+      "options": [
+        "Single layer",
+        "Defense in depth",
+        "Delete security",
+        "Ignore"
+      ],
+      "correct_answer": "Defense in depth",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sec_s_004",
+      "question": "Need to verify user identity. What to use?",
+      "options": [
+        "Authorization",
+        "Authentication",
+        "Delete data",
+        "Ignore"
+      ],
+      "correct_answer": "Authentication",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sec_s_005",
+      "question": "Need additional login security. What to implement?",
+      "options": [
+        "Single password",
+        "MFA",
+        "Delete login",
+        "Ignore"
+      ],
+      "correct_answer": "MFA",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sec_s_006",
+      "question": "Need to block malicious traffic. What to use?",
+      "options": [
+        "Database",
+        "Firewall",
+        "Loop",
+        "API"
+      ],
+      "correct_answer": "Firewall",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sec_s_007",
+      "question": "System assumes no trust by default. What model?",
+      "options": [
+        "Open trust",
+        "Zero Trust",
+        "Public access",
+        "Ignore"
+      ],
+      "correct_answer": "Zero Trust",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sec_s_008",
+      "question": "Need secure communication. What to use?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "Delete API",
+        "Ignore"
+      ],
+      "correct_answer": "HTTPS",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "sec_s_009",
+      "question": "Need to detect suspicious activity. What to use?",
+      "options": [
+        "Firewall",
+        "IDS",
+        "Database",
+        "Loop"
+      ],
+      "correct_answer": "IDS",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "sec_s_010",
+      "question": "User should have minimal access. What principle?",
+      "options": [
+        "Full access",
+        "Least privilege",
+        "Delete access",
+        "Ignore"
+      ],
+      "correct_answer": "Least privilege",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

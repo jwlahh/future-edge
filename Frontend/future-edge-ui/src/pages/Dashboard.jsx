@@ -15,6 +15,37 @@ function Dashboard() {
   const [missingSkills, setMissingSkills] = useState([]);
   const [profile, setProfile] = useState(null);
 
+  useEffect(() => {
+
+    const fetchJobReadiness = async () => {
+
+      const { data: { user } } = await supabase.auth.getUser();
+
+      if (!user) return;
+
+      const { data, error } = await supabase
+        .from("job_readiness")
+        .select("final_readiness_score")
+        .eq("user_id", user.id)
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+
+      if (error) {
+        console.error(error);
+        return;
+      }
+
+      if (data) {
+        setJobReadiness(data.final_readiness_score);
+      }
+
+    };
+
+    fetchJobReadiness();
+
+  }, []);
+
   const fetchSkillGap = async (career) => {
 
   const { data: { user } } = await supabase.auth.getUser();
@@ -126,7 +157,7 @@ function Dashboard() {
 
         <Card title="ATS Score" value={`${atsScore}%`} />
 
-        <Card title="Job Readiness" value={`88%`} />
+        <Card title="Job Readiness" value={`${jobReadiness}%`} />
 
       </div>
 

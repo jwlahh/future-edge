@@ -1,411 +1,402 @@
 {
   "skill": "Performance Tuning",
+
   "mcqs": [
     {
-      "id": "performance_tuning_001",
-      "question": "performance tuning question 1?",
+      "id": "pt_001",
+      "question": "What is performance tuning?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Add features",
+        "Optimize system performance",
+        "Delete data",
+        "Store logs"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_002",
-      "question": "performance tuning question 2?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_003",
-      "question": "performance tuning question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "performance_tuning_004",
-      "question": "performance tuning question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_005",
-      "question": "performance tuning question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_006",
-      "question": "performance tuning question 6?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_007",
-      "question": "performance tuning question 7?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Optimize system performance",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "performance_tuning_008",
-      "question": "performance tuning question 8?",
+      "id": "pt_002",
+      "question": "What is latency?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Speed",
+        "Response time",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_009",
-      "question": "performance tuning question 9?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_010",
-      "question": "performance tuning question 10?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_011",
-      "question": "performance tuning question 11?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_012",
-      "question": "performance tuning question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_013",
-      "question": "performance tuning question 13?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_014",
-      "question": "performance tuning question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_015",
-      "question": "performance tuning question 15?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_016",
-      "question": "performance tuning question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_017",
-      "question": "performance tuning question 17?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "performance_tuning_018",
-      "question": "performance tuning question 18?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "performance_tuning_019",
-      "question": "performance tuning question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "performance_tuning_020",
-      "question": "performance tuning question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_021",
-      "question": "performance tuning question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_022",
-      "question": "performance tuning question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 2
-    },
-    {
-      "id": "performance_tuning_023",
-      "question": "performance tuning question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_024",
-      "question": "performance tuning question 24?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "performance_tuning_025",
-      "question": "performance tuning question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "performance_tuning_026",
-      "question": "performance tuning question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Response time",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "performance_tuning_027",
-      "question": "performance tuning question 27?",
+      "id": "pt_003",
+      "question": "What is throughput?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Latency",
+        "Number of requests handled",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Number of requests handled",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
     },
     {
-      "id": "performance_tuning_028",
-      "question": "performance tuning question 28?",
+      "id": "pt_004",
+      "question": "What is bottleneck?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Fast part",
+        "Limiting factor",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Limiting factor",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_005",
+      "question": "What is CPU usage?",
+      "options": [
+        "Memory",
+        "Processor utilization",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Processor utilization",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "pt_006",
+      "question": "What is memory usage?",
+      "options": [
+        "CPU",
+        "RAM consumption",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "RAM consumption",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_007",
+      "question": "What is I/O bottleneck?",
+      "options": [
+        "CPU issue",
+        "Disk or network slow",
+        "Memory",
+        "Cache"
+      ],
+      "correct_answer": "Disk or network slow",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "performance_tuning_029",
-      "question": "performance tuning question 29?",
+      "id": "pt_008",
+      "question": "What is caching?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delete data",
+        "Store frequently used data",
+        "Network",
+        "Storage"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Store frequently used data",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "performance_tuning_030",
-      "question": "performance tuning question 30?",
+      "id": "pt_009",
+      "question": "What is load balancing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Single server",
+        "Distribute load",
+        "Storage",
+        "Network"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Distribute load",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_010",
+      "question": "What is scalability?",
+      "options": [
+        "Decrease load",
+        "Handle increased load",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Handle increased load",
+      "difficulty": "easy",
+      "weight": 2
+    },
+
+    {
+      "id": "pt_011",
+      "question": "What is vertical scaling?",
+      "options": [
+        "Add machines",
+        "Increase machine power",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Increase machine power",
+      "difficulty": "medium",
       "weight": 3
+    },
+    {
+      "id": "pt_012",
+      "question": "What is horizontal scaling?",
+      "options": [
+        "Increase CPU",
+        "Add more machines",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Add more machines",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pt_013",
+      "question": "What is indexing?",
+      "options": [
+        "Delete data",
+        "Speed up data retrieval",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Speed up data retrieval",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pt_014",
+      "question": "What is query optimization?",
+      "options": [
+        "Delete query",
+        "Improve query performance",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Improve query performance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pt_015",
+      "question": "What is profiling?",
+      "options": [
+        "Delete logs",
+        "Analyze performance",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Analyze performance",
+      "difficulty": "medium",
+      "weight": 3
+    },
+
+    {
+      "id": "pt_016",
+      "question": "What is garbage collection?",
+      "options": [
+        "Delete logs",
+        "Free unused memory",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Free unused memory",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pt_017",
+      "question": "What is concurrency?",
+      "options": [
+        "Single process",
+        "Multiple tasks execution",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Multiple tasks execution",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pt_018",
+      "question": "What is parallelism?",
+      "options": [
+        "Sequential",
+        "Simultaneous execution",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Simultaneous execution",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pt_019",
+      "question": "What is CDN?",
+      "options": [
+        "Database",
+        "Content delivery network",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Content delivery network",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_020",
+      "question": "What is compression?",
+      "options": [
+        "Increase size",
+        "Reduce data size",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Reduce data size",
+      "difficulty": "easy",
+      "weight": 2
     }
   ],
-  "coding_mcqs": [
+
+  "scenario_mcqs": [
     {
-      "id": "performance_tuning_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "pt_s_001",
+      "question": "Reduce response time. What to optimize?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Latency",
+        "Storage",
+        "Network",
+        "CPU"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Latency",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "pt_s_002",
+      "question": "Handle more requests. What to improve?",
+      "options": [
+        "Throughput",
+        "Storage",
+        "Network",
+        "CPU"
+      ],
+      "correct_answer": "Throughput",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_s_003",
+      "question": "Identify slow component. What to find?",
+      "options": [
+        "Bottleneck",
+        "Storage",
+        "Network",
+        "CPU"
+      ],
+      "correct_answer": "Bottleneck",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_s_004",
+      "question": "Improve repeated data access. What to use?",
+      "options": [
+        "Caching",
+        "Delete data",
+        "Network",
+        "CPU"
+      ],
+      "correct_answer": "Caching",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_s_005",
+      "question": "Distribute traffic across servers. What to use?",
+      "options": [
+        "Load balancing",
+        "Delete data",
+        "Storage",
+        "CPU"
+      ],
+      "correct_answer": "Load balancing",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_s_006",
+      "question": "Increase server power. What scaling?",
+      "options": [
+        "Vertical",
+        "Horizontal",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Vertical",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_s_007",
+      "question": "Add more servers. What scaling?",
+      "options": [
+        "Horizontal",
+        "Vertical",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Horizontal",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "pt_s_008",
+      "question": "Speed up DB queries. What to use?",
+      "options": [
+        "Indexing",
+        "Delete data",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Indexing",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pt_s_009",
+      "question": "Analyze performance issues. What to use?",
+      "options": [
+        "Profiling",
+        "Delete logs",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Profiling",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "pt_s_010",
+      "question": "Reduce data transfer size. What to use?",
+      "options": [
+        "Compression",
+        "Delete data",
+        "Storage",
+        "Network"
+      ],
+      "correct_answer": "Compression",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }

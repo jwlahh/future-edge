@@ -1,411 +1,397 @@
 {
-  "skill": "Test Cases",
+  "skill": "Test Case Design",
   "mcqs": [
     {
-      "id": "test_cases_001",
-      "question": "test cases question 1?",
+      "id": "tc_001",
+      "question": "What is a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A defect report",
+        "A set of inputs, steps, and expected results to verify functionality",
+        "A deployment plan",
+        "A source code file"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "A set of inputs, steps, and expected results to verify functionality",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "test_cases_002",
-      "question": "test cases question 2?",
+      "id": "tc_002",
+      "question": "What is the main purpose of a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To design UI screens",
+        "To verify that a feature behaves as expected",
+        "To replace debugging completely",
+        "To manage servers"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "test_cases_003",
-      "question": "test cases question 3?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "test_cases_004",
-      "question": "test cases question 4?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "To verify that a feature behaves as expected",
       "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "test_cases_005",
-      "question": "test cases question 5?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
       "weight": 2
     },
     {
-      "id": "test_cases_006",
-      "question": "test cases question 6?",
+      "id": "tc_003",
+      "question": "Which of the following is an essential part of a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Expected result",
+        "Database schema only",
+        "Source code implementation",
+        "Deployment URL only"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Expected result",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
-      "id": "test_cases_007",
-      "question": "test cases question 7?",
+      "id": "tc_004",
+      "question": "What is a test scenario?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A detailed line-by-line script only",
+        "A high-level situation to be tested",
+        "A defect severity level",
+        "A production log"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "A high-level situation to be tested",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
-      "id": "test_cases_008",
-      "question": "test cases question 8?",
+      "id": "tc_005",
+      "question": "What is the difference between a test scenario and a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A scenario is high-level, a test case is detailed",
+        "A test case is high-level, a scenario is detailed",
+        "They are always identical",
+        "A scenario is only for automation"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "A scenario is high-level, a test case is detailed",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "test_cases_009",
-      "question": "test cases question 9?",
+      "id": "tc_006",
+      "question": "Why should a test case be clear and specific?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To make execution repeatable and unambiguous",
+        "To reduce requirement gathering",
+        "To avoid using expected results",
+        "To replace test planning"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To make execution repeatable and unambiguous",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "test_cases_010",
-      "question": "test cases question 10?",
+      "id": "tc_007",
+      "question": "What is test data in a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Input values used during testing",
+        "Only production database records",
+        "The list of bugs found",
+        "A release checklist"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Input values used during testing",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
-      "id": "test_cases_011",
-      "question": "test cases question 11?",
+      "id": "tc_008",
+      "question": "What is a precondition in a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A condition that must be true before executing the test",
+        "A result after execution",
+        "A defect priority field",
+        "A browser extension"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
-    },
-    {
-      "id": "test_cases_012",
-      "question": "test cases question 12?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "A condition that must be true before executing the test",
       "difficulty": "easy",
-      "weight": 3
+      "weight": 2
     },
     {
-      "id": "test_cases_013",
-      "question": "test cases question 13?",
+      "id": "tc_009",
+      "question": "What is a postcondition in a test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "The environment setup before testing",
+        "The state expected after test execution",
+        "The user story title",
+        "The source code branch"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 3
-    },
-    {
-      "id": "test_cases_014",
-      "question": "test cases question 14?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "The state expected after test execution",
       "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "test_cases_015",
-      "question": "test cases question 15?",
+      "id": "tc_010",
+      "question": "Why is traceability important in test case design?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "It links test cases to requirements",
+        "It replaces regression testing",
+        "It removes the need for bug reports",
+        "It is only for UI testing"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "It links test cases to requirements",
       "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "test_cases_016",
-      "question": "test cases question 16?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
       "weight": 3
     },
     {
-      "id": "test_cases_017",
-      "question": "test cases question 17?",
+      "id": "tc_011",
+      "question": "What is positive testing?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Testing with valid inputs and expected usage",
+        "Testing only security attacks",
+        "Testing only invalid inputs",
+        "Testing only performance"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Testing with valid inputs and expected usage",
       "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tc_012",
+      "question": "What is negative testing?",
+      "options": [
+        "Testing invalid or unexpected inputs and conditions",
+        "Testing only successful login",
+        "Testing UI colors",
+        "Testing only production environment"
+      ],
+      "correct_answer": "Testing invalid or unexpected inputs and conditions",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tc_013",
+      "question": "What is boundary value analysis used for?",
+      "options": [
+        "Testing values at the edges of input ranges",
+        "Testing only average values",
+        "Testing only UI layout",
+        "Testing random values without logic"
+      ],
+      "correct_answer": "Testing values at the edges of input ranges",
+      "difficulty": "medium",
       "weight": 3
     },
     {
-      "id": "test_cases_018",
-      "question": "test cases question 18?",
+      "id": "tc_014",
+      "question": "What is equivalence partitioning?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Dividing inputs into groups expected to behave similarly",
+        "Sorting all test cases alphabetically",
+        "Writing only one test case per feature",
+        "Grouping defects by severity"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "test_cases_019",
-      "question": "test cases question 19?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "test_cases_020",
-      "question": "test cases question 20?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "test_cases_021",
-      "question": "test cases question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
-    },
-    {
-      "id": "test_cases_022",
-      "question": "test cases question 22?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "Dividing inputs into groups expected to behave similarly",
       "difficulty": "medium",
-      "weight": 1
-    },
-    {
-      "id": "test_cases_023",
-      "question": "test cases question 23?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
       "weight": 3
     },
     {
-      "id": "test_cases_024",
-      "question": "test cases question 24?",
+      "id": "tc_015",
+      "question": "Why are edge cases important in test case design?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They often reveal hidden defects",
+        "They are less important than normal cases",
+        "They are used only in automation",
+        "They always duplicate positive tests"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "test_cases_025",
-      "question": "test cases question 25?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "test_cases_026",
-      "question": "test cases question 26?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
-    },
-    {
-      "id": "test_cases_027",
-      "question": "test cases question 27?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "They often reveal hidden defects",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     },
     {
-      "id": "test_cases_028",
-      "question": "test cases question 28?",
+      "id": "tc_016",
+      "question": "What is a reusable test case?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A test case that can be applied again with minimal changes",
+        "A deleted test case",
+        "A test case without expected results",
+        "A test case used only once"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
-    },
-    {
-      "id": "test_cases_029",
-      "question": "test cases question 29?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
+      "correct_answer": "A test case that can be applied again with minimal changes",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
-      "id": "test_cases_030",
-      "question": "test cases question 30?",
+      "id": "tc_017",
+      "question": "What is test coverage in the context of test case design?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "The extent to which requirements or functionality are tested",
+        "The number of developers assigned",
+        "The amount of code deleted",
+        "The number of browsers installed"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "The extent to which requirements or functionality are tested",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tc_018",
+      "question": "What makes a good expected result?",
+      "options": [
+        "It is specific and measurable",
+        "It is vague so testers can interpret it",
+        "It only says 'works fine'",
+        "It avoids mentioning output"
+      ],
+      "correct_answer": "It is specific and measurable",
       "difficulty": "easy",
       "weight": 2
+    },
+    {
+      "id": "tc_019",
+      "question": "Why should duplicate test cases be avoided?",
+      "options": [
+        "They increase maintenance effort without adding value",
+        "They improve all coverage automatically",
+        "They are required in regression testing",
+        "They replace defect reports"
+      ],
+      "correct_answer": "They increase maintenance effort without adding value",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tc_020",
+      "question": "What is test case prioritization?",
+      "options": [
+        "Executing the most critical or risky test cases first",
+        "Running test cases alphabetically",
+        "Deleting low-priority requirements",
+        "Automating every test immediately"
+      ],
+      "correct_answer": "Executing the most critical or risky test cases first",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
-  "coding_mcqs": [
+  "scenario_mcqs": [
     {
-      "id": "test_cases_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
+      "id": "tc_s_001",
+      "question": "A login screen must accept valid credentials and reject invalid ones. What kind of test cases should be designed?",
       "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
+        "Only positive cases",
+        "Only negative cases",
+        "Both positive and negative cases",
+        "Only performance cases"
       ],
-      "correct_answer": "valid",
+      "correct_answer": "Both positive and negative cases",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "tc_s_002",
+      "question": "An age field accepts values from 18 to 60. Which values are especially important to test?",
+      "options": [
+        "Boundary values like 17, 18, 60, 61",
+        "Only one random value",
+        "Only 30",
+        "Only null values"
+      ],
+      "correct_answer": "Boundary values like 17, 18, 60, 61",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tc_s_003",
+      "question": "A feature requirement states that only registered users can place orders. What should the test cases be linked to?",
+      "options": [
+        "Traceable requirement",
+        "Developer mood",
+        "Server location",
+        "UI theme"
+      ],
+      "correct_answer": "Traceable requirement",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tc_s_004",
+      "question": "A tester writes 'system should work properly' as the expected result. What is the issue?",
+      "options": [
+        "The expected result is too vague",
+        "The test is automated already",
+        "The precondition is wrong",
+        "The scenario is too detailed"
+      ],
+      "correct_answer": "The expected result is too vague",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tc_s_005",
+      "question": "A file upload feature allows PDF and DOCX up to 5 MB. What should be included in test design?",
+      "options": [
+        "Valid types, invalid types, size boundaries",
+        "Only one successful upload",
+        "Only performance test",
+        "Only UI alignment checks"
+      ],
+      "correct_answer": "Valid types, invalid types, size boundaries",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tc_s_006",
+      "question": "A tester wants to minimize redundant test effort while still covering input classes. Which technique is appropriate?",
+      "options": [
+        "Equivalence partitioning",
+        "Random deletion",
+        "Only smoke testing",
+        "Hardcoded execution order"
+      ],
+      "correct_answer": "Equivalence partitioning",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tc_s_007",
+      "question": "A payment workflow has limited time for testing before release. Which test cases should run first?",
+      "options": [
+        "Highest-risk and business-critical cases",
+        "Longest test cases only",
+        "Alphabetical order",
+        "Only UI theme checks"
+      ],
+      "correct_answer": "Highest-risk and business-critical cases",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tc_s_008",
+      "question": "A form submission test fails because the user account needed for execution was not created beforehand. What was missing?",
+      "options": [
+        "Precondition",
+        "Postcondition",
+        "Priority field",
+        "Browser version only"
+      ],
+      "correct_answer": "Precondition",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "tc_s_009",
+      "question": "A team keeps rewriting nearly identical tests for the same workflow in different environments. What improvement is best?",
+      "options": [
+        "Design reusable test cases with parameterized data",
+        "Write more duplicates",
+        "Remove expected results",
+        "Avoid documentation"
+      ],
+      "correct_answer": "Design reusable test cases with parameterized data",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "tc_s_010",
+      "question": "A requirement says the search box must ignore leading and trailing spaces. What kind of case should be added?",
+      "options": [
+        "An edge case using spaced input",
+        "Only load testing",
+        "Only deployment testing",
+        "Only accessibility testing"
+      ],
+      "correct_answer": "An edge case using spaced input",
+      "difficulty": "medium",
+      "weight": 3
     }
   ]
 }

@@ -3,409 +3,580 @@
   "mcqs": [
     {
       "id": "swift_001",
-      "question": "swift question 1?",
+      "question": "What is Swift primarily used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Web server configuration",
+        "iOS and Apple platform development",
+        "Database administration",
+        "Network packet analysis"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "iOS and Apple platform development",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "swift_002",
-      "question": "swift question 2?",
+      "question": "What is the main benefit of optionals in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They improve UI rendering",
+        "They safely represent absence of a value",
+        "They replace arrays",
+        "They remove type checking"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "They safely represent absence of a value",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "swift_003",
-      "question": "swift question 3?",
+      "question": "What is the difference between let and var?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "let is mutable and var is immutable",
+        "let defines constants and var defines variables",
+        "Both are identical",
+        "var is only for strings"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 3
+      "correct_answer": "let defines constants and var defines variables",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "swift_004",
-      "question": "swift question 4?",
+      "question": "Why is Swift considered type-safe?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "It ignores invalid types",
+        "It enforces clear type usage at compile time",
+        "It only uses strings",
+        "It avoids memory management"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "It enforces clear type usage at compile time",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "swift_005",
-      "question": "swift question 5?",
+      "question": "What does optional binding help with?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Loop performance",
+        "Safely unwrapping optional values",
+        "Creating arrays",
+        "Handling UI colors"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
+      "correct_answer": "Safely unwrapping optional values",
+      "difficulty": "easy",
       "weight": 2
     },
     {
       "id": "swift_006",
-      "question": "swift question 6?",
+      "question": "What is force unwrapping?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Safely checking for nil",
+        "Directly accessing an optional value with risk of crash",
+        "Creating default values",
+        "Converting arrays to dictionaries"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "Directly accessing an optional value with risk of crash",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_007",
-      "question": "swift question 7?",
+      "question": "What is the purpose of guard in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To create classes",
+        "To exit early when conditions fail",
+        "To define loops",
+        "To import frameworks"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "To exit early when conditions fail",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_008",
-      "question": "swift question 8?",
+      "question": "What is a closure in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A database connection",
+        "A self-contained block of functionality",
+        "A UI component",
+        "A protocol implementation only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "A self-contained block of functionality",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "swift_009",
-      "question": "swift question 9?",
+      "question": "What is the difference between struct and class in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Structs are reference types",
+        "Classes are value types",
+        "Structs are value types and classes are reference types",
+        "They are always interchangeable"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Structs are value types and classes are reference types",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     },
     {
       "id": "swift_010",
-      "question": "swift question 10?",
+      "question": "Why are structs often preferred in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They always use less memory",
+        "They provide value semantics and safer state handling",
+        "They replace protocols",
+        "They can inherit from multiple parents"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "They provide value semantics and safer state handling",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "swift_011",
-      "question": "swift question 11?",
+      "question": "What is a protocol in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A stored property",
+        "A blueprint of required methods or properties",
+        "A type of loop",
+        "A memory optimizer"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "A blueprint of required methods or properties",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "swift_012",
-      "question": "swift question 12?",
+      "question": "What is protocol-oriented programming in Swift known for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Replacing all functions",
+        "Building behavior through protocols and extensions",
+        "Disabling inheritance",
+        "Using only enums"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
+      "correct_answer": "Building behavior through protocols and extensions",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "swift_013",
-      "question": "swift question 13?",
+      "question": "What is an extension in Swift used for?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Adding functionality to existing types",
+        "Creating database schemas",
+        "Replacing protocols",
+        "Declaring only global variables"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Adding functionality to existing types",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "swift_014",
-      "question": "swift question 14?",
+      "question": "What is an enum in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A random number generator",
+        "A type that defines related cases",
+        "A loop keyword",
+        "A memory pointer only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "A type that defines related cases",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "swift_015",
-      "question": "swift question 15?",
+      "question": "What makes Swift enums powerful compared to many other languages?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They can hold associated values and methods",
+        "They only support integers",
+        "They cannot be switched on",
+        "They replace classes fully"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 2
+      "correct_answer": "They can hold associated values and methods",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_016",
-      "question": "swift question 16?",
+      "question": "What is type inference in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Manual type conversion only",
+        "Compiler deducing the type automatically",
+        "Disabling type checking",
+        "Using Any for all values"
       ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
+      "correct_answer": "Compiler deducing the type automatically",
+      "difficulty": "easy",
+      "weight": 2
     },
     {
       "id": "swift_017",
-      "question": "swift question 17?",
+      "question": "What does mutating indicate in a struct method?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "The method can modify instance properties",
+        "The method is read-only",
+        "The method is asynchronous",
+        "The method is private"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "The method can modify instance properties",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_018",
-      "question": "swift question 18?",
+      "question": "What is the purpose of defer in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Delay variable creation",
+        "Run cleanup code before leaving scope",
+        "Pause UI updates",
+        "Create asynchronous tasks"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Run cleanup code before leaving scope",
       "difficulty": "medium",
-      "weight": 2
+      "weight": 3
     },
     {
       "id": "swift_019",
-      "question": "swift question 19?",
+      "question": "What is ARC in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Automatic Reference Counting for memory management",
+        "An API routing convention",
+        "A compiler error class",
+        "A UI rendering engine"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "Automatic Reference Counting for memory management",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_020",
-      "question": "swift question 20?",
+      "question": "Why are weak references used in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To improve syntax readability only",
+        "To avoid strong reference cycles",
+        "To store integers efficiently",
+        "To replace optionals"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "To avoid strong reference cycles",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "swift_021",
+      "question": "What is the purpose of do-catch in Swift?",
+      "options": [
+        "Loop control",
+        "Handling thrown errors",
+        "Creating closures",
+        "Rendering UI"
+      ],
+      "correct_answer": "Handling thrown errors",
       "difficulty": "easy",
       "weight": 2
     },
     {
-      "id": "swift_021",
-      "question": "swift question 21?",
-      "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
-      ],
-      "correct_answer": "option1",
-      "difficulty": "medium",
-      "weight": 1
-    },
-    {
       "id": "swift_022",
-      "question": "swift question 22?",
+      "question": "What does try? do in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Forces an error to crash",
+        "Converts a throwing result into an optional",
+        "Skips compilation",
+        "Creates async calls"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "Converts a throwing result into an optional",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "swift_023",
-      "question": "swift question 23?",
+      "question": "What does try! do in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Safely ignores all errors",
+        "Forcefully executes a throwing expression and crashes on error",
+        "Returns nil on failure",
+        "Creates a closure"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Forcefully executes a throwing expression and crashes on error",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
       "id": "swift_024",
-      "question": "swift question 24?",
+      "question": "What is the role of generics in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "To avoid all protocols",
+        "To write reusable code for multiple types",
+        "To replace functions",
+        "To create UI layouts"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
+      "correct_answer": "To write reusable code for multiple types",
+      "difficulty": "medium",
       "weight": 3
     },
     {
       "id": "swift_025",
-      "question": "swift question 25?",
+      "question": "What is an associated value in an enum?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "A fixed raw value only",
+        "Extra data stored with a specific case",
+        "A private property",
+        "A protocol method"
       ],
-      "correct_answer": "option1",
+      "correct_answer": "Extra data stored with a specific case",
       "difficulty": "medium",
-      "weight": 1
+      "weight": 3
     },
     {
       "id": "swift_026",
-      "question": "swift question 26?",
+      "question": "What is the purpose of raw values in enums?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They allow enum cases to map to fixed underlying values",
+        "They make enums mutable",
+        "They replace associated values",
+        "They automatically create loops"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "They allow enum cases to map to fixed underlying values",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_027",
-      "question": "swift question 27?",
+      "question": "What is pattern matching in Swift most commonly used with?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "for loops only",
+        "switch statements and enums",
+        "database queries",
+        "network requests only"
       ],
-      "correct_answer": "option1",
-      "difficulty": "easy",
-      "weight": 1
+      "correct_answer": "switch statements and enums",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_028",
-      "question": "swift question 28?",
+      "question": "Why are switch statements in Swift considered safer?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "They do not allow strings",
+        "They must be exhaustive in many cases",
+        "They always run faster than if",
+        "They remove the need for enums"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 2
+      "correct_answer": "They must be exhaustive in many cases",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_029",
-      "question": "swift question 29?",
+      "question": "What is the benefit of value semantics in Swift?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Changes to one copy do not affect another",
+        "All objects share state automatically",
+        "Memory leaks cannot happen",
+        "Protocols are not needed"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Changes to one copy do not affect another",
+      "difficulty": "medium",
+      "weight": 3
     },
     {
       "id": "swift_030",
-      "question": "swift question 30?",
+      "question": "What does async/await in Swift primarily improve?",
       "options": [
-        "option1",
-        "option2",
-        "option3",
-        "option4"
+        "Database indexing",
+        "Readable asynchronous code",
+        "Memory allocation syntax",
+        "Loop nesting"
       ],
-      "correct_answer": "option1",
-      "difficulty": "hard",
-      "weight": 1
+      "correct_answer": "Readable asynchronous code",
+      "difficulty": "medium",
+      "weight": 3
     }
   ],
   "coding_mcqs": [
     {
       "id": "swift_c_001",
-      "question": "Sample code question",
-      "code": "print('hello')",
-      "options": [
-        "valid",
-        "invalid",
-        "none",
-        "loop"
-      ],
-      "correct_answer": "valid",
+      "question": "What is the output?",
+      "code": "let x = 5\nprint(x)",
+      "options": ["5", "x", "nil", "Error"],
+      "correct_answer": "5",
       "difficulty": "easy",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "id": "swift_c_002",
+      "question": "What is the output?",
+      "code": "var x = 1\nx += 2\nprint(x)",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_003",
+      "question": "What is the output?",
+      "code": "let name: String? = \"Swift\"\nprint(name!)",
+      "options": ["Swift", "Optional(\"Swift\")", "nil", "Error"],
+      "correct_answer": "Swift",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_004",
+      "question": "What is the output?",
+      "code": "let name: String? = nil\nprint(name ?? \"Guest\")",
+      "options": ["nil", "Guest", "Optional", "Error"],
+      "correct_answer": "Guest",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_005",
+      "question": "What is the output?",
+      "code": "let nums = [1,2,3]\nprint(nums.count)",
+      "options": ["2", "3", "4", "Error"],
+      "correct_answer": "3",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_006",
+      "question": "What is the output?",
+      "code": "let nums = [1,2,3]\nprint(nums[0])",
+      "options": ["0", "1", "2", "Error"],
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_007",
+      "question": "What is the output?",
+      "code": "let dict = [\"a\": 1, \"b\": 2]\nprint(dict[\"a\"]!)",
+      "options": ["a", "1", "2", "Error"],
+      "correct_answer": "1",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_008",
+      "question": "What is the output?",
+      "code": "let x = true\nprint(!x)",
+      "options": ["true", "false", "nil", "Error"],
+      "correct_answer": "false",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_009",
+      "question": "What is the output?",
+      "code": "for i in 1...3 { print(i) }",
+      "options": ["1 2 3", "0 1 2", "1 2", "Error"],
+      "correct_answer": "1 2 3",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_010",
+      "question": "What is the output?",
+      "code": "let x = 5\nif x > 3 { print(\"Yes\") } else { print(\"No\") }",
+      "options": ["Yes", "No", "5", "Error"],
+      "correct_answer": "Yes",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_011",
+      "question": "What is the output?",
+      "code": "func add(_ a: Int, _ b: Int) -> Int { a + b }\nprint(add(2,3))",
+      "options": ["23", "5", "Error", "nil"],
+      "correct_answer": "5",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_012",
+      "question": "What is the output?",
+      "code": "let items = [1,2,3]\nlet doubled = items.map { $0 * 2 }\nprint(doubled)",
+      "options": ["[1, 2, 3]", "[2, 4, 6]", "[1, 4, 9]", "Error"],
+      "correct_answer": "[2, 4, 6]",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "swift_c_013",
+      "question": "What is the output?",
+      "code": "let items = [1,2,3,4]\nlet even = items.filter { $0 % 2 == 0 }\nprint(even)",
+      "options": ["[1, 3]", "[2, 4]", "[1, 2, 3, 4]", "Error"],
+      "correct_answer": "[2, 4]",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "swift_c_014",
+      "question": "What is the output?",
+      "code": "let value: Int? = 10\nif let v = value { print(v) }",
+      "options": ["10", "Optional(10)", "nil", "Error"],
+      "correct_answer": "10",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_015",
+      "question": "What happens here?",
+      "code": "let value: Int? = nil\nprint(value!)",
+      "options": [
+        "Prints nil",
+        "Prints Optional(nil)",
+        "Runtime crash",
+        "Prints 0"
+      ],
+      "correct_answer": "Runtime crash",
+      "difficulty": "hard",
+      "weight": 3
+    },
+    {
+      "id": "swift_c_016",
+      "question": "What is the output?",
+      "code": "struct Point { var x = 1 }\nvar p = Point()\np.x = 5\nprint(p.x)",
+      "options": ["1", "5", "0", "Error"],
+      "correct_answer": "5",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "swift_c_017",
+      "question": "What is the output?",
+      "code": "enum State { case on, off }\nlet s = State.on\nswitch s {\ncase .on: print(\"ON\")\ncase .off: print(\"OFF\")\n}",
+      "options": ["ON", "OFF", "State.on", "Error"],
+      "correct_answer": "ON",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "swift_c_018",
+      "question": "What is the output?",
+      "code": "let text = \"Hi\"\nprint(text.count)",
+      "options": ["1", "2", "3", "Error"],
+      "correct_answer": "2",
+      "difficulty": "easy",
+      "weight": 2
+    },
+    {
+      "id": "swift_c_019",
+      "question": "What is the output?",
+      "code": "let a = 5\nlet b = 2\nprint(a / b)",
+      "options": ["2", "2.5", "3", "Error"],
+      "correct_answer": "2",
+      "difficulty": "medium",
+      "weight": 3
+    },
+    {
+      "id": "swift_c_020",
+      "question": "What is the output?",
+      "code": "let a = 5.0\nlet b = 2.0\nprint(a / b)",
+      "options": ["2", "2.5", "3", "Error"],
+      "correct_answer": "2.5",
+      "difficulty": "easy",
+      "weight": 2
     }
   ]
 }
