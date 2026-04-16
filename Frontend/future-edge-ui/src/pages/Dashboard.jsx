@@ -5,18 +5,19 @@ import Card from "../components/Card";
 import Charts from "../components/Charts";
 import "../styles/dashboard.css";
 
+
+
 function Dashboard() {
 
   const [skills, setSkills] = useState([]);
   const [careers, setCareers] = useState([]);
   const [atsScore, setAtsScore] = useState(0);
-  const [jobReadiness, setJobReadiness] = useState(0);
   const [matchedSkills, setMatchedSkills] = useState([]);
   const [missingSkills, setMissingSkills] = useState([]);
   const [profile, setProfile] = useState(null);
+  const [jobReadiness, setJobReadiness] = useState(null);
 
   useEffect(() => {
-
     const fetchJobReadiness = async () => {
 
       const { data: { user } } = await supabase.auth.getUser();
@@ -25,27 +26,23 @@ function Dashboard() {
 
       const { data, error } = await supabase
         .from("job_readiness")
-        .select("final_readiness_score")
+        .select("job_readiness_score")
         .eq("user_id", user.id)
         .order("created_at", { ascending: false })
         .limit(1)
         .maybeSingle();
 
-      if (error) {
-        console.error(error);
-        return;
-      }
+      console.log("FULL DATA:", data);
 
-      if (data) {
-        setJobReadiness(data.final_readiness_score);
+      if (data && data.job_readiness_score !== undefined) {
+        setJobReadiness(parseFloat(data.job_readiness_score));
+      } else {
+        setJobReadiness(null);
       }
-
     };
 
     fetchJobReadiness();
-
   }, []);
-
   const fetchSkillGap = async (career) => {
 
   const { data: { user } } = await supabase.auth.getUser();
@@ -153,11 +150,18 @@ function Dashboard() {
 
       <div className="cards-grid">
 
-        <Card title="Top Career Match" value={topCareer} />
+        <Card title="Best Career Match" value={topCareer} />
 
         <Card title="ATS Score" value={`${atsScore}%`} />
 
-        <Card title="Job Readiness" value={`${jobReadiness}%`} />
+        <Card 
+          title="Job Readiness" 
+          value={
+            !isNaN(jobReadiness)
+              ? `${Math.round(jobReadiness)}%`
+              : "No Data"
+          } 
+        />
 
       </div>
 
@@ -165,17 +169,17 @@ function Dashboard() {
 
       <div className="dashboard-grid">
 
-        <div className="analytics-panel">
+        <div className="skills-panel glass-card">
 
           <Charts
-            careers={careers.slice(0,3)}
+            careers={careers.slice(0,5)}
             matchedSkills={matchedSkills}
             missingSkills={missingSkills}
           />
 
         </div>
 
-        <div className="skills-panel">
+        <div className="chart-card glass-card">
 
           <h2>Your Skills</h2>
 

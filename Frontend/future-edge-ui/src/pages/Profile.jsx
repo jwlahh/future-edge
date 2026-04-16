@@ -137,7 +137,14 @@ function Profile() {
         backgroundPosition: "center",
       }}
     >
+      
       <div className="profile-card">
+        <button
+          className="dashboard-btn"
+          onClick={() => navigate("/dashboard")}
+        >
+          ⬅ Back to Dashboard
+        </button>
 
         {/* Header */}
         <div className="profile-header">

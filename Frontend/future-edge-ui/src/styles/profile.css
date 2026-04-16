@@ -239,3 +239,29 @@
 .crop-container button {
   margin-top: 10px;
 }
+.dashboard-btn {
+  margin-left: 12px;
+  padding: 10px 18px;
+
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #c4b5fd;
+
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+.dashboard-btn:hover {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: rgba(139, 92, 246, 0.6);
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 18px rgba(139, 92, 246, 0.35);
+}

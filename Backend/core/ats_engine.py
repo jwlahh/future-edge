@@ -93,9 +93,52 @@ def calculate_ats_score(text, image_count=0):
         suggestions.append("Add a Contact Information section")
 
     score = max(score, 0)
+    # ---------------------
+    # Vague Content Detection
+    # ---------------------
+    vague_words = ["some work", "helped team", "did work", "things", "everything", "maybe"]
+
+    vague_count = sum(1 for word in vague_words if word in text_lower)
+
+    if vague_count > 0:
+        penalty = min(vague_count * 5, 20)
+        score -= penalty
+        deductions.append(f"Vague content detected (-{penalty})")
+        suggestions.append("Use specific, measurable achievements instead of vague phrases")
+    # ---------------------
+    # Weak Skills Detection
+    # ---------------------
+    weak_words = ["maybe", "basic", "everything"]
+
+    if any(word in text_lower for word in weak_words):
+        score -= 10
+        deductions.append("Weak or unclear skills listed (-10)")
+        suggestions.append("List clear and confident skills (e.g., Python, React, SQL)")
+
+    # ---------------------
+    # Email validation Detection
+    # ---------------------
+    
+    if not re.search(email_pattern, text) or "gmail" in text_lower and ".com" not in text_lower:
+        score -= 10
+        deductions.append("Invalid or incomplete email (-10)")
+        suggestions.append("Use a proper email like name@gmail.com")
+
+    # ---------------------
+    # Repetition Detection
+    # ---------------------
+    words = text_lower.split()
+    repeated = len(words) - len(set(words))
+
+    if repeated > 50:
+        score -= 5
+        deductions.append("Too much repetition (-5)")
+        suggestions.append("Avoid repeating the same words excessively")
 
     return {
         "ats_score": score,
         "deductions": deductions,
         "suggestions": suggestions
     }
+
+    

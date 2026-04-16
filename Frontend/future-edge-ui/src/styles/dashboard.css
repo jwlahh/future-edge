@@ -128,30 +128,10 @@
 
 .dashboard-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;  /* ✅ equal split */
   gap: 25px;
   margin-top: 30px;
-}
-
-/* Panels */
-
-.analytics-panel,
-.skills-panel {
-  background: rgba(28, 8, 51, 0.7);
-
-  backdrop-filter: blur(18px);
-
-  border-radius: 18px;
-  padding: 26px;
-
-  border: 1px solid var(--border);
-
-  transition: 0.3s ease;
-}
-
-.analytics-panel:hover,
-.skills-panel:hover {
-  transform: translateY(-4px);
+  align-items: stretch;
 }
 
 /* 🔥 Skills */
@@ -200,7 +180,7 @@
 
 .charts-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   margin-top: 30px;
 }
@@ -215,9 +195,17 @@
 
   border: 1px solid var(--border);
 
-  min-height: 350px;
+ 
+  height: 100%;   /* 🔥 important */
+  min-height: 400px;  /* optional baseline */
+
 
   transition: 0.3s ease;
+}
+.chart-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .chart-card:hover {
@@ -267,4 +255,41 @@
 .chart-card h3 {
   color: #e9d5ff;
   text-shadow: 0 0 10px rgba(139, 92, 246, 0.6);
+}
+
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border-radius: 20px;
+  padding: 20px;
+
+  border: 1px solid rgba(139, 92, 246, 0.2);
+
+  box-shadow:
+    0 0 20px rgba(139, 92, 246, 0.15),
+    inset 0 0 25px rgba(255, 255, 255, 0.02);
+
+  transition: all 0.4s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-6px) scale(1.01);
+
+  box-shadow:
+    0 0 30px rgba(139, 92, 246, 0.35),
+    0 0 60px rgba(139, 92, 246, 0.15),
+    inset 0 0 30px rgba(255, 255, 255, 0.05);
+}
+.analytics-panel {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+.charts-grid {
+  flex: 1;
 }

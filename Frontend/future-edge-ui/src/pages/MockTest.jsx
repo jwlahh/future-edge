@@ -221,45 +221,50 @@ function MockTest() {
 
         </div>
         {showReview && (
-        <div className="review-section">
-          <h3 className="review-title">Review Your Answers</h3>
+  <div className="review-section">
+    <h3 className="review-title">Review Your Answers</h3>
 
-          {result.questions.map((q, index) => {
-            const userAnswer = result.answers[q.id];
-            const isCorrect = userAnswer === q.answer;
+    {result.questions.map((q, index) => {
+      const correctAnswer = q.answer || q.correct_answer;
+      const userAnswer = result.answers[q.id];
+      const isCorrect = userAnswer === correctAnswer;
 
-            return (
-              <div key={index} className={`review-card ${isCorrect ? "correct-card" : "wrong-card"}`}>
+      return (
+        <div
+          key={index}
+          className={`review-card ${
+            isCorrect ? "correct-card" : "wrong-card"
+          }`}
+        >
+          <div className="review-question">
+            <strong>Q{index + 1}.</strong> {q.question}
+          </div>
 
-                {/* QUESTION */}
-                <div className="review-question">
-                  <strong>Q{index + 1}.</strong> {q.question}
-                </div>
+          <div className="review-answers">
 
-                {/* ANSWERS ROW */}
-                <div className="review-answers">
+            <div className="answer-row">
+              <span className="label">Your Answer:</span>
+              <span className={`answer ${isCorrect ? "correct" : "wrong"}`}>
+                {userAnswer || "—"}{" "}
+                {isCorrect ? "✔ Correct" : "✖ Wrong"}
+              </span>
+            </div>
 
-                  <div className="answer-row">
-                    <span className="label">Your Answer:</span>
-                    <span className={`answer ${isCorrect ? "correct" : "wrong"}`}>
-                      {userAnswer || "—"} {isCorrect ? "✔" : "✖"}
-                    </span>
-                  </div>
-
-                  <div className="answer-row">
-                    <span className="label">Correct Answer:</span>
-                    <span className="answer correct-answer">
-                      {q.answer} ✔
-                    </span>
-                  </div>
-
-                </div>
-
+            {!isCorrect && (
+              <div className="answer-row">
+                <span className="label">Correct Answer:</span>
+                <span className="answer correct-answer">
+                  {correctAnswer} ✔
+                </span>
               </div>
-            );
-          })}
+            )}
+
+          </div>
         </div>
-        )}
+      );
+    })}
+  </div>
+)}
       </div>
     );
   }
@@ -281,22 +286,19 @@ function MockTest() {
         <div className="role-container">
           <h2 className="role-title">Choose Your Career Path</h2>
 
-          <div className="carousel-wrapper">
-            <div className="carousel-track">
-              {[...roles, ...roles].map((role, i) => (
-                <div
-                  key={i}
-                  className="role-card"
-                  onClick={() => handleRoleSelect(role)}
-                >
+          <div className="feature-grid">
+            {roles.map((role, i) => (
+              <div
+                className="feature-card"
+                onClick={() => handleRoleSelect(role)}
+              >
                   <div className="role-icon">💼</div>
                   <h3>{role}</h3>
-                  <p>Start your assessment journey</p>
+                  <p className="role-title">Start your assessment journey</p>
                 </div>
               ))}
             </div>
           </div>
-        </div>
       )}
 
       {selectedRole && loading && (

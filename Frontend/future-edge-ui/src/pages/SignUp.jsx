@@ -42,7 +42,7 @@ function SignUp() {
   ]);
 
   alert("Signup successful!");
-  navigate("/profile");
+  navigate("/dashboard");
 }
   };
 
